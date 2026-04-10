@@ -124,6 +124,75 @@ item_title_selector = "h2::text"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
+# Alan Turing Institute Blog spider.
+#
+# Source: https://www.turing.ac.uk/blog
+#
+# Page structure (simplified):
+#     <section class="... block-views-blocknews-blog-landing">
+#       <div class="view-content">
+#         <div class="views-row">
+#           <article class="node node--type-article teaser">
+#             <h3><a href="/blog/<slug>"><span>Title</span></a></h3>
+#             <div class="field-published-date"><span>Friday 06 Mar 2026</span></div>
+#           </article>
+#         </div>
+#       </div>
+#     </section>
+[feeds.turing-blog]
+feed_title = "Alan Turing Institute Blog"
+source_url = "https://www.turing.ac.uk/blog"
+item_container_selector = "section.block-views-blocknews-blog-landing div.view-content div.views-row article.node--type-article.teaser"
+item_title_selector = "h3 a[href^='/blog/'] span::text"
+item_link_selector = "h3 a[href^='/blog/']::attr(href)"
+item_date_selector = "div.field-published-date span::text"
+
+# Alan Turing Institute Impact spider.
+#
+# Source: https://www.turing.ac.uk/about-us/impact
+#
+# Page structure (simplified):
+#     <section id="block-views-block-research-impact-stories" class="...">
+#       <div class="view-content">
+#         <div class="views-row">
+#           <article class="node node--type-impact-stories teaser">
+#             <h3><a href="/about-us/impact/<slug>"><span>Title</span></a></h3>
+#             <h4><a href="/about-us/impact/<slug>">Description</a></h4>
+#           </article>
+#         </div>
+#       </div>
+#     </section>
+[feeds.turing-impact]
+feed_title = "Alan Turing Institute Impact"
+source_url = "https://www.turing.ac.uk/about-us/impact"
+item_container_selector = "section#block-views-block-research-impact-stories div.view-content div.views-row article.node--type-impact-stories.teaser"
+item_title_selector = "h3 a[href^='/about-us/impact/'] span::text"
+item_link_selector = "h3 a[href^='/about-us/impact/']::attr(href)"
+item_description_selector = "h4 a[href^='/about-us/impact/']::text"
+
+# Alan Turing Institute News spider.
+#
+# Source: https://www.turing.ac.uk/news
+#
+# Page structure (simplified):
+#     <section class="... block-views-blocknews-news">
+#       <div class="view-content">
+#         <div class="views-row">
+#           <article class="node node--type-article teaser">
+#             <h3><a href="/news/<slug>"><span>Title</span></a></h3>
+#             <div class="field-published-date"><span>Wednesday 01 Apr 2026</span></div>
+#           </article>
+#         </div>
+#       </div>
+#     </section>
+[feeds.turing-news]
+feed_title = "Alan Turing Institute News"
+source_url = "https://www.turing.ac.uk/news"
+item_container_selector = "section.block-views-blocknews-news div.view-content div.views-row article.node--type-article.teaser"
+item_title_selector = "h3 a[href^='/news/'] span::text"
+item_link_selector = "h3 a[href^='/news/']::attr(href)"
+item_date_selector = "div.field-published-date span::text"
+
 # Mila News spider.
 #
 # Source: https://mila.quebec/en/news

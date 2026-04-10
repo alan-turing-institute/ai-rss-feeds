@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Alan Turing Institute News</title>
+    <link>https://www.turing.ac.uk/news</link>
+    <description>Alan Turing Institute News</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 12:57:31 +0000</lastBuildDate>
+    <item>
+      <title>New research consortium will use AI to support and enhance intelligence analysis for national security</title>
+      <link>https://www.turing.ac.uk/news/new-research-consortium-will-use-ai-support-and-enhance-intelligence-analysis-national</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-research-consortium-will-use-ai-support-and-enhance-intelligence-analysis-national</guid>
+      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turing researchers pioneering data-efficient AI to accelerate scientific discovery</title>
+      <link>https://www.turing.ac.uk/news/turing-researchers-pioneering-data-efficient-ai-accelerate-scientific-discovery</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/turing-researchers-pioneering-data-efficient-ai-accelerate-scientific-discovery</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Research explores risks of using AI in the financial sector</title>
+      <link>https://www.turing.ac.uk/news/research-explores-risks-using-ai-financial-sector</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/research-explores-risks-using-ai-financial-sector</guid>
+      <pubDate>Wed, 03 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AI model could enable real-time maritime surveillance onboard satellites</title>
+      <link>https://www.turing.ac.uk/news/new-ai-model-could-enable-real-time-maritime-surveillance-onboard-satellites</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-ai-model-could-enable-real-time-maritime-surveillance-onboard-satellites</guid>
+      <pubDate>Fri, 05 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AI-powered tool to identify threats in space and improve national security</title>
+      <link>https://www.turing.ac.uk/news/new-ai-powered-tool-identify-threats-space-and-improve-national-security</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-ai-powered-tool-identify-threats-space-and-improve-national-security</guid>
+      <pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Acting CEO announced for the Alan Turing Institute</title>
+      <link>https://www.turing.ac.uk/news/acting-ceo-announced-alan-turing-institute</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/acting-ceo-announced-alan-turing-institute</guid>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New guidance will help the UK regulate AI effectively and responsibly</title>
+      <link>https://www.turing.ac.uk/news/new-guidance-will-help-uk-regulate-ai-effectively-and-responsibly</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-guidance-will-help-uk-regulate-ai-effectively-and-responsibly</guid>
+      <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI forecasting initiative set to strengthen climate resilience and food security in West Africa</title>
+      <link>https://www.turing.ac.uk/news/ai-forecasting-initiative-set-strengthen-climate-resilience-and-food-security-west-africa</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/ai-forecasting-initiative-set-strengthen-climate-resilience-and-food-security-west-africa</guid>
+      <pubDate>Thu, 22 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI assurance key to unlocking AI adoption in defence and driving UK economic growth</title>
+      <link>https://www.turing.ac.uk/news/ai-assurance-key-unlocking-ai-adoption-defence-and-driving-uk-economic-growth</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/ai-assurance-key-unlocking-ai-adoption-defence-and-driving-uk-economic-growth</guid>
+      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Top British AI expertise to help spark renewal of public services and bolster national security</title>
+      <link>https://www.turing.ac.uk/news/top-british-ai-expertise-help-spark-renewal-public-services-and-bolster-national-security</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/top-british-ai-expertise-help-spark-renewal-public-services-and-bolster-national-security</guid>
+      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New report calls for urgent action to tackle AI information threats following crisis events</title>
+      <link>https://www.turing.ac.uk/news/new-report-calls-urgent-action-tackle-ai-information-threats-following-crisis-events</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-report-calls-urgent-action-tackle-ai-information-threats-following-crisis-events</guid>
+      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>George Williamson appointed as CEO of the Alan Turing Institute</title>
+      <link>https://www.turing.ac.uk/news/george-williamson-appointed-ceo-alan-turing-institute</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/george-williamson-appointed-ceo-alan-turing-institute</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New research highlights risks from state-sponsored hostile AI collaboration</title>
+      <link>https://www.turing.ac.uk/news/new-research-highlights-risks-state-sponsored-hostile-ai-collaboration</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-research-highlights-risks-state-sponsored-hostile-ai-collaboration</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scientists race to understand Greenland-North Atlantic tipping point</title>
+      <link>https://www.turing.ac.uk/news/scientists-race-understand-greenland-north-atlantic-tipping-point</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/scientists-race-understand-greenland-north-atlantic-tipping-point</guid>
+      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New project aims to accelerate the safe adoption of autonomous shipping</title>
+      <link>https://www.turing.ac.uk/news/new-project-aims-accelerate-safe-adoption-autonomous-shipping-0</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-project-aims-accelerate-safe-adoption-autonomous-shipping-0</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personalising healthcare with connected digital twins</title>
+      <link>https://www.turing.ac.uk/news/personalising-healthcare-connected-digital-twins</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/personalising-healthcare-connected-digital-twins</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Call for dynamic regulation of our oceans to reduce whale strikes</title>
+      <link>https://www.turing.ac.uk/news/call-dynamic-regulation-our-oceans-reduce-whale-strikes</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/call-dynamic-regulation-our-oceans-reduce-whale-strikes</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turing chair Doug Gurr to step down following appointment to permanent CMA role</title>
+      <link>https://www.turing.ac.uk/news/turing-chair-doug-gurr-step-down-following-appointment-permanent-cma-role</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/turing-chair-doug-gurr-step-down-following-appointment-permanent-cma-role</guid>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>

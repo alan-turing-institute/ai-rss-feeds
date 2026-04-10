@@ -8,6 +8,9 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 |---|---|
 | [Ai2 News](https://allenai.org/news) | `feeds/allenai-news.xml` |
 | [AISI Blog](https://www.aisi.gov.uk/blog) | `feeds/aisi-blog.xml` |
+| [Alan Turing Institute Blog](https://www.turing.ac.uk/blog) | `feeds/turing-blog.xml` |
+| [Alan Turing Institute Impact](https://www.turing.ac.uk/about-us/impact) | `feeds/turing-impact.xml` |
+| [Alan Turing Institute News](https://www.turing.ac.uk/news) | `feeds/turing-news.xml` |
 | [Anthropic News](https://www.anthropic.com/news) | `feeds/anthropic-news.xml` |
 | [Anthropic Research](https://www.anthropic.com/research) | `feeds/anthropic-research.xml` |
 | [Claude Blog](https://claude.com/blog) | `feeds/claude-blog.xml` |

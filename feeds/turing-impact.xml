@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Alan Turing Institute Impact</title>
+    <link>https://www.turing.ac.uk/about-us/impact</link>
+    <description>Alan Turing Institute Impact</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 12:57:31 +0000</lastBuildDate>
+    <item>
+      <title>Ensuring quality in AI healthcare technologies</title>
+      <link>https://www.turing.ac.uk/about-us/impact/ensuring-quality-ai-healthcare-technologies</link>
+      <description>A project co-funded by the Turing has developed the first international guidelines for clinical trials involving AI</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/ensuring-quality-ai-healthcare-technologies</guid>
+    </item>
+    <item>
+      <title>Optimising the world’s first underground farm</title>
+      <link>https://www.turing.ac.uk/about-us/impact/optimising-worlds-first-underground-farm</link>
+      <description>In the heart of London there is a farm like no other. It’s subterranean, sustainable and energy smart. It also has a digital twin looking out for its every need</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/optimising-worlds-first-underground-farm</guid>
+    </item>
+    <item>
+      <title>Anti-bias test implemented by Amazon</title>
+      <link>https://www.turing.ac.uk/about-us/impact/anti-bias-test-implemented-amazon</link>
+      <description>A test for detecting bias in AI systems, created by Turing researchers, has been adopted by Amazon Web Services</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/anti-bias-test-implemented-amazon</guid>
+    </item>
+    <item>
+      <title>Improving lives in Bradford</title>
+      <link>https://www.turing.ac.uk/about-us/impact/improving-lives-bradford</link>
+      <description>A collaboration between the Turing and Leeds Institute for Data Analytics is using data science to generate targeted policies for Bradford’s most deprived areas</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/improving-lives-bradford</guid>
+    </item>
+    <item>
+      <title>Providing COVID-19 expertise to the UK government</title>
+      <link>https://www.turing.ac.uk/about-us/impact/providing-covid-19-expertise-uk-government</link>
+      <description>The Turing-RSS Health Data Lab delivered invaluable insights to the UK Health Security Agency throughout the pandemic</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/providing-covid-19-expertise-uk-government</guid>
+    </item>
+    <item>
+      <title>Reducing the carbon footprint of the shipping industry</title>
+      <link>https://www.turing.ac.uk/about-us/impact/reducing-carbon-footprint-shipping-industry</link>
+      <description>An algorithm that lowers ships’ greenhouse gas emissions by planning the most fuel-efficient route through the waves</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/reducing-carbon-footprint-shipping-industry</guid>
+    </item>
+    <item>
+      <title>Open minds: How open-source tools are broadening the horizons for data science</title>
+      <link>https://www.turing.ac.uk/about-us/impact/open-minds-how-open-source-tools-are-broadening-horizons-data-science</link>
+      <description>From understanding plankton to upgrading planes, the Turing is helping to spread the benefits of open AI and data science</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/open-minds-how-open-source-tools-are-broadening-horizons-data-science</guid>
+    </item>
+    <item>
+      <title>Better together: The people-centred approaches driving forward data ethics</title>
+      <link>https://www.turing.ac.uk/about-us/impact/better-together-people-centred-approaches-driving-forward-data-ethics</link>
+      <description>Participatory projects at the Turing are leading the way for responsible research and innovation in data science</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/better-together-people-centred-approaches-driving-forward-data-ethics</guid>
+    </item>
+    <item>
+      <title>Twinning ways: how digital twins will change our world for the better</title>
+      <link>https://www.turing.ac.uk/about-us/impact/twinning-ways-how-digital-twins-will-change-our-world-better</link>
+      <description>Turing researchers are creating virtual bridges, farms and truck fleets to benefit the real-world counterparts</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/twinning-ways-how-digital-twins-will-change-our-world-better</guid>
+    </item>
+    <item>
+      <title>Developing a more accurate measure of the nation’s health</title>
+      <link>https://www.turing.ac.uk/about-us/impact/developing-more-accurate-measure-nations-health</link>
+      <description>Working with the Office for National Statistics to carry out an in-depth statistical analysis of its Health Index</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/developing-more-accurate-measure-nations-health</guid>
+    </item>
+    <item>
+      <title>Revealing hidden details of the ocean floor</title>
+      <link>https://www.turing.ac.uk/about-us/impact/revealing-hidden-details-ocean-floor</link>
+      <description>An algorithm that automatically detects and classifies marine creatures called sea pens</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/revealing-hidden-details-ocean-floor</guid>
+    </item>
+    <item>
+      <title>Demoing a digital twin of the UK energy system</title>
+      <link>https://www.turing.ac.uk/about-us/impact/demoing-digital-twin-uk-energy-system</link>
+      <description>Building towards a tool that will allow the government to predict the long-term impact of its energy policies</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/demoing-digital-twin-uk-energy-system</guid>
+    </item>
+    <item>
+      <title>Understanding online abuse of Premier League footballers</title>
+      <link>https://www.turing.ac.uk/about-us/impact/understanding-online-abuse-premier-league-footballers</link>
+      <description>The Online Harms Observatory uses machine learning to detect toxic content on social media</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/understanding-online-abuse-premier-league-footballers</guid>
+    </item>
+    <item>
+      <title>Powering population models with synthetic data</title>
+      <link>https://www.turing.ac.uk/about-us/impact/powering-population-models-synthetic-data</link>
+      <description>A flexible tool that can provide data for research spanning health, climate, transport and more</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/powering-population-models-synthetic-data</guid>
+    </item>
+    <item>
+      <title>Enabling researchers to work safely with sensitive data</title>
+      <link>https://www.turing.ac.uk/about-us/impact/enabling-researchers-work-safely-sensitive-data</link>
+      <description>Our open-source project is making it easier for other organisations to create secure computing environments</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/enabling-researchers-work-safely-sensitive-data</guid>
+    </item>
+    <item>
+      <title>Mapping habitats in the Peak District National Park</title>
+      <link>https://www.turing.ac.uk/about-us/impact/mapping-habitats-peak-district-national-park</link>
+      <description>An AI-powered tool is guiding wildlife monitoring and landscape restoration</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/mapping-habitats-peak-district-national-park</guid>
+    </item>
+    <item>
+      <title>Demonstrating the power of AI in land use planning</title>
+      <link>https://www.turing.ac.uk/about-us/impact/demonstrating-power-ai-land-use-planning</link>
+      <description>Partnering with the Geospatial Commission to simulate the effects of planning decisions on residents’ quality of life</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/demonstrating-power-ai-land-use-planning</guid>
+    </item>
+    <item>
+      <title>Helping governments to develop policies that make a difference</title>
+      <link>https://www.turing.ac.uk/about-us/impact/helping-governments-develop-policies-make-difference</link>
+      <description>Allowing policy makers to estimate the outcomes of their decisions in a holistic way</description>
+      <guid isPermaLink="true">https://www.turing.ac.uk/about-us/impact/helping-governments-develop-policies-make-difference</guid>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Alan Turing Institute Blog</title>
+    <link>https://www.turing.ac.uk/blog</link>
+    <description>Alan Turing Institute Blog</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 12:57:31 +0000</lastBuildDate>
+    <item>
+      <title>AI supercomputers and tech telekinesis: unmissable demos at AI UK 2025</title>
+      <link>https://www.turing.ac.uk/blog/ai-supercomputers-and-tech-telekinesis-unmissable-demos-ai-uk-2025</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/ai-supercomputers-and-tech-telekinesis-unmissable-demos-ai-uk-2025</guid>
+      <pubDate>Wed, 05 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs have been set their toughest test yet. What happens when they beat it?</title>
+      <link>https://www.turing.ac.uk/blog/llms-have-been-set-their-toughest-test-yet-what-happens-when-they-beat-it</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/llms-have-been-set-their-toughest-test-yet-what-happens-when-they-beat-it</guid>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seven sessions not to miss at AI UK 2025</title>
+      <link>https://www.turing.ac.uk/blog/seven-sessions-not-miss-ai-uk-2025</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/seven-sessions-not-miss-ai-uk-2025</guid>
+      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI research is increasingly vulnerable to state threats. Here’s how UK academia can minimise risk</title>
+      <link>https://www.turing.ac.uk/blog/ai-research-increasingly-vulnerable-state-threats-heres-how-uk-academia-can-minimise-risk</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/ai-research-increasingly-vulnerable-state-threats-heres-how-uk-academia-can-minimise-risk</guid>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI UK 2025 to welcome leading women from the world of AI and tech</title>
+      <link>https://www.turing.ac.uk/blog/ai-uk-2025-welcome-leading-women-world-ai-and-tech</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/ai-uk-2025-welcome-leading-women-world-ai-and-tech</guid>
+      <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Aardvark: reimagining AI weather prediction</title>
+      <link>https://www.turing.ac.uk/blog/project-aardvark-reimagining-ai-weather-prediction</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/project-aardvark-reimagining-ai-weather-prediction</guid>
+      <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Gambit: a tool for doing computation in game theory</title>
+      <link>https://www.turing.ac.uk/blog/introducing-gambit-tool-doing-computation-game-theory</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/introducing-gambit-tool-doing-computation-game-theory</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Making generative AI trustworthy and reliable for adoption at scale</title>
+      <link>https://www.turing.ac.uk/blog/making-generative-ai-trustworthy-and-reliable-adoption-scale</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/making-generative-ai-trustworthy-and-reliable-adoption-scale</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Why we still need small language models – even in the age of frontier AI</title>
+      <link>https://www.turing.ac.uk/blog/why-we-still-need-small-language-models-even-age-frontier-ai</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/why-we-still-need-small-language-models-even-age-frontier-ai</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Announcing AutoEmulate v1.0: a tool for accelerating large-scale simulations</title>
+      <link>https://www.turing.ac.uk/blog/announcing-autoemulate-v1</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/announcing-autoemulate-v1</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>LLMs may be more vulnerable to data poisoning than we thought</title>
+      <link>https://www.turing.ac.uk/blog/llms-may-be-more-vulnerable-data-poisoning-we-thought</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/llms-may-be-more-vulnerable-data-poisoning-we-thought</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>The UK’s critical infrastructure is at risk from cyber-attacks. Our AI tools will provide a new line of defence</title>
+      <link>https://www.turing.ac.uk/blog/uks-critical-infrastructure-risk-cyber-attacks-our-ai-tools-will-provide-new-line-defence</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/uks-critical-infrastructure-risk-cyber-attacks-our-ai-tools-will-provide-new-line-defence</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratising environmental forecasting in the age of AI</title>
+      <link>https://www.turing.ac.uk/blog/democratising-environmental-forecasting-age-ai</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/democratising-environmental-forecasting-age-ai</guid>
+      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we’re enabling research with sensitive data on AI supercomputers</title>
+      <link>https://www.turing.ac.uk/blog/how-were-enabling-research-sensitive-data-ai-supercomputers</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/how-were-enabling-research-sensitive-data-ai-supercomputers</guid>
+      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Change can’t wait:  Creating a sustainable world through data science and AI</title>
+      <link>https://www.turing.ac.uk/blog/change-cant-wait-creating-sustainable-world-through-data-science-and-ai</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/change-cant-wait-creating-sustainable-world-through-data-science-and-ai</guid>
+      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can AI weather forecasting boost food security in the Global South?</title>
+      <link>https://www.turing.ac.uk/blog/can-ai-weather-forecasting-boost-food-security-global-south</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/can-ai-weather-forecasting-boost-food-security-global-south</guid>
+      <pubDate>Wed, 28 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using deep reinforcement learning to build better drift-aware malware detection</title>
+      <link>https://www.turing.ac.uk/blog/using-deep-reinforcement-learning-build-better-drift-aware-malware-detection</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/using-deep-reinforcement-learning-build-better-drift-aware-malware-detection</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A transatlantic flight for Project Bluebird</title>
+      <link>https://www.turing.ac.uk/blog/transatlantic-flight-project-bluebird</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/transatlantic-flight-project-bluebird</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
