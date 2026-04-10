@@ -52,7 +52,7 @@ item_description_selector = "p[fs-list-field='description']::text"
 [feeds.allenai-news]
 feed_title = "Ai2 News (Allen Institute for AI)"
 source_url = "https://allenai.org/news"
-item_container_selector = "div[class*='grid-tc_repeat'] > div"
+item_container_selector = "div[class*='grid-tr_subgrid']"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_title_selector = "h2::text"
 item_date_selector = "h2 span:first-child::text"
@@ -63,41 +63,61 @@ item_description_selector = "div > p::text"
 # Source: https://www.anthropic.com/news
 #
 # Page structure (simplified):
-#     <ul>
-#       <li>
-#         <a href="/news/<slug>">
-#           <div>
-#             <time>Apr 6, 2026</time>
-#             <span>Category</span>
-#           </div>
-#           <span>Title text</span>         <- direct child span of <a>
-#         </a>
-#       </li>
-#     </ul>
+#     <div class="...PublicationList...">
+#       <ul>
+#         <li>
+#           <a href="/news/<slug>">
+#             <div>
+#               <time>Apr 6, 2026</time>
+#               <span>Announcements</span>
+#             </div>
+#             <span class="...title">Title text</span>
+#           </a>
+#         </li>
+#       </ul>
+#     </div>
+#
+# Selector mapping:
+# - item_container_selector -> <a href="/news/<slug>"> inside PublicationList list items
+# - item_link_selector -> href on that <a>
+# - item_title_selector -> <span class="...title"> inside that <a>
+# - item_date_selector -> <time> inside that <a>
 [feeds.anthropic-news]
 feed_title = "Anthropic News"
 source_url = "https://www.anthropic.com/news"
-item_container_selector = "ul li"
-item_link_selector = "a[href^='/news/']::attr(href)"
-item_title_selector = "a[href^='/news/'] > span:last-child::text"
-item_date_selector = "a[href^='/news/'] time::text"
+item_container_selector = "div[class*='PublicationList'] ul li > a[href^='/news/']"
+item_link_selector = "::attr(href)"
+item_title_selector = "span[class*='title']::text"
+item_date_selector = "time::text"
 
 # Anthropic Research spider.
 #
 # Source: https://www.anthropic.com/research
 #
 # Page structure (simplified):
-#     <a href="/research/<slug>" class="...listItem">
-#       <div class="...meta">
-#         <time class="...date">Apr 9, 2026</time>
-#         <span class="...subject">Policy</span>
-#       </div>
-#       <span class="...title">Trustworthy agents in practice</span>
-#     </a>
+#     <div class="...PublicationList...">
+#       <ul>
+#         <li>
+#           <a href="/research/<slug>" class="...listItem">
+#             <div>
+#               <time>Apr 9, 2026</time>
+#               <span>Policy</span>
+#             </div>
+#             <span class="...title">Trustworthy agents in practice</span>
+#           </a>
+#         </li>
+#       </ul>
+#     </div>
+#
+# Selector mapping:
+# - item_container_selector -> <a class="...listItem"> inside PublicationList list items
+# - item_link_selector -> href on that <a>
+# - item_title_selector -> <span class="...title"> inside that <a>
+# - item_date_selector -> <time> inside that <a>
 [feeds.anthropic-research]
 feed_title = "Anthropic Research"
 source_url = "https://www.anthropic.com/research"
-item_container_selector = "a[class*=PublicationList][class*=listItem]"
+item_container_selector = "div[class*='PublicationList'] ul li > a[class*='listItem']"
 item_link_selector = "::attr(href)"
 item_title_selector = "span[class*=title]::text"
 item_date_selector = "time::text"
@@ -142,7 +162,7 @@ item_date_selector = "div.u-text-style-caption::text"
 [feeds.turing-blog]
 feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
-item_container_selector = "section.block-views-blocknews-blog-landing div.view-content div.views-row article.node--type-article.teaser"
+item_container_selector = "section.block-views-blocknews-blog-landing article.node--type-article.teaser"
 item_title_selector = "h3 a[href^='/blog/'] span::text"
 item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
@@ -165,7 +185,7 @@ item_date_selector = "div.field-published-date span::text"
 [feeds.turing-impact]
 feed_title = "Turing Impact (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/about-us/impact"
-item_container_selector = "section#block-views-block-research-impact-stories div.view-content div.views-row article.node--type-impact-stories.teaser"
+item_container_selector = "section#block-views-block-research-impact-stories article.node--type-impact-stories.teaser"
 item_title_selector = "h3 a[href^='/about-us/impact/'] span::text"
 item_link_selector = "h3 a[href^='/about-us/impact/']::attr(href)"
 item_description_selector = "h4 a[href^='/about-us/impact/']::text"
@@ -188,7 +208,7 @@ item_description_selector = "h4 a[href^='/about-us/impact/']::text"
 [feeds.turing-news]
 feed_title = "Turing News (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/news"
-item_container_selector = "section.block-views-blocknews-news div.view-content div.views-row article.node--type-article.teaser"
+item_container_selector = "section.block-views-blocknews-news article.node--type-article.teaser"
 item_title_selector = "h3 a[href^='/news/'] span::text"
 item_link_selector = "h3 a[href^='/news/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
@@ -212,7 +232,7 @@ item_date_selector = "div.field-published-date span::text"
 feed_title = "Mila News (Quebec AI Institute)"
 feed_description = "News and announcements from Mila - Quebec AI Institute."
 source_url = "https://mila.quebec/en/news"
-item_container_selector = "div#news-listing div.node--type-news.node--view-mode-teaser"
+item_container_selector = "#news-listing .node--type-news.node--view-mode-teaser"
 item_title_selector = "div.field-name-node-title a::text"
 item_link_selector = "div.field-name-node-title a::attr(href)"
 item_date_selector = "div.field-name-dynamic-twig-fieldnode-default-date-format-wrapped span::text"
