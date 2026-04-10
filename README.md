@@ -6,17 +6,17 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 
 | Name | File |
 |---|---|
-| [AISI Blog (AI Security Institute)](https://www.aisi.gov.uk/blog) | `feeds/aisi-blog.xml` |
-| [Ai2 News (Allen Institute for AI)](https://allenai.org/news) | `feeds/allenai-news.xml` |
-| [Mila News (Quebec AI Institute)](https://mila.quebec/en/news) | `feeds/mila-news.xml` |
-| [Anthropic News](https://www.anthropic.com/news) | `feeds/anthropic-news.xml` |
-| [Anthropic Research](https://www.anthropic.com/research) | `feeds/anthropic-research.xml` |
-| [Claude Blog](https://claude.com/blog) | `feeds/claude-blog.xml` |
-| [The Batch](https://www.deeplearning.ai/the-batch/) | `feeds/the-batch.xml` |
-| [TLDR AI](https://tldr.tech/ai/archives) | `feeds/tldr-ai.xml` |
-| [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | `feeds/turing-blog.xml` |
-| [Turing Impact (Alan Turing Institute)](https://www.turing.ac.uk/about-us/impact) | `feeds/turing-impact.xml` |
-| [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | `feeds/turing-news.xml` |
+| [AISI Blog (AI Security Institute)](https://www.aisi.gov.uk/blog) | [feeds/aisi-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/aisi-blog.xml) |
+| [Ai2 News (Allen Institute for AI)](https://allenai.org/news) | [feeds/allenai-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/allenai-news.xml) |
+| [Mila News (Quebec AI Institute)](https://mila.quebec/en/news) | [feeds/mila-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mila-news.xml) |
+| [Anthropic News](https://www.anthropic.com/news) | [feeds/anthropic-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-news.xml) |
+| [Anthropic Research](https://www.anthropic.com/research) | [feeds/anthropic-research.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-research.xml) |
+| [Claude Blog](https://claude.com/blog) | [feeds/claude-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml) |
+| [The Batch](https://www.deeplearning.ai/the-batch/) | [feeds/the-batch.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml) |
+| [TLDR AI](https://tldr.tech/ai/archives) | [feeds/tldr-ai.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml) |
+| [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
+| [Turing Impact (Alan Turing Institute)](https://www.turing.ac.uk/about-us/impact) | [feeds/turing-impact.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-impact.xml) |
+| [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
 
 ## Generate Feeds
 
