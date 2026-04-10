@@ -16,43 +16,23 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 
 ## Generate Feeds
 
-Run all feeds:
+Use the generator script:
 
 ```bash
 uv run python generate_feeds.py
 ```
 
-Run all feeds with HTTP cache disabled for that run:
-
-```bash
-uv run python generate_feeds.py --no-cache
-```
-
-Run a single feed spider:
-
-```bash
-uv run scrapy crawl feed -a feed_key=anthropic-news
-uv run scrapy crawl feed -a feed_key=anthropic-research
-uv run scrapy crawl feed -a feed_key=allenai-news
-uv run scrapy crawl feed -a feed_key=aisi-blog
-uv run scrapy crawl feed -a feed_key=claude-blog
-uv run scrapy crawl feed -a feed_key=the-batch
-uv run scrapy crawl feed -a feed_key=tldr-ai
-```
-
-Run a single feed spider with HTTP cache disabled for that run:
-
-```bash
-uv run scrapy crawl feed -a feed_key=anthropic-news -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl feed -a feed_key=anthropic-research -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl feed -a feed_key=allenai-news -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl feed -a feed_key=aisi-blog -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl feed -a feed_key=claude-blog -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl feed -a feed_key=the-batch -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl feed -a feed_key=tldr-ai -s HTTPCACHE_ENABLED=False
-```
-
 Generated feed files are written to `./feeds`.
+
+By default all feeds are generated, but you can specify which to generate:
+
+```bash
+uv run python generate_feeds.py aisi-blog allenai-news
+```
+
+Options:
+
+- `--no-cache`: disable Scrapy HTTP cache for that run
 
 ## Validation and Failure Behavior
 
