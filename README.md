@@ -30,23 +30,23 @@ uv run python generate_feeds.py --no-cache
 Run a single feed spider:
 
 ```bash
-uv run scrapy crawl anthropic-news
-uv run scrapy crawl anthropic-research
-uv run scrapy crawl allenai-news
-uv run scrapy crawl aisi-blog
-uv run scrapy crawl claude-blog
-uv run scrapy crawl tldr-ai
+uv run scrapy crawl feed -a feed_key=anthropic-news
+uv run scrapy crawl feed -a feed_key=anthropic-research
+uv run scrapy crawl feed -a feed_key=allenai-news
+uv run scrapy crawl feed -a feed_key=aisi-blog
+uv run scrapy crawl feed -a feed_key=claude-blog
+uv run scrapy crawl feed -a feed_key=tldr-ai
 ```
 
 Run a single feed spider with HTTP cache disabled for that run:
 
 ```bash
-uv run scrapy crawl anthropic-news -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl anthropic-research -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl allenai-news -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl aisi-blog -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl claude-blog -s HTTPCACHE_ENABLED=False
-uv run scrapy crawl tldr-ai -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=anthropic-news -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=anthropic-research -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=allenai-news -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=aisi-blog -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=claude-blog -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=tldr-ai -s HTTPCACHE_ENABLED=False
 ```
 
 Generated feed files are written to `./feeds`.
@@ -80,17 +80,17 @@ rm -rf .scrapy/httpcache
 
 ## Add A New Feed
 
-1. Add a new spider class in `ai_rss_feeds/spiders/` that inherits from `BaseFeedSpider`.
-2. Set required metadata fields:
-	- `name`
+1. Add a new `[feeds.<feed-key>]` table in `feeds.toml`.
+2. Set required fields:
 	- `feed_title`
 	- `source_url`
-3. Set selectors for items:
 	- `item_container_selector`
 	- `item_title_selector`
 	- `item_link_selector`
-	- optionally `item_date_selector`, `item_description_selector`, `language`, etc.
-	- optionally tighten validation with `min_item_count` and/or `min_item_ratio_vs_previous`
-4. Add the spider class to `generate_feeds.py`.
-5. Add the new feed entry to the table above, keeping it sorted by name.
-6. Run `uv run python generate_feeds.py` and verify output in `feeds/`.
+3. Set optional fields as needed:
+	- `item_date_selector`, `item_description_selector`, `feed_description`, `language`
+	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
+	- `user_agent` for a per-feed request header override
+	- comments above the feed table to keep source/structure notes alongside selectors
+4. Add the new feed entry to the table above, keeping it sorted by name.
+5. Run `uv run python generate_feeds.py` and verify output in `feeds/`.

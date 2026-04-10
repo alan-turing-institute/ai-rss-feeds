@@ -1,4 +1,4 @@
-"""Base spider class - subclasses define selectors and feed metadata."""
+"""Single configurable feed spider loaded from feeds.toml."""
 
 import math
 import os
@@ -11,35 +11,11 @@ import dateparser
 import scrapy
 from feedgen.feed import FeedGenerator
 
+from ai_rss_feeds.feed_config import load_feed
 
-class BaseFeedSpider(scrapy.Spider):
-    """
-    Scrapes a single page and writes an RSS 2.0 feed to feeds/<name>.xml.
 
-    Subclasses must define:
-        name              – scrapy spider name (used as the output filename)
-        feed_title        – human-readable feed title
-        source_url        – URL to scrape
-
-    Subclasses should define selectors:
-        item_container_selector   – CSS selector for each item's container element
-        item_title_selector       – CSS selector (within container) for the title text
-        item_link_selector        – CSS selector (within container) for the link;
-                                    may return an href attribute value or an <a> node
-        item_date_selector        – CSS selector (within container) for the date text
-        item_description_selector – CSS selector (within container) for description text
-
-    Optional overrides:
-        feed_link         – canonical feed URL (defaults to source_url)
-        feed_description  – feed description (defaults to feed_title)
-        language          – BCP-47 language tag (default "en")
-        item_guid_is_permalink – set guid isPermaLink="true" (default True)
-        min_item_count    - minimum extracted items required to write a feed
-                            (default 1)
-        min_item_ratio_vs_previous - if a previous feed exists, require at
-                            least ceil(previous_count * ratio) items
-                            (default 0.6)
-    """
+class FeedSpider(scrapy.Spider):
+    name = "feed"
 
     # Feed metadata
     feed_title: Optional[str] = None
@@ -58,18 +34,58 @@ class BaseFeedSpider(scrapy.Spider):
     # Link handling
     item_guid_is_permalink: bool = True
 
+    # Optional request-level user agent override for a specific feed.
+    user_agent: Optional[str] = None
+
     # Validation guardrails
     min_item_count: int = 1
     min_item_ratio_vs_previous: float = 0.6
+
+    def __init__(self, feed_key=None, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        if not feed_key:
+            raise RuntimeError("Missing required spider argument: feed_key")
+
+        cfg = load_feed(feed_key)
+
+        # Use the configured feed key as the logical spider name and output file stem.
+        self.name = feed_key
+
+        fields = [
+            "feed_title",
+            "source_url",
+            "feed_link",
+            "feed_description",
+            "language",
+            "item_container_selector",
+            "item_title_selector",
+            "item_link_selector",
+            "item_date_selector",
+            "item_description_selector",
+            "item_guid_is_permalink",
+            "min_item_count",
+            "min_item_ratio_vs_previous",
+            "user_agent",
+        ]
+
+        for field in fields:
+            if field in cfg:
+                setattr(self, field, cfg[field])
 
     def start_requests(self):
         if not self.source_url:
             raise RuntimeError("Missing required spider configuration field: source_url")
 
+        headers = None
+        if self.user_agent:
+            headers = {"User-Agent": self.user_agent}
+
         yield scrapy.Request(
             self.source_url,
             callback=self.parse,
             dont_filter=True,
+            headers=headers,
             meta={"handle_httpstatus_all": True},
         )
 
@@ -235,4 +251,3 @@ class BaseFeedSpider(scrapy.Spider):
             "date": date,
             "description": description,
         }
-

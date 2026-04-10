@@ -6,12 +6,8 @@ from scrapy import signals
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 
-from ai_rss_feeds.spiders.aisi import AISIBlogSpider
-from ai_rss_feeds.spiders.allenai import AllenAINewsSpider
-from ai_rss_feeds.spiders.anthropic import AnthropicNewsSpider
-from ai_rss_feeds.spiders.anthropic_research import AnthropicResearchSpider
-from ai_rss_feeds.spiders.claude_blog import ClaudeBlogSpider
-from ai_rss_feeds.spiders.tldr_ai import TLDRAIArchivesSpider
+from ai_rss_feeds.feed_config import list_feed_keys
+from ai_rss_feeds.spiders.feed import FeedSpider
 
 
 def parse_args() -> argparse.Namespace:
@@ -37,19 +33,10 @@ def main() -> None:
     def on_spider_error(failure, response, spider):
         spider_errors.append((spider.name, str(failure.value)))
 
-    spider_classes = [
-        AnthropicNewsSpider,
-        AnthropicResearchSpider,
-        AllenAINewsSpider,
-        AISIBlogSpider,
-        ClaudeBlogSpider,
-        TLDRAIArchivesSpider,
-    ]
-
-    for spider_cls in spider_classes:
-        crawler = process.create_crawler(spider_cls)
+    for feed_key in list_feed_keys():
+        crawler = process.create_crawler(FeedSpider)
         crawler.signals.connect(on_spider_error, signal=signals.spider_error)
-        process.crawl(crawler)
+        process.crawl(crawler, feed_key=feed_key)
 
     process.start()
 
