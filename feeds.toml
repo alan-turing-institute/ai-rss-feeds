@@ -149,20 +149,23 @@ item_date_selector = "div.u-text-style-caption::text"
 # Source: https://www.turing.ac.uk/blog
 #
 # Page structure (simplified):
-#     <section class="... block-views-blocknews-blog-landing">
-#       <div class="view-content">
-#         <div class="views-row">
-#           <article class="node node--type-article teaser">
-#             <h3><a href="/blog/<slug>"><span>Title</span></a></h3>
-#             <div class="field-published-date"><span>Friday 06 Mar 2026</span></div>
-#           </article>
-#         </div>
+#     <div class="view-content">
+#       <div class="views-row">
+#         <article class="node node--type-article teaser">
+#           <h3><a href="/blog/<slug>"><span>Title</span></a></h3>
+#           <div class="field field-published-date ..."><span>Friday 06 Mar 2026</span></div>
+#         </article>
 #       </div>
-#     </section>
+#     </div>
+#
+# Note: the server omits the outer `section.block-views-blocknews-blog-landing`
+# wrapper for data-centre IPs (e.g. GitHub Actions), so we anchor on the
+# article element directly. The link selectors scope to /blog/ paths to avoid
+# picking up unrelated teasers elsewhere on the page.
 [feeds.turing-blog]
 feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
-item_container_selector = "section.block-views-blocknews-blog-landing article.node--type-article.teaser"
+item_container_selector = "article.node--type-article.teaser"
 item_title_selector = "h3 a[href^='/blog/'] span::text"
 item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
@@ -172,20 +175,23 @@ item_date_selector = "div.field-published-date span::text"
 # Source: https://www.turing.ac.uk/news
 #
 # Page structure (simplified):
-#     <section class="... block-views-blocknews-news">
-#       <div class="view-content">
-#         <div class="views-row">
-#           <article class="node node--type-article teaser">
-#             <h3><a href="/news/<slug>"><span>Title</span></a></h3>
-#             <div class="field-published-date"><span>Wednesday 01 Apr 2026</span></div>
-#           </article>
-#         </div>
+#     <div class="view-content">
+#       <div class="views-row">
+#         <article class="node node--type-article teaser">
+#           <h3><a href="/news/<slug>"><span>Title</span></a></h3>
+#           <div class="field field-published-date ..."><span>Wednesday 01 Apr 2026</span></div>
+#         </article>
 #       </div>
-#     </section>
+#     </div>
+#
+# Note: the server omits the outer `section.block-views-blocknews-news`
+# wrapper for data-centre IPs (e.g. GitHub Actions), so we anchor on the
+# article element directly. The link selectors scope to /news/ paths to avoid
+# picking up unrelated teasers elsewhere on the page.
 [feeds.turing-news]
 feed_title = "Turing News (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/news"
-item_container_selector = "section.block-views-blocknews-news article.node--type-article.teaser"
+item_container_selector = "article.node--type-article.teaser"
 item_title_selector = "h3 a[href^='/news/'] span::text"
 item_link_selector = "h3 a[href^='/news/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
