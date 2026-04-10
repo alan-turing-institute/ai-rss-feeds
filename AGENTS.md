@@ -30,5 +30,5 @@
 - Use selectors that are likely to be stable over time.
 
 ## Regeneration
-- Currently this will be run manually.
-- Later it will be run in a cron job.
+- There is a github workflow that runs every day at 0500.
+- Can also trigger it manually.
