@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 13:53:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 14:16:30 +0000</lastBuildDate>
     <item>
       <title>Labor market impacts of AI: A new measure and early evidence</title>
       <link>https://www.anthropic.com/research/labor-market-impacts</link>
@@ -54,19 +54,19 @@
       <title>How Australia Uses Claude: Findings from the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-australia-uses-claude</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Emotion concepts and their function in a large language model</title>
       <link>https://www.anthropic.com/research/emotion-concepts-function</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/emotion-concepts-function</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Trustworthy agents in practice</title>
       <link>https://www.anthropic.com/research/trustworthy-agents</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/trustworthy-agents</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0100</pubDate>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
