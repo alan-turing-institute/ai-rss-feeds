@@ -6,11 +6,12 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 
 | Name | File |
 |---|---|
-| Ai2 News | `feeds/allenai-news.xml` |
-| AISI Blog | `feeds/aisi-blog.xml` |
-| Anthropic News | `feeds/anthropic-news.xml` |
-| Anthropic Research | `feeds/anthropic-research.xml` |
-| TLDR AI | `feeds/tldr-ai.xml` |
+| [Ai2 News](https://allenai.org/news) | `feeds/allenai-news.xml` |
+| [AISI Blog](https://www.aisi.gov.uk/blog) | `feeds/aisi-blog.xml` |
+| [Anthropic News](https://www.anthropic.com/news) | `feeds/anthropic-news.xml` |
+| [Anthropic Research](https://www.anthropic.com/research) | `feeds/anthropic-research.xml` |
+| [Claude Blog](https://claude.com/blog) | `feeds/claude-blog.xml` |
+| [TLDR AI](https://tldr.tech/ai/archives) | `feeds/tldr-ai.xml` |
 
 ## Generate Feeds
 
@@ -33,6 +34,7 @@ uv run scrapy crawl anthropic-news
 uv run scrapy crawl anthropic-research
 uv run scrapy crawl allenai-news
 uv run scrapy crawl aisi-blog
+uv run scrapy crawl claude-blog
 uv run scrapy crawl tldr-ai
 ```
 
@@ -43,6 +45,7 @@ uv run scrapy crawl anthropic-news -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl anthropic-research -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl allenai-news -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl aisi-blog -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl claude-blog -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl tldr-ai -s HTTPCACHE_ENABLED=False
 ```
 

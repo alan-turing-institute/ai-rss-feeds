@@ -26,6 +26,8 @@
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
 - Feeds are put into `./feeds`.
+- Look at existing spiders (`ai_rss_feeds/spiders`) for consistency.
+- Use selectors that are likely to be stable over time.
 
 ## Regeneration
 - Currently this will be run manually.

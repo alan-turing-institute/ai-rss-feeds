@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Claude Blog</title>
+    <link>https://claude.com/blog</link>
+    <description>Claude Blog</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 11:34:07 +0000</lastBuildDate>
+    <item>
+      <title>How Anthropic teams use Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-teams-use-claude-code</link>
+      <guid isPermaLink="true">https://claude.com/blog/how-anthropic-teams-use-claude-code</guid>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Piloting Claude in Chrome</title>
+      <link>https://claude.com/blog/claude-for-chrome</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-for-chrome</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Claude and Slack</title>
+      <link>https://claude.com/blog/claude-and-slack</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-and-slack</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Claude Code on the web</title>
+      <link>https://claude.com/blog/claude-code-on-the-web</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-code-on-the-web</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for financial services</title>
+      <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
+      <guid isPermaLink="true">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving frontend design through Skills</title>
+      <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
+      <guid isPermaLink="true">https://claude.com/blog/improving-frontend-design-through-skills</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How enterprises are building AI agents in 2026</title>
+      <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
+      <guid isPermaLink="true">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude now creates interactive charts, diagrams and visualizations</title>
+      <link>https://claude.com/blog/claude-builds-visuals</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-builds-visuals</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing Claude’s intelligence</title>
+      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
+      <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Claude Managed Agents: get to production 10x faster</title>
+      <link>https://claude.com/blog/claude-managed-agents</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic teams use Claude Code</title>
+      <link>https://claude.com/blog/how-anthropic-teams-use-claude-code</link>
+      <guid isPermaLink="true">https://claude.com/blog/how-anthropic-teams-use-claude-code</guid>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Piloting Claude in Chrome</title>
+      <link>https://claude.com/blog/claude-for-chrome</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-for-chrome</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Claude and Slack</title>
+      <link>https://claude.com/blog/claude-and-slack</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-and-slack</guid>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Claude Code on the web</title>
+      <link>https://claude.com/blog/claude-code-on-the-web</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-code-on-the-web</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Building AI agents for financial services</title>
+      <link>https://claude.com/blog/building-ai-agents-in-financial-services</link>
+      <guid isPermaLink="true">https://claude.com/blog/building-ai-agents-in-financial-services</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Improving frontend design through Skills</title>
+      <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
+      <guid isPermaLink="true">https://claude.com/blog/improving-frontend-design-through-skills</guid>
+      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How enterprises are building AI agents in 2026</title>
+      <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
+      <guid isPermaLink="true">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude now creates interactive charts, diagrams and visualizations</title>
+      <link>https://claude.com/blog/claude-builds-visuals</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-builds-visuals</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing Claude’s intelligence</title>
+      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
+      <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Claude Managed Agents: get to production 10x faster</title>
+      <link>https://claude.com/blog/claude-managed-agents</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>

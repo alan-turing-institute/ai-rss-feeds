@@ -10,6 +10,7 @@ from ai_rss_feeds.spiders.aisi import AISIBlogSpider
 from ai_rss_feeds.spiders.allenai import AllenAINewsSpider
 from ai_rss_feeds.spiders.anthropic import AnthropicNewsSpider
 from ai_rss_feeds.spiders.anthropic_research import AnthropicResearchSpider
+from ai_rss_feeds.spiders.claude_blog import ClaudeBlogSpider
 from ai_rss_feeds.spiders.tldr_ai import TLDRAIArchivesSpider
 
 
@@ -41,6 +42,7 @@ def main() -> None:
         AnthropicResearchSpider,
         AllenAINewsSpider,
         AISIBlogSpider,
+        ClaudeBlogSpider,
         TLDRAIArchivesSpider,
     ]
 
