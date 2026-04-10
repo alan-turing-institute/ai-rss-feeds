@@ -219,7 +219,7 @@ class BaseFeedSpider(scrapy.Spider):
                     date_str,
                     settings={
                         "RETURN_AS_TIMEZONE_AWARE": True,
-                        "PREFER_DAY_OF_MONTH": "first",
+                        "PREFER_DAY_OF_MONTH": "last",
                     },
                 )
 
