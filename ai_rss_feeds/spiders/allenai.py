@@ -38,5 +38,3 @@ class AllenAINewsSpider(BaseFeedSpider):
     item_title_selector = "h2::text"
     item_date_selector = "h2 span:first-child::text"
     item_description_selector = "div > p::text"
-
-    item_link_base_url = "https://allenai.org"

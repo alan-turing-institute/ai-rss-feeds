@@ -33,5 +33,3 @@ class AISIBlogSpider(BaseFeedSpider):
     item_title_selector = "h3::text"
     item_date_selector = "p[fs-list-field='date']::text"
     item_description_selector = "p[fs-list-field='description']::text"
-
-    item_link_base_url = "https://www.aisi.gov.uk"

@@ -30,5 +30,3 @@ class AnthropicNewsSpider(BaseFeedSpider):
     item_link_selector = "a[href^='/news/']::attr(href)"
     item_title_selector = "a[href^='/news/'] > span:last-child::text"
     item_date_selector = "a[href^='/news/'] time::text"
-
-    item_link_base_url = "https://www.anthropic.com"

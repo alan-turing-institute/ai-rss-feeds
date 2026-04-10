@@ -1,6 +1,7 @@
 """Base spider class — subclasses define selectors and feed metadata."""
 
 import os
+from urllib.parse import urljoin
 
 import dateparser
 import scrapy
@@ -28,7 +29,6 @@ class BaseFeedSpider(scrapy.Spider):
         feed_link         – canonical feed URL (defaults to source_url)
         feed_description  – feed description (defaults to feed_title)
         language          – BCP-47 language tag (default "en")
-        item_link_base_url – prepended to relative links (default: origin of source_url)
         item_guid_is_permalink – set guid isPermaLink="true" (default False)
     """
 
@@ -47,7 +47,6 @@ class BaseFeedSpider(scrapy.Spider):
     item_description_selector: str = None
 
     # Link handling
-    item_link_base_url: str = None
     item_guid_is_permalink: bool = False
 
     @property
@@ -113,10 +112,8 @@ class BaseFeedSpider(scrapy.Spider):
             if not link_val:
                 return None
 
-        # Make absolute
-        if link_val.startswith("/"):
-            base = self.item_link_base_url or self._origin(response.url)
-            link_val = base + link_val
+        # Resolve relative links against the page URL.
+        link_val = urljoin(response.url, link_val)
 
         # Date
         date = None
@@ -145,8 +142,3 @@ class BaseFeedSpider(scrapy.Spider):
             "description": description,
         }
 
-    @staticmethod
-    def _origin(url: str) -> str:
-        """Return scheme://host from a URL."""
-        parts = url.split("/")
-        return f"{parts[0]}//{parts[2]}"

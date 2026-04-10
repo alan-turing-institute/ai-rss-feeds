@@ -30,5 +30,3 @@ class TLDRAIArchivesSpider(BaseFeedSpider):
     item_container_selector = "a[href^='/ai/20']"
     item_link_selector = "::attr(href)"
     item_title_selector = "div::text"
-
-    item_link_base_url = "https://tldr.tech"
