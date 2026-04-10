@@ -1,4 +1,4 @@
-# UK AI Security Institute (AISI) Blog spider.
+# The AI Security Institute (AISI) Blog spider.
 #
 # Source: https://www.aisi.gov.uk/blog
 #
@@ -18,7 +18,7 @@
 #       </div>
 #     </div>
 [feeds.aisi-blog]
-feed_title = "AISI Blog"
+feed_title = "AISI Blog (AI Security Institute)"
 feed_description = "Updates on AISI's work - AI Security Institute"
 source_url = "https://www.aisi.gov.uk/blog"
 item_container_selector = "div.work-card-wrapper"
@@ -50,7 +50,7 @@ item_description_selector = "p[fs-list-field='description']::text"
 # Note: dates are month+year only (e.g. "March 2026"); dateparser maps these to
 # the first of that month.
 [feeds.allenai-news]
-feed_title = "Ai2 News"
+feed_title = "Ai2 News (Allen Institute for AI)"
 source_url = "https://allenai.org/news"
 item_container_selector = "div[class*='grid-tc_repeat'] > div"
 item_link_selector = "a[href^='/blog/']::attr(href)"
@@ -124,7 +124,7 @@ item_title_selector = "h2::text"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
-# Alan Turing Institute Blog spider.
+# The Alan Turing Institute Blog spider.
 #
 # Source: https://www.turing.ac.uk/blog
 #
@@ -140,14 +140,14 @@ item_date_selector = "div.u-text-style-caption::text"
 #       </div>
 #     </section>
 [feeds.turing-blog]
-feed_title = "Alan Turing Institute Blog"
+feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
 item_container_selector = "section.block-views-blocknews-blog-landing div.view-content div.views-row article.node--type-article.teaser"
 item_title_selector = "h3 a[href^='/blog/'] span::text"
 item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
 
-# Alan Turing Institute Impact spider.
+# The Alan Turing Institute Impact spider.
 #
 # Source: https://www.turing.ac.uk/about-us/impact
 #
@@ -163,14 +163,14 @@ item_date_selector = "div.field-published-date span::text"
 #       </div>
 #     </section>
 [feeds.turing-impact]
-feed_title = "Alan Turing Institute Impact"
+feed_title = "Turing Impact (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/about-us/impact"
 item_container_selector = "section#block-views-block-research-impact-stories div.view-content div.views-row article.node--type-impact-stories.teaser"
 item_title_selector = "h3 a[href^='/about-us/impact/'] span::text"
 item_link_selector = "h3 a[href^='/about-us/impact/']::attr(href)"
 item_description_selector = "h4 a[href^='/about-us/impact/']::text"
 
-# Alan Turing Institute News spider.
+# The Alan Turing Institute News spider.
 #
 # Source: https://www.turing.ac.uk/news
 #
@@ -186,14 +186,14 @@ item_description_selector = "h4 a[href^='/about-us/impact/']::text"
 #       </div>
 #     </section>
 [feeds.turing-news]
-feed_title = "Alan Turing Institute News"
+feed_title = "Turing News (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/news"
 item_container_selector = "section.block-views-blocknews-news div.view-content div.views-row article.node--type-article.teaser"
 item_title_selector = "h3 a[href^='/news/'] span::text"
 item_link_selector = "h3 a[href^='/news/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
 
-# Mila News spider.
+# Mila - Quebec AI Institute News spider.
 #
 # Source: https://mila.quebec/en/news
 #
@@ -209,7 +209,7 @@ item_date_selector = "div.field-published-date span::text"
 #       </div>
 #     </div>
 [feeds.mila-news]
-feed_title = "Mila News"
+feed_title = "Mila News (Quebec AI Institute)"
 feed_description = "News and announcements from Mila - Quebec AI Institute."
 source_url = "https://mila.quebec/en/news"
 item_container_selector = "div#news-listing div.node--type-news.node--view-mode-teaser"

@@ -6,17 +6,17 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 
 | Name | File |
 |---|---|
-| [Ai2 News](https://allenai.org/news) | `feeds/allenai-news.xml` |
-| [AISI Blog](https://www.aisi.gov.uk/blog) | `feeds/aisi-blog.xml` |
-| [Alan Turing Institute Blog](https://www.turing.ac.uk/blog) | `feeds/turing-blog.xml` |
-| [Alan Turing Institute Impact](https://www.turing.ac.uk/about-us/impact) | `feeds/turing-impact.xml` |
-| [Alan Turing Institute News](https://www.turing.ac.uk/news) | `feeds/turing-news.xml` |
+| [AISI Blog (AI Security Institute)](https://www.aisi.gov.uk/blog) | `feeds/aisi-blog.xml` |
+| [Ai2 News (Allen Institute for AI)](https://allenai.org/news) | `feeds/allenai-news.xml` |
+| [Mila News (Quebec AI Institute)](https://mila.quebec/en/news) | `feeds/mila-news.xml` |
 | [Anthropic News](https://www.anthropic.com/news) | `feeds/anthropic-news.xml` |
 | [Anthropic Research](https://www.anthropic.com/research) | `feeds/anthropic-research.xml` |
 | [Claude Blog](https://claude.com/blog) | `feeds/claude-blog.xml` |
-| [Mila News](https://mila.quebec/en/news) | `feeds/mila-news.xml` |
 | [The Batch](https://www.deeplearning.ai/the-batch/) | `feeds/the-batch.xml` |
 | [TLDR AI](https://tldr.tech/ai/archives) | `feeds/tldr-ai.xml` |
+| [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | `feeds/turing-blog.xml` |
+| [Turing Impact (Alan Turing Institute)](https://www.turing.ac.uk/about-us/impact) | `feeds/turing-impact.xml` |
+| [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | `feeds/turing-news.xml` |
 
 ## Generate Feeds
 

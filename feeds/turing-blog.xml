@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Alan Turing Institute Blog</title>
+    <title>Turing Blog (Alan Turing Institute)</title>
     <link>https://www.turing.ac.uk/blog</link>
-    <description>Alan Turing Institute Blog</description>
+    <description>Turing Blog (Alan Turing Institute)</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 12:57:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 13:13:23 +0000</lastBuildDate>
     <item>
       <title>AI supercomputers and tech telekinesis: unmissable demos at AI UK 2025</title>
       <link>https://www.turing.ac.uk/blog/ai-supercomputers-and-tech-telekinesis-unmissable-demos-ai-uk-2025</link>

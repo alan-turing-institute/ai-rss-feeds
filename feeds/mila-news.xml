@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
-    <title>Mila News</title>
+    <title>Mila News (Quebec AI Institute)</title>
     <link>https://mila.quebec/en/news</link>
     <description>News and announcements from Mila - Quebec AI Institute.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 12:17:46 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 13:13:23 +0000</lastBuildDate>
     <item>
       <title>Mila and AI4Eyes Partner to Advance AI Innovation in Ophthalmology</title>
       <link>https://mila.quebec/en/news/mila-and-ai4eyes-partner-to-advance-ai-innovation-in-ophthalmology</link>
