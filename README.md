@@ -69,7 +69,7 @@ This prevents silently writing empty or unexpectedly tiny feeds when page markup
 
 ## HTTP Cache
 
-Scrapy HTTP cache is enabled by default in `ai_rss_feeds/settings.py`.
+Scrapy HTTP cache is enabled by default in `src/settings.py`.
 Use `uv run python generate_feeds.py --no-cache` to disable cache for a single run.
 
 To refresh cached source pages, delete:

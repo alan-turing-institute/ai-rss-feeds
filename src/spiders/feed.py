@@ -11,7 +11,7 @@ import dateparser
 import scrapy
 from feedgen.feed import FeedGenerator
 
-from ai_rss_feeds.feed_config import load_feed
+from src.feed_config import load_feed
 
 
 class FeedSpider(scrapy.Spider):

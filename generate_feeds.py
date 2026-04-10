@@ -6,8 +6,8 @@ from scrapy import signals
 from scrapy.crawler import CrawlerProcess
 from scrapy.utils.project import get_project_settings
 
-from ai_rss_feeds.feed_config import list_feed_keys
-from ai_rss_feeds.spiders.feed import FeedSpider
+from src.feed_config import list_feed_keys
+from src.spiders.feed import FeedSpider
 
 
 def parse_args() -> argparse.Namespace:

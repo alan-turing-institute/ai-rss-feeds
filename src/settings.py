@@ -1,7 +1,7 @@
-BOT_NAME = "ai_rss_feeds"
+BOT_NAME = "src"
 
-SPIDER_MODULES = ["ai_rss_feeds.spiders"]
-NEWSPIDER_MODULE = "ai_rss_feeds.spiders"
+SPIDER_MODULES = ["src.spiders"]
+NEWSPIDER_MODULE = "src.spiders"
 
 # Enable HTTP caching unconditionally; delete .scrapy/httpcache to refresh
 HTTPCACHE_ENABLED = True

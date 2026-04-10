@@ -11,8 +11,8 @@
 
 ## Scraping with scrapy
 - Enable HTTP cacheing unconditionally. I will delete the cache now and then to keep things fresh.
-- There is a separate scraper class for each feed, but they all inherit from a common base class which has the logic to cover most common cases.
-- The specific classes just need to define:
+- Use a single configurable spider class, with per-feed configuration in `feeds.toml`.
+- Each feed entry in TOML should define:
   - required fields like `title` and `source_url`,
   - optional fields like `language`,
   - fields like `item_container_selector` (CSS selector for the container for each item)
@@ -26,7 +26,7 @@
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
 - Feeds are put into `./feeds`.
-- Look at existing spiders (`ai_rss_feeds/spiders`) for consistency.
+- Look at existing spiders (`src/spiders`) for consistency.
 - Use selectors that are likely to be stable over time.
 
 ## Regeneration
