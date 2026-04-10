@@ -7,65 +7,65 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 11:06:19 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 11:09:43 +0000</lastBuildDate>
     <item>
       <title>Anthropic acquires Vercept to advance Claude's computer use capabilities</title>
       <link>https://www.anthropic.com/news/acquires-vercept</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/acquires-vercept</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/acquires-vercept</guid>
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Statement from Dario Amodei on our discussions with the Department of War</title>
       <link>https://www.anthropic.com/news/statement-department-of-war</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/statement-department-of-war</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/statement-department-of-war</guid>
       <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Statement on the comments from Secretary of War Pete Hegseth</title>
       <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/statement-comments-secretary-war</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/statement-comments-secretary-war</guid>
       <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Where things stand with the Department of War</title>
       <link>https://www.anthropic.com/news/where-stand-department-war</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/where-stand-department-war</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/where-stand-department-war</guid>
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Partnering with Mozilla to improve Firefox’s security</title>
       <link>https://www.anthropic.com/news/mozilla-firefox-security</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/mozilla-firefox-security</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/mozilla-firefox-security</guid>
       <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sydney will become Anthropic’s fourth office in Asia-Pacific</title>
       <link>https://www.anthropic.com/news/sydney-fourth-office-asia-pacific</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/sydney-fourth-office-asia-pacific</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/sydney-fourth-office-asia-pacific</guid>
       <pubDate>Tue, 10 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing The Anthropic Institute</title>
       <link>https://www.anthropic.com/news/the-anthropic-institute</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/the-anthropic-institute</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/the-anthropic-institute</guid>
       <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic invests $100 million into the Claude Partner Network</title>
       <link>https://www.anthropic.com/news/claude-partner-network</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/claude-partner-network</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Australian government and Anthropic sign MOU for AI safety and research</title>
       <link>https://www.anthropic.com/news/australia-MOU</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/australia-MOU</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/australia-MOU</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</title>
       <link>https://www.anthropic.com/news/google-broadcom-partnership-compute</link>
-      <guid isPermaLink="false">https://www.anthropic.com/news/google-broadcom-partnership-compute</guid>
+      <guid isPermaLink="true">https://www.anthropic.com/news/google-broadcom-partnership-compute</guid>
       <pubDate>Mon, 06 Apr 2026 00:00:00 +0100</pubDate>
     </item>
   </channel>

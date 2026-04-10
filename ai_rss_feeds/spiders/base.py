@@ -33,7 +33,7 @@ class BaseFeedSpider(scrapy.Spider):
         feed_link         – canonical feed URL (defaults to source_url)
         feed_description  – feed description (defaults to feed_title)
         language          – BCP-47 language tag (default "en")
-        item_guid_is_permalink – set guid isPermaLink="true" (default False)
+        item_guid_is_permalink – set guid isPermaLink="true" (default True)
         min_item_count    - minimum extracted items required to write a feed
                             (default 1)
         min_item_ratio_vs_previous - if a previous feed exists, require at
@@ -56,7 +56,7 @@ class BaseFeedSpider(scrapy.Spider):
     item_description_selector: Optional[str] = None
 
     # Link handling
-    item_guid_is_permalink: bool = False
+    item_guid_is_permalink: bool = True
 
     # Validation guardrails
     min_item_count: int = 1
@@ -136,7 +136,7 @@ class BaseFeedSpider(scrapy.Spider):
             fe = fg.add_entry()
             fe.title(item["title"])
             fe.link(href=item["link"])
-            fe.id(item["link"])
+            fe.guid(item["link"], permalink=bool(self.item_guid_is_permalink))
 
             if item.get("description"):
                 fe.description(item["description"])
