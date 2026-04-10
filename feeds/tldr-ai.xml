@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>TLDR AI</title>
+    <link>https://tldr.tech/ai/archives</link>
+    <description>TLDR AI</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 10:51:07 +0000</lastBuildDate>
+    <item>
+      <title>Replit Agent 4 🤖, Cursor eyes $50B valuation 💰, Meta AI chips ⚡</title>
+      <link>https://tldr.tech/ai/2026-03-12</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-12</guid>
+    </item>
+    <item>
+      <title>Claude Visuals 💻, xAI poaches Cursor leads 💼, CursorBench 🧑‍💻</title>
+      <link>https://tldr.tech/ai/2026-03-13</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-13</guid>
+    </item>
+    <item>
+      <title>Claude 1M Context 🧠, OpenAI adult mode 🤖, GLM-5-Turbo ⚡</title>
+      <link>https://tldr.tech/ai/2026-03-16</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-16</guid>
+    </item>
+    <item>
+      <title>NVIDIA GTC 🤖, OpenAI’s new infra chief ⚡, Alibaba &amp; OpenAI pivot 🧠</title>
+      <link>https://tldr.tech/ai/2026-03-17</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-17</guid>
+    </item>
+    <item>
+      <title>GPT-5.4 mini &amp; nano ⚡, Cursor self-summarization 📝, Harmonic’s AI mathematician ♾️</title>
+      <link>https://tldr.tech/ai/2026-03-18</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-18</guid>
+    </item>
+    <item>
+      <title>Xiaomi &amp; Minimax models 🤖, China’s OpenClaw obsession 🦞, Anthropic 81k study 📊</title>
+      <link>https://tldr.tech/ai/2026-03-19</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-19</guid>
+    </item>
+    <item>
+      <title>Cursor’s frontier model 👨‍💻, OpenAI buys Astral ⚡, Perplexity Health 🏥</title>
+      <link>https://tldr.tech/ai/2026-03-20</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-20</guid>
+    </item>
+    <item>
+      <title>OpenAI’s automated researcher 🤖, Cursor + Kimi 2.5 💻, Musk's $20B Terafab 🏗️</title>
+      <link>https://tldr.tech/ai/2026-03-23</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-23</guid>
+    </item>
+    <item>
+      <title>OpenAI PE deal terms 💰, ChatGPT Library 💾, building an AI chip ⚡</title>
+      <link>https://tldr.tech/ai/2026-03-24</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-24</guid>
+    </item>
+    <item>
+      <title>Claude Auto Mode 🤖, ChatGPT product discovery 🛒, long running harnesses 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-03-25</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-25</guid>
+    </item>
+    <item>
+      <title>Google Turboquant ⚡, ARC-AGI-3 🧩, Manus founders detained 👮🏼</title>
+      <link>https://tldr.tech/ai/2026-03-26</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-26</guid>
+    </item>
+    <item>
+      <title>Anthropic weighs October IPO 💰, Gemini 3.1 Flash Live 🎙️, Cursor real-time RL 🔄</title>
+      <link>https://tldr.tech/ai/2026-03-27</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-27</guid>
+    </item>
+    <item>
+      <title>Claude Mythos leaks 🤖, last xAI cofounder exits 👋, lessons from OpenAI 💡</title>
+      <link>https://tldr.tech/ai/2026-03-30</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-30</guid>
+    </item>
+    <item>
+      <title>Codex Plugin for Claude Code 💻, Qwen3.5-Omni 🤖, workload harness fit 🧑‍💻</title>
+      <link>https://tldr.tech/ai/2026-03-31</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-03-31</guid>
+    </item>
+    <item>
+      <title>Claude Code leak 🔓, Veo 3.1 Lite ⚡, 1-bit models 🤏</title>
+      <link>https://tldr.tech/ai/2026-04-01</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-01</guid>
+    </item>
+    <item>
+      <title>Inside Kimi 🤖, training mRNA models 🧬, Claude Code leak analysis 🔓</title>
+      <link>https://tldr.tech/ai/2026-04-02</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-02</guid>
+    </item>
+    <item>
+      <title>Cursor 3 💻, Gemma 4 🔬, Codex pay-as-you-go 💸</title>
+      <link>https://tldr.tech/ai/2026-04-03</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-03</guid>
+    </item>
+    <item>
+      <title>Claude Code blocks OpenClaw 🛑, Anthropic buys biotech 🧬, LLM Wiki 📁</title>
+      <link>https://tldr.tech/ai/2026-04-06</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-06</guid>
+    </item>
+    <item>
+      <title>OpenAI tests Image V2 🖼️, Google debuts Jules V2 🤖, analyzing OpenAI’s $122B raise 💰</title>
+      <link>https://tldr.tech/ai/2026-04-07</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-07</guid>
+    </item>
+    <item>
+      <title>Claude Mythos 🛡️, GLM-5.1 🤖, warp decode ⚡</title>
+      <link>https://tldr.tech/ai/2026-04-08</link>
+      <guid isPermaLink="false">https://tldr.tech/ai/2026-04-08</guid>
+    </item>
+  </channel>
+</rss>

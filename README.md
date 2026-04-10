@@ -9,6 +9,7 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 | Ai2 News | `feeds/allenai-news.xml` |
 | AISI Blog | `feeds/aisi-blog.xml` |
 | Anthropic News | `feeds/anthropic-news.xml` |
+| TLDR AI | `feeds/tldr-ai.xml` |
 
 ## Generate Feeds
 
@@ -30,6 +31,7 @@ Run a single feed spider:
 uv run scrapy crawl anthropic-news
 uv run scrapy crawl allenai-news
 uv run scrapy crawl aisi-blog
+uv run scrapy crawl tldr-ai
 ```
 
 Run a single feed spider with HTTP cache disabled for that run:
@@ -38,6 +40,7 @@ Run a single feed spider with HTTP cache disabled for that run:
 uv run scrapy crawl anthropic-news -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl allenai-news -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl aisi-blog -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl tldr-ai -s HTTPCACHE_ENABLED=False
 ```
 
 Generated feed files are written to `./feeds`.

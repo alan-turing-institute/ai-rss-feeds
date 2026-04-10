@@ -8,6 +8,7 @@ from scrapy.utils.project import get_project_settings
 from ai_rss_feeds.spiders.aisi import AISIBlogSpider
 from ai_rss_feeds.spiders.allenai import AllenAINewsSpider
 from ai_rss_feeds.spiders.anthropic import AnthropicNewsSpider
+from ai_rss_feeds.spiders.tldr_ai import TLDRAIArchivesSpider
 
 
 def parse_args() -> argparse.Namespace:
@@ -30,6 +31,7 @@ def main() -> None:
     process.crawl(AnthropicNewsSpider)
     process.crawl(AllenAINewsSpider)
     process.crawl(AISIBlogSpider)
+    process.crawl(TLDRAIArchivesSpider)
     process.start()
 
 
