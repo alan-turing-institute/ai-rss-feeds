@@ -20,6 +20,8 @@
   - other fields like `item_guid_is_link` (use the link as the guid), `item_guid_is_permalink` (set the guid to be a permalink), `item_date_regex` (regex to extract the date portion, such as if `item_link_selector` is something like `a::attr(href)` and the date needs to be extracted from the URL) and more that may be required as we go along.
 - These mostly default to `None` and if left as `None` then the corresponding field in the feed or item is not set.
 - Be lenient in what selectors can return. For example `item_link_selector` can return either text (the URL) or an HTML node (in which case its `href` attr is taken).
+- Don't follow any links (to articles or to later pages of links), just use the information on the source page.
+- Don't repeatedly curl a page when developing feeds - put a copy into `./snapshots` and refer to that.
 
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
