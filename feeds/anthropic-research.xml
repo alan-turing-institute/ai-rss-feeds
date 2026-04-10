@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Anthropic Research</title>
+    <link>https://www.anthropic.com/research</link>
+    <description>Anthropic Research</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 11:29:13 +0000</lastBuildDate>
+    <item>
+      <title>Labor market impacts of AI: A new measure and early evidence</title>
+      <link>https://www.anthropic.com/research/labor-market-impacts</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/labor-market-impacts</guid>
+      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partnering with Mozilla to improve Firefox’s security</title>
+      <link>https://www.anthropic.com/news/mozilla-firefox-security</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/mozilla-firefox-security</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A “diff” tool for AI: Finding behavioral differences in new models</title>
+      <link>https://www.anthropic.com/research/diff-tool</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/diff-tool</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vibe physics: The AI grad student</title>
+      <link>https://www.anthropic.com/research/vibe-physics</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/vibe-physics</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Long-running Claude for scientific computing</title>
+      <link>https://www.anthropic.com/research/long-running-Claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/long-running-Claude</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing our Science Blog</title>
+      <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/introducing-anthropic-science</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: Learning curves</title>
+      <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-march-2026-report</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Australia Uses Claude: Findings from the Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/how-australia-uses-claude</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Emotion concepts and their function in a large language model</title>
+      <link>https://www.anthropic.com/research/emotion-concepts-function</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/emotion-concepts-function</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Trustworthy agents in practice</title>
+      <link>https://www.anthropic.com/research/trustworthy-agents</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/trustworthy-agents</guid>
+      <pubDate>Thu, 09 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
