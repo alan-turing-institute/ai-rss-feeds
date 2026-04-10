@@ -124,6 +124,30 @@ item_title_selector = "h2::text"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
+# Mila News spider.
+#
+# Source: https://mila.quebec/en/news
+#
+# Page structure (simplified):
+#     <div id="news-listing">
+#       <div class="node node--type-news node--view-mode-teaser ...">
+#         <div class="field-name-dynamic-twig-fieldnode-default-date-format-wrapped">
+#           <span>08</span><span>Apr</span><span>2026</span>
+#         </div>
+#         <div class="field-name-node-title">
+#           <a href="/en/news/<slug>">Title</a>
+#         </div>
+#       </div>
+#     </div>
+[feeds.mila-news]
+feed_title = "Mila News"
+feed_description = "News and announcements from Mila - Quebec AI Institute."
+source_url = "https://mila.quebec/en/news"
+item_container_selector = "div#news-listing div.node--type-news.node--view-mode-teaser"
+item_title_selector = "div.field-name-node-title a::text"
+item_link_selector = "div.field-name-node-title a::attr(href)"
+item_date_selector = "div.field-name-dynamic-twig-fieldnode-default-date-format-wrapped span::text"
+
 # DeepLearning.AI The Batch spider.
 #
 # Source: https://www.deeplearning.ai/the-batch/

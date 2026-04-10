@@ -11,6 +11,7 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 | [Anthropic News](https://www.anthropic.com/news) | `feeds/anthropic-news.xml` |
 | [Anthropic Research](https://www.anthropic.com/research) | `feeds/anthropic-research.xml` |
 | [Claude Blog](https://claude.com/blog) | `feeds/claude-blog.xml` |
+| [Mila News](https://mila.quebec/en/news) | `feeds/mila-news.xml` |
 | [The Batch](https://www.deeplearning.ai/the-batch/) | `feeds/the-batch.xml` |
 | [TLDR AI](https://tldr.tech/ai/archives) | `feeds/tldr-ai.xml` |
 
@@ -74,6 +75,7 @@ rm -rf .scrapy/httpcache
 	- `item_date_selector`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
 	- `user_agent` for a per-feed request header override
+	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors
 4. Add the new feed entry to the table above, keeping it sorted by name.
 5. Run `uv run python generate_feeds.py` and verify output in `feeds/`.

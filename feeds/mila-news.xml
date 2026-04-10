@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Mila News</title>
+    <link>https://mila.quebec/en/news</link>
+    <description>News and announcements from Mila - Quebec AI Institute.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 10 Apr 2026 12:17:46 +0000</lastBuildDate>
+    <item>
+      <title>Mila and AI4Eyes Partner to Advance AI Innovation in Ophthalmology</title>
+      <link>https://mila.quebec/en/news/mila-and-ai4eyes-partner-to-advance-ai-innovation-in-ophthalmology</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-ai4eyes-partner-to-advance-ai-innovation-in-ophthalmology</guid>
+      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Siva Reddy Named 2026 Sloan Research Fellow</title>
+      <link>https://mila.quebec/en/news/siva-reddy-named-2026-sloan-research-fellow</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/siva-reddy-named-2026-sloan-research-fellow</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When AI Protects the Quebec Music Industry</title>
+      <link>https://mila.quebec/en/news/when-ai-protects-the-quebec-music-industry</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/when-ai-protects-the-quebec-music-industry</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Quebec Government Grants $36M to Mila to Strengthen Artificial Intelligence Research and Talent</title>
+      <link>https://mila.quebec/en/news/the-quebec-government-grants-36m-to-mila-to-strengthen-artificial-intelligence-research-and</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/the-quebec-government-grants-36m-to-mila-to-strengthen-artificial-intelligence-research-and</guid>
+      <pubDate>Fri, 27 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing the Future: Three AI4Good Lab Alumni on Belonging, Courage, and Building AI for Everyone</title>
+      <link>https://mila.quebec/en/news/three-ai4goodlab-alumni-on-belonging-courage-building-ai-for-everyone</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/three-ai4goodlab-alumni-on-belonging-courage-building-ai-for-everyone</guid>
+      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila Launches Its First National Hackathon Focused on the Safety of Conversational AI in Youth Mental Health Contexts</title>
+      <link>https://mila.quebec/en/news/mila-launches-its-first-national-hackathon-focused-on-the-safety-of-conversational-ai-in-youth</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-launches-its-first-national-hackathon-focused-on-the-safety-of-conversational-ai-in-youth</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and Mozilla Join Forces to Open the Future of AI to All</title>
+      <link>https://mila.quebec/en/news/mila-and-mozilla-join-forces-to-open-the-future-of-ai-to-all</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-mozilla-join-forces-to-open-the-future-of-ai-to-all</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and Giesecke+Devrient Partner to Help Shape the Future of Trusted AI</title>
+      <link>https://mila.quebec/en/news/mila-and-gieseckedevrient-partner-to-help-shape-the-future-of-trusted-ai</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-gieseckedevrient-partner-to-help-shape-the-future-of-trusted-ai</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Mila and Vetted Medical Join Forces to Promote Responsible Adoption of AI in Healthcare</title>
+      <link>https://mila.quebec/en/news/mila-and-vetted-medical-join-forces-to-promote-responsible-adoption-of-ai-in-healthcare</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-vetted-medical-join-forces-to-promote-responsible-adoption-of-ai-in-healthcare</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>Mila and RISE deepen Canada-Sweden collaboration to accelerate next generation AI systems and industrial innovation</title>
+      <link>https://mila.quebec/en/news/mila-and-rise-deepen-canada-sweden-collaboration-to-accelerate-next-generation-ai-systems-and</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-rise-deepen-canada-sweden-collaboration-to-accelerate-next-generation-ai-systems-and</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
