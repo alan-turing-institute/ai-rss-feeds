@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 14:38:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 15:00:22 +0000</lastBuildDate>
     <item>
       <title>Introducing OlmoEarth Platform: Powerful open infrastructure for planetary insights</title>
       <link>https://allenai.org/blog/olmoearth</link>
@@ -55,21 +55,21 @@
       <link>https://allenai.org/blog/olmohybrid</link>
       <description>Olmo Hybrid is a fully open 7B language model that combines transformer attention with linear RNN layers to…</description>
       <guid isPermaLink="true">https://allenai.org/blog/olmohybrid</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ai2 introduces open, simulation-first stack for physical AI, achieving zero-shot transfer to real robots</title>
       <link>https://allenai.org/blog/molmobot</link>
       <description>Introducing MolmoBot and MolmoSpaces, an open foundation for training real-world robots to advance science.</description>
       <guid isPermaLink="true">https://allenai.org/blog/molmobot</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Highlights from Ai2 at NVIDIA GTC 2026</title>
       <link>https://allenai.org/blog/gtc2026</link>
       <description>A recap of Ai2's week at NVIDIA GTC 2026, covering panels on open models, live demos of Olmo Hybrid and Asta…</description>
       <guid isPermaLink="true">https://allenai.org/blog/gtc2026</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

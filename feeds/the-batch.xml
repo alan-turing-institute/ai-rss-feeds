@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 14:38:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 15:00:22 +0000</lastBuildDate>
     <item>
       <title>OpenAI’s Answer to Gemini 3, Runway’s Interactive Worlds, Disney’s Alliance With OpenAI, Adapting LLMs for Low-Data Domains</title>
       <link>https://www.deeplearning.ai/the-batch/issue-332/</link>
@@ -118,7 +118,7 @@
       <link>https://www.deeplearning.ai/the-batch/issue-347/</link>
       <description>The Batch AI News and Insights: Voice-based AI that you can talk to is improving rapidly, yet most people still don’t appreciate how pervasive voice UIs (user interfaces) will become.</description>
       <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-347/</guid>
-      <pubDate>Fri, 03 Apr 2026 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
