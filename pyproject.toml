@@ -1,0 +1,11 @@
+[project]
+name = "ai-rss-feeds"
+version = "0.1.0"
+description = "AI RSS feeds"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "dateparser>=1.4.0",
+    "feedgen>=1.0.0",
+    "scrapy>=2.15.0",
+]
