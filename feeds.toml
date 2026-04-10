@@ -124,6 +124,35 @@ item_title_selector = "h2::text"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
+# DeepLearning.AI The Batch spider.
+#
+# Source: https://www.deeplearning.ai/the-batch/
+#
+# Page structure (simplified):
+#     <section class="py-12 bg-slate-100">
+#       <article data-testid="post-card-large">  <- featured weekly issue card
+#         <a href="/the-batch/tag/apr-03-2026/"><div>Apr 03, 2026</div></a>
+#         <h2>Issue title</h2>
+#         <div class="... line-clamp-3 ...">Issue excerpt</div>
+#         <a href="/the-batch/issue-347/"><div class="..." /></a>
+#       </article>
+#       <article data-sentry-component="PostCard"> <- additional issue cards
+#         ... same date/title/description/link pattern ...
+#       </article>
+#     </section>
+#
+# Note: this excludes sidebar "Popular Articles" cards by scoping to PostCard and
+# post-card-large in the main grid section.
+[feeds.the-batch]
+feed_title = "The Batch"
+feed_description = "Weekly AI news for engineers, executives, and enthusiasts."
+source_url = "https://www.deeplearning.ai/the-batch/"
+item_container_selector = "section.py-12.bg-slate-100 article[data-testid='post-card-large'], section.py-12.bg-slate-100 article[data-sentry-component='PostCard']"
+item_link_selector = "a[href^='/the-batch/issue-']::attr(href)"
+item_title_selector = "h2::text"
+item_date_selector = "a[href^='/the-batch/tag/'] div::text"
+item_description_selector = "div[class*='line-clamp-3']::text"
+
 # TLDR AI Archives spider.
 #
 # Source: https://tldr.tech/ai/archives

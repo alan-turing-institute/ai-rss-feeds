@@ -11,6 +11,7 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 | [Anthropic News](https://www.anthropic.com/news) | `feeds/anthropic-news.xml` |
 | [Anthropic Research](https://www.anthropic.com/research) | `feeds/anthropic-research.xml` |
 | [Claude Blog](https://claude.com/blog) | `feeds/claude-blog.xml` |
+| [The Batch](https://www.deeplearning.ai/the-batch/) | `feeds/the-batch.xml` |
 | [TLDR AI](https://tldr.tech/ai/archives) | `feeds/tldr-ai.xml` |
 
 ## Generate Feeds
@@ -35,6 +36,7 @@ uv run scrapy crawl feed -a feed_key=anthropic-research
 uv run scrapy crawl feed -a feed_key=allenai-news
 uv run scrapy crawl feed -a feed_key=aisi-blog
 uv run scrapy crawl feed -a feed_key=claude-blog
+uv run scrapy crawl feed -a feed_key=the-batch
 uv run scrapy crawl feed -a feed_key=tldr-ai
 ```
 
@@ -46,6 +48,7 @@ uv run scrapy crawl feed -a feed_key=anthropic-research -s HTTPCACHE_ENABLED=Fal
 uv run scrapy crawl feed -a feed_key=allenai-news -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl feed -a feed_key=aisi-blog -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl feed -a feed_key=claude-blog -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl feed -a feed_key=the-batch -s HTTPCACHE_ENABLED=False
 uv run scrapy crawl feed -a feed_key=tldr-ai -s HTTPCACHE_ENABLED=False
 ```
 
