@@ -15,7 +15,6 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 | [The Batch](https://www.deeplearning.ai/the-batch/) | [feeds/the-batch.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml) |
 | [TLDR AI](https://tldr.tech/ai/archives) | [feeds/tldr-ai.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml) |
 | [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
-| [Turing Impact (Alan Turing Institute)](https://www.turing.ac.uk/about-us/impact) | [feeds/turing-impact.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-impact.xml) |
 | [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
 
 ## Generate Feeds
