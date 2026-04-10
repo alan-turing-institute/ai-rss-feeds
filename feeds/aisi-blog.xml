@@ -7,13 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 14:16:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2026 14:38:06 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
       <description>In our first 11 weeks, we have recruited an advisory board of national security and ML leaders, including Yoshua Bengio, recruited top professors from Cambridge and Oxford and announced 4 research partnerships.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/first-progress-report</guid>
-      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Second progress report</title>
@@ -55,98 +55,98 @@
       <link>https://www.aisi.gov.uk/blog/announcing-the-uk-and-us-aisi-partnership</link>
       <description>The UK and US AI Safety Institutes signed a landmark agreement to jointly test advanced AI models, share research insights, share model access and enable expert talent transfers.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/announcing-the-uk-and-us-aisi-partnership</guid>
-      <pubDate>Tue, 02 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Apr 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Open sourcing our testing framework Inspect</title>
       <link>https://www.aisi.gov.uk/blog/open-sourcing-our-testing-framework-inspect</link>
       <description>We open-sourced our framework for large language model evaluation, which provides facilities for prompt engineering, tool usage, multi-turn dialogue, and model-graded evaluations.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/open-sourcing-our-testing-framework-inspect</guid>
-      <pubDate>Sun, 21 Apr 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 21 Apr 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>International Scientific Report on the Safety of Advanced AI: Interim Report</title>
       <link>https://www.aisi.gov.uk/blog/international-scientific-report-on-the-safety-of-advanced-ai-interim-report</link>
       <description>This is an up-to-date, evidence-based report on the science of advanced AI safety. It highlights findings about AI progress, risks, and areas of disagreement in the field. The report is chaired by Yoshua Bengio and coordinated by AISI.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/international-scientific-report-on-the-safety-of-advanced-ai-interim-report</guid>
-      <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 17 May 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Advanced AI evaluations at AISI: May update</title>
       <link>https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update</link>
       <description>We tested leading AI models for cyber, chemical, biological, and agent capabilities and safeguards effectiveness. Our first technical blog post shares a snapshot of our methods and results.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/advanced-ai-evaluations-may-update</guid>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Fourth progress report</title>
       <link>https://www.aisi.gov.uk/blog/fourth-progress-report</link>
       <description>Since February, we released our first technical blog post, published the International Scientific Report on the Safety of Advanced AI, open-sourced our testing platform Inspect, announced our San Francisco office, announced a partnership with the Canadian AI Safety Institute, grew our technical team to &gt;30 researchers and appointed Jade Leung as our Chief Technology Officer.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/fourth-progress-report</guid>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Announcing our San Francisco office</title>
       <link>https://www.aisi.gov.uk/blog/announcing-our-san-francisco-office</link>
       <description>We are opening an office in San Francisco! This will enable us to hire more top talent, collaborate closely with the US AI Safety Institute and engage even more with the wider AI research community.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/announcing-our-san-francisco-office</guid>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 20 May 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Safety cases at AISI</title>
       <link>https://www.aisi.gov.uk/blog/safety-cases-at-aisi</link>
       <description>As a complement to our empirical evaluations of frontier AI models, AISI is planning a series of collaborations and research projects sketching safety cases for more advanced models than exist today, focusing on risks from loss of control and autonomy. By a safety case, we mean a structured argument that an AI system is safe within a particular training or deployment context.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/safety-cases-at-aisi</guid>
-      <pubDate>Fri, 23 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Aug 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Cross-post: "Interviewing AI researchers on automation of AI R&amp;D" by Epoch AI</title>
       <link>https://www.aisi.gov.uk/blog/interviewing-researchers-on-automation</link>
       <description>AISI funded Epoch AI to explore AI researchers’ differing predictions on the automation of AI research and development and their suggestions for how to evaluate relevant capabilities.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/interviewing-researchers-on-automation</guid>
-      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Conference on frontier AI safety frameworks</title>
       <link>https://www.aisi.gov.uk/blog/conference-on-frontier-ai-safety-frameworks</link>
       <description>AISI is bringing together AI companies and researchers for an invite-only conference to accelerate the design and implementation of frontier AI safety frameworks. This post shares the call for submissions that we sent to conference attendees.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/conference-on-frontier-ai-safety-frameworks</guid>
-      <pubDate>Thu, 19 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 19 Sep 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Early Insights from Developing Question-Answer Evaluations for Frontier AI</title>
       <link>https://www.aisi.gov.uk/blog/early-insights-from-developing-question-answer-evaluations-for-frontier-ai</link>
       <description>A common technique for quickly assessing AI capabilities is prompting models to answer hundreds of questions, then automatically scoring the answers. We share insights from months of using this method.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/early-insights-from-developing-question-answer-evaluations-for-frontier-ai</guid>
-      <pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Sep 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Should AI systems behave like people?</title>
       <link>https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people</link>
       <description>We studied whether people want AI to be more human-like.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/should-ai-systems-behave-like-people</guid>
-      <pubDate>Wed, 25 Sep 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Sep 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Why I joined AISI by Geoffrey Irving</title>
       <link>https://www.aisi.gov.uk/blog/why-i-joined-aisi---geoffrey-irving</link>
       <description>Our Chief Scientist, Geoffrey Irving, on why he joined the UK AI Safety Institute and why he thinks other technical folk should too</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/why-i-joined-aisi---geoffrey-irving</guid>
-      <pubDate>Thu, 03 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Oct 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Advancing the field of systemic AI safety: grants open</title>
       <link>https://www.aisi.gov.uk/blog/advancing-the-field-of-systemic-ai-safety-grants-open</link>
       <description>Calling researchers from academia, industry, and civil society to apply for up to £200,000 of funding.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/advancing-the-field-of-systemic-ai-safety-grants-open</guid>
-      <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 Oct 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Early lessons from evaluating frontier AI systems</title>
       <link>https://www.aisi.gov.uk/blog/early-lessons-from-evaluating-frontier-ai-systems</link>
       <description>We look into the evolving role of third-party evaluators in assessing AI safety, and explore how to design robust, impactful testing frameworks.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/early-lessons-from-evaluating-frontier-ai-systems</guid>
-      <pubDate>Thu, 24 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 24 Oct 2024 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Bounty programme for novel evaluations and agent scaffolding</title>
@@ -223,165 +223,165 @@
       <link>https://www.aisi.gov.uk/blog/strengthening-ai-resilience</link>
       <description>20 Systemic Safety Grant Awardees Announced</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/strengthening-ai-resilience</guid>
-      <pubDate>Thu, 03 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Apr 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>How to evaluate control measures for AI agents?</title>
       <link>https://www.aisi.gov.uk/blog/how-to-evaluate-control-measures-for-ai-agents</link>
       <description>Our new paper outlines how AI control methods can mitigate misalignment risks as capabilities of AI systems increase</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-to-evaluate-control-measures-for-ai-agents</guid>
-      <pubDate>Fri, 11 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 11 Apr 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>RepliBench: measuring autonomous replication capabilities in AI systems</title>
       <link>https://www.aisi.gov.uk/blog/replibench-measuring-autonomous-replication-capabilities-in-ai-systems</link>
       <description>A comprehensive benchmark to detect emerging replication abilities in AI systems and provide a quantifiable understanding of potential risks</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/replibench-measuring-autonomous-replication-capabilities-in-ai-systems</guid>
-      <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 22 Apr 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Research Agenda</title>
       <link>https://www.aisi.gov.uk/blog/research-agenda</link>
       <description>We outline our research priorities, our approach to developing technical solutions to the most pressing AI concerns, and the key risks that must be addressed as AI capabilities advance.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/research-agenda</guid>
-      <pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 06 May 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>HiBayES: Improving LLM evaluation with hierarchical Bayesian modelling</title>
       <link>https://www.aisi.gov.uk/blog/hibayes-improving-llm-evaluation-with-hierarchical-bayesian-modelling</link>
       <description>HiBayES: a flexible, robust statistical modelling framework that accounts for the nuances and hierarchical structure of advanced evaluations.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/hibayes-improving-llm-evaluation-with-hierarchical-bayesian-modelling</guid>
-      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Making safeguard evaluations actionable</title>
       <link>https://www.aisi.gov.uk/blog/making-safeguard-evaluations-actionable</link>
       <description>An Example Safety Case for Safeguards Against Misuse</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/making-safeguard-evaluations-actionable</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>New updates to the AISI Challenge Fund</title>
       <link>https://www.aisi.gov.uk/blog/new-updates-to-the-aisi-challenge-fund</link>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/new-updates-to-the-aisi-challenge-fund</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Inspect Cyber: A New Standard for Agentic Cyber Evaluations</title>
       <link>https://www.aisi.gov.uk/blog/inspect-cyber</link>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/inspect-cyber</guid>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>How will AI enable the crimes of the future?</title>
       <link>https://www.aisi.gov.uk/blog/how-will-ai-enable-the-crimes-of-the-future</link>
       <description>How we're working to track and mitigate against criminal misuse of AI.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-will-ai-enable-the-crimes-of-the-future</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>LLM judges on trial: A new statistical framework to assess autograders</title>
       <link>https://www.aisi.gov.uk/blog/llm-judges-on-trial-a-new-statistical-framework-to-assess-autograders</link>
       <description>Our new framework can assess the reliability of LLM evaluators, while simultaneously answering a primary research question.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/llm-judges-on-trial-a-new-statistical-framework-to-assess-autograders</guid>
-      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Why we're working on white box control</title>
       <link>https://www.aisi.gov.uk/blog/why-were-working-on-white-box-control</link>
       <description>An introduction to white box control, and an update on our research so far.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/why-were-working-on-white-box-control</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 10 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>A structured protocol for elicitation experiments</title>
       <link>https://www.aisi.gov.uk/blog/our-approach-to-ai-capability-elicitation</link>
       <description>Calibrating AI risk assessment through rigorous elicitation practices.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/our-approach-to-ai-capability-elicitation</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>International joint testing exercise: Agentic testing</title>
       <link>https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing</link>
       <description>Advancing methodologies for agentic evaluations across domains, including leakage of sensitive Information, fraud and cybersecurity threats.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/international-joint-testing-exercise-agentic-testing</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Navigating the uncharted: Building societal resilience to frontier AI</title>
       <link>https://www.aisi.gov.uk/blog/navigating-the-uncharted-building-societal-resilience-to-frontier-ai</link>
       <description>We outline our approach to study and address AI risks in real-world applications</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/navigating-the-uncharted-building-societal-resilience-to-frontier-ai</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 24 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Announcing the Alignment Project: A global fund of over £15 million for AI alignment research</title>
       <link>https://www.aisi.gov.uk/blog/announcing-the-alignment-project</link>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/announcing-the-alignment-project</guid>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>The Inspect Sandboxing Toolkit: Scalable and secure AI agent evaluations</title>
       <link>https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations</link>
       <description>A comprehensive toolkit for safely evaluating AI agents.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/the-inspect-sandboxing-toolkit-scalable-and-secure-ai-agent-evaluations</guid>
-      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Managing risks from increasingly capable open-weight AI systems</title>
       <link>https://www.aisi.gov.uk/blog/managing-risks-from-increasingly-capable-open-weight-ai-systems</link>
       <description>Current methods and open problems in open-weight model risk management.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/managing-risks-from-increasingly-capable-open-weight-ai-systems</guid>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>From bugs to bypasses: adapting vulnerability disclosure for AI safeguards</title>
       <link>https://www.aisi.gov.uk/blog/from-bugs-to-bypasses-adapting-vulnerability-disclosure-for-ai-safeguards</link>
       <description>Exploring how far cyber security approaches can help mitigate risks in generative AI systems, in collaboration with the National Cyber Security Centre (NCSC).</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/from-bugs-to-bypasses-adapting-vulnerability-disclosure-for-ai-safeguards</guid>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>How we’re working with frontier AI developers to improve model security</title>
       <link>https://www.aisi.gov.uk/blog/how-were-working-with-frontier-ai-developers-to-improve-model-security</link>
       <description>Insights into our ongoing voluntary collaborations with Anthropic and OpenAI.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-were-working-with-frontier-ai-developers-to-improve-model-security</guid>
-      <pubDate>Sat, 13 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Do chatbots inform or misinform voters?</title>
       <link>https://www.aisi.gov.uk/blog/do-chatbots-inform-or-misinform-voters</link>
       <description>What we learned from a large-scale empirical study of AI use for political information-seeking.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/do-chatbots-inform-or-misinform-voters</guid>
-      <pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Sep 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Examining backdoor data poisoning at scale</title>
       <link>https://www.aisi.gov.uk/blog/examining-backdoor-data-poisoning-at-scale</link>
       <description>Our work with Anthropic and the Alan Turing Institute suggests that data poisoning attacks may be easier than previously believed.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/examining-backdoor-data-poisoning-at-scale</guid>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Transcript analysis for AI agent evaluations</title>
       <link>https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations</link>
       <description>Why we use transcript analysis for our agent evaluations, and results from an early case study.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/transcript-analysis-for-ai-agent-evaluations</guid>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Introducing ControlArena: A library for running AI control experiments</title>
       <link>https://www.aisi.gov.uk/blog/introducing-controlarena-a-library-for-running-ai-control-experiments</link>
       <description>Our dedicated library to make AI control experiments easy, consistent, and repeatable.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/introducing-controlarena-a-library-for-running-ai-control-experiments</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>Mapping the limitations of current AI systems</title>
       <link>https://www.aisi.gov.uk/blog/mapping-the-limitations-of-current-ai-systems</link>
       <description>Takeaways from expert interviews on barriers to AI capable of automating most cognitive labour.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/mapping-the-limitations-of-current-ai-systems</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0100</pubDate>
     </item>
     <item>
       <title>UKAISI at NeurIPS 2025</title>
@@ -528,7 +528,7 @@
       <link>https://www.aisi.gov.uk/blog/harnessing-frontier-ai-for-cyber-defence</link>
       <description>Sharing work with the National Cyber Security Centre (NCSC) on how cyber defenders can use advanced AI capabilities to stay ahead of attackers.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/harnessing-frontier-ai-for-cyber-defence</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
     </item>
   </channel>
 </rss>
