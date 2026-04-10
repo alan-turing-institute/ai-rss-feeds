@@ -18,6 +18,12 @@ Run all feeds:
 uv run python generate_feeds.py
 ```
 
+Run all feeds with HTTP cache disabled for that run:
+
+```bash
+uv run python generate_feeds.py --no-cache
+```
+
 Run a single feed spider:
 
 ```bash
@@ -26,11 +32,20 @@ uv run scrapy crawl allenai-news
 uv run scrapy crawl aisi-blog
 ```
 
+Run a single feed spider with HTTP cache disabled for that run:
+
+```bash
+uv run scrapy crawl anthropic-news -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl allenai-news -s HTTPCACHE_ENABLED=False
+uv run scrapy crawl aisi-blog -s HTTPCACHE_ENABLED=False
+```
+
 Generated feed files are written to `./feeds`.
 
 ## HTTP Cache
 
-Scrapy HTTP cache is always enabled in `ai_rss_feeds/settings.py`.
+Scrapy HTTP cache is enabled by default in `ai_rss_feeds/settings.py`.
+Use `uv run python generate_feeds.py --no-cache` to disable cache for a single run.
 
 To refresh cached source pages, delete:
 
