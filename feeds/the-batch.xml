@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Apr 2026 15:00:22 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI’s Answer to Gemini 3, Runway’s Interactive Worlds, Disney’s Alliance With OpenAI, Adapting LLMs for Low-Data Domains</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-332/</link>
-      <description>The Batch AI News and Insights: As amazing as LLMs are, improving their knowledge today involves a more piecemeal process than is widely appreciated.</description>
-      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-332/</guid>
-      <pubDate>Wed, 17 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 11 Apr 2026 05:29:52 +0000</lastBuildDate>
     <item>
       <title>Top Stories of 2025! Big AI Poaches Talent, Reasoning Models Boost Performance, Agents Write Code, Data Centers Drive GDP, China Turns the Tables</title>
       <link>https://www.deeplearning.ai/the-batch/issue-333/</link>
@@ -119,6 +112,13 @@
       <description>The Batch AI News and Insights: Voice-based AI that you can talk to is improving rapidly, yet most people still don’t appreciate how pervasive voice UIs (user interfaces) will become.</description>
       <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-347/</guid>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s Claude Mythos Problem, Dark DNA Unveiled, Pitfalls for Assistive Models, Simulating Fluid Dynamics</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-348/</link>
+      <description>The Batch AI News and Insights: As AI agents accelerate coding, what is the future of software engineering?</description>
+      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-348/</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
