@@ -36,6 +36,7 @@ class FeedSpider(scrapy.Spider):
     item_title_selector: Optional[str] = None
     item_link_selector: Optional[str] = None
     item_date_selector: Optional[str] = None
+    item_date_regex: Optional[str] = None
     item_description_selector: Optional[str] = None
 
     # Link handling
@@ -67,6 +68,7 @@ class FeedSpider(scrapy.Spider):
             "item_title_selector",
             "item_link_selector",
             "item_date_selector",
+            "item_date_regex",
             "item_description_selector",
             "item_guid_is_permalink",
             "min_item_count",
@@ -181,7 +183,9 @@ class FeedSpider(scrapy.Spider):
             date_parts = container.css(self.item_date_selector).getall()
             date_str = " ".join(d.strip() for d in date_parts if d.strip())
             if date_str:
-                date = self._parse_date_utc(date_str)
+                date_text = self._extract_date_text(date_str)
+                if date_text:
+                    date = self._parse_date_utc(date_text)
 
         # Description
         description = None
@@ -267,8 +271,10 @@ class FeedSpider(scrapy.Spider):
 
     def _parse_date_utc(self, value):
         """Parse arbitrary date-like input and normalize it to UTC."""
+        text = str(value).strip()
+
         parsed = dateparser.parse(
-            str(value).strip(),
+            text,
             settings={
                 "RETURN_AS_TIMEZONE_AWARE": True,
                 "TIMEZONE": "UTC",
@@ -281,6 +287,24 @@ class FeedSpider(scrapy.Spider):
         if parsed.tzinfo is None:
             return parsed.replace(tzinfo=timezone.utc)
         return parsed.astimezone(timezone.utc)
+
+    def _extract_date_text(self, selected_text):
+        """Return date text, optionally extracting it with item_date_regex."""
+        text = str(selected_text).strip()
+        if not text:
+            return None
+
+        if not self.item_date_regex:
+            return text
+
+        matches = list(re.finditer(self.item_date_regex, text))
+        if len(matches) != 1:
+            raise RuntimeError(
+                "item_date_regex must match selected date text exactly once; "
+                f"got {len(matches)} matches for text={text!r} and regex={self.item_date_regex!r}"
+            )
+
+        return matches[0].group(0)
 
     def _extract_nextjs_items(self, response):
         """Extract Next.js items by applying item_container_selector as JSONPath."""
@@ -405,7 +429,9 @@ class FeedSpider(scrapy.Spider):
                             date_str = str(fallback_val)
                             break
                 if date_str:
-                    date = self._parse_date_utc(date_str)
+                    date_text = self._extract_date_text(date_str)
+                    if date_text:
+                        date = self._parse_date_utc(date_text)
 
             description = None
             if self.item_description_selector:
@@ -418,6 +444,8 @@ class FeedSpider(scrapy.Spider):
                 "date": date,
                 "description": description,
             }
+        except RuntimeError:
+            raise
         except Exception as e:
             self.logger.warning(f"Failed to extract item from JSON: {e}")
             return None

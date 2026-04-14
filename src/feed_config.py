@@ -17,6 +17,7 @@ KNOWN_FEED_FIELDS = {
     "item_title_selector",
     "item_link_selector",
     "item_date_selector",
+    "item_date_regex",
     "item_description_selector",
     "item_guid_is_permalink",
     "min_item_count",

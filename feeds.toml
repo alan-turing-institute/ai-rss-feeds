@@ -265,6 +265,8 @@ source_url = "https://tldr.tech/ai/archives"
 item_container_selector = "a[href^='/ai/20']"
 item_link_selector = "::attr(href)"
 item_title_selector = "div::text"
+item_date_selector = "::attr(href)"
+item_date_regex = "\\d{4}-\\d{2}-\\d{2}"
 
 # Cohere Blog spider.
 #

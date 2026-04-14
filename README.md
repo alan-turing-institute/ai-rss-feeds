@@ -80,7 +80,7 @@ rm -rf .scrapy/httpcache
 	- `item_container_selector` as a JSONPath query that returns item objects (for example `$..initialPosts[*]`)
 	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as JSONPath queries scoped to each item
 4. Set optional fields as needed:
-	- `item_date_selector`, `item_description_selector`, `feed_description`, `language`
+	- `item_date_selector`, `item_date_regex`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
 	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors
