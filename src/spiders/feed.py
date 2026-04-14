@@ -6,6 +6,7 @@ import os
 import pathlib
 import re
 import xml.etree.ElementTree as ET
+from datetime import timezone
 from typing import Optional
 from urllib.parse import urljoin, urlparse
 
@@ -180,13 +181,7 @@ class FeedSpider(scrapy.Spider):
             date_parts = container.css(self.item_date_selector).getall()
             date_str = " ".join(d.strip() for d in date_parts if d.strip())
             if date_str:
-                date = dateparser.parse(
-                    date_str,
-                    settings={
-                        "RETURN_AS_TIMEZONE_AWARE": True,
-                        "PREFER_DAY_OF_MONTH": "last",
-                    },
-                )
+                date = self._parse_date_utc(date_str)
 
         # Description
         description = None
@@ -261,10 +256,7 @@ class FeedSpider(scrapy.Spider):
                 raw = item.get(key)
                 if not raw:
                     continue
-                parsed = dateparser.parse(
-                    str(raw),
-                    settings={"RETURN_AS_TIMEZONE_AWARE": True},
-                )
+                parsed = self._parse_date_utc(raw)
                 if parsed is not None:
                     ts = parsed.timestamp()
                     if latest_ts is None or ts > latest_ts:
@@ -272,6 +264,23 @@ class FeedSpider(scrapy.Spider):
 
         # Primary: recency. Secondary: list size.
         return (latest_ts if latest_ts is not None else float("-inf"), len(items))
+
+    def _parse_date_utc(self, value):
+        """Parse arbitrary date-like input and normalize it to UTC."""
+        parsed = dateparser.parse(
+            str(value).strip(),
+            settings={
+                "RETURN_AS_TIMEZONE_AWARE": True,
+                "TIMEZONE": "UTC",
+                "TO_TIMEZONE": "UTC",
+                "PREFER_DAY_OF_MONTH": "last",
+            },
+        )
+        if parsed is None:
+            return None
+        if parsed.tzinfo is None:
+            return parsed.replace(tzinfo=timezone.utc)
+        return parsed.astimezone(timezone.utc)
 
     def _extract_nextjs_items(self, response):
         """Extract Next.js items by applying item_container_selector as JSONPath."""
@@ -396,13 +405,7 @@ class FeedSpider(scrapy.Spider):
                             date_str = str(fallback_val)
                             break
                 if date_str:
-                    date = dateparser.parse(
-                        str(date_str).strip(),
-                        settings={
-                            "RETURN_AS_TIMEZONE_AWARE": True,
-                            "PREFER_DAY_OF_MONTH": "last",
-                        },
-                    )
+                    date = self._parse_date_utc(date_str)
 
             description = None
             if self.item_description_selector:
