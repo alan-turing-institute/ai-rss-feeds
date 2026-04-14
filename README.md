@@ -8,10 +8,12 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 |---|---|
 | [AISI Blog (AI Security Institute)](https://www.aisi.gov.uk/blog) | [feeds/aisi-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/aisi-blog.xml) |
 | [Ai2 News (Allen Institute for AI)](https://allenai.org/news) | [feeds/allenai-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/allenai-news.xml) |
+| [Claude Blog](https://claude.com/blog) | [feeds/claude-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml) |
+| [Cohere Blog](https://cohere.com/blog) | [feeds/cohere-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml) |
 | [Mila News (Quebec AI Institute)](https://mila.quebec/en/news) | [feeds/mila-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mila-news.xml) |
 | [Anthropic News](https://www.anthropic.com/news) | [feeds/anthropic-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-news.xml) |
 | [Anthropic Research](https://www.anthropic.com/research) | [feeds/anthropic-research.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-research.xml) |
-| [Claude Blog](https://claude.com/blog) | [feeds/claude-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml) |
+| [Mistral News](https://mistral.ai/news) | [feeds/mistral-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mistral-news.xml) |
 | [The Batch](https://www.deeplearning.ai/the-batch/) | [feeds/the-batch.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml) |
 | [TLDR AI](https://tldr.tech/ai/archives) | [feeds/tldr-ai.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml) |
 | [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
@@ -67,16 +69,20 @@ rm -rf .scrapy/httpcache
 ## Add A New Feed
 
 1. Add a new `[feeds.<feed-key>]` table in `feeds.toml`.
-2. Set required fields:
+2. Set required fields for HTML feeds:
 	- `feed_title`
 	- `source_url`
 	- `item_container_selector`
 	- `item_title_selector`
 	- `item_link_selector`
-3. Set optional fields as needed:
+3. For Next.js feeds, set:
+	- `format = "nextjs"`
+	- `item_container_selector` as a JSONPath query that returns item objects (for example `$..initialPosts[*]`)
+	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as JSONPath queries scoped to each item
+4. Set optional fields as needed:
 	- `item_date_selector`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
 	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors
-4. Add the new feed entry to the table above, keeping it sorted by name.
-5. Run `uv run python generate_feeds.py` and verify output in `feeds/`.
+5. Add the new feed entry to the table above, keeping it sorted by name.
+6. Run `uv run python generate_feeds.py` and verify output in `feeds/`.

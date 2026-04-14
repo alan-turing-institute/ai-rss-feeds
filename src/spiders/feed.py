@@ -1,13 +1,16 @@
 """Single configurable feed spider loaded from feeds.toml."""
 
+import json
 import math
 import os
 import pathlib
+import re
 import xml.etree.ElementTree as ET
 from typing import Optional
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlparse
 
 import dateparser
+from jsonpath_ng.ext import parse as jsonpath_parse
 import scrapy
 from feedgen.feed import FeedGenerator
 
@@ -24,7 +27,10 @@ class FeedSpider(scrapy.Spider):
     feed_description: Optional[str] = None
     language: str = "en"
 
-    # Item selectors
+    # Format and extraction mode
+    format: str = "html"  # "html" or "nextjs"
+
+    # Item selectors (HTML mode)
     item_container_selector: Optional[str] = None
     item_title_selector: Optional[str] = None
     item_link_selector: Optional[str] = None
@@ -55,6 +61,7 @@ class FeedSpider(scrapy.Spider):
             "feed_link",
             "feed_description",
             "language",
+            "format",
             "item_container_selector",
             "item_title_selector",
             "item_link_selector",
@@ -81,89 +88,40 @@ class FeedSpider(scrapy.Spider):
         )
 
     def parse(self, response):
-        self._validate_spider_config()
-
         if response.status != 200:
             raise RuntimeError(
                 f"Source URL returned HTTP {response.status}: {response.url}"
             )
 
-        containers = response.css(self.item_container_selector)
-        container_count = len(containers)
-        if container_count == 0:
-            raise RuntimeError(
-                f"No items matched item_container_selector={self.item_container_selector!r}"
-            )
+        if self.format == "nextjs":
+            items = self._parse_nextjs(response)
+        elif self.format == "html":
+            items = self._parse_html(response)
+        else:
+            raise RuntimeError(f"Unknown format: {self.format!r}")
 
-        items = []
-        for container in containers:
-            item = self._extract_item(container, response)
-            if item is not None:
-                items.append(item)
-
-        item_count = len(items)
-        min_count = max(1, int(self.min_item_count or 0))
-        if item_count < min_count:
-            raise RuntimeError(
-                f"Extracted {item_count} items, below min_item_count={min_count}"
-            )
-
-        previous_count = self._read_previous_feed_item_count()
-        if previous_count is not None and self.min_item_ratio_vs_previous is not None:
-            ratio = float(self.min_item_ratio_vs_previous)
-            if ratio > 0:
-                required_from_previous = math.ceil(previous_count * ratio)
-                required_count = max(min_count, required_from_previous)
-                if item_count < required_count:
-                    raise RuntimeError(
-                        "Extracted "
-                        f"{item_count} items, below required floor {required_count} "
-                        f"from previous feed count {previous_count} and "
-                        f"min_item_ratio_vs_previous={ratio}"
-                    )
-
-        skipped_count = container_count - item_count
-        if skipped_count:
-            self.logger.warning(
-                "Skipped %s/%s matched containers due to missing required fields",
-                skipped_count,
-                container_count,
-            )
-
-        fg = FeedGenerator()
-        fg.id(self.source_url)
-        fg.title(self.feed_title)
-        link = self.feed_link or self.source_url
-        fg.link(href=link, rel="alternate")
-        fg.description(self.feed_description or self.feed_title)
-        if self.language:
-            fg.language(self.language)
-
-        for item in items:
-            fe = fg.add_entry()
-            fe.title(item["title"])
-            fe.link(href=item["link"])
-            fe.guid(item["link"], permalink=bool(self.item_guid_is_permalink))
-
-            if item.get("description"):
-                fe.description(item["description"])
-            if item.get("date"):
-                fe.pubDate(item["date"])
-
-        os.makedirs("feeds", exist_ok=True)
-        feed_path = f"feeds/{self.name}.xml"
-        fg.rss_file(feed_path, pretty=True)
-        self.logger.info("Feed written to %s", feed_path)
+        self._validate_and_generate_feed(items, response)
 
     def _validate_spider_config(self):
         required_fields = {
             "name": self.name,
             "feed_title": self.feed_title,
             "source_url": self.source_url,
-            "item_container_selector": self.item_container_selector,
-            "item_title_selector": self.item_title_selector,
-            "item_link_selector": self.item_link_selector,
         }
+
+        if self.format == "html":
+            required_fields.update({
+                "item_container_selector": self.item_container_selector,
+                "item_title_selector": self.item_title_selector,
+                "item_link_selector": self.item_link_selector,
+            })
+        elif self.format == "nextjs":
+            required_fields.update({
+                "item_container_selector": self.item_container_selector,
+                "item_title_selector": self.item_title_selector,
+                "item_link_selector": self.item_link_selector,
+            })
+
         missing = [field for field, value in required_fields.items() if not value]
         if missing:
             raise RuntimeError(
@@ -242,3 +200,269 @@ class FeedSpider(scrapy.Spider):
             "date": date,
             "description": description,
         }
+
+    def _parse_html(self, response):
+        """Parse HTML format using CSS selectors."""
+        self._validate_spider_config()
+
+        containers = response.css(self.item_container_selector)
+        container_count = len(containers)
+        if container_count == 0:
+            raise RuntimeError(
+                f"No items matched item_container_selector={self.item_container_selector!r}"
+            )
+
+        items = []
+        for container in containers:
+            item = self._extract_item(container, response)
+            if item is not None:
+                items.append(item)
+
+        skipped_count = container_count - len(items)
+        if skipped_count:
+            self.logger.warning(
+                "Skipped %s/%s matched containers due to missing required fields",
+                skipped_count,
+                container_count,
+            )
+
+        return items
+
+    def _parse_nextjs(self, response):
+        """Parse Next.js Flight stream format using JSONPath selectors."""
+        self._validate_spider_config()
+
+        items_list = self._extract_nextjs_items(response)
+        if not items_list:
+            raise RuntimeError(
+                f"No items matched nextjs item_container_selector={self.item_container_selector!r}"
+            )
+
+        items = []
+        for item_data in items_list:
+            item = self._extract_nextjs_item(item_data, response)
+            if item is not None:
+                items.append(item)
+
+        return items
+
+    def _jsonpath_values(self, query, obj):
+        """Evaluate JSONPath query and return raw values."""
+        expr = jsonpath_parse(query)
+        return [match.value for match in expr.find(obj)]
+
+    def _candidate_items_score(self, items):
+        """Score candidate item lists, preferring fresher dated content."""
+        latest_ts = None
+        for item in items:
+            if not isinstance(item, dict):
+                continue
+            for key in ("date", "publishedAt", "published_at"):
+                raw = item.get(key)
+                if not raw:
+                    continue
+                parsed = dateparser.parse(
+                    str(raw),
+                    settings={"RETURN_AS_TIMEZONE_AWARE": True},
+                )
+                if parsed is not None:
+                    ts = parsed.timestamp()
+                    if latest_ts is None or ts > latest_ts:
+                        latest_ts = ts
+
+        # Primary: recency. Secondary: list size.
+        return (latest_ts if latest_ts is not None else float("-inf"), len(items))
+
+    def _extract_nextjs_items(self, response):
+        """Extract Next.js items by applying item_container_selector as JSONPath."""
+        scripts = response.xpath('//script/text()').getall()
+        if not scripts:
+            raise RuntimeError("No script tags found in response")
+
+        full_text = "".join(scripts)
+        push_pattern = r'self\.__next_f\.push\(\s*(\[.*?\])\s*\)'
+        decoder = json.JSONDecoder()
+        candidates = []
+
+        for match in re.finditer(push_pattern, full_text, re.DOTALL):
+            try:
+                outer = json.loads(match.group(1))
+            except json.JSONDecodeError:
+                continue
+
+            if not isinstance(outer, list) or len(outer) < 2:
+                continue
+
+            payload = outer[1]
+            if not isinstance(payload, str):
+                continue
+
+            # Parse Flight records at line boundaries and allow alphanumeric keys
+            # like 2e/1c/a, which appear in Next.js payloads.
+            key_matches = re.finditer(r'(^|\n)([0-9a-zA-Z]+):', payload)
+            for key_match in key_matches:
+                start_pos = key_match.end(2) + 1
+                try:
+                    parsed_obj, _ = decoder.raw_decode(payload, start_pos)
+                except json.JSONDecodeError:
+                    continue
+
+                try:
+                    matches = self._jsonpath_values(self.item_container_selector, parsed_obj)
+                except Exception:
+                    continue
+
+                items = []
+                for value in matches:
+                    if isinstance(value, dict):
+                        items.append(value)
+                    elif isinstance(value, list):
+                        items.extend(v for v in value if isinstance(v, dict))
+
+                if items:
+                    candidates.append(items)
+
+        if not candidates:
+            return []
+
+        # Multiple matches can exist in Flight payloads; choose the freshest list.
+        best_items = max(candidates, key=self._candidate_items_score)
+        return best_items
+
+    def _normalize_nextjs_link(self, link_val, response):
+        """Normalize Next.js item links from absolute, relative, or slug values."""
+        link_val = str(link_val).strip()
+        if not link_val:
+            return None
+
+        if link_val.startswith(("http://", "https://")):
+            return link_val
+
+        if link_val.startswith("/"):
+            return urljoin(response.url, link_val)
+
+        # If query returns a slug, prefix it with current page path (e.g. /blog, /news).
+        base_path = urlparse(response.url).path.rstrip("/")
+        if base_path:
+            return urljoin(response.url, f"{base_path}/{link_val}")
+
+        return urljoin(response.url, link_val)
+
+    def _first_text(self, values):
+        """Return first non-empty scalar value from JSONPath results."""
+        for value in values:
+            if isinstance(value, (str, int, float, bool)):
+                text = str(value).strip()
+                if text:
+                    return text
+        return None
+
+    def _extract_nextjs_item(self, item_data, response):
+        """Extract a single item from Next.js JSON using JSONPath selectors."""
+        try:
+            if not isinstance(item_data, dict):
+                return None
+
+            title_values = self._jsonpath_values(self.item_title_selector, item_data)
+            title = self._first_text(title_values)
+            if not title:
+                return None
+
+            link_values = self._jsonpath_values(self.item_link_selector, item_data)
+            link_raw = self._first_text(link_values)
+            if not link_raw:
+                # Pragmatic fallback for common slug structures when JSONPath returns no match.
+                slug_val = item_data.get("slug")
+                if isinstance(slug_val, dict):
+                    link_raw = slug_val.get("current")
+                elif isinstance(slug_val, str):
+                    link_raw = slug_val
+
+            if not link_raw:
+                return None
+
+            link = self._normalize_nextjs_link(link_raw, response)
+            if not link:
+                return None
+
+            date = None
+            if self.item_date_selector:
+                date_values = self._jsonpath_values(self.item_date_selector, item_data)
+                date_str = self._first_text(date_values)
+                if not date_str:
+                    for fallback_key in ("date", "publishedAt", "published_at"):
+                        fallback_val = item_data.get(fallback_key)
+                        if isinstance(fallback_val, (str, int, float)):
+                            date_str = str(fallback_val)
+                            break
+                if date_str:
+                    date = dateparser.parse(
+                        str(date_str).strip(),
+                        settings={
+                            "RETURN_AS_TIMEZONE_AWARE": True,
+                            "PREFER_DAY_OF_MONTH": "last",
+                        },
+                    )
+
+            description = None
+            if self.item_description_selector:
+                desc_values = self._jsonpath_values(self.item_description_selector, item_data)
+                description = self._first_text(desc_values)
+
+            return {
+                "title": title,
+                "link": link,
+                "date": date,
+                "description": description,
+            }
+        except Exception as e:
+            self.logger.warning(f"Failed to extract item from JSON: {e}")
+            return None
+
+    def _validate_and_generate_feed(self, items, response):
+        """Validate extracted items and generate RSS feed."""
+        item_count = len(items)
+        min_count = max(1, int(self.min_item_count or 0))
+        if item_count < min_count:
+            raise RuntimeError(
+                f"Extracted {item_count} items, below min_item_count={min_count}"
+            )
+
+        previous_count = self._read_previous_feed_item_count()
+        if previous_count is not None and self.min_item_ratio_vs_previous is not None:
+            ratio = float(self.min_item_ratio_vs_previous)
+            if ratio > 0:
+                required_from_previous = math.ceil(previous_count * ratio)
+                required_count = max(min_count, required_from_previous)
+                if item_count < required_count:
+                    raise RuntimeError(
+                        "Extracted "
+                        f"{item_count} items, below required floor {required_count} "
+                        f"from previous feed count {previous_count} and "
+                        f"min_item_ratio_vs_previous={ratio}"
+                    )
+
+        fg = FeedGenerator()
+        fg.id(self.source_url)
+        fg.title(self.feed_title)
+        link = self.feed_link or self.source_url
+        fg.link(href=link, rel="alternate")
+        fg.description(self.feed_description or self.feed_title)
+        if self.language:
+            fg.language(self.language)
+
+        for item in items:
+            fe = fg.add_entry()
+            fe.title(item["title"])
+            fe.link(href=item["link"])
+            fe.guid(item["link"], permalink=bool(self.item_guid_is_permalink))
+
+            if item.get("description"):
+                fe.description(item["description"])
+            if item.get("date"):
+                fe.pubDate(item["date"])
+
+        os.makedirs("feeds", exist_ok=True)
+        feed_path = f"feeds/{self.name}.xml"
+        fg.rss_file(feed_path, pretty=True)
+        self.logger.info("Feed written to %s", feed_path)

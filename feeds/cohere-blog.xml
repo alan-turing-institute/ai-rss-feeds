@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Cohere Blog</title>
+    <link>https://cohere.com/blog</link>
+    <description>Latest news and updates from Cohere.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Apr 2026 14:25:39 +0000</lastBuildDate>
+    <item>
+      <title>Announcing the Cohere Partner Program: Boosting enterprise AI</title>
+      <link>https://cohere.com/blog/cohere-partner-program-boosting-enterprise-ai</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-partner-program-boosting-enterprise-ai</guid>
+      <pubDate>Tue, 07 Oct 2025 09:53:39 -0400</pubDate>
+    </item>
+    <item>
+      <title>Securing AI supply chains: Cohere’s commitment to model signing</title>
+      <link>https://cohere.com/blog/securing-ai-supply-chains-coheres-commitment-to-model-signing</link>
+      <guid isPermaLink="true">https://cohere.com/blog/securing-ai-supply-chains-coheres-commitment-to-model-signing</guid>
+      <pubDate>Thu, 30 Oct 2025 11:02:22 -0400</pubDate>
+    </item>
+    <item>
+      <title>Making data transfer in LLM systems faster, leaner, and more scalable</title>
+      <link>https://cohere.com/blog/making-data-transfer-in-llm-systems-faster-leaner-and-more-scalable</link>
+      <guid isPermaLink="true">https://cohere.com/blog/making-data-transfer-in-llm-systems-faster-leaner-and-more-scalable</guid>
+      <pubDate>Wed, 12 Nov 2025 09:37:42 -0500</pubDate>
+    </item>
+    <item>
+      <title>HIPAA Business Associate agreements for custom model development</title>
+      <link>https://cohere.com/blog/hipaa-business-associate-agreements-for-custom-model-development</link>
+      <guid isPermaLink="true">https://cohere.com/blog/hipaa-business-associate-agreements-for-custom-model-development</guid>
+      <pubDate>Thu, 13 Nov 2025 09:07:33 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere expands partnership with SAP to provide Europe sovereign AI solutions</title>
+      <link>https://cohere.com/blog/cohere-expands-partnership-with-sap</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-expands-partnership-with-sap</guid>
+      <pubDate>Thu, 27 Nov 2025 06:39:25 -0500</pubDate>
+    </item>
+    <item>
+      <title>Connect 2025: Why Collaboration is the Ultimate Research Superpower</title>
+      <link>https://cohere.com/blog/connect-2025</link>
+      <guid isPermaLink="true">https://cohere.com/blog/connect-2025</guid>
+      <pubDate>Mon, 08 Dec 2025 11:22:06 -0500</pubDate>
+    </item>
+    <item>
+      <title>Building trust in AI: Cohere’s approach to AI governance</title>
+      <link>https://cohere.com/blog/building-trust-in-ai-coheres-approach-to-ai-governance</link>
+      <guid isPermaLink="true">https://cohere.com/blog/building-trust-in-ai-coheres-approach-to-ai-governance</guid>
+      <pubDate>Wed, 10 Dec 2025 13:07:51 -0500</pubDate>
+    </item>
+    <item>
+      <title>Introducing Rerank 4: Cohere’s most powerful reranker yet</title>
+      <link>https://cohere.com/blog/rerank-4</link>
+      <guid isPermaLink="true">https://cohere.com/blog/rerank-4</guid>
+      <pubDate>Thu, 11 Dec 2025 11:50:00 -0500</pubDate>
+    </item>
+    <item>
+      <title>How a Community Effort is Teaching AI to See Africa’s Richness</title>
+      <link>https://cohere.com/blog/afriaya</link>
+      <guid isPermaLink="true">https://cohere.com/blog/afriaya</guid>
+      <pubDate>Tue, 16 Dec 2025 07:00:03 -0500</pubDate>
+    </item>
+    <item>
+      <title>How the Cohere Labs open research community turns early-career researchers into global leaders</title>
+      <link>https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</link>
+      <guid isPermaLink="true">https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</guid>
+      <pubDate>Thu, 15 Jan 2026 07:05:20 -0500</pubDate>
+    </item>
+    <item>
+      <title>Introducing Model Vault: Your private platform for secure and scalable model inference</title>
+      <link>https://cohere.com/blog/model-vault</link>
+      <guid isPermaLink="true">https://cohere.com/blog/model-vault</guid>
+      <pubDate>Wed, 28 Jan 2026 08:59:42 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere signs world chess champion Magnus Carlsen as brand ambassador</title>
+      <link>https://cohere.com/blog/cohere-signs-world-chess-champion-magnus-carlsen</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-signs-world-chess-champion-magnus-carlsen</guid>
+      <pubDate>Fri, 13 Feb 2026 09:14:41 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible</title>
+      <link>https://cohere.com/blog/cohere-labs-tiny-aya</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-labs-tiny-aya</guid>
+      <pubDate>Tue, 17 Feb 2026 04:00:07 -0500</pubDate>
+    </item>
+    <item>
+      <title>The advantages of AI in business</title>
+      <link>https://cohere.com/blog/advantage-of-ai-in-business</link>
+      <guid isPermaLink="true">https://cohere.com/blog/advantage-of-ai-in-business</guid>
+      <pubDate>Tue, 03 Mar 2026 11:37:13 -0500</pubDate>
+    </item>
+    <item>
+      <title>Cohere advances sovereign AI capabilities with NVIDIA</title>
+      <link>https://cohere.com/blog/cohere-sovereign-ai-nvidia</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-sovereign-ai-nvidia</guid>
+      <pubDate>Mon, 16 Mar 2026 16:28:39 -0400</pubDate>
+    </item>
+    <item>
+      <title>Introducing Cohere Transcribe: a new state-of-the-art in open-source speech recognition</title>
+      <link>https://cohere.com/blog/transcribe</link>
+      <guid isPermaLink="true">https://cohere.com/blog/transcribe</guid>
+      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ensemble and Cohere building the first RCM‑native healthcare LLM</title>
+      <link>https://cohere.com/blog/ensemble-cohere-custom-healthcare-llm-for-rcm</link>
+      <guid isPermaLink="true">https://cohere.com/blog/ensemble-cohere-custom-healthcare-llm-for-rcm</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0100</pubDate>
+    </item>
+    <item>
+      <title>The five phases of enterprise AI maturity — and how to get past “the production wall”</title>
+      <link>https://cohere.com/blog/enterprise-ai-maturity-model</link>
+      <guid isPermaLink="true">https://cohere.com/blog/enterprise-ai-maturity-model</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0100</pubDate>
+    </item>
+  </channel>
+</rss>
