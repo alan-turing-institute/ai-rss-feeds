@@ -76,7 +76,6 @@ rm -rf .scrapy/httpcache
 3. Set optional fields as needed:
 	- `item_date_selector`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
-	- `user_agent` for a per-feed request header override
 	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors
 4. Add the new feed entry to the table above, keeping it sorted by name.

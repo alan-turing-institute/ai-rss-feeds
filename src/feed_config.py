@@ -21,7 +21,6 @@ KNOWN_FEED_FIELDS = {
     "item_guid_is_permalink",
     "min_item_count",
     "min_item_ratio_vs_previous",
-    "user_agent",
 }
 
 

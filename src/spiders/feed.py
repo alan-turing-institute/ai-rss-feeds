@@ -34,9 +34,6 @@ class FeedSpider(scrapy.Spider):
     # Link handling
     item_guid_is_permalink: bool = True
 
-    # Optional request-level user agent override for a specific feed.
-    user_agent: Optional[str] = None
-
     # Validation guardrails
     min_item_count: int = 1
     min_item_ratio_vs_previous: float = 0.6
@@ -66,7 +63,6 @@ class FeedSpider(scrapy.Spider):
             "item_guid_is_permalink",
             "min_item_count",
             "min_item_ratio_vs_previous",
-            "user_agent",
         ]
 
         for field in fields:
@@ -77,15 +73,10 @@ class FeedSpider(scrapy.Spider):
         if not self.source_url:
             raise RuntimeError("Missing required spider configuration field: source_url")
 
-        headers = None
-        if self.user_agent:
-            headers = {"User-Agent": self.user_agent}
-
         yield scrapy.Request(
             self.source_url,
             callback=self.parse,
             dont_filter=True,
-            headers=headers,
             meta={"handle_httpstatus_all": True},
         )
 

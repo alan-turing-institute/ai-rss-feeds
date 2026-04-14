@@ -8,4 +8,7 @@ HTTPCACHE_ENABLED = True
 HTTPCACHE_DIR = "httpcache"
 HTTPCACHE_EXPIRATION_SECS = 0  # Never expire automatically
 
+# Global user agent for all requests
+USER_AGENT = "ai-rss-feeds-bot/1.0 (+https://github.com/alan-turing-institute/ai-rss-feeds)"
+
 LOG_LEVEL = "INFO"
