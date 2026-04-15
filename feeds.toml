@@ -1,54 +1,13 @@
-# The AI Security Institute (AISI) Blog spider.
-#
-# Source: https://www.aisi.gov.uk/blog
-#
-# Page structure (simplified):
-#     <div role="listitem" class="work-card-wrapper w-dyn-item">
-#       <div class="card in-grid">
-#         <a href="/blog/<slug>" class="... w-inline-block">
-#           <h3 class="text-size-lg">Title</h3>
-#         </a>
-#         <div class="flex_tags ...">
-#           ...
-#           <p fs-list-field="date" ...>Mar 31, 2026</p>
-#         </div>
-#         <div class="flex-grow">
-#           <p fs-list-field="description" ...>Description text</p>
-#         </div>
-#       </div>
-#     </div>
 [feeds.aisi-blog]
 feed_title = "AISI Blog (AI Security Institute)"
 feed_description = "Updates on AISI's work - AI Security Institute"
 source_url = "https://www.aisi.gov.uk/blog"
 item_container_selector = "div.work-card-wrapper"
-item_link_selector = "a.w-inline-block[href^='/blog/']::attr(href)"
+item_link_selector = "a[href^='/blog/']::attr(href)"
 item_title_selector = "h3::text"
 item_date_selector = "p[fs-list-field='date']::text"
 item_description_selector = "p[fs-list-field='description']::text"
 
-# Allen Institute for AI (Ai2) News spider.
-#
-# Source: https://allenai.org/news
-#
-# Page structure (simplified):
-#     <div class="... grid-tc_repeat(3,_1fr) ...">  <- 3-column news grid
-#       <div class="... grid-tr_subgrid ...">        <- one card per item
-#         <div>...image...</div>
-#         <h2>
-#           <span class="...wideCardEyebrow">March 2026</span>
-#           <span class="sr_true"> - </span>
-#           Title text                               <- direct text node of <h2>
-#         </h2>
-#         <div>...description paragraph...</div>
-#         <div>
-#           <a href="/blog/<slug>">Read post</a>
-#         </div>
-#       </div>
-#     </div>
-#
-# Note: dates are month+year only (e.g. "March 2026"); dateparser maps these to
-# the first of that month.
 [feeds.allenai-news]
 feed_title = "Ai2 News (Allen Institute for AI)"
 source_url = "https://allenai.org/news"
@@ -58,207 +17,65 @@ item_title_selector = "h2::text"
 item_date_selector = "h2 span:first-child::text"
 item_description_selector = "div > p::text"
 
-# Anthropic News spider.
-#
-# Source: https://www.anthropic.com/news
-#
-# Page structure (simplified):
-#     <div class="...PublicationList...">
-#       <ul>
-#         <li>
-#           <a href="/news/<slug>">
-#             <div>
-#               <time>Apr 6, 2026</time>
-#               <span>Announcements</span>
-#             </div>
-#             <span class="...title">Title text</span>
-#           </a>
-#         </li>
-#       </ul>
-#     </div>
-#
-# Selector mapping:
-# - item_container_selector -> <a href="/news/<slug>"> inside PublicationList list items
-# - item_link_selector -> href on that <a>
-# - item_title_selector -> <span class="...title"> inside that <a>
-# - item_date_selector -> <time> inside that <a>
 [feeds.anthropic-news]
 feed_title = "Anthropic News"
 source_url = "https://www.anthropic.com/news"
-item_container_selector = "div[class*='PublicationList'] ul li > a[href^='/news/']"
+item_container_selector = "div[class*='PublicationList'] a[href^='/news/']"
 item_link_selector = "::attr(href)"
 item_title_selector = "span[class*='title']::text"
 item_date_selector = "time::text"
 
-# Anthropic Research spider.
-#
-# Source: https://www.anthropic.com/research
-#
-# Page structure (simplified):
-#     <div class="...PublicationList...">
-#       <ul>
-#         <li>
-#           <a href="/research/<slug>" class="...listItem">
-#             <div>
-#               <time>Apr 9, 2026</time>
-#               <span>Policy</span>
-#             </div>
-#             <span class="...title">Trustworthy agents in practice</span>
-#           </a>
-#         </li>
-#       </ul>
-#     </div>
-#
-# Selector mapping:
-# - item_container_selector -> <a class="...listItem"> inside PublicationList list items
-# - item_link_selector -> href on that <a>
-# - item_title_selector -> <span class="...title"> inside that <a>
-# - item_date_selector -> <time> inside that <a>
 [feeds.anthropic-research]
 feed_title = "Anthropic Research"
 source_url = "https://www.anthropic.com/research"
-item_container_selector = "div[class*='PublicationList'] ul li > a[class*='listItem']"
+item_container_selector = "div[class*='PublicationList'] a[class*='listItem']"
 item_link_selector = "::attr(href)"
 item_title_selector = "span[class*=title]::text"
 item_date_selector = "time::text"
 
-# Claude Blog spider.
-#
-# Source: https://claude.com/blog
-#
-# Page structure (simplified):
-#     <div role="listitem" class="marquee_cms_blog_list_item w-dyn-item">
-#       <div class="marquee_cms_blog_list_item_content">
-#         <h2>Title</h2>
-#         <div class="u-text-style-caption u-foreground-tertiary">April 8, 2026</div>
-#       </div>
-#       <div class="clickable_wrap u-cover-absolute">
-#         <a href="/blog/<slug>" class="clickable_link ...">Read more</a>
-#       </div>
-#     </div>
 [feeds.claude-blog]
 feed_title = "Claude Blog"
 source_url = "https://claude.com/blog"
-item_container_selector = "div.marquee_cms_blog_list_item.w-dyn-item"
+item_container_selector = "div.marquee_cms_blog_list_item"
 item_title_selector = "h2::text"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
-# The Alan Turing Institute Blog spider.
-#
-# Source: https://www.turing.ac.uk/blog
-#
-# Page structure (simplified):
-#     <div class="view-content">
-#       <div class="views-row">
-#         <article class="node node--type-article teaser">
-#           <h3><a href="/blog/<slug>"><span>Title</span></a></h3>
-#           <div class="field field-published-date ..."><span>Friday 06 Mar 2026</span></div>
-#         </article>
-#       </div>
-#     </div>
-#
-# Note: the server omits the outer `section.block-views-blocknews-blog-landing`
-# wrapper for data-centre IPs (e.g. GitHub Actions), so we anchor on the
-# article element directly. The link selectors scope to /blog/ paths to avoid
-# picking up unrelated teasers elsewhere on the page.
 [feeds.turing-blog]
 feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
-item_container_selector = "article.node--type-article.teaser"
+item_container_selector = "article.node--type-article"
 item_title_selector = "h3 a[href^='/blog/'] span::text"
 item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
 
-# The Alan Turing Institute News spider.
-#
-# Source: https://www.turing.ac.uk/news
-#
-# Page structure (simplified):
-#     <div class="view-content">
-#       <div class="views-row">
-#         <article class="node node--type-article teaser">
-#           <h3><a href="/news/<slug>"><span>Title</span></a></h3>
-#           <div class="field field-published-date ..."><span>Wednesday 01 Apr 2026</span></div>
-#         </article>
-#       </div>
-#     </div>
-#
-# Note: the server omits the outer `section.block-views-blocknews-news`
-# wrapper for data-centre IPs (e.g. GitHub Actions), so we anchor on the
-# article element directly. The link selectors scope to /news/ paths to avoid
-# picking up unrelated teasers elsewhere on the page.
 [feeds.turing-news]
 feed_title = "Turing News (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/news"
-item_container_selector = "article.node--type-article.teaser"
+item_container_selector = "article.node--type-article"
 item_title_selector = "h3 a[href^='/news/'] span::text"
 item_link_selector = "h3 a[href^='/news/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
 
-# Mila - Quebec AI Institute News spider.
-#
-# Source: https://mila.quebec/en/news
-#
-# Page structure (simplified):
-#     <div id="news-listing">
-#       <div class="node node--type-news node--view-mode-teaser ...">
-#         <div class="field-name-dynamic-twig-fieldnode-default-date-format-wrapped">
-#           <span>08</span><span>Apr</span><span>2026</span>
-#         </div>
-#         <div class="field-name-node-title">
-#           <a href="/en/news/<slug>">Title</a>
-#         </div>
-#       </div>
-#     </div>
 [feeds.mila-news]
 feed_title = "Mila News (Quebec AI Institute)"
 feed_description = "News and announcements from Mila - Quebec AI Institute."
 source_url = "https://mila.quebec/en/news"
-item_container_selector = "#news-listing .node--type-news.node--view-mode-teaser"
+item_container_selector = "#news-listing .node--type-news"
 item_title_selector = "div.field-name-node-title a::text"
 item_link_selector = "div.field-name-node-title a::attr(href)"
 item_date_selector = "div.field-name-dynamic-twig-fieldnode-default-date-format-wrapped span::text"
 
-# DeepLearning.AI The Batch spider.
-#
-# Source: https://www.deeplearning.ai/the-batch/
-#
-# Page structure (simplified):
-#     <section class="py-12 bg-slate-100">
-#       <article data-testid="post-card-large">  <- featured weekly issue card
-#         <a href="/the-batch/tag/apr-03-2026/"><div>Apr 03, 2026</div></a>
-#         <h2>Issue title</h2>
-#         <div class="... line-clamp-3 ...">Issue excerpt</div>
-#         <a href="/the-batch/issue-347/"><div class="..." /></a>
-#       </article>
-#       <article data-sentry-component="PostCard"> <- additional issue cards
-#         ... same date/title/description/link pattern ...
-#       </article>
-#     </section>
-#
-# Note: this excludes sidebar "Popular Articles" cards by scoping to PostCard and
-# post-card-large in the main grid section.
 [feeds.the-batch]
 feed_title = "The Batch"
 feed_description = "Weekly AI news for engineers, executives, and enthusiasts."
 source_url = "https://www.deeplearning.ai/the-batch/"
-item_container_selector = "section.py-12.bg-slate-100 article[data-testid='post-card-large'], section.py-12.bg-slate-100 article[data-sentry-component='PostCard']"
+item_container_selector = "article[data-testid='post-card-large'], article[data-sentry-component='PostCard']"
 item_link_selector = "a[href^='/the-batch/issue-']::attr(href)"
 item_title_selector = "h2::text"
 item_date_selector = "a[href^='/the-batch/tag/'] div::text"
 item_description_selector = "div[class*='line-clamp-3']::text"
 
-# TLDR AI Archives spider.
-#
-# Source: https://tldr.tech/ai/archives
-#
-# Page structure (simplified):
-#     <a href="/ai/2026-04-08">
-#       <div class="mb-4">Issue subject line</div>
-#     </a>
-#
-# The page also contains other links, so we scope items to dated archive links.
 [feeds.tldr-ai]
 feed_title = "TLDR AI"
 source_url = "https://tldr.tech/ai/archives"
@@ -268,18 +85,6 @@ item_title_selector = "div::text"
 item_date_selector = "::attr(href)"
 item_date_regex = "\\d{4}-\\d{2}-\\d{2}"
 
-# Cohere Blog spider.
-#
-# Source: https://cohere.com/blog
-#
-# Format: Next.js Flight stream with React Server Components.
-# Data is embedded in self.__next_f.push() script tags containing initialPosts array.
-#
-# Post structure (mixed Sanity CMS and Ghost API):
-#   Sanity: { slug: {current: "..."}, title: "...", date: "2026-04-02" }
-#   Ghost:  { slug: "...", title: "...", published_at: "2026-03-16T..." }
-#
-# JSONPath selectors are used for item extraction.
 [feeds.cohere-blog]
 feed_title = "Cohere Blog"
 feed_description = "Latest news and updates from Cohere."
@@ -290,12 +95,6 @@ item_title_selector = "$.title"
 item_link_selector = "$.slug.current"
 item_date_selector = "$.date"
 
-# Mistral News spider.
-#
-# Source: https://mistral.ai/news
-#
-# Format: Next.js Flight stream with React Server Components.
-# Data structure with featured article and posts in nextData.
 [feeds.mistral-news]
 feed_title = "Mistral News"
 feed_description = "Latest news and announcements from Mistral AI."
