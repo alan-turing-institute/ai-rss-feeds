@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 05:52:47 +0000</lastBuildDate>
-    <item>
-      <title>Labor market impacts of AI: A new measure and early evidence</title>
-      <link>https://www.anthropic.com/research/labor-market-impacts</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/labor-market-impacts</guid>
-      <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 15 Apr 2026 05:42:29 +0000</lastBuildDate>
     <item>
       <title>Partnering with Mozilla to improve Firefox’s security</title>
       <link>https://www.anthropic.com/news/mozilla-firefox-security</link>
@@ -67,6 +61,12 @@
       <link>https://www.anthropic.com/research/trustworthy-agents</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/trustworthy-agents</guid>
       <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automated Alignment Researchers: Using large language models to scale scalable oversight</title>
+      <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/automated-alignment-researchers</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

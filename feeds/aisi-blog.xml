@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 05:52:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 05:42:24 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -529,6 +529,13 @@
       <description>Sharing work with the National Cyber Security Centre (NCSC) on how cyber defenders can use advanced AI capabilities to stay ahead of attackers.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/harnessing-frontier-ai-for-cyber-defence</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our evaluation of Claude Mythos Preview’s cyber capabilities</title>
+      <link>https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities</link>
+      <description>We conducted cyber evaluations of Anthropic’s Claude Mythos Preview and found continued improvement in capture-the-flag (CTF) challenges and significant improvement on multi-step cyber-attack simulations.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/our-evaluation-of-claude-mythos-previews-cyber-capabilities</guid>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

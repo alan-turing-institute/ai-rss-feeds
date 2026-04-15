@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 05:52:47 +0000</lastBuildDate>
-    <item>
-      <title>Introducing OlmoEarth Platform: Powerful open infrastructure for planetary insights</title>
-      <link>https://allenai.org/blog/olmoearth</link>
-      <description>Introducing OlmoEarth Platform, an open, scalable, end-to-end system that turns multi-sensor Earth data into…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/olmoearth</guid>
-      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 15 Apr 2026 05:42:28 +0000</lastBuildDate>
     <item>
       <title>Olmo 3: Charting a path through the model flow to lead open-source AI</title>
       <link>https://allenai.org/blog/olmo3</link>
@@ -70,6 +63,13 @@
       <description>A recap of Ai2's week at NVIDIA GTC 2026, covering panels on open models, live demos of Olmo Hybrid and Asta…</description>
       <guid isPermaLink="true">https://allenai.org/blog/gtc2026</guid>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating agents for scientific discovery</title>
+      <link>https://allenai.org/blog/evaluating-scientific-discovery-agents</link>
+      <description>Two benchmarks developed at Ai2 – ScienceWorld and DiscoveryWorld – reveal that even incredibly strong AI science…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/evaluating-scientific-discovery-agents</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

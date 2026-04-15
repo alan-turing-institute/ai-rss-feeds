@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Apr 2026 05:52:46 +0000</lastBuildDate>
-    <item>
-      <title>Mila and AI4Eyes Partner to Advance AI Innovation in Ophthalmology</title>
-      <link>https://mila.quebec/en/news/mila-and-ai4eyes-partner-to-advance-ai-innovation-in-ophthalmology</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-ai4eyes-partner-to-advance-ai-innovation-in-ophthalmology</guid>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 15 Apr 2026 05:42:29 +0000</lastBuildDate>
     <item>
       <title>Siva Reddy Named 2026 Sloan Research Fellow</title>
       <link>https://mila.quebec/en/news/siva-reddy-named-2026-sloan-research-fellow</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/mila-and-rise-deepen-canada-sweden-collaboration-to-accelerate-next-generation-ai-systems-and</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-rise-deepen-canada-sweden-collaboration-to-accelerate-next-generation-ai-systems-and</guid>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aviron Partners with Mila to Transform Working Capital Management</title>
+      <link>https://mila.quebec/en/news/aviron-partners-with-mila-to-transform-working-capital-management</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/aviron-partners-with-mila-to-transform-working-capital-management</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
