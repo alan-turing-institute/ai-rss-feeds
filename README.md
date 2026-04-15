@@ -4,6 +4,8 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 
 ## Feeds
 
+Simply paste the URL of any of these XML files into your RSS reader.
+
 | Name | File |
 |---|---|
 | [AISI Blog (AI Security Institute)](https://www.aisi.gov.uk/blog) | [feeds/aisi-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/aisi-blog.xml) |
@@ -19,7 +21,9 @@ This project generates RSS 2.0 feeds for AI news/blog sites that do not publish 
 | [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
 | [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
 
-## Generate Feeds
+## Developer Guide
+
+### Generate Feeds
 
 Use the generator script:
 
@@ -42,7 +46,7 @@ Options:
 
 The scheduled GitHub Actions workflow uses `--skip-unchanged`, so it does not create a commit when feeds are otherwise unchanged.
 
-## Validation and Failure Behavior
+### Validation and Failure Behavior
 
 Feed generation is fail-fast.
 
@@ -58,7 +62,7 @@ By default, each spider enforces:
 This prevents silently writing empty or unexpectedly tiny feeds when page markup changes.
 `uv run python generate_feeds.py` exits with a non-zero status if any spider errors.
 
-## HTTP Cache
+### HTTP Cache
 
 Scrapy HTTP cache is enabled by default in `src/settings.py`.
 Use `uv run python generate_feeds.py --no-cache` to disable cache for a single run.
@@ -69,7 +73,7 @@ To refresh cached source pages, delete:
 rm -rf .scrapy/httpcache
 ```
 
-## Add A New Feed
+### Add A New Feed
 
 1. Add a new `[feeds.<feed-key>]` table in `feeds.toml`.
 2. Set required fields for HTML feeds:
