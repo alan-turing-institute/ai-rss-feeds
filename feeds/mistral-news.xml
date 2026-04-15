@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 05:42:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 14:14:31 +0000</lastBuildDate>
     <item>
       <title>Mistral 7B</title>
       <link>https://mistral.ai/news/announcing-mistral-7b</link>
@@ -450,6 +450,13 @@
       <description>Designing for agents forced us to build better tools for everyone.</description>
       <guid isPermaLink="true">https://mistral.ai/news/spaces</guid>
       <pubDate>Tue, 31 Mar 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Connect the dots: Build with built-in and custom MCPs in Studio</title>
+      <link>https://mistral.ai/news/connectors</link>
+      <description>Connect enterprise data to your AI applications with reusable connectors, direct tool calling, and human-in-the-loop approval controls.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/connectors</guid>
+      <pubDate>Wed, 15 Apr 2026 16:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
