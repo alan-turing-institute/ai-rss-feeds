@@ -28,9 +28,10 @@
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
 - Feeds are put into `./feeds`.
-- Look at existing spiders (`src/spiders`) for consistency.
+- Look at existing feeds (`feeds.toml`) for consistency.
 - Use selectors that are likely to be stable over time.
+- When you add a new feed, run `uv run python generate_opml.py` to regenerate the OPML list.
 
 ## Regeneration
-- There is a github workflow that runs every day at 0500.
+- There is a github workflow (`.github/workflows/generate-feeds.yml`) that runs every 3 hours.
 - Can also trigger it manually.

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<opml version="1.0">
+  <head>
+    <title>AI RSS Feeds</title>
+  </head>
+  <body>
+    <outline type="rss" text="Ai2 News (Allen Institute for AI)" title="Ai2 News (Allen Institute for AI)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/allenai-news.xml" htmlUrl="https://allenai.org/news" />
+    <outline type="rss" text="AISI Blog (AI Security Institute)" title="AISI Blog (AI Security Institute)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/aisi-blog.xml" htmlUrl="https://www.aisi.gov.uk/blog" />
+    <outline type="rss" text="Anthropic News" title="Anthropic News" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-news.xml" htmlUrl="https://www.anthropic.com/news" />
+    <outline type="rss" text="Anthropic Research" title="Anthropic Research" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-research.xml" htmlUrl="https://www.anthropic.com/research" />
+    <outline type="rss" text="Claude Blog" title="Claude Blog" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml" htmlUrl="https://claude.com/blog" />
+    <outline type="rss" text="Cohere Blog" title="Cohere Blog" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml" htmlUrl="https://cohere.com/blog" />
+    <outline type="rss" text="Mila News (Quebec AI Institute)" title="Mila News (Quebec AI Institute)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mila-news.xml" htmlUrl="https://mila.quebec/en/news" />
+    <outline type="rss" text="Mistral News" title="Mistral News" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mistral-news.xml" htmlUrl="https://mistral.ai/news" />
+    <outline type="rss" text="The Batch" title="The Batch" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml" htmlUrl="https://www.deeplearning.ai/the-batch/" />
+    <outline type="rss" text="TLDR AI" title="TLDR AI" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml" htmlUrl="https://tldr.tech/ai/archives" />
+    <outline type="rss" text="Turing Blog (Alan Turing Institute)" title="Turing Blog (Alan Turing Institute)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml" htmlUrl="https://www.turing.ac.uk/blog" />
+    <outline type="rss" text="Turing News (Alan Turing Institute)" title="Turing News (Alan Turing Institute)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml" htmlUrl="https://www.turing.ac.uk/news" />
+  </body>
+</opml>

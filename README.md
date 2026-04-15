@@ -2,9 +2,11 @@
 
 This project generates RSS 2.0 feeds for AI news/blog sites that do not publish feeds directly.
 
-## Feeds
+You can import all of these feeds into your RSS reader with this [feeds.opml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds.opml) file.
 
-Simply paste the URL of any of these XML files into your RSS reader.
+Or you can import selected feeds by copying the URL of the XML files in the below table.
+
+## Feeds
 
 | Name | File |
 |---|---|
