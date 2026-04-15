@@ -38,6 +38,9 @@ uv run python generate_feeds.py aisi-blog allenai-news
 Options:
 
 - `--no-cache`: disable Scrapy HTTP cache for that run
+- `--skip-unchanged`: skip writing a feed file if its only change would be `lastBuildDate`
+
+The scheduled GitHub Actions workflow uses `--skip-unchanged`, so it does not create a commit when feeds are otherwise unchanged.
 
 ## Validation and Failure Behavior
 

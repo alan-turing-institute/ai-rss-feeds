@@ -30,6 +30,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Disable Scrapy HTTP cache for this run.",
     )
+    parser.add_argument(
+        "--skip-unchanged",
+        action="store_true",
+        help="Skip writing a feed file if the only change is lastBuildDate.",
+    )
     return parser.parse_args()
 
 
@@ -51,7 +56,7 @@ def main() -> None:
     for feed_key in selected_feed_keys:
         crawler = process.create_crawler(FeedSpider)
         crawler.signals.connect(on_spider_error, signal=signals.spider_error)
-        process.crawl(crawler, feed_key=feed_key)
+        process.crawl(crawler, feed_key=feed_key, skip_unchanged=args.skip_unchanged)
 
     process.start()
 

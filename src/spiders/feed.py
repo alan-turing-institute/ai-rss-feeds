@@ -46,8 +46,10 @@ class FeedSpider(scrapy.Spider):
     min_item_count: int = 1
     min_item_ratio_vs_previous: float = 0.6
 
-    def __init__(self, feed_key=None, *args, **kwargs):
+    def __init__(self, feed_key=None, skip_unchanged=False, *args, **kwargs):
         super().__init__(*args, **kwargs)
+        # Accept bool or the string "True"/"true"/"1" (Scrapy CLI passes strings)
+        self.skip_unchanged = skip_unchanged in (True, "True", "true", "1")
 
         if not feed_key:
             raise RuntimeError("Missing required spider argument: feed_key")
@@ -495,5 +497,19 @@ class FeedSpider(scrapy.Spider):
 
         os.makedirs("feeds", exist_ok=True)
         feed_path = f"feeds/{self.name}.xml"
-        fg.rss_file(feed_path, pretty=True)
+
+        if self.skip_unchanged:
+            new_bytes = fg.rss_str(pretty=True)
+            existing_path = pathlib.Path(feed_path)
+            if existing_path.exists():
+                existing_bytes = existing_path.read_bytes()
+                _lastbuild_re = re.compile(rb"<lastBuildDate>[^<]*</lastBuildDate>")
+                if _lastbuild_re.sub(b"", new_bytes) == _lastbuild_re.sub(b"", existing_bytes):
+                    self.logger.info(
+                        "Feed unchanged (ignoring lastBuildDate), skipping write: %s", feed_path
+                    )
+                    return
+            existing_path.write_bytes(new_bytes)
+        else:
+            fg.rss_file(feed_path, pretty=True)
         self.logger.info("Feed written to %s", feed_path)
