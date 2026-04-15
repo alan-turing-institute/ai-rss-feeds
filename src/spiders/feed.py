@@ -188,6 +188,8 @@ class FeedSpider(scrapy.Spider):
                 date_text = self._extract_date_text(date_str)
                 if date_text:
                     date = self._parse_date_utc(date_text)
+        if date is None:
+            return None
 
         # Description
         description = None
