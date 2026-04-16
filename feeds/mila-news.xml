@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 05:42:29 +0000</lastBuildDate>
-    <item>
-      <title>Siva Reddy Named 2026 Sloan Research Fellow</title>
-      <link>https://mila.quebec/en/news/siva-reddy-named-2026-sloan-research-fellow</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/siva-reddy-named-2026-sloan-research-fellow</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 16 Apr 2026 14:20:36 +0000</lastBuildDate>
     <item>
       <title>When AI Protects the Quebec Music Industry</title>
       <link>https://mila.quebec/en/news/when-ai-protects-the-quebec-music-industry</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/aviron-partners-with-mila-to-transform-working-capital-management</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/aviron-partners-with-mila-to-transform-working-capital-management</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>70 Mila-affiliated papers accepted at ICLR 2026</title>
+      <link>https://mila.quebec/en/news/70-mila-affiliated-papers-accepted-at-iclr-2026</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/70-mila-affiliated-papers-accepted-at-iclr-2026</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
