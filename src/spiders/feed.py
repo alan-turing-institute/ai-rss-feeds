@@ -242,25 +242,31 @@ class FeedSpider(scrapy.Spider):
             )
 
         items = []
-        seen_links = set()
         for item_data in items_list:
             item = self._extract_nextjs_item(item_data, response)
             if item is None:
                 continue
 
-            link = item["link"]
-            if link in seen_links:
-                continue
-
-            seen_links.add(link)
             items.append(item)
 
-        items.sort(
-            key=lambda item: item.get("date") or datetime.min.replace(tzinfo=timezone.utc),
+        newest_by_link = {}
+        for item in items:
+            link = item["link"]
+            existing_item = newest_by_link.get(link)
+            if existing_item is None:
+                newest_by_link[link] = item
+                continue
+
+            if item["date"] > existing_item["date"]:
+                newest_by_link[link] = item
+
+        deduped_items = sorted(
+            newest_by_link.values(),
+            key=lambda item: item["date"],
             reverse=True,
         )
 
-        return items
+        return deduped_items
 
     def _jq_values(self, query, obj):
         """Evaluate a jq query and return raw values."""
@@ -271,25 +277,6 @@ class FeedSpider(scrapy.Spider):
         if isinstance(values, list):
             return values
         return [values]
-
-    def _candidate_items_score(self, items):
-        """Score candidate item lists, preferring fresher dated content."""
-        latest_ts = None
-        for item in items:
-            if not isinstance(item, dict):
-                continue
-            for key in ("date", "publishedAt", "published_at"):
-                raw = item.get(key)
-                if not raw:
-                    continue
-                parsed = self._parse_date_utc(raw)
-                if parsed is not None:
-                    ts = parsed.timestamp()
-                    if latest_ts is None or ts > latest_ts:
-                        latest_ts = ts
-
-        # Primary: recency. Secondary: list size.
-        return (latest_ts if latest_ts is not None else float("-inf"), len(items))
 
     def _parse_date_utc(self, value):
         """Parse arbitrary date-like input and normalize it to UTC."""
@@ -337,7 +324,7 @@ class FeedSpider(scrapy.Spider):
         full_text = "".join(scripts)
         push_pattern = r'self\.__next_f\.push\(\s*(\[.*?\])\s*\)'
         decoder = json.JSONDecoder()
-        candidates = []
+        all_items = []
 
         for match in re.finditer(push_pattern, full_text, re.DOTALL):
             try:
@@ -375,14 +362,9 @@ class FeedSpider(scrapy.Spider):
                         items.extend(v for v in value if isinstance(v, dict))
 
                 if items:
-                    candidates.append(items)
+                    all_items.extend(items)
 
-        if not candidates:
-            return []
-
-        # Multiple matches can exist in Flight payloads; choose the freshest list.
-        best_items = max(candidates, key=self._candidate_items_score)
-        return best_items
+        return all_items
 
     def _normalize_nextjs_link(self, link_val, response):
         """Normalize Next.js item links from absolute, relative, or slug values."""
