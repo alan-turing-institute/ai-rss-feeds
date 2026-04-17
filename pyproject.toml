@@ -7,6 +7,6 @@ requires-python = ">=3.14"
 dependencies = [
     "dateparser>=1.4.0",
     "feedgen>=1.0.0",
-    "jsonpath-ng>=1.8.0",
+    "jq>=1.11.0",
     "scrapy>=2.15.0",
 ]

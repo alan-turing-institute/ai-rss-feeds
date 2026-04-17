@@ -86,8 +86,8 @@ rm -rf .scrapy/httpcache
 	- `item_link_selector`
 3. For Next.js feeds, set:
 	- `format = "nextjs"`
-	- `item_container_selector` as a JSONPath query that returns item objects (for example `$..initialPosts[*]`)
-	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as JSONPath queries scoped to each item
+	- `item_container_selector` as a jq query that returns item objects (for example `.page.sections[] | select(._type == "publicationList") | .posts[]`)
+	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as jq queries scoped to each item
 4. Set optional fields as needed:
 	- `item_date_selector`, `item_date_regex`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`

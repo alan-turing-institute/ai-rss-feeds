@@ -6,12 +6,12 @@ import os
 import pathlib
 import re
 import xml.etree.ElementTree as ET
-from datetime import timezone
+from datetime import datetime, timezone
 from typing import Optional
 from urllib.parse import urljoin, urlparse
 
 import dateparser
-from jsonpath_ng.ext import parse as jsonpath_parse
+import jq
 import scrapy
 from feedgen.feed import FeedGenerator
 
@@ -232,7 +232,7 @@ class FeedSpider(scrapy.Spider):
         return items
 
     def _parse_nextjs(self, response):
-        """Parse Next.js Flight stream format using JSONPath selectors."""
+        """Parse Next.js Flight stream format using jq selectors."""
         self._validate_spider_config()
 
         items_list = self._extract_nextjs_items(response)
@@ -242,17 +242,35 @@ class FeedSpider(scrapy.Spider):
             )
 
         items = []
+        seen_links = set()
         for item_data in items_list:
             item = self._extract_nextjs_item(item_data, response)
-            if item is not None:
-                items.append(item)
+            if item is None:
+                continue
+
+            link = item["link"]
+            if link in seen_links:
+                continue
+
+            seen_links.add(link)
+            items.append(item)
+
+        items.sort(
+            key=lambda item: item.get("date") or datetime.min.replace(tzinfo=timezone.utc),
+            reverse=True,
+        )
 
         return items
 
-    def _jsonpath_values(self, query, obj):
-        """Evaluate JSONPath query and return raw values."""
-        expr = jsonpath_parse(query)
-        return [match.value for match in expr.find(obj)]
+    def _jq_values(self, query, obj):
+        """Evaluate a jq query and return raw values."""
+        if not query:
+            return []
+
+        values = jq.compile(query).input(obj).all()
+        if isinstance(values, list):
+            return values
+        return [values]
 
     def _candidate_items_score(self, items):
         """Score candidate item lists, preferring fresher dated content."""
@@ -311,7 +329,7 @@ class FeedSpider(scrapy.Spider):
         return matches[0].group(0)
 
     def _extract_nextjs_items(self, response):
-        """Extract Next.js items by applying item_container_selector as JSONPath."""
+        """Extract Next.js items by applying item_container_selector as jq."""
         scripts = response.xpath('//script/text()').getall()
         if not scripts:
             raise RuntimeError("No script tags found in response")
@@ -345,7 +363,7 @@ class FeedSpider(scrapy.Spider):
                     continue
 
                 try:
-                    matches = self._jsonpath_values(self.item_container_selector, parsed_obj)
+                    matches = self._jq_values(self.item_container_selector, parsed_obj)
                 except Exception:
                     continue
 
@@ -386,7 +404,7 @@ class FeedSpider(scrapy.Spider):
         return urljoin(response.url, link_val)
 
     def _first_text(self, values):
-        """Return first non-empty scalar value from JSONPath results."""
+        """Return first non-empty scalar value from jq results."""
         for value in values:
             if isinstance(value, (str, int, float, bool)):
                 text = str(value).strip()
@@ -395,26 +413,18 @@ class FeedSpider(scrapy.Spider):
         return None
 
     def _extract_nextjs_item(self, item_data, response):
-        """Extract a single item from Next.js JSON using JSONPath selectors."""
+        """Extract a single item from Next.js JSON using jq selectors."""
         try:
             if not isinstance(item_data, dict):
                 return None
 
-            title_values = self._jsonpath_values(self.item_title_selector, item_data)
+            title_values = self._jq_values(self.item_title_selector, item_data)
             title = self._first_text(title_values)
             if not title:
                 return None
 
-            link_values = self._jsonpath_values(self.item_link_selector, item_data)
+            link_values = self._jq_values(self.item_link_selector, item_data)
             link_raw = self._first_text(link_values)
-            if not link_raw:
-                # Pragmatic fallback for common slug structures when JSONPath returns no match.
-                slug_val = item_data.get("slug")
-                if isinstance(slug_val, dict):
-                    link_raw = slug_val.get("current")
-                elif isinstance(slug_val, str):
-                    link_raw = slug_val
-
             if not link_raw:
                 return None
 
@@ -424,22 +434,18 @@ class FeedSpider(scrapy.Spider):
 
             date = None
             if self.item_date_selector:
-                date_values = self._jsonpath_values(self.item_date_selector, item_data)
+                date_values = self._jq_values(self.item_date_selector, item_data)
                 date_str = self._first_text(date_values)
-                if not date_str:
-                    for fallback_key in ("date", "publishedAt", "published_at"):
-                        fallback_val = item_data.get(fallback_key)
-                        if isinstance(fallback_val, (str, int, float)):
-                            date_str = str(fallback_val)
-                            break
                 if date_str:
                     date_text = self._extract_date_text(date_str)
                     if date_text:
                         date = self._parse_date_utc(date_text)
+            if date is None:
+                return None
 
             description = None
             if self.item_description_selector:
-                desc_values = self._jsonpath_values(self.item_description_selector, item_data)
+                desc_values = self._jq_values(self.item_description_selector, item_data)
                 description = self._first_text(desc_values)
 
             return {
