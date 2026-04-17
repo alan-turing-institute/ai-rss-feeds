@@ -22,27 +22,31 @@ def iter_flight_record_values(nextjs_string):
     length = len(nextjs_string)
 
     while pos < length:
-        # Find next record boundary: start of string or just after newline.
-        if pos > 0:
-            newline_pos = nextjs_string.find("\n", pos)
-            if newline_pos == -1:
-                break
-            pos = newline_pos + 1
+        line_end = nextjs_string.find("\n", pos)
+        if line_end == -1:
+            line_end = length
 
-        key_start = pos
-        while pos < length and nextjs_string[pos].isalnum():
-            pos += 1
+        line = nextjs_string[pos:line_end]
+        separator_idx = line.find(":")
 
-        # Expect at least one key character, then a colon.
-        if pos == key_start or pos >= length or nextjs_string[pos] != ":":
+        # Move to the next line by default to guarantee forward progress.
+        next_pos = line_end + 1
+
+        # Expect records formatted as <alnum_key>:<json_value>.
+        if separator_idx <= 0:
+            pos = next_pos
             continue
 
-        key = nextjs_string[key_start:pos]
-        value_start = pos + 1
+        key = line[:separator_idx]
+        if not key.isalnum():
+            pos = next_pos
+            continue
+
+        value_start = pos + separator_idx + 1
 
         # Flight records like I[...] / T... are references, not JSON values.
         if value_start < length and nextjs_string[value_start] in {"I", "T", "H"}:
-            pos = value_start
+            pos = next_pos
             continue
 
         try:
@@ -51,6 +55,8 @@ def iter_flight_record_values(nextjs_string):
         except json.JSONDecodeError:
             # Skip malformed/non-JSON records and continue scanning.
             pass
+
+        pos = next_pos
 
 
 def _print_json_block(title, raw_json):
