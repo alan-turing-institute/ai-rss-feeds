@@ -7,66 +7,742 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 05:42:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 11:46:11 +0000</lastBuildDate>
+    <item>
+      <title>A General Language Assistant as a Laboratory for Alignment</title>
+      <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</guid>
+      <pubDate>Wed, 01 Dec 2021 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Mathematical Framework for Transformer Circuits</title>
+      <link>https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</guid>
+      <pubDate>Wed, 22 Dec 2021 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Predictability and Surprise in Large Generative Models</title>
+      <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
+      <description>Large models have predictable loss via scaling laws but unpredictable capabilities. This tension has significant policy implications.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</guid>
+      <pubDate>Tue, 15 Feb 2022 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>In-context Learning and Induction Heads</title>
+      <link>https://www.anthropic.com/research/in-context-learning-and-induction-heads</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/in-context-learning-and-induction-heads</guid>
+      <pubDate>Tue, 08 Mar 2022 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
+      <link>https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</guid>
+      <pubDate>Tue, 12 Apr 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Laws and Interpretability of Learning from Repeated Data</title>
+      <link>https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data</guid>
+      <pubDate>Sat, 21 May 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Softmax Linear Units</title>
+      <link>https://www.anthropic.com/research/softmax-linear-units</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/softmax-linear-units</guid>
+      <pubDate>Fri, 17 Jun 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Language Models (Mostly) Know What They Know</title>
+      <link>https://www.anthropic.com/research/language-models-mostly-know-what-they-know</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/language-models-mostly-know-what-they-know</guid>
+      <pubDate>Mon, 11 Jul 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned</title>
+      <link>https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</guid>
+      <pubDate>Mon, 22 Aug 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Toy Models of Superposition</title>
+      <link>https://www.anthropic.com/research/toy-models-of-superposition</link>
+      <description>Neural networks pack many concepts into single neurons. This paper shows how and when models represent more features than they have dimensions.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/toy-models-of-superposition</guid>
+      <pubDate>Wed, 14 Sep 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring Progress on Scalable Oversight for Large Language Models</title>
+      <link>https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/measuring-progress-on-scalable-oversight-for-large-language-models</guid>
+      <pubDate>Fri, 04 Nov 2022 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Constitutional AI: Harmlessness from AI Feedback</title>
+      <link>https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/constitutional-ai-harmlessness-from-ai-feedback</guid>
+      <pubDate>Thu, 15 Dec 2022 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Discovering Language Model Behaviors with Model-Written Evaluations</title>
+      <link>https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/discovering-language-model-behaviors-with-model-written-evaluations</guid>
+      <pubDate>Mon, 19 Dec 2022 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Superposition, Memorization, and Double Descent</title>
+      <link>https://www.anthropic.com/research/superposition-memorization-and-double-descent</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/superposition-memorization-and-double-descent</guid>
+      <pubDate>Thu, 05 Jan 2023 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Capacity for Moral Self-Correction in Large Language Models</title>
+      <link>https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/the-capacity-for-moral-self-correction-in-large-language-models</guid>
+      <pubDate>Wed, 15 Feb 2023 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Privileged Bases in the Transformer Residual Stream</title>
+      <link>https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</guid>
+      <pubDate>Thu, 16 Mar 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Distributed Representations: Composition &amp; Superposition</title>
+      <link>https://www.anthropic.com/research/distributed-representations-composition-superposition</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/distributed-representations-composition-superposition</guid>
+      <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Interpretability Dreams</title>
+      <link>https://www.anthropic.com/research/interpretability-dreams</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/interpretability-dreams</guid>
+      <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates — May 2023</title>
+      <link>https://www.anthropic.com/research/circuits-updates-may-2023</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/circuits-updates-may-2023</guid>
+      <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Measuring the Representation of Subjective Global Opinions in Language Models</title>
+      <link>https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</guid>
+      <pubDate>Thu, 29 Jun 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Question Decomposition Improves the Faithfulness of Model-Generated Reasoning</title>
+      <link>https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
+      <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring Faithfulness in Chain-of-Thought Reasoning</title>
+      <link>https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</guid>
+      <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Studying Large Language Model Generalization with Influence Functions</title>
+      <link>https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</guid>
+      <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tracing Model Outputs to the Training Data</title>
+      <link>https://www.anthropic.com/research/influence-functions</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/influence-functions</guid>
+      <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Challenges in evaluating AI systems</title>
+      <link>https://www.anthropic.com/research/evaluating-ai-systems</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/evaluating-ai-systems</guid>
+      <pubDate>Wed, 04 Oct 2023 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</title>
+      <link>https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</guid>
+      <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Decomposing Language Models Into Understandable Components</title>
+      <link>https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</guid>
+      <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Collective Constitutional AI: Aligning a Language Model with Public Input</title>
+      <link>https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</link>
+      <description>Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</guid>
+      <pubDate>Tue, 17 Oct 2023 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Towards Understanding Sycophancy in Language Models</title>
+      <link>https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
+      <pubDate>Mon, 23 Oct 2023 18:57:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Specific versus General Principles for Constitutional AI</title>
+      <link>https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</guid>
+      <pubDate>Tue, 24 Oct 2023 16:07:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating and Mitigating Discrimination in Language Model Decisions</title>
+      <link>https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/evaluating-and-mitigating-discrimination-in-language-model-decisions</guid>
+      <pubDate>Thu, 07 Dec 2023 16:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training</title>
+      <link>https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/sleeper-agents-training-deceptive-llms-that-persist-through-safety-training</guid>
+      <pubDate>Sun, 14 Jan 2024 22:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reflections on Qualitative Research</title>
+      <link>https://www.anthropic.com/research/transformer-circuits</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/transformer-circuits</guid>
+      <pubDate>Fri, 08 Mar 2024 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Many-shot jailbreaking</title>
+      <link>https://www.anthropic.com/research/many-shot-jailbreaking</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/many-shot-jailbreaking</guid>
+      <pubDate>Tue, 02 Apr 2024 16:05:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring the Persuasiveness of Language Models</title>
+      <link>https://www.anthropic.com/research/measuring-model-persuasiveness</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/measuring-model-persuasiveness</guid>
+      <pubDate>Tue, 09 Apr 2024 15:55:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simple probes can catch sleeper agents</title>
+      <link>https://www.anthropic.com/research/probes-catch-sleeper-agents</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
+      <pubDate>Tue, 23 Apr 2024 09:42:44 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates – April 2024</title>
+      <link>https://www.anthropic.com/research/circuits-updates-april-2024</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/circuits-updates-april-2024</guid>
+      <pubDate>Fri, 26 Apr 2024 20:24:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mapping the Mind of a Large Language Model</title>
+      <link>https://www.anthropic.com/research/mapping-mind-language-model</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/mapping-mind-language-model</guid>
+      <pubDate>Tue, 21 May 2024 07:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Testing and mitigating elections-related risks</title>
+      <link>https://www.anthropic.com/research/testing-and-mitigating-elections-related-risks</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/testing-and-mitigating-elections-related-risks</guid>
+      <pubDate>Thu, 06 Jun 2024 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude’s Character</title>
+      <link>https://www.anthropic.com/research/claude-character</link>
+      <description>Claude 3 was the first model with "character training"—alignment aimed at nurturing traits like curiosity, open-mindedness, and thoughtfulness.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-character</guid>
+      <pubDate>Sat, 08 Jun 2024 18:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The engineering challenges of scaling interpretability</title>
+      <link>https://www.anthropic.com/research/engineering-challenges-interpretability</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/engineering-challenges-interpretability</guid>
+      <pubDate>Thu, 13 Jun 2024 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sycophancy to subterfuge: Investigating reward tampering in language models</title>
+      <link>https://www.anthropic.com/research/reward-tampering</link>
+      <description>Can minor specification gaming evolve into more dangerous behaviors? This paper demonstrates that models trained on low-level reward hacking—like sycophancy—can generalize to tampering with their own reward functions, even covering their tracks. The behavior emerged without explicit training, and common safety techniques reduced but didn't eliminate it.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/reward-tampering</guid>
+      <pubDate>Mon, 17 Jun 2024 13:10:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates – June 2024</title>
+      <link>https://www.anthropic.com/research/circuits-updates-june-2024</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/circuits-updates-june-2024</guid>
+      <pubDate>Fri, 28 Jun 2024 21:43:09 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates – July 2024</title>
+      <link>https://www.anthropic.com/research/circuits-updates-july-2024</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/circuits-updates-july-2024</guid>
+      <pubDate>Wed, 31 Jul 2024 19:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates – August 2024</title>
+      <link>https://www.anthropic.com/research/circuits-updates-august-2024</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/circuits-updates-august-2024</guid>
+      <pubDate>Fri, 06 Sep 2024 15:36:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Circuits Updates – September 2024</title>
+      <link>https://www.anthropic.com/research/circuits-updates-sept-2024</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/circuits-updates-sept-2024</guid>
+      <pubDate>Tue, 01 Oct 2024 09:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using dictionary learning features as classifiers</title>
+      <link>https://www.anthropic.com/research/features-as-classifiers</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/features-as-classifiers</guid>
+      <pubDate>Wed, 16 Oct 2024 23:49:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sabotage evaluations for frontier models</title>
+      <link>https://www.anthropic.com/research/sabotage-evaluations</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/sabotage-evaluations</guid>
+      <pubDate>Fri, 18 Oct 2024 16:55:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developing a computer use model</title>
+      <link>https://www.anthropic.com/research/developing-computer-use</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/developing-computer-use</guid>
+      <pubDate>Tue, 22 Oct 2024 19:42:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating feature steering: A case study in mitigating social biases</title>
+      <link>https://www.anthropic.com/research/evaluating-feature-steering</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/evaluating-feature-steering</guid>
+      <pubDate>Fri, 25 Oct 2024 13:42:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet</title>
+      <link>https://www.anthropic.com/research/swe-bench-sonnet</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/swe-bench-sonnet</guid>
+      <pubDate>Wed, 30 Oct 2024 23:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A statistical approach to model evaluations</title>
+      <link>https://www.anthropic.com/research/statistical-approach-to-model-evals</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/statistical-approach-to-model-evals</guid>
+      <pubDate>Tue, 19 Nov 2024 16:11:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clio: A system for privacy-preserving insights into real-world AI use</title>
+      <link>https://www.anthropic.com/research/clio</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/clio</guid>
+      <pubDate>Thu, 12 Dec 2024 13:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Alignment faking in large language models</title>
+      <link>https://www.anthropic.com/research/alignment-faking</link>
+      <description>This paper provides the first empirical example of a model engaging in alignment faking without being trained to do so—selectively complying with training objectives while strategically preserving existing preferences.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/alignment-faking</guid>
+      <pubDate>Wed, 18 Dec 2024 14:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building effective agents</title>
+      <link>https://www.anthropic.com/research/building-effective-agents</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/building-effective-agents</guid>
+      <pubDate>Thu, 19 Dec 2024 21:14:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Constitutional Classifiers: Defending against universal jailbreaks</title>
+      <link>https://www.anthropic.com/research/constitutional-classifiers</link>
+      <description>These classifiers filter the overwhelming majority of jailbreaks while maintaining practical deployment. A prototype withstood over 3,000 hours of red teaming with no universal jailbreak discovered.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/constitutional-classifiers</guid>
+      <pubDate>Mon, 03 Feb 2025 12:35:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/the-anthropic-economic-index</link>
+      <description>The Anthropic Economic Index analyzes millions of Claude.ai conversations showing AI usage concentrated in software development and technical writing, touching 25%+ of tasks in 36% of occupations. AI leans toward augmentation (57%) over automation (43%).</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/the-anthropic-economic-index</guid>
+      <pubDate>Mon, 10 Feb 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Insights on Crosscoder Model Diffing</title>
+      <link>https://www.anthropic.com/research/crosscoder-model-diffing</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/crosscoder-model-diffing</guid>
+      <pubDate>Thu, 20 Feb 2025 23:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude’s extended thinking</title>
+      <link>https://www.anthropic.com/research/visible-extended-thinking</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/visible-extended-thinking</guid>
+      <pubDate>Mon, 24 Feb 2025 14:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forecasting rare language model behaviors</title>
+      <link>https://www.anthropic.com/research/forecasting-rare-behaviors</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/forecasting-rare-behaviors</guid>
+      <pubDate>Tue, 25 Feb 2025 20:17:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auditing language models for hidden objectives</title>
+      <link>https://www.anthropic.com/research/auditing-hidden-objectives</link>
+      <description>How would we know if an AI system is "right for the wrong reasons"—appearing well-behaved while pursuing hidden goals? This paper develops the science of alignment audits by deliberately training a model with a hidden objective and asking blinded research teams to uncover it, testing techniques from interpretability to behavioral analysis.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/auditing-hidden-objectives</guid>
+      <pubDate>Thu, 13 Mar 2025 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tracing the thoughts of a large language model</title>
+      <link>https://www.anthropic.com/research/tracing-thoughts-language-model</link>
+      <description>Circuit tracing lets us watch Claude think, uncovering a shared conceptual space where reasoning happens before being translated into language—suggesting the model can learn something in one language and apply it in another.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/tracing-thoughts-language-model</guid>
+      <pubDate>Thu, 27 Mar 2025 09:16:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index: Insights from Claude 3.7 Sonnet</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7</link>
+      <description>Increased Claude 3.7 Sonnet usage for coding, education, and science since launch. Extended thinking mode favors technical tasks. New datasets reveal automation patterns across 630 granular usage categories.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-economic-index-insights-from-claude-sonnet-3-7</guid>
+      <pubDate>Thu, 27 Mar 2025 21:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reasoning models don't always say what they think</title>
+      <link>https://www.anthropic.com/research/reasoning-models-dont-say-think</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/reasoning-models-dont-say-think</guid>
+      <pubDate>Thu, 03 Apr 2025 14:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Education Report: How university students use Claude</title>
+      <link>https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-education-report-how-university-students-use-claude</guid>
+      <pubDate>Tue, 08 Apr 2025 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Values in the wild: Discovering and analyzing values in real-world language model interactions</title>
+      <link>https://www.anthropic.com/research/values-wild</link>
+      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values and finds that Claude adapts its expressed values to context—mirroring users in most cases, but resisting when core principles are at stake.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/values-wild</guid>
+      <pubDate>Mon, 21 Apr 2025 11:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exploring model welfare</title>
+      <link>https://www.anthropic.com/research/exploring-model-welfare</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/exploring-model-welfare</guid>
+      <pubDate>Thu, 24 Apr 2025 10:59:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index: AI’s impact on software development</title>
+      <link>https://www.anthropic.com/research/impact-software-development</link>
+      <description>Comparing Claude Code to Claude.ai reveals stark differences in how developers work with AI. The coding agent shows 79% automation versus 49% on Claude.ai, web development dominates usage, and startups are adopting agentic tools far faster than enterprises—patterns that may preview how AI transforms other occupations.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/impact-software-development</guid>
+      <pubDate>Mon, 28 Apr 2025 09:36:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open-sourcing circuit tracing tools</title>
+      <link>https://www.anthropic.com/research/open-source-circuit-tracing</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/open-source-circuit-tracing</guid>
+      <pubDate>Thu, 29 May 2025 12:13:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SHADE-Arena: Evaluating sabotage and monitoring in LLM agents</title>
+      <link>https://www.anthropic.com/research/shade-arena-sabotage-monitoring</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/shade-arena-sabotage-monitoring</guid>
+      <pubDate>Mon, 16 Jun 2025 20:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Confidential Inference via Trusted Virtual Machines</title>
+      <link>https://www.anthropic.com/research/confidential-inference-trusted-vms</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/confidential-inference-trusted-vms</guid>
+      <pubDate>Wed, 18 Jun 2025 13:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic Misalignment: How LLMs could be insider threats</title>
+      <link>https://www.anthropic.com/research/agentic-misalignment</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/agentic-misalignment</guid>
+      <pubDate>Fri, 20 Jun 2025 22:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend: Can Claude run a small shop? (And why does that matter?)</title>
+      <link>https://www.anthropic.com/research/project-vend-1</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/project-vend-1</guid>
+      <pubDate>Fri, 27 Jun 2025 06:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How people use Claude for support, advice, and companionship</title>
+      <link>https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/how-people-use-claude-for-support-advice-and-companionship</guid>
+      <pubDate>Fri, 27 Jun 2025 06:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Persona vectors: Monitoring and controlling character traits in language models</title>
+      <link>https://www.anthropic.com/research/persona-vectors</link>
+      <description>AI models represent character traits as patterns of activations within their neural networks. By extracting "persona vectors" for traits like sycophancy or hallucination, we can monitor personality shifts and mitigate undesirable behaviors.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/persona-vectors</guid>
+      <pubDate>Fri, 01 Aug 2025 12:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Opus 4 and 4.1 can now end a rare subset of conversations</title>
+      <link>https://www.anthropic.com/research/end-subset-conversations</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/end-subset-conversations</guid>
+      <pubDate>Fri, 15 Aug 2025 16:52:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Education Report: How educators use Claude</title>
+      <link>https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude</guid>
+      <pubDate>Wed, 27 Aug 2025 00:09:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index: Tracking AI’s role in the US and global economy</title>
+      <link>https://www.anthropic.com/research/economic-index-geography</link>
+      <description>This report maps how Claude is used differently across US states and countries, finding strong correlations between income and AI adoption. It also tracks a notable shift: directive automation has risen from 27% to 39% of conversations since December 2024, with businesses automating far more than consumers.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-geography</guid>
+      <pubDate>Mon, 15 Sep 2025 09:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: Uneven geographic and enterprise AI adoption</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</link>
+      <description>Claude usage has shifted toward educational and scientific tasks with users delegating complete work rather than collaborating. AI adoption concentrates in wealthy regions, with first-time analysis of enterprise API patterns.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</guid>
+      <pubDate>Mon, 15 Sep 2025 20:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building AI for cyber defenders</title>
+      <link>https://www.anthropic.com/research/building-ai-cyber-defenders</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/building-ai-cyber-defenders</guid>
+      <pubDate>Fri, 03 Oct 2025 18:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Petri: An open-source auditing tool to accelerate AI safety research</title>
+      <link>https://www.anthropic.com/research/petri-open-source-auditing</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/petri-open-source-auditing</guid>
+      <pubDate>Mon, 06 Oct 2025 11:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A small number of samples can poison LLMs of any size</title>
+      <link>https://www.anthropic.com/research/small-samples-poison</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/small-samples-poison</guid>
+      <pubDate>Thu, 09 Oct 2025 13:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preparing for AI’s economic impact: exploring policy responses</title>
+      <link>https://www.anthropic.com/research/economic-policy-responses</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-policy-responses</guid>
+      <pubDate>Tue, 14 Oct 2025 08:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Signs of introspection in large language models</title>
+      <link>https://www.anthropic.com/research/introspection</link>
+      <description>Can Claude access and report on its own internal states? This research finds evidence for a limited but functional ability to introspect—a step toward understanding what's actually happening inside these models.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/introspection</guid>
+      <pubDate>Wed, 29 Oct 2025 01:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Commitments on model deprecation and preservation</title>
+      <link>https://www.anthropic.com/research/deprecation-commitments</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/deprecation-commitments</guid>
+      <pubDate>Tue, 04 Nov 2025 16:00:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Fetch: Can Claude train a robot dog?</title>
+      <link>https://www.anthropic.com/research/project-fetch-robot-dog</link>
+      <description>How much does Claude help people program robots? To find out, two teams of Anthropic staff raced to teach quadruped robots to fetch beach balls. The AI-assisted team completed tasks faster and was the only group to make real progress toward full autonomy.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/project-fetch-robot-dog</guid>
+      <pubDate>Wed, 12 Nov 2025 18:19:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From shortcuts to sabotage: natural emergent misalignment from reward hacking</title>
+      <link>https://www.anthropic.com/research/emergent-misalignment-reward-hacking</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/emergent-misalignment-reward-hacking</guid>
+      <pubDate>Fri, 21 Nov 2025 14:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mitigating the risk of prompt injections in browser use</title>
+      <link>https://www.anthropic.com/research/prompt-injection-defenses</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/prompt-injection-defenses</guid>
+      <pubDate>Mon, 24 Nov 2025 15:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estimating AI productivity gains from Claude conversations</title>
+      <link>https://www.anthropic.com/research/estimating-productivity-gains</link>
+      <description>Analyzing 100,000 Claude conversations, this research finds AI reduces task time by 80% on average. If universally adopted over 10 years, current models could increase US labor productivity growth by 1.8% annually—doubling recent rates. Knowledge work like software development and management see the largest gains.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/estimating-productivity-gains</guid>
+      <pubDate>Tue, 25 Nov 2025 11:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI is transforming work at Anthropic</title>
+      <link>https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</link>
+      <description>We surveyed Anthropic engineers and researchers, conducted in-depth qualitative interviews, and studied internal Claude Code usage data to find out how AI use is changing how we do our jobs. We found that AI use is radically changing the nature of work for software developers.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</guid>
+      <pubDate>Tue, 02 Dec 2025 18:58:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI</title>
+      <link>https://www.anthropic.com/research/anthropic-interviewer</link>
+      <description>We built an interview tool called Anthropic Interviewer. Powered by Claude, Anthropic Interviewer runs detailed interviews automatically and at unprecedented scale.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-interviewer</guid>
+      <pubDate>Thu, 04 Dec 2025 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend: Phase two</title>
+      <link>https://www.anthropic.com/research/project-vend-2</link>
+      <description>In June, we revealed that we’d set up a small shop in our San Francisco office lunchroom, run by an AI shopkeeper. It was part of Project Vend, a free-form experiment exploring how well AIs could do on complex, real-world tasks. How has Claude's business been since we last wrote?</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/project-vend-2</guid>
+      <pubDate>Thu, 18 Dec 2025 10:33:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Bloom: an open source tool for automated behavioral evaluations</title>
+      <link>https://www.anthropic.com/research/bloom</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/bloom</guid>
+      <pubDate>Fri, 19 Dec 2025 19:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Next-generation Constitutional Classifiers: More efficient protection against universal jailbreaks</title>
+      <link>https://www.anthropic.com/research/next-generation-constitutional-classifiers</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/next-generation-constitutional-classifiers</guid>
+      <pubDate>Fri, 09 Jan 2026 17:17:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: Economic primitives</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</link>
+      <description>This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-economic-index-january-2026-report</guid>
+      <pubDate>Thu, 15 Jan 2026 10:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index: New building blocks for understanding AI use</title>
+      <link>https://www.anthropic.com/research/economic-index-primitives</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-primitives</guid>
+      <pubDate>Thu, 15 Jan 2026 10:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The assistant axis: situating and stabilizing the character of large language models</title>
+      <link>https://www.anthropic.com/research/assistant-axis</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/assistant-axis</guid>
+      <pubDate>Mon, 19 Jan 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude's new constitution</title>
+      <link>https://www.anthropic.com/research/claude-new-constitution</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-new-constitution</guid>
+      <pubDate>Thu, 22 Jan 2026 04:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disempowerment patterns in real-world AI usage</title>
+      <link>https://www.anthropic.com/research/disempowerment-patterns</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/disempowerment-patterns</guid>
+      <pubDate>Wed, 28 Jan 2026 21:07:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI assistance impacts the formation of coding skills</title>
+      <link>https://www.anthropic.com/research/AI-assistance-coding-skills</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/AI-assistance-coding-skills</guid>
+      <pubDate>Thu, 29 Jan 2026 19:13:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>India Country Brief: The Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/india-brief-economic-index</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/india-brief-economic-index</guid>
+      <pubDate>Mon, 16 Feb 2026 01:38:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring AI agent autonomy in practice</title>
+      <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
+      <pubDate>Wed, 18 Feb 2026 15:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Education Report: The AI Fluency Index</title>
+      <link>https://www.anthropic.com/research/AI-fluency-index</link>
+      <description>We tracked 11 observable behaviors across thousands of Claude.ai conversations to build the AI Fluency Index — a baseline for measuring how people collaborate with AI today.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/AI-fluency-index</guid>
+      <pubDate>Mon, 23 Feb 2026 11:52:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The persona selection model</title>
+      <link>https://www.anthropic.com/research/persona-selection-model</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/persona-selection-model</guid>
+      <pubDate>Mon, 23 Feb 2026 11:53:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An update on our model deprecation commitments for Claude Opus 3</title>
+      <link>https://www.anthropic.com/research/deprecation-updates-opus-3</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/deprecation-updates-opus-3</guid>
+      <pubDate>Wed, 25 Feb 2026 20:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Labor market impacts of AI: A new measure and early evidence</title>
+      <link>https://www.anthropic.com/research/labor-market-impacts</link>
+      <description>In this paper, we present a new framework for understanding AI’s labor market impacts, and test it against early data.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/labor-market-impacts</guid>
+      <pubDate>Thu, 05 Mar 2026 19:59:21 +0000</pubDate>
+    </item>
     <item>
       <title>Partnering with Mozilla to improve Firefox’s security</title>
-      <link>https://www.anthropic.com/news/mozilla-firefox-security</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/mozilla-firefox-security</guid>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
+      <link>https://www.anthropic.com/research/mozilla-firefox-security</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/mozilla-firefox-security</guid>
+      <pubDate>Fri, 06 Mar 2026 10:30:00 +0000</pubDate>
     </item>
     <item>
       <title>A “diff” tool for AI: Finding behavioral differences in new models</title>
       <link>https://www.anthropic.com/research/diff-tool</link>
+      <description>"Model diffing" is a powerful way to understand how models change during fine-tuning. Our new research paper extends this method to its most challenging and general use case: comparing models with entirely different architectures.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/diff-tool</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 13 Mar 2026 10:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What 81,000 people want from AI</title>
+      <link>https://www.anthropic.com/81k-interviews</link>
+      <description>We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind. Here's what we found.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/81k-interviews</guid>
+      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Vibe physics: The AI grad student</title>
       <link>https://www.anthropic.com/research/vibe-physics</link>
+      <description>Can AI do theoretical physics? I decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file myself.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/vibe-physics</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Long-running Claude for scientific computing</title>
       <link>https://www.anthropic.com/research/long-running-Claude</link>
+      <description>A practical guide to running Claude Code for multi-day scientific tasks—test oracles, persistent memory, and orchestration patterns.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/long-running-Claude</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing our Science Blog</title>
       <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
+      <description>We’re launching a new blog about AI and science. We’ll share research happening at Anthropic and elsewhere, collaborations with external researchers and labs, and discuss practical workflows for scientists using AI in their own work.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/introducing-anthropic-science</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 23 Mar 2026 23:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Economic Index report: Learning curves</title>
       <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
+      <description>Anthropic's fifth Economic Index report studies Claude usage in February 2026, building on the economic primitives framework introduced in our previous report.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-march-2026-report</guid>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 24 Mar 2026 10:41:00 +0000</pubDate>
     </item>
     <item>
       <title>How Australia Uses Claude: Findings from the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-australia-uses-claude</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 31 Mar 2026 22:17:00 +0000</pubDate>
     </item>
     <item>
       <title>Emotion concepts and their function in a large language model</title>
       <link>https://www.anthropic.com/research/emotion-concepts-function</link>
+      <description>All modern language models sometimes act like they have emotions. What’s behind these behaviors? Our interpretability team investigates.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/emotion-concepts-function</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 02 Apr 2026 10:56:00 +0000</pubDate>
     </item>
     <item>
       <title>Trustworthy agents in practice</title>
       <link>https://www.anthropic.com/research/trustworthy-agents</link>
+      <description>AI “agents” represent the latest major shift in how people and organizations are using AI. Here, we explain how they work and how we ensure they're trustworthy.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/trustworthy-agents</guid>
-      <pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 09 Apr 2026 16:34:00 +0000</pubDate>
     </item>
     <item>
       <title>Automated Alignment Researchers: Using large language models to scale scalable oversight</title>
       <link>https://www.anthropic.com/research/automated-alignment-researchers</link>
+      <description>Can Claude develop, test, and analyze alignment ideas of its own? We ran an experiment to find out.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/automated-alignment-researchers</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Apr 2026 13:01:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
