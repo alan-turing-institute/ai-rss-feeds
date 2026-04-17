@@ -10,6 +10,7 @@ dependencies = [
     { name = "dateparser" },
     { name = "feedgen" },
     { name = "jq" },
+    { name = "lxml" },
     { name = "scrapy" },
 ]
 
@@ -18,6 +19,7 @@ requires-dist = [
     { name = "dateparser", specifier = ">=1.4.0" },
     { name = "feedgen", specifier = ">=1.0.0" },
     { name = "jq", specifier = ">=1.11.0" },
+    { name = "lxml", specifier = ">=6.0.3" },
     { name = "scrapy", specifier = ">=2.15.0" },
 ]
 

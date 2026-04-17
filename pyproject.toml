@@ -8,5 +8,6 @@ dependencies = [
     "dateparser>=1.4.0",
     "feedgen>=1.0.0",
     "jq>=1.11.0",
+    "lxml>=6.0.3",
     "scrapy>=2.15.0",
 ]

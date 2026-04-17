@@ -317,6 +317,28 @@ class FeedSpider(scrapy.Spider):
 
     def _extract_nextjs_items(self, response):
         """Extract Next.js items by applying item_container_selector as jq."""
+        next_data = response.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
+        if next_data:
+            try:
+                parsed = json.loads(next_data)
+            except json.JSONDecodeError as exc:
+                raise RuntimeError(f"Failed to parse __NEXT_DATA__: {exc}") from exc
+
+            try:
+                matches = self._jq_values(self.item_container_selector, parsed)
+            except Exception as exc:
+                raise RuntimeError(f"Failed to evaluate jq selector against __NEXT_DATA__: {exc}") from exc
+
+            items = []
+            for value in matches:
+                if isinstance(value, dict):
+                    items.append(value)
+                elif isinstance(value, list):
+                    items.extend(v for v in value if isinstance(v, dict))
+
+            if items:
+                return items
+
         scripts = response.xpath('//script/text()').getall()
         if not scripts:
             raise RuntimeError("No script tags found in response")
