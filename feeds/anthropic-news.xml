@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Apr 2026 05:42:29 +0000</lastBuildDate>
-    <item>
-      <title>Statement from Dario Amodei on our discussions with the Department of War</title>
-      <link>https://www.anthropic.com/news/statement-department-of-war</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/statement-department-of-war</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 16 Apr 2026 17:07:03 +0000</lastBuildDate>
     <item>
       <title>Statement on the comments from Secretary of War Pete Hegseth</title>
       <link>https://www.anthropic.com/news/statement-comments-secretary-war</link>
@@ -67,6 +61,12 @@
       <link>https://www.anthropic.com/news/narasimhan-board</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Opus 4.7</title>
+      <link>https://www.anthropic.com/news/claude-opus-4-7</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-opus-4-7</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
