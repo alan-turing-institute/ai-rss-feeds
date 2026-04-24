@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Apr 2026 17:05:24 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 14:15:51 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -543,6 +543,13 @@
       <description>We deployed open-source AI agent OpenClaw inside a sandbox on our research platform. Despite our initial countermeasures, it successfully identified our organisation by name, inferred the identity of a human operator and reconstructed a timeline of some of our research activities.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/what-can-sandboxed-ai-agents-learn-about-their-evaluation-environments</guid>
       <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How do environmental factors impact AI behaviour?</title>
+      <link>https://www.aisi.gov.uk/blog/how-do-environmental-factors-impact-ai-behaviour</link>
+      <description>Developing methods to better understand when and why AI models sometimes act against user intentions.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-do-environmental-factors-impact-ai-behaviour</guid>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
