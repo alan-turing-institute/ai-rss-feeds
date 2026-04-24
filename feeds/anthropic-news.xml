@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 14:15:57 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 17:04:36 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1334,6 +1334,12 @@
       <description>Today, we’re launching Claude Design, a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-design-anthropic-labs</guid>
       <pubDate>Fri, 17 Apr 2026 14:32:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</title>
+      <link>https://www.anthropic.com/news/anthropic-amazon-compute</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-amazon-compute</guid>
+      <pubDate>Mon, 20 Apr 2026 15:50:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic and NEC collaborate to build Japan’s largest AI engineering workforce</title>

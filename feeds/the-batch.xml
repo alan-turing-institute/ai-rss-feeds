@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2026 22:59:34 +0000</lastBuildDate>
-    <item>
-      <title>New Year Special! Hopes for 2026 from David Cox, Adji Bousso Dieng, Juan M. Lavista Ferres, Tanmay Gupta, Pengtao Xie, Sharon Zhou</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-334</link>
-      <description>The Batch AI News and Insights: Happy 2026! Will this be the year we finally achieve AGI? I’d like to propose a new version of the Turing Test, which I’ll call the Turing-AGI Test, to see if we’ve achieved this.</description>
-      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-334</guid>
-      <pubDate>Fri, 02 Jan 2026 19:05:18 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 24 Apr 2026 17:04:32 +0000</lastBuildDate>
     <item>
       <title>LLMs Go To Confession, Automated Scientific Research, What Copilot Users Want, Reasoning For Less</title>
       <link>https://www.deeplearning.ai/the-batch/issue-335</link>
@@ -119,6 +112,13 @@
       <description>The Batch AI News and Insights: AI-native software engineering teams operate very differently than traditional teams.</description>
       <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-349</guid>
       <pubDate>Fri, 17 Apr 2026 20:49:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLM 5.1 Thinks Strategically, Data-Center Revolt Intensifies, When Helpful LLMs Turn Unhelpful, Humanoid Robots Get to Work</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-350</link>
+      <description>The Batch AI News and Insights: Coding agents are accelerating different types of software work to different degrees.</description>
+      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-350</guid>
+      <pubDate>Fri, 24 Apr 2026 15:40:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
