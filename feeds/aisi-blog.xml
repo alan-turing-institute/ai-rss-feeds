@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 14:15:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 14:27:51 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -550,6 +550,13 @@
       <description>Developing methods to better understand when and why AI models sometimes act against user intentions.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-do-environmental-factors-impact-ai-behaviour</guid>
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating whether AI models would sabotage AI safety research</title>
+      <link>https://www.aisi.gov.uk/blog/evaluating-whether-ai-models-would-sabotage-ai-safety-research</link>
+      <description>An update on our alignment testing methodology for recent frontier models.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/evaluating-whether-ai-models-would-sabotage-ai-safety-research</guid>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
