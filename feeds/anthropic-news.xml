@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 17:04:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 23:02:49 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1353,6 +1353,12 @@
       <description>We explain what we’re doing to ensure Claude plays a positive role in the US midterms and other major elections around the world this year.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/election-safeguards-update</guid>
       <pubDate>Fri, 24 Apr 2026 09:47:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic names Theo Hourmouzis General Manager of Australia &amp; New Zealand and officially opens Sydney office</title>
+      <link>https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/theo-hourmouzis-general-manager-australia-new-zealand</guid>
+      <pubDate>Mon, 27 Apr 2026 21:53:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
