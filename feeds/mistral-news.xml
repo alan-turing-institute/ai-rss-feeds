@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Apr 2026 22:58:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 14:34:56 +0000</lastBuildDate>
     <item>
       <title>Mistral 7B</title>
       <link>https://mistral.ai/news/announcing-mistral-7b</link>
@@ -457,6 +457,13 @@
       <description>Connect enterprise data to your AI applications with reusable connectors, direct tool calling, and human-in-the-loop approval controls.</description>
       <guid isPermaLink="true">https://mistral.ai/news/connectors</guid>
       <pubDate>Wed, 15 Apr 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Workflows for work that runs the business</title>
+      <link>https://mistral.ai/news/workflows</link>
+      <description>Workflows is now in public preview.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/workflows</guid>
+      <pubDate>Mon, 27 Apr 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
