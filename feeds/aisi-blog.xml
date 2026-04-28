@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 14:27:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 11:21:17 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -557,6 +557,13 @@
       <description>An update on our alignment testing methodology for recent frontier models.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/evaluating-whether-ai-models-would-sabotage-ai-safety-research</guid>
       <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ask Don't Tell: Reducing Sycophancy in Large Language Models</title>
+      <link>https://www.aisi.gov.uk/blog/ask-dont-tell-reducing-sycophancy-in-large-language-models-2</link>
+      <description>Our new paper finds that the phrasing of user inputs affects levels of model sycophancy.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/ask-dont-tell-reducing-sycophancy-in-large-language-models-2</guid>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
