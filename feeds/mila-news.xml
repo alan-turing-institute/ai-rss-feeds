@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Apr 2026 14:19:57 +0000</lastBuildDate>
-    <item>
-      <title>Designing the Future: Three AI4Good Lab Alumni on Belonging, Courage, and Building AI for Everyone</title>
-      <link>https://mila.quebec/en/news/three-ai4goodlab-alumni-on-belonging-courage-building-ai-for-everyone</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/three-ai4goodlab-alumni-on-belonging-courage-building-ai-for-everyone</guid>
-      <pubDate>Fri, 06 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 29 Apr 2026 14:29:41 +0000</lastBuildDate>
     <item>
       <title>Mila Launches Its First National Hackathon Focused on the Safety of Conversational AI in Youth Mental Health Contexts</title>
       <link>https://mila.quebec/en/news/mila-launches-its-first-national-hackathon-focused-on-the-safety-of-conversational-ai-in-youth</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/the-ai-driven-autonomous-factory</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/the-ai-driven-autonomous-factory</guid>
       <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila, Aéro Montréal and Espace Aéro Join Forces to Accelerate Artificial Intelligence in Aerospace</title>
+      <link>https://mila.quebec/en/news/mila-aero-montreal-and-espace-aero-join-forces-to-accelerate-artificial-intelligence-in</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-aero-montreal-and-espace-aero-join-forces-to-accelerate-artificial-intelligence-in</guid>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
