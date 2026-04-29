@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 22 Apr 2026 20:05:25 +0000</lastBuildDate>
-    <item>
-      <title>Molmo 2: State-of-the-art video understanding, pointing, and tracking</title>
-      <link>https://allenai.org/blog/molmo2</link>
-      <description>Molmo 2, a new suite of state-of-the-art vision-language models with open weights, training data, and training…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/molmo2</guid>
-      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 29 Apr 2026 23:03:38 +0000</lastBuildDate>
     <item>
       <title>Open Coding Agents: Fast, accessible coding agents that adapt to any repo</title>
       <link>https://allenai.org/blog/open-coding-agents</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/earth-day-2026</link>
       <description>For the past 10 years, Ai2 has built open, real-time tools that help people protect wildlife, oceans, and…</description>
       <guid isPermaLink="true">https://allenai.org/blog/earth-day-2026</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Molmo learns to point and act</title>
+      <link>https://allenai.org/blog/molmo-learns-to-point-and-act</link>
+      <description>MolmoPoint and MolmoWeb extend the Molmo family from visual understanding to visual action, giving researchers…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/molmo-learns-to-point-and-act</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
