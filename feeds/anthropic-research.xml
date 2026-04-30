@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 23:03:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 02:36:34 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -766,7 +766,7 @@
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Evaluating Claude’s Bioinformatics Research Capabilities with BioMysteryBench</title>
+      <title>Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench</title>
       <link>https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</guid>
       <pubDate>Wed, 29 Apr 2026 20:26:00 +0000</pubDate>

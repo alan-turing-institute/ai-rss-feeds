@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Apr 2026 11:21:17 +0000</lastBuildDate>
-    <item>
-      <title>Turing researchers pioneering data-efficient AI to accelerate scientific discovery</title>
-      <link>https://www.turing.ac.uk/news/turing-researchers-pioneering-data-efficient-ai-accelerate-scientific-discovery</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/turing-researchers-pioneering-data-efficient-ai-accelerate-scientific-discovery</guid>
-      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 30 Apr 2026 02:36:29 +0000</lastBuildDate>
     <item>
       <title>Research explores risks of using AI in the financial sector</title>
       <link>https://www.turing.ac.uk/news/research-explores-risks-using-ai-financial-sector</link>
@@ -115,6 +109,12 @@
       <link>https://www.turing.ac.uk/news/professor-michael-wooldridge-made-honorary-fellow</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/news/professor-michael-wooldridge-made-honorary-fellow</guid>
       <pubDate>Tue, 28 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New research will help UK prepare for next wave of frontier AI</title>
+      <link>https://www.turing.ac.uk/news/new-research-will-help-uk-prepare-next-wave-frontier-ai</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-research-will-help-uk-prepare-next-wave-frontier-ai</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
