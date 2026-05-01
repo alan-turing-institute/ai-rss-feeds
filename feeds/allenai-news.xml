@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 23:03:38 +0000</lastBuildDate>
-    <item>
-      <title>Open Coding Agents: Fast, accessible coding agents that adapt to any repo</title>
-      <link>https://allenai.org/blog/open-coding-agents</link>
-      <description>SERA is the first in our family of Open Coding Agents, achieving state-of-the-art performance at low cost.</description>
-      <guid isPermaLink="true">https://allenai.org/blog/open-coding-agents</guid>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 01 May 2026 17:04:13 +0000</lastBuildDate>
     <item>
       <title>Now in Nature: Synthesizing scientific literature with retrieval-augmented LMs</title>
       <link>https://allenai.org/blog/nature-openscilm</link>
@@ -70,6 +63,13 @@
       <description>MolmoPoint and MolmoWeb extend the Molmo family from visual understanding to visual action, giving researchers…</description>
       <guid isPermaLink="true">https://allenai.org/blog/molmo-learns-to-point-and-act</guid>
       <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What’s next for Ai2: A conversation with Interim CEO Peter Clark</title>
+      <link>https://allenai.org/blog/peter-clark-qa</link>
+      <description>Interim CEO Peter Clark shares his thoughts on this moment for Ai2, our commitment to open science, and where the…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/peter-clark-qa</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
