@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Apr 2026 14:29:41 +0000</lastBuildDate>
-    <item>
-      <title>Mila Launches Its First National Hackathon Focused on the Safety of Conversational AI in Youth Mental Health Contexts</title>
-      <link>https://mila.quebec/en/news/mila-launches-its-first-national-hackathon-focused-on-the-safety-of-conversational-ai-in-youth</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/mila-launches-its-first-national-hackathon-focused-on-the-safety-of-conversational-ai-in-youth</guid>
-      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 01 May 2026 14:10:10 +0000</lastBuildDate>
     <item>
       <title>Mila and Mozilla Join Forces to Open the Future of AI to All</title>
       <link>https://mila.quebec/en/news/mila-and-mozilla-join-forces-to-open-the-future-of-ai-to-all</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/mila-aero-montreal-and-espace-aero-join-forces-to-accelerate-artificial-intelligence-in</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/mila-aero-montreal-and-espace-aero-join-forces-to-accelerate-artificial-intelligence-in</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and AlayaCare Announce Partnership to Develop Robust Agentic AI for Home Care</title>
+      <link>https://mila.quebec/en/news/mila-and-alayacare-announce-partnership-to-develop-robust-agentic-ai-for-home-care</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-alayacare-announce-partnership-to-develop-robust-agentic-ai-for-home-care</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
