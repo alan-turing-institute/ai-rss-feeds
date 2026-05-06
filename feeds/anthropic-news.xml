@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2026 17:09:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 May 2026 17:13:53 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1378,6 +1378,13 @@
       <description>We're releasing ten new Cowork and Claude Code plugins, integrations with the Microsoft 365 suite, new connectors, and an MCP app for financial services and insurance organizations.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/finance-agents</guid>
       <pubDate>Tue, 05 May 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Higher usage limits for Claude and a compute deal with SpaceX</title>
+      <link>https://www.anthropic.com/news/higher-limits-spacex</link>
+      <description>We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/higher-limits-spacex</guid>
+      <pubDate>Wed, 06 May 2026 14:36:27 +0000</pubDate>
     </item>
   </channel>
 </rss>
