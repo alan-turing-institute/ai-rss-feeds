@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 10:34:12 +0000</lastBuildDate>
-    <item>
-      <title>Aviron Partners with Mila to Transform Working Capital Management</title>
-      <link>https://mila.quebec/en/news/aviron-partners-with-mila-to-transform-working-capital-management</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/aviron-partners-with-mila-to-transform-working-capital-management</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 13 May 2026 14:36:04 +0000</lastBuildDate>
     <item>
       <title>70 Mila-affiliated papers accepted at ICLR 2026</title>
       <link>https://mila.quebec/en/news/70-mila-affiliated-papers-accepted-at-iclr-2026</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/secai-partners-with-mila-to-transform-healthcare-workflow-with-ai</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/secai-partners-with-mila-to-transform-healthcare-workflow-with-ai</guid>
       <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila Celebrates Seventeen Recipients of the 2026 EDI Scholarships Program</title>
+      <link>https://mila.quebec/en/news/mila-celebrates-seventeen-recipients-of-the-2026-edi-scholarships-program</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-celebrates-seventeen-recipients-of-the-2026-edi-scholarships-program</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
