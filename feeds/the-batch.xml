@@ -2,19 +2,12 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <title>The Batch</title>
-    <link>https://www.deeplearning.ai/the-batch/</link>
+    <link>https://www.deeplearning.ai/the-batch</link>
     <description>Weekly AI news for engineers, executives, and enthusiasts.</description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 May 2026 17:04:12 +0000</lastBuildDate>
-    <item>
-      <title>Governments vs. Grok, Meta Buys Agent Tech, Healthcare Chatbots, Limits of AI-Powered Retrieval</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-336</link>
-      <description>The Batch AI News and Insights: Many people are fighting the growth of data centers because they could increase CO2 emissions, electricity prices, and water use.</description>
-      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-336</guid>
-      <pubDate>Fri, 16 Jan 2026 15:32:29 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 13 May 2026 10:34:10 +0000</lastBuildDate>
     <item>
       <title>Self-Driving Reasoning Models, ChatGPT Adds Ads, Apple’s Deal with Google, 3D Generation Pronto</title>
       <link>https://www.deeplearning.ai/the-batch/issue-337</link>
@@ -119,6 +112,13 @@
       <description>The Batch AI News and Insights: The ways we prompt AI are very different in 2026 than 2022 when ChatGPT came out.</description>
       <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-351</guid>
       <pubDate>Fri, 01 May 2026 16:46:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seedance Makes A Splash, Nvidia's AI-Guided Chip Designs, Helping Robots Not Forget</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-352</link>
+      <description>The Batch AI News and Insights: There will be no AI jobpocalypse.</description>
+      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-352</guid>
+      <pubDate>Fri, 08 May 2026 17:53:08 +0000</pubDate>
     </item>
   </channel>
 </rss>

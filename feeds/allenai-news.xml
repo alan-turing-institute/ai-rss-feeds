@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 May 2026 17:19:24 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Olmo Hybrid: Combining transformers and linear RNNs for superior scaling</title>
-      <link>https://allenai.org/blog/olmohybrid</link>
-      <description>Olmo Hybrid is a fully open 7B language model that combines transformer attention with linear RNN layers to…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/olmohybrid</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 13 May 2026 10:34:12 +0000</lastBuildDate>
     <item>
       <title>Ai2 introduces open, simulation-first stack for physical AI, achieving zero-shot transfer to real robots</title>
       <link>https://allenai.org/blog/molmobot</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/omai-compute-now-live</link>
       <description>Ai2 is bringing NSF OMAI compute online to power a fully open AI research ecosystem, turning national…</description>
       <guid isPermaLink="true">https://allenai.org/blog/omai-compute-now-live</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Artificial Analysis uses Ai2's IFBench instruction-following eval</title>
+      <link>https://allenai.org/blog/ifbench-artificial-analysis</link>
+      <description>Artificial Analysis uses Ai2’s open IFBench eval because it captures a stubborn, real-world capability many…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/ifbench-artificial-analysis</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
