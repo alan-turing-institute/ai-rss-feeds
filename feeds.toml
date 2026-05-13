@@ -73,7 +73,7 @@ item_date_selector = "div.field-name-dynamic-twig-fieldnode-default-date-format-
 [feeds.the-batch]
 feed_title = "The Batch"
 feed_description = "Weekly AI news for engineers, executives, and enthusiasts."
-source_url = "https://www.deeplearning.ai/the-batch/"
+source_url = "https://www.deeplearning.ai/the-batch"
 format = "nextjs"
 item_container_selector = ".props.pageProps.posts[]"
 item_link_selector = ".slug"
