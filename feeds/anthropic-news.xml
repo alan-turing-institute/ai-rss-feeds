@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 May 2026 17:13:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 17:26:12 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1385,6 +1385,13 @@
       <description>We’ve raised Claude's usage limits and agreed a new compute partnership with SpaceX that will substantially increase our capacity in the near term.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/higher-limits-spacex</guid>
       <pubDate>Wed, 06 May 2026 14:36:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude for Small Business</title>
+      <link>https://www.anthropic.com/news/claude-for-small-business</link>
+      <description>We're launching Claude for Small Business, a package of connectors and ready-to-run workflows that put Claude inside the tools small businesses use every day.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-small-business</guid>
+      <pubDate>Wed, 13 May 2026 16:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

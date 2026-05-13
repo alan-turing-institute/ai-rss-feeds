@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Apr 2026 14:15:53 +0000</lastBuildDate>
-    <item>
-      <title>HIPAA Business Associate agreements for custom model development</title>
-      <link>https://cohere.com/blog/hipaa-business-associate-agreements-for-custom-model-development</link>
-      <guid isPermaLink="true">https://cohere.com/blog/hipaa-business-associate-agreements-for-custom-model-development</guid>
-      <pubDate>Thu, 13 Nov 2025 14:07:33 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 13 May 2026 17:26:13 +0000</lastBuildDate>
     <item>
       <title>Cohere expands partnership with SAP to provide Europe sovereign AI solutions</title>
       <link>https://cohere.com/blog/cohere-expands-partnership-with-sap</link>
@@ -93,7 +87,7 @@
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The five phases of enterprise AI maturity — and how to get past “the production wall”</title>
+      <title>The five phases of enterprise AI maturity, Part 1: How to get past “the production wall”</title>
       <link>https://cohere.com/blog/enterprise-ai-maturity-model</link>
       <guid isPermaLink="true">https://cohere.com/blog/enterprise-ai-maturity-model</guid>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>

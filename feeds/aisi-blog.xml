@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 May 2026 17:09:10 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 May 2026 17:26:14 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -578,6 +578,13 @@
       <description>A new collaboration on high-risk capability evaluation, safeguard testing, and societal resilience research.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/partnering-with-microsoft-to-strengthen-frontier-ai-safety</guid>
       <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How fast is autonomous AI cyber capability advancing?</title>
+      <link>https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing</link>
+      <description>The length of tasks frontier models can autonomously complete in our narrow cyber suite has been doubling every few months. This doubling rate has become faster over time, and recent models exceeded our previous trends.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
