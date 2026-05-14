@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 14:36:04 +0000</lastBuildDate>
-    <item>
-      <title>70 Mila-affiliated papers accepted at ICLR 2026</title>
-      <link>https://mila.quebec/en/news/70-mila-affiliated-papers-accepted-at-iclr-2026</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/70-mila-affiliated-papers-accepted-at-iclr-2026</guid>
-      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 14 May 2026 14:33:52 +0000</lastBuildDate>
     <item>
       <title>Follow Mila Researchers at ICLR 2026</title>
       <link>https://mila.quebec/en/news/follow-mila-researchers-at-iclr-2026</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/mila-celebrates-seventeen-recipients-of-the-2026-edi-scholarships-program</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/mila-celebrates-seventeen-recipients-of-the-2026-edi-scholarships-program</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and Sustainable AI Group Join Forces to Advance Environmentally Responsible AI</title>
+      <link>https://mila.quebec/en/news/mila-and-sustainable-ai-group-join-forces-to-advance-environmentally-responsible-ai</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-sustainable-ai-group-join-forces-to-advance-environmentally-responsible-ai</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
