@@ -7,12 +7,66 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 May 2026 17:13:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 08:45:40 +0000</lastBuildDate>
     <item>
-      <title>Improving frontend design through Skills</title>
-      <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
-      <guid isPermaLink="true">https://claude.com/blog/improving-frontend-design-through-skills</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
+      <title>How enterprises are building AI agents in 2026</title>
+      <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
+      <guid isPermaLink="true">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
+      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude now creates interactive charts, diagrams and visualizations</title>
+      <link>https://claude.com/blog/claude-builds-visuals</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-builds-visuals</guid>
+      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing Claude’s intelligence</title>
+      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
+      <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
+      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Managed Agents: get to production 10x faster</title>
+      <link>https://claude.com/blog/claude-managed-agents</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents</guid>
+      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Preparing your security program for AI-accelerated offense</title>
+      <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
+      <guid isPermaLink="true">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Redesigning Claude Code on desktop for parallel agents</title>
+      <link>https://claude.com/blog/claude-code-desktop-redesign</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-code-desktop-redesign</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Built-in memory for Claude Managed Agents</title>
+      <link>https://claude.com/blog/claude-managed-agents-memory</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents-memory</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New connectors in Claude for everyday life</title>
+      <link>https://claude.com/blog/connectors-for-everyday-life</link>
+      <guid isPermaLink="true">https://claude.com/blog/connectors-for-everyday-life</guid>
+      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
+      <link>https://claude.com/blog/new-in-claude-managed-agents</link>
+      <guid isPermaLink="true">https://claude.com/blog/new-in-claude-managed-agents</guid>
+      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</title>
+      <link>https://claude.com/blog/claude-managed-agents-updates</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents-updates</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How enterprises are building AI agents in 2026</title>
@@ -69,64 +123,10 @@
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Improving frontend design through Skills</title>
-      <link>https://claude.com/blog/improving-frontend-design-through-skills</link>
-      <guid isPermaLink="true">https://claude.com/blog/improving-frontend-design-through-skills</guid>
-      <pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How enterprises are building AI agents in 2026</title>
-      <link>https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</link>
-      <guid isPermaLink="true">https://claude.com/blog/how-enterprises-are-building-ai-agents-in-2026</guid>
-      <pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude now creates interactive charts, diagrams and visualizations</title>
-      <link>https://claude.com/blog/claude-builds-visuals</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-builds-visuals</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Harnessing Claude’s intelligence</title>
-      <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
-      <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Managed Agents: get to production 10x faster</title>
-      <link>https://claude.com/blog/claude-managed-agents</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Preparing your security program for AI-accelerated offense</title>
-      <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
-      <guid isPermaLink="true">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
-      <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Redesigning Claude Code on desktop for parallel agents</title>
-      <link>https://claude.com/blog/claude-code-desktop-redesign</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-code-desktop-redesign</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Built-in memory for Claude Managed Agents</title>
-      <link>https://claude.com/blog/claude-managed-agents-memory</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents-memory</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New connectors in Claude for everyday life</title>
-      <link>https://claude.com/blog/connectors-for-everyday-life</link>
-      <guid isPermaLink="true">https://claude.com/blog/connectors-for-everyday-life</guid>
-      <pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New in Claude Managed Agents: dreaming, outcomes, and multiagent orchestration</title>
-      <link>https://claude.com/blog/new-in-claude-managed-agents</link>
-      <guid isPermaLink="true">https://claude.com/blog/new-in-claude-managed-agents</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
+      <title>New in Claude Managed Agents: self-hosted sandboxes and MCP tunnels</title>
+      <link>https://claude.com/blog/claude-managed-agents-updates</link>
+      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents-updates</guid>
+      <pubDate>Tue, 19 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
