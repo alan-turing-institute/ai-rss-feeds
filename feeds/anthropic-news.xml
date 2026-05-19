@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 May 2026 17:34:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 14:37:37 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1412,6 +1412,13 @@
       <description>Anthropic is acquiring Stainless, a leader in SDKs and MCP server tooling.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
       <pubDate>Mon, 18 May 2026 17:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>KPMG integrates Claude across its core business and workforce of more than 276,000 in strategic alliance</title>
+      <link>https://www.anthropic.com/news/anthropic-kpmg</link>
+      <description>KPMG and Anthropic announce a global alliance, with Claude integrated into KPMG's Digital Gateway platform and available to all 276,000+ employees.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-kpmg</guid>
+      <pubDate>Tue, 19 May 2026 12:30:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
