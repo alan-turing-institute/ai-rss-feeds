@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 May 2026 10:34:12 +0000</lastBuildDate>
-    <item>
-      <title>Ai2 introduces open, simulation-first stack for physical AI, achieving zero-shot transfer to real robots</title>
-      <link>https://allenai.org/blog/molmobot</link>
-      <description>Introducing MolmoBot and MolmoSpaces, an open foundation for training real-world robots to advance science.</description>
-      <guid isPermaLink="true">https://allenai.org/blog/molmobot</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 21 May 2026 17:32:21 +0000</lastBuildDate>
     <item>
       <title>Highlights from Ai2 at NVIDIA GTC 2026</title>
       <link>https://allenai.org/blog/gtc2026</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/ifbench-artificial-analysis</link>
       <description>Artificial Analysis uses Ai2’s open IFBench eval because it captures a stubborn, real-world capability many…</description>
       <guid isPermaLink="true">https://allenai.org/blog/ifbench-artificial-analysis</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building accessibility tools on a truly open foundation</title>
+      <link>https://allenai.org/blog/global-accessibility-awareness-day-2026</link>
+      <description>PointCheck, an independent project, uses Molmo, MolmoWeb, and Olmo 3 to test web accessibility the way a keyboard…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/global-accessibility-awareness-day-2026</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
