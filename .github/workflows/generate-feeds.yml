@@ -25,10 +25,17 @@ jobs:
       - name: Set up uv
         uses: astral-sh/setup-uv@v5
 
+      # continue-on-error lets the job proceed to the commit step even if some
+      # spiders fail, so successfully-generated feeds are still written out.
       - name: Generate feeds
+        id: generate
+        continue-on-error: true
         run: uv run python generate_feeds.py --no-cache --skip-unchanged
 
+      # always() ensures this runs even when the generate step failed, so any
+      # feeds that did succeed get committed.
       - name: Commit and push updated feeds
+        if: always()
         env:
           BRANCH_NAME: ${{ github.ref_name }}
         run: |
@@ -43,3 +50,9 @@ jobs:
           git add feeds
           git commit -m "chore: regenerate RSS feeds"
           git push origin "${BRANCH_NAME}"
+
+      # Re-raise the generate failure so the workflow is marked as failed,
+      # even though the commit step was allowed to run above.
+      - name: Fail if any spiders errored
+        if: steps.generate.outcome == 'failure'
+        run: exit 1
