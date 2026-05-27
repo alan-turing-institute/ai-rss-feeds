@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 May 2026 14:38:09 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 17:43:31 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -83,13 +83,6 @@
       <link>https://www.aisi.gov.uk/blog/fourth-progress-report</link>
       <description>Since February, we released our first technical blog post, published the International Scientific Report on the Safety of Advanced AI, open-sourced our testing platform Inspect, announced our San Francisco office, announced a partnership with the Canadian AI Safety Institute, grew our technical team to &gt;30 researchers and appointed Jade Leung as our Chief Technology Officer.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/fourth-progress-report</guid>
-      <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing our San Francisco office</title>
-      <link>https://www.aisi.gov.uk/blog/announcing-our-san-francisco-office</link>
-      <description>We are opening an office in San Francisco! This will enable us to hire more top talent, collaborate closely with the US AI Safety Institute and engage even more with the wider AI research community.</description>
-      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/announcing-our-san-francisco-office</guid>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -592,6 +585,13 @@
       <description>Our new report examines today’s AI oversight landscape, how robust it is to capability advances, and the pathways that could lead to its degradation.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/will-it-become-harder-to-oversee-ai-systems</guid>
       <pubDate>Thu, 21 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deepening our partnership with the Australian AI Safety Institute</title>
+      <link>https://www.aisi.gov.uk/blog/deepening-our-partnership-with-the-australian-ai-safety-institute</link>
+      <description>An agreement between Institutes to collaborate on best practices in AI evaluation, and share research findings.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/deepening-our-partnership-with-the-australian-ai-safety-institute</guid>
+      <pubDate>Mon, 25 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
