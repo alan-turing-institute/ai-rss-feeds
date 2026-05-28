@@ -104,7 +104,7 @@ item_date_selector = ".date // .published_at"
 [feeds.mistral-news]
 feed_title = "Mistral News"
 feed_description = "Latest news and announcements from Mistral AI."
-source_url = "https://mistral.ai/news"
+source_url = "https://mistral.ai/news/"
 format = "nextjs"
 item_container_selector = ".. | objects | select(has(\"posts\")) | .posts[]"
 item_title_selector = ".title"
