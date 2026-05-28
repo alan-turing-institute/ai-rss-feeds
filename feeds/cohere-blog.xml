@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 20 May 2026 17:43:55 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Rerank 4: Cohere’s most powerful reranker yet</title>
-      <link>https://cohere.com/blog/rerank-4</link>
-      <guid isPermaLink="true">https://cohere.com/blog/rerank-4</guid>
-      <pubDate>Thu, 11 Dec 2025 16:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How a Community Effort is Teaching AI to See Africa’s Richness</title>
-      <link>https://cohere.com/blog/afriaya</link>
-      <guid isPermaLink="true">https://cohere.com/blog/afriaya</guid>
-      <pubDate>Tue, 16 Dec 2025 12:00:03 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 27 May 2026 14:43:35 +0000</lastBuildDate>
     <item>
       <title>How the Cohere Labs open research community turns early-career researchers into global leaders</title>
       <link>https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</link>
@@ -115,6 +103,18 @@
       <link>https://cohere.com/blog/command-a-plus</link>
       <guid isPermaLink="true">https://cohere.com/blog/command-a-plus</guid>
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Our 2026 summer merch collection is here</title>
+      <link>https://cohere.com/blog/2026-summer-merch-collection</link>
+      <guid isPermaLink="true">https://cohere.com/blog/2026-summer-merch-collection</guid>
+      <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere and Mila Partner to Advance Quebec French Language and Cultural Context in AI</title>
+      <link>https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
