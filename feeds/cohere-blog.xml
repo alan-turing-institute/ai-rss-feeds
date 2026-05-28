@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 20:33:52 +0000</lastBuildDate>
-    <item>
-      <title>Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible</title>
-      <link>https://cohere.com/blog/cohere-labs-tiny-aya</link>
-      <guid isPermaLink="true">https://cohere.com/blog/cohere-labs-tiny-aya</guid>
-      <pubDate>Tue, 17 Feb 2026 09:00:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>The advantages of AI in business</title>
-      <link>https://cohere.com/blog/advantage-of-ai-in-business</link>
-      <guid isPermaLink="true">https://cohere.com/blog/advantage-of-ai-in-business</guid>
-      <pubDate>Tue, 03 Mar 2026 16:37:13 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 28 May 2026 23:07:05 +0000</lastBuildDate>
     <item>
       <title>Cohere advances sovereign AI capabilities with NVIDIA</title>
       <link>https://cohere.com/blog/cohere-sovereign-ai-nvidia</link>
@@ -109,6 +97,18 @@
       <link>https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai</link>
       <guid isPermaLink="true">https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI governance challenges: How to support safe, scalable AI adoption</title>
+      <link>https://cohere.com/blog/ai-governance-challenges</link>
+      <guid isPermaLink="true">https://cohere.com/blog/ai-governance-challenges</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Model Context Protocol? A practical guide to MCP</title>
+      <link>https://cohere.com/blog/guide-to-mcp</link>
+      <guid isPermaLink="true">https://cohere.com/blog/guide-to-mcp</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>AI in business intelligence: Use cases, benefits, and adoption considerations</title>
