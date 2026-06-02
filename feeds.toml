@@ -101,14 +101,12 @@ item_link_selector = ".slug | if type == \"object\" then .current else . end"
 item_date_selector = ".date // .published_at"
 
 [feeds.mistral-news]
-broken = true
 feed_title = "Mistral News"
 feed_description = "Latest news and announcements from Mistral AI."
 source_url = "https://mistral.ai/news/"
-format = "nextjs"
-item_container_selector = ".. | objects | select(has(\"posts\")) | .posts[]"
-item_title_selector = ".title"
-item_link_selector = ".slug"
-item_date_selector = ".date"
-item_description_selector = ".description"
+item_container_selector = "article.post-item"
+item_title_selector = "h2 ::text"
+item_link_selector = "a::attr(href)"
+item_date_selector = "footer div:first-child p ::text"
+item_description_selector = "h2 + p ::text"
 
