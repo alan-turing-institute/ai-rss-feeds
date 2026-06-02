@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 22 May 2026 14:36:14 +0000</lastBuildDate>
-    <item>
-      <title>OpenClaw Runs Amok, Kimi’s Open Model, Ministral Distilled, Wikipedia’s Partners</title>
-      <link>https://www.deeplearning.ai/the-batch/issue-339</link>
-      <description>The Batch AI News and Insights: Job seekers in the U.S. and many other nations face a tough environment.</description>
-      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-339</guid>
-      <pubDate>Fri, 06 Feb 2026 15:35:16 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 29 May 2026 14:37:58 +0000</lastBuildDate>
     <item>
       <title>Claude Opus 4.6 Thinks Smarter, xAI Joins SpaceX, AI Outperforms Doctors, Standardized AI Audits</title>
       <link>https://www.deeplearning.ai/the-batch/issue-340</link>
@@ -119,6 +112,13 @@
       <description>The Batch AI News and Insights: Harvard University just voted to limit the number of A grades given in undergraduate classes to about 20% of the class.</description>
       <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-354</guid>
       <pubDate>Fri, 22 May 2026 14:00:50 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini Flash Gets Pricey, AI Act Delays, Agents Drive Online Traffic</title>
+      <link>https://www.deeplearning.ai/the-batch/issue-355</link>
+      <description>The Batch AI News and Insights: One of the new, buzzy jobs in Silicon Valley is the AI Forward Deployed Engineer (FDE), an engineer who is embedded within a client organization to help customize solutions, such as building and tuning agentic workflows that suit the client’s particular needs.</description>
+      <guid isPermaLink="true">https://www.deeplearning.ai/the-batch/issue-355</guid>
+      <pubDate>Fri, 29 May 2026 14:00:34 +0000</pubDate>
     </item>
   </channel>
 </rss>

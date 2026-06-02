@@ -7,37 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 May 2026 14:43:35 +0000</lastBuildDate>
-    <item>
-      <title>How the Cohere Labs open research community turns early-career researchers into global leaders</title>
-      <link>https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</link>
-      <guid isPermaLink="true">https://cohere.com/blog/how-the-cohere-labs-open-research-community-turns-early-career-researchers-into-global-leaders</guid>
-      <pubDate>Thu, 15 Jan 2026 12:05:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Model Vault: Your private platform for secure and scalable model inference</title>
-      <link>https://cohere.com/blog/model-vault</link>
-      <guid isPermaLink="true">https://cohere.com/blog/model-vault</guid>
-      <pubDate>Wed, 28 Jan 2026 13:59:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cohere signs world chess champion Magnus Carlsen as brand ambassador</title>
-      <link>https://cohere.com/blog/cohere-signs-world-chess-champion-magnus-carlsen</link>
-      <guid isPermaLink="true">https://cohere.com/blog/cohere-signs-world-chess-champion-magnus-carlsen</guid>
-      <pubDate>Fri, 13 Feb 2026 14:14:41 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cohere Labs Launches Tiny Aya, Making Multilingual AI Accessible</title>
-      <link>https://cohere.com/blog/cohere-labs-tiny-aya</link>
-      <guid isPermaLink="true">https://cohere.com/blog/cohere-labs-tiny-aya</guid>
-      <pubDate>Tue, 17 Feb 2026 09:00:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>The advantages of AI in business</title>
-      <link>https://cohere.com/blog/advantage-of-ai-in-business</link>
-      <guid isPermaLink="true">https://cohere.com/blog/advantage-of-ai-in-business</guid>
-      <pubDate>Tue, 03 Mar 2026 16:37:13 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 01 Jun 2026 21:02:17 +0000</lastBuildDate>
     <item>
       <title>Cohere advances sovereign AI capabilities with NVIDIA</title>
       <link>https://cohere.com/blog/cohere-sovereign-ai-nvidia</link>
@@ -99,6 +69,12 @@
       <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Cohere Releases Command A+: An Open-Source Enterprise AI Model Built for Sovereign Critical Infrastructure</title>
+      <link>https://cohere.com/blog/cohere-releases-command-a-plus</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-releases-command-a-plus</guid>
+      <pubDate>Wed, 20 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing Command A+: Making sovereign agentic capabilities available to all</title>
       <link>https://cohere.com/blog/command-a-plus</link>
       <guid isPermaLink="true">https://cohere.com/blog/command-a-plus</guid>
@@ -111,10 +87,34 @@
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Cohere and Mila Partner to Advance Quebec French Language and Cultural Context in AI</title>
+      <title>Cohere and Mila partner to advance Quebec French language and cultural context in AI</title>
       <link>https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai</link>
       <guid isPermaLink="true">https://cohere.com/blog/cohere-and-mila-partner-to-advance-quebec-french-language-and-cultural-context-in-ai</guid>
       <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI governance challenges: How to support safe, scalable AI adoption</title>
+      <link>https://cohere.com/blog/ai-governance-challenges</link>
+      <guid isPermaLink="true">https://cohere.com/blog/ai-governance-challenges</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What is Model Context Protocol? A practical guide to MCP</title>
+      <link>https://cohere.com/blog/guide-to-mcp</link>
+      <guid isPermaLink="true">https://cohere.com/blog/guide-to-mcp</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI in business intelligence: Use cases, benefits, and adoption considerations</title>
+      <link>https://cohere.com/blog/ai-for-business-intelligence</link>
+      <guid isPermaLink="true">https://cohere.com/blog/ai-for-business-intelligence</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RWS and Cohere build top-performing AI language intelligence for the enterprise</title>
+      <link>https://cohere.com/blog/rws-and-cohere-build-ai-language-intelligence</link>
+      <guid isPermaLink="true">https://cohere.com/blog/rws-and-cohere-build-ai-language-intelligence</guid>
+      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
