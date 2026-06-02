@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 May 2026 17:49:40 +0000</lastBuildDate>
-    <item>
-      <title>Building Safer AI for Youth Mental Health: A National Hackathon Delivers Groundbreaking Results</title>
-      <link>https://mila.quebec/en/news/building-safer-ai-for-youth-mental-health-a-national-hackathon-delivers-groundbreaking-results</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/building-safer-ai-for-youth-mental-health-a-national-hackathon-delivers-groundbreaking-results</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 02 Jun 2026 12:05:33 +0000</lastBuildDate>
     <item>
       <title>Mila and Maya HTT Join Forces to Promote AI Adoption in the Industrial Sector</title>
       <link>https://mila.quebec/en/news/mila-and-maya-htt-join-forces-to-promote-ai-adoption-in-the-industrial-sector</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/discover-the-third-cohort-of-indigenous-pathfinders-in-ai</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/discover-the-third-cohort-of-indigenous-pathfinders-in-ai</guid>
       <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ROOST and Mila Announce Partnership to Advance Open Source AI Safety, Starting with Youth Safety</title>
+      <link>https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
