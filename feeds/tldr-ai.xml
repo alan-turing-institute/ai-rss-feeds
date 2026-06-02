@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2026 18:36:10 +0000</lastBuildDate>
-    <item>
-      <title>YC’s OpenAI stake 💰, Gemini API Webhooks 🧑‍💻, AI PE partnerships 🏦</title>
-      <link>https://tldr.tech/ai/2026-05-05</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-05-05</guid>
-      <pubDate>Tue, 05 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 02 Jun 2026 15:02:34 +0000</lastBuildDate>
     <item>
       <title>GPT-5.5 Instant ⚡, SubQ 12M context 🧠, Gemini Flash upgrades 🚀</title>
       <link>https://tldr.tech/ai/2026-05-06</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-06-01</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-06-01</guid>
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic IPO filing 📄, OpenAI on AWS ☁️, Perplexity search code 🔍</title>
+      <link>https://tldr.tech/ai/2026-06-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-06-02</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
