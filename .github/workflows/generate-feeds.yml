@@ -32,10 +32,6 @@ jobs:
 
       # continue-on-error lets the job proceed to the commit step even if some
       # spiders fail, so successfully-generated feeds are still written out.
-      - name: Setup tmate debug session
-        if: ${{ inputs.debug }}
-        uses: mxschmitt/action-tmate@v3
-
       - name: Generate feeds
         id: generate
         continue-on-error: true
@@ -63,6 +59,10 @@ jobs:
           git add feeds
           git commit -m "chore: regenerate RSS feeds ($(echo "$changed" | tr '\n' ' ' | sed 's/ $//'))"
           git push origin "${BRANCH_NAME}"
+
+      - name: Setup tmate debug session
+        if: ${{ inputs.debug && steps.generate.outcome == 'failure' }}
+        uses: mxschmitt/action-tmate@v3
 
       # Re-raise the generate failure so the workflow is marked as failed,
       # even though the commit step was allowed to run above.
