@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jun 2026 12:05:33 +0000</lastBuildDate>
-    <item>
-      <title>Mila and Maya HTT Join Forces to Promote AI Adoption in the Industrial Sector</title>
-      <link>https://mila.quebec/en/news/mila-and-maya-htt-join-forces-to-promote-ai-adoption-in-the-industrial-sector</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-maya-htt-join-forces-to-promote-ai-adoption-in-the-industrial-sector</guid>
-      <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 03 Jun 2026 13:07:09 +0000</lastBuildDate>
     <item>
       <title>Secai Partners With Mila to Transform Healthcare Workflow with AI</title>
       <link>https://mila.quebec/en/news/secai-partners-with-mila-to-transform-healthcare-workflow-with-ai</link>
@@ -66,6 +60,12 @@
       <title>ROOST and Mila Announce Partnership to Advance Open Source AI Safety, Starting with Youth Safety</title>
       <link>https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</guid>
+      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Toboggan Labs Joins Mila's Industry Partner Network to Strengthen Healthcare AI Capabilities</title>
+      <link>https://mila.quebec/en/news/toboggan-labs-joins-milas-industry-partner-network-to-strengthen-healthcare-ai-capabilities</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/toboggan-labs-joins-milas-industry-partner-network-to-strengthen-healthcare-ai-capabilities</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
