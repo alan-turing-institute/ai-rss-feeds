@@ -12,3 +12,6 @@ wheels/
 # scrapy
 .scrapy
 snapshots
+
+# local cron logs
+logs/
