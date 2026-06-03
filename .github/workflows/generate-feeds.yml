@@ -23,7 +23,7 @@ jobs:
           python-version: "3.14"
 
       - name: Set up uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@v7
 
       # continue-on-error lets the job proceed to the commit step even if some
       # spiders fail, so successfully-generated feeds are still written out.
