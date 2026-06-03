@@ -12,6 +12,7 @@ Usage:
 """
 
 import argparse
+import os
 
 from scrapy import signals
 from scrapy.crawler import CrawlerProcess
@@ -76,15 +77,26 @@ def main() -> None:
 
     has_real_errors = False
 
+    in_gha = os.environ.get("GITHUB_ACTIONS") == "true"
+
     for feed_key in selected_feed_keys:
         if feed_key in broken_feed_keys:
             if feed_key in spider_errors:
-                print(f"BROKEN: {feed_key}: {spider_errors[feed_key]}")
+                msg = f"BROKEN: {feed_key}: {spider_errors[feed_key]}"
+                print(msg)
+                if in_gha:
+                    print(f"::warning::{msg}")
             else:
-                print(f"ERROR: {feed_key}: broken feed succeeded — remove 'broken=true' from feeds.toml")
+                msg = f"ERROR: {feed_key}: broken feed succeeded — remove 'broken=true' from feeds.toml"
+                print(msg)
+                if in_gha:
+                    print(f"::error::{msg}")
                 has_real_errors = True
         elif feed_key in spider_errors:
-            print(f"ERROR: {feed_key}: {spider_errors[feed_key]}")
+            msg = f"ERROR: {feed_key}: {spider_errors[feed_key]}"
+            print(msg)
+            if in_gha:
+                print(f"::error::{msg}")
             has_real_errors = True
 
     if has_real_errors:
