@@ -46,6 +46,7 @@ item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
 [feeds.turing-blog]
+broken = true  # turing.ac.uk is protected by Cloudflare bot verification
 feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
 item_container_selector = "article.node--type-article"
@@ -54,6 +55,7 @@ item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
 
 [feeds.turing-news]
+broken = true  # turing.ac.uk is protected by Cloudflare bot verification
 feed_title = "Turing News (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/news"
 item_container_selector = "article.node--type-article"
