@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jun 2026 13:07:09 +0000</lastBuildDate>
-    <item>
-      <title>Secai Partners With Mila to Transform Healthcare Workflow with AI</title>
-      <link>https://mila.quebec/en/news/secai-partners-with-mila-to-transform-healthcare-workflow-with-ai</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/secai-partners-with-mila-to-transform-healthcare-workflow-with-ai</guid>
-      <pubDate>Mon, 11 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 04 Jun 2026 18:41:07 +0000</lastBuildDate>
     <item>
       <title>Mila Celebrates Seventeen Recipients of the 2026 EDI Scholarships Program</title>
       <link>https://mila.quebec/en/news/mila-celebrates-seventeen-recipients-of-the-2026-edi-scholarships-program</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/toboggan-labs-joins-milas-industry-partner-network-to-strengthen-healthcare-ai-capabilities</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/toboggan-labs-joins-milas-industry-partner-network-to-strengthen-healthcare-ai-capabilities</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canada’s National AI Strategy: Mila Welcomes an Ambitious Vision Propelling Canada Toward Scientific and Technological Leadership</title>
+      <link>https://mila.quebec/en/news/canadas-national-ai-strategy-mila-welcomes-an-ambitious-vision-propelling-canada-toward</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/canadas-national-ai-strategy-mila-welcomes-an-ambitious-vision-propelling-canada-toward</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
