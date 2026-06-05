@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 18:41:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 21:41:15 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -837,6 +837,12 @@
       <description>As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack</guid>
       <pubDate>Wed, 03 Jun 2026 10:55:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Making Claude a chemist</title>
+      <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/making-claude-a-chemist</guid>
+      <pubDate>Fri, 05 Jun 2026 20:57:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
