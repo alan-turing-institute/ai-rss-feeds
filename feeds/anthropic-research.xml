@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 15:41:08 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 18:41:08 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -412,7 +412,7 @@
     <item>
       <title>Values in the wild: Discovering and analyzing values in real-world language model interactions</title>
       <link>https://www.anthropic.com/research/values-wild</link>
-      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values and finds that Claude adapts its expressed values to context—mirroring users in most cases, but resisting when core principles are at stake.</description>
+      <description>What values does Claude actually express during real conversations? Analyzing 700,000 interactions, this paper creates the first large-scale empirical taxonomy of AI values.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/values-wild</guid>
       <pubDate>Mon, 21 Apr 2025 11:50:00 +0000</pubDate>
     </item>
@@ -565,7 +565,7 @@
     <item>
       <title>How AI is transforming work at Anthropic</title>
       <link>https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</link>
-      <description>We surveyed Anthropic engineers and researchers, conducted in-depth qualitative interviews, and studied internal Claude Code usage data to find out how AI use is changing how we do our jobs. We found that AI use is radically changing the nature of work for software developers.</description>
+      <description>We surveyed Anthropic engineers and researchers, conducted in-depth qualitative interviews, and studied internal Claude Code usage data to find out how AI use is changing how we do our jobs.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic</guid>
       <pubDate>Tue, 02 Dec 2025 18:58:43 +0000</pubDate>
     </item>
@@ -643,6 +643,7 @@
     <item>
       <title>Measuring AI agent autonomy in practice</title>
       <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
+      <description>How much autonomy do people grant agents? How does that change as people gain experience? We analyzed millions of human-agent interactions to answer these and other questions.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
       <pubDate>Wed, 18 Feb 2026 15:10:00 +0000</pubDate>
     </item>
