@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 15:41:04 +0000</lastBuildDate>
-    <item>
-      <title>Interaction Models 🤖, Gemini Omni surfaces 🎥, SpaceXAI 🚀</title>
-      <link>https://tldr.tech/ai/2026-05-12</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-05-12</guid>
-      <pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 09 Jun 2026 15:41:06 +0000</lastBuildDate>
     <item>
       <title>Opus 4.7 Fast ⚡, Qwen Image 2.0 🖼️, serverless GPUs ✨</title>
       <link>https://tldr.tech/ai/2026-05-13</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-06-08</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-06-08</guid>
       <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI S-1 🇺🇸, Siri AI 📱, Xiaomi Ultraspeed ⚡</title>
+      <link>https://tldr.tech/ai/2026-06-09</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-06-09</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
