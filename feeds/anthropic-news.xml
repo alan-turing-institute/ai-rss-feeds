@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Jun 2026 15:41:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 18:41:12 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1480,6 +1480,13 @@
       <link>https://www.anthropic.com/news/services-track-partner-hub</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/services-track-partner-hub</guid>
       <pubDate>Wed, 03 Jun 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Fable 5 and Claude Mythos 5</title>
+      <link>https://www.anthropic.com/news/claude-fable-5-mythos-5</link>
+      <description>Our next generation of intelligence for the hardest knowledge work and coding problems.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-fable-5-mythos-5</guid>
+      <pubDate>Tue, 09 Jun 2026 17:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
