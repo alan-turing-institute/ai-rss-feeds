@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 10 Jun 2026 15:41:08 +0000</lastBuildDate>
-    <item>
-      <title>Claude small business 💼, Anthropic CFO interview 💰, AI adoption data 📊</title>
-      <link>https://tldr.tech/ai/2026-05-14</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-05-14</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 11 Jun 2026 15:41:05 +0000</lastBuildDate>
     <item>
       <title>Grok Build 👨‍💻 , Codex customizations 🤖, xAI exodus 👋</title>
       <link>https://tldr.tech/ai/2026-05-15</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-06-10</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-06-10</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Dario Amodei policy 🏛️, DiffusionGemma ⚡, WhatsApp to unblock bots 🤖</title>
+      <link>https://tldr.tech/ai/2026-06-11</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-06-11</guid>
+      <pubDate>Thu, 11 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
