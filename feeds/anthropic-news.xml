@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jun 2026 18:41:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 18:41:20 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1508,6 +1508,19 @@
       <description>We’re announcing a multi-year global alliance with DXC Technology, one of the world’s largest IT services companies.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
       <pubDate>Thu, 11 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TCS and Anthropic partner to bring Claude to regulated industries</title>
+      <link>https://www.anthropic.com/news/tcs-anthropic-partnership</link>
+      <description>We’re announcing a partnership with Tata Consultancy Services (TCS). TCS will provide Claude to 50,000 of its own employees across 56 countries; build Claude-powered products for clients in financial services, healthcare, the public sector, and other regulated industries; and join the Claude Partner Network.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/tcs-anthropic-partnership</guid>
+      <pubDate>Fri, 12 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Results from the first Anthropic Public Record</title>
+      <link>https://www.anthropic.com/news/anthropic-public-record</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-public-record</guid>
+      <pubDate>Fri, 12 Jun 2026 21:51:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
