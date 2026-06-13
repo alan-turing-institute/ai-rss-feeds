@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 12 Jun 2026 18:41:20 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 03:41:10 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1521,6 +1521,13 @@
       <link>https://www.anthropic.com/news/anthropic-public-record</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-public-record</guid>
       <pubDate>Fri, 12 Jun 2026 21:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Statement on the US government directive to suspend access to Fable 5 and Mythos 5</title>
+      <link>https://www.anthropic.com/news/fable-mythos-access</link>
+      <description>The US government has issued an export control directive to suspend all access to Fable 5 and Mythos 5.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/fable-mythos-access</guid>
+      <pubDate>Fri, 12 Jun 2026 23:38:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
