@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2026 18:41:09 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 21:41:11 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -849,6 +849,12 @@
       <link>https://www.anthropic.com/research/agents-in-biology</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/agents-in-biology</guid>
       <pubDate>Mon, 08 Jun 2026 13:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic coding and persistent returns to expertise</title>
+      <link>https://www.anthropic.com/research/claude-code-expertise</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-expertise</guid>
+      <pubDate>Tue, 16 Jun 2026 11:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
