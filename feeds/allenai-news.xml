@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2026 18:41:09 +0000</lastBuildDate>
-    <item>
-      <title>Ai2 introduces open, simulation-first stack for physical AI, achieving zero-shot transfer to real robots</title>
-      <link>https://allenai.org/blog/molmobot</link>
-      <description>Introducing MolmoBot and MolmoSpaces, an open foundation for training real-world robots to advance science.</description>
-      <guid isPermaLink="true">https://allenai.org/blog/molmobot</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 17 Jun 2026 18:41:11 +0000</lastBuildDate>
     <item>
       <title>Highlights from Ai2 at NVIDIA GTC 2026</title>
       <link>https://allenai.org/blog/gtc2026</link>
@@ -70,6 +63,13 @@
       <description>Artificial Analysis uses Ai2’s open IFBench eval because it captures a stubborn, real-world capability many…</description>
       <guid isPermaLink="true">https://allenai.org/blog/ifbench-artificial-analysis</guid>
       <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MolmoMotion: Language-guided 3D motion forecasting</title>
+      <link>https://allenai.org/blog/molmo-motion</link>
+      <description>MolmoMotion is an open, language-guided 3D motion forecasting model that predicts how object points will move in…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/molmo-motion</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
