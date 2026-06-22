@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jun 2026 18:41:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 09:41:12 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -966,6 +966,7 @@
     <item>
       <title>Agentic coding and persistent returns to expertise</title>
       <link>https://www.anthropic.com/research/claude-code-expertise</link>
+      <description>This report provides evidence on how Claude Code is used in practice, based on a privacy-preserving analysis of around 400,000 interactive sessions from around 235,000 people between October 2025 and April 2026.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-expertise</guid>
       <pubDate>Tue, 16 Jun 2026 11:00:00 +0000</pubDate>
     </item>
