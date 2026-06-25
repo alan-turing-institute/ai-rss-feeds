@@ -25,6 +25,7 @@
 - To refresh a snapshot directly, use e.g. `curl -f https://www.anthropic.com/news -o snapshots/anthropic-news.html`.
 - If a new feed can't be scraped with the existing setup, suggest how to proceed and we can discuss before implementing new scraping methods.
 - If the feed uses nextjs, you can extract the nextjs data like `uv run python extract_nextjs.py snapshots/cohere-blog.html >snapshots/cohere-blog.nextjs.json`.
+- You can find where items are in nextjs like `uv run python json_grep.py snapshots/cohere-blog.nextjs.json "Part of the title"` if the user gives example titles (ask for some).
 
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
