@@ -7,43 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 15:41:11 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Cohere Transcribe: a new state-of-the-art in open-source speech recognition</title>
-      <link>https://cohere.com/blog/blog/transcribe</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/transcribe</guid>
-      <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ensemble and Cohere building the first RCM‑native healthcare LLM</title>
-      <link>https://cohere.com/blog/blog/ensemble-cohere-custom-healthcare-llm-for-rcm</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/ensemble-cohere-custom-healthcare-llm-for-rcm</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The five phases of enterprise AI maturity, Part 1: How to get past “the production wall”</title>
-      <link>https://cohere.com/blog/blog/enterprise-ai-maturity-model</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/enterprise-ai-maturity-model</guid>
-      <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why MoE models get more from speculative decoding</title>
-      <link>https://cohere.com/blog/blog/mixture-of-experts-models-get-more-from-speculative-decoding</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/mixture-of-experts-models-get-more-from-speculative-decoding</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Production-Ready W4A8: vLLM Integration and Quality Recovery Techniques Explained</title>
-      <link>https://cohere.com/blog/blog/vllm-integration-and-quality-recovery-techniques-explained</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/vllm-integration-and-quality-recovery-techniques-explained</guid>
-      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cohere and Aleph Alpha join forces to form global AI powerhouse as nations and enterprises demand control over their technology</title>
-      <link>https://cohere.com/blog/blog/cohere-alephalpha-join-forces</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/cohere-alephalpha-join-forces</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 25 Jun 2026 15:57:15 +0000</lastBuildDate>
     <item>
       <title>The five phases of enterprise AI maturity, Part 2: Integrating AI and the AI-native enterprise</title>
       <link>https://cohere.com/blog/blog/enterprise-ai-maturity-model-pt2</link>
@@ -115,6 +79,24 @@
       <link>https://cohere.com/blog/blog/coplot</link>
       <guid isPermaLink="true">https://cohere.com/blog/blog/coplot</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing North Mini Code: Cohere’s first model for developers</title>
+      <link>https://cohere.com/blog/blog/north-mini-code</link>
+      <guid isPermaLink="true">https://cohere.com/blog/blog/north-mini-code</guid>
+      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The future of work debate has an evidence problem</title>
+      <link>https://cohere.com/blog/blog/the-future-of-work-debate-has-an-evidence-problem</link>
+      <guid isPermaLink="true">https://cohere.com/blog/blog/the-future-of-work-debate-has-an-evidence-problem</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere triples UK footprint with new London office to support R&amp;D growth</title>
+      <link>https://cohere.com/blog/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</link>
+      <guid isPermaLink="true">https://cohere.com/blog/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</guid>
+      <pubDate>Mon, 15 Jun 2026 12:43:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
