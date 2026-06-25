@@ -7,55 +7,7 @@ import sys
 
 from lxml import html
 
-
-
-def iter_flight_record_values(nextjs_string):
-    """Yield (key, value) pairs parsed from a Next.js Flight payload string.
-
-    Records are emitted as `<key>:<value>` and typically begin at line starts.
-    This parser anchors to line boundaries to avoid false matches in URLs like
-    `https://...`, and accepts alphanumeric keys (e.g. `2e`, `1c`, `a`).
-    """
-    decoder = json.JSONDecoder()
-    pos = 0
-    length = len(nextjs_string)
-
-    while pos < length:
-        line_end = nextjs_string.find("\n", pos)
-        if line_end == -1:
-            line_end = length
-
-        line = nextjs_string[pos:line_end]
-        separator_idx = line.find(":")
-
-        # Move to the next line by default to guarantee forward progress.
-        next_pos = line_end + 1
-
-        # Expect records formatted as <alnum_key>:<json_value>.
-        if separator_idx <= 0:
-            pos = next_pos
-            continue
-
-        key = line[:separator_idx]
-        if not key.isalnum():
-            pos = next_pos
-            continue
-
-        value_start = pos + separator_idx + 1
-
-        # Flight records like I[...] / T... are references, not JSON values.
-        if value_start < length and nextjs_string[value_start] in {"I", "T", "H"}:
-            pos = next_pos
-            continue
-
-        try:
-            value, _ = decoder.raw_decode(nextjs_string, value_start)
-            yield key, value
-        except json.JSONDecodeError:
-            # Skip malformed/non-JSON records and continue scanning.
-            pass
-
-        pos = next_pos
+from src.spiders.feed import iter_flight_record_values
 
 
 def extract_nextjs_records(html_file):
@@ -115,4 +67,4 @@ if __name__ == '__main__':
 
     html_file = sys.argv[1]
     records = extract_nextjs_records(html_file)
-    print(json.dumps(records))
+    print(json.dumps(records, indent=2))

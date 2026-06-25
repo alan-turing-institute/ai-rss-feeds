@@ -18,6 +18,51 @@ from feedgen.feed import FeedGenerator
 from src.feed_config import load_feed
 
 
+def iter_flight_record_values(nextjs_string):
+    """Yield (key, value) pairs parsed from a Next.js Flight payload string.
+
+    Records are emitted as `<key>:<value>` and typically begin at line starts.
+    This parser anchors to line boundaries to avoid false matches in URLs like
+    `https://...`, and accepts alphanumeric keys (e.g. `2e`, `1c`, `a`).
+    """
+    decoder = json.JSONDecoder()
+    pos = 0
+    length = len(nextjs_string)
+
+    while pos < length:
+        line_end = nextjs_string.find("\n", pos)
+        if line_end == -1:
+            line_end = length
+
+        line = nextjs_string[pos:line_end]
+        separator_idx = line.find(":")
+
+        next_pos = line_end + 1
+
+        if separator_idx <= 0:
+            pos = next_pos
+            continue
+
+        key = line[:separator_idx]
+        if not key.isalnum():
+            pos = next_pos
+            continue
+
+        value_start = pos + separator_idx + 1
+
+        if value_start < length and nextjs_string[value_start] in {"I", "T", "H"}:
+            pos = next_pos
+            continue
+
+        try:
+            value, _ = decoder.raw_decode(nextjs_string, value_start)
+            yield key, value
+        except json.JSONDecodeError:
+            pass
+
+        pos = next_pos
+
+
 class FeedSpider(scrapy.Spider):
     name = "feed"
 
@@ -81,7 +126,7 @@ class FeedSpider(scrapy.Spider):
             if field in cfg:
                 setattr(self, field, cfg[field])
 
-    def start_requests(self):
+    async def start(self):
         if not self.source_url:
             raise RuntimeError("Missing required spider configuration field: source_url")
 
@@ -343,10 +388,9 @@ class FeedSpider(scrapy.Spider):
         if not scripts:
             raise RuntimeError("No script tags found in response")
 
-        # Mirror extract_nextjs.py: greedy per-script regex to capture the full
-        # outer array, then line-by-line Flight record parsing.
+        # Greedy per-script regex to capture the full outer array, then
+        # line-by-line Flight record parsing via iter_flight_record_values.
         push_pattern = re.compile(r'self\.__next_f\.push\(\s*(\[.*\])\s*\)', re.DOTALL)
-        decoder = json.JSONDecoder()
         all_items = []
 
         for script_text in scripts:
@@ -367,37 +411,19 @@ class FeedSpider(scrapy.Spider):
 
             payload = outer[1]
 
-            # Parse Flight records line by line (same algorithm as extract_nextjs.py).
-            pos = 0
-            length = len(payload)
-            while pos < length:
-                line_end = payload.find("\n", pos)
-                if line_end == -1:
-                    line_end = length
-                line = payload[pos:line_end]
-                sep = line.find(":")
-                next_pos = line_end + 1
-                if sep > 0 and line[:sep].isalnum():
-                    value_start = pos + sep + 1
-                    if value_start < length and payload[value_start] not in {"I", "T", "H"}:
-                        try:
-                            parsed_obj, _ = decoder.raw_decode(payload, value_start)
-                        except json.JSONDecodeError:
-                            pass
-                        else:
-                            try:
-                                matches = self._jq_values(self.item_container_selector, parsed_obj)
-                            except Exception:
-                                matches = []
-                            items = []
-                            for value in matches:
-                                if isinstance(value, dict):
-                                    items.append(value)
-                                elif isinstance(value, list):
-                                    items.extend(v for v in value if isinstance(v, dict))
-                            if items:
-                                all_items.extend(items)
-                pos = next_pos
+            for _key, parsed_obj in iter_flight_record_values(payload):
+                try:
+                    matches = self._jq_values(self.item_container_selector, parsed_obj)
+                except Exception:
+                    matches = []
+                items = []
+                for value in matches:
+                    if isinstance(value, dict):
+                        items.append(value)
+                    elif isinstance(value, list):
+                        items.extend(v for v in value if isinstance(v, dict))
+                if items:
+                    all_items.extend(items)
 
         return all_items
 
