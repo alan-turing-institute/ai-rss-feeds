@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jun 2026 15:41:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2026 15:41:12 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -976,6 +976,13 @@
       <description>We report results from our latest test of whether Claude can help Anthropic employees perform sophisticated robotics tasks. We found that Claude Opus 4.7, operating without human assistance, was about 20 times faster than the fastest human team at all tasks completed by participants less than a year ago.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/project-fetch-phase-two</guid>
       <pubDate>Thu, 18 Jun 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: Cadences</title>
+      <link>https://www.anthropic.com/research/economic-index-june-2026-report</link>
+      <description>In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
+      <pubDate>Fri, 26 Jun 2026 20:08:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

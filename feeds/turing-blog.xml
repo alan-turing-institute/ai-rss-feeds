@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jun 2026 09:11:37 +0000</lastBuildDate>
-    <item>
-      <title>Seven sessions not to miss at AI UK 2025</title>
-      <link>https://www.turing.ac.uk/blog/seven-sessions-not-miss-ai-uk-2025</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/blog/seven-sessions-not-miss-ai-uk-2025</guid>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 26 Jun 2026 15:41:04 +0000</lastBuildDate>
     <item>
       <title>AI research is increasingly vulnerable to state threats. Here’s how UK academia can minimise risk</title>
       <link>https://www.turing.ac.uk/blog/ai-research-increasingly-vulnerable-state-threats-heres-how-uk-academia-can-minimise-risk</link>
@@ -109,6 +103,12 @@
       <link>https://www.turing.ac.uk/blog/ai-disinformation-incident-repository-how-ai-transforming-crisis-events</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/blog/ai-disinformation-incident-repository-how-ai-transforming-crisis-events</guid>
       <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sovereign AI: building resilience through choice</title>
+      <link>https://www.turing.ac.uk/blog/sovereign-ai-building-resilience-through-choice</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/sovereign-ai-building-resilience-through-choice</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
