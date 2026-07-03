@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jun 2026 15:59:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 14:30:10 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -461,6 +461,12 @@
       <link>https://mistral.ai/news/more-control-over-connectors/</link>
       <guid isPermaLink="true">https://mistral.ai/news/more-control-over-connectors/</guid>
       <pubDate>Wed, 24 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Leanstral 1.5: Proof Abundance for All</title>
+      <link>https://mistral.ai/news/leanstral-1-5/</link>
+      <guid isPermaLink="true">https://mistral.ai/news/leanstral-1-5/</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Mistral OCR 4</title>
