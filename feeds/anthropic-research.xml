@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Jul 2026 11:35:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:37:14 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -977,6 +977,12 @@
       <description>In our latest Economic Index report, we sample hourly for the first time to ask: When do people come to Claude? What do they produce with it? And how do they perceive AI's impact on their work?</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-june-2026-report</guid>
       <pubDate>Fri, 26 Jun 2026 20:08:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A global workspace in language models</title>
+      <link>https://www.anthropic.com/research/global-workspace</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/global-workspace</guid>
+      <pubDate>Mon, 06 Jul 2026 14:12:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

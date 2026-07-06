@@ -7,9 +7,9 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 22 Jun 2026 00:41:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2026 17:37:08 +0000</lastBuildDate>
     <item>
-      <title>Harnessing Claude’s intelligence</title>
+      <title>Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence</title>
       <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
       <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
@@ -69,7 +69,7 @@
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Harnessing Claude’s intelligence</title>
+      <title>Agent Harness Design: 3 Patterns for Harnessing Claude's Intelligence</title>
       <link>https://claude.com/blog/harnessing-claudes-intelligence</link>
       <guid isPermaLink="true">https://claude.com/blog/harnessing-claudes-intelligence</guid>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
