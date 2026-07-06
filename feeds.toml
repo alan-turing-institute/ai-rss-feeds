@@ -46,6 +46,7 @@ item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
 [feeds.turing-blog]
+broken = true
 feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
 item_container_selector = "article.node--type-article"
@@ -71,6 +72,7 @@ item_link_selector = "div.field-name-node-title a::attr(href)"
 item_date_selector = "div.field-name-dynamic-twig-fieldnode-default-date-format-wrapped span::text"
 
 [feeds.the-batch]
+broken = true
 feed_title = "The Batch"
 feed_description = "Weekly AI news for engineers, executives, and enthusiasts."
 source_url = "https://www.deeplearning.ai/the-batch"
