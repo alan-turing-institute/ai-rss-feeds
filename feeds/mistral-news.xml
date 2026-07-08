@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 14:34:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2026 20:11:32 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -480,7 +480,7 @@
       <link>https://mistral.ai/news/robostral-navigate/</link>
       <description>Robostral Navigate, our first model built for embodied navigation.</description>
       <guid isPermaLink="true">https://mistral.ai/news/robostral-navigate/</guid>
-      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
