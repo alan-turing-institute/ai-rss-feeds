@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 23:06:03 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 14:37:24 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -987,7 +987,7 @@
       <pubDate>Mon, 06 Jul 2026 14:12:00 +0000</pubDate>
     </item>
     <item>
-      <title>An off switch for dual use knowledge in AI models</title>
+      <title>An off switch for dual-use knowledge in AI models</title>
       <link>https://www.anthropic.com/research/off-switch-dual-use</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/off-switch-dual-use</guid>
       <pubDate>Wed, 08 Jul 2026 21:46:00 +0000</pubDate>

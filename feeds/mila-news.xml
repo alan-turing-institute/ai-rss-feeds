@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Jul 2026 20:22:27 +0000</lastBuildDate>
-    <item>
-      <title>Discover the Third Cohort of Indigenous Pathfinders in AI</title>
-      <link>https://mila.quebec/en/news/discover-the-third-cohort-of-indigenous-pathfinders-in-ai</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/discover-the-third-cohort-of-indigenous-pathfinders-in-ai</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 09 Jul 2026 14:37:25 +0000</lastBuildDate>
     <item>
       <title>ROOST and Mila Announce Partnership to Advance Open Source AI Safety, Starting with Youth Safety</title>
       <link>https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/milas-founder-yoshua-bengio-co-chairs-first-un-scientific-panel-report-on-ai</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/milas-founder-yoshua-bengio-co-chairs-first-un-scientific-panel-report-on-ai</guid>
       <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and ROOST Launch Suicide Prevention Guardrail Pilot to Help Make AI Chatbots Safer for Youth</title>
+      <link>https://mila.quebec/en/news/mila-and-roost-launch-suicide-prevention-guardrail-pilot-to-help-make-ai-chatbots-safer-for</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-roost-launch-suicide-prevention-guardrail-pilot-to-help-make-ai-chatbots-safer-for</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 20:11:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 14:37:26 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -474,6 +474,13 @@
       <link>https://mistral.ai/news/leanstral-1-5/</link>
       <guid isPermaLink="true">https://mistral.ai/news/leanstral-1-5/</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Prompts and Skills need a system of record.</title>
+      <link>https://mistral.ai/news/manage-prompts-and-skills-in-studio/</link>
+      <description>Studio gives AI prompts &amp; skills a system of record—versioned, owned, and traceable.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/manage-prompts-and-skills-in-studio/</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Robostral Navigate</title>
