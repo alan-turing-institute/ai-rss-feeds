@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Jul 2026 20:11:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 02:36:27 +0000</lastBuildDate>
+    <item>
+      <title>Evaluating agents for scientific discovery</title>
+      <link>https://allenai.org/blog/evaluating-scientific-discovery-agents</link>
+      <description>Two benchmarks developed at Ai2 – ScienceWorld and DiscoveryWorld – reveal that even incredibly strong AI science…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/evaluating-scientific-discovery-agents</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>A decade of real-time intelligence for the planet</title>
       <link>https://allenai.org/blog/earth-day-2026</link>
@@ -62,13 +69,6 @@
       <link>https://allenai.org/blog/flexmore</link>
       <description>Danish Foundation Models is using FlexOlmo as the basis for FlexMoRE, a more efficient modular LLM architecture…</description>
       <guid isPermaLink="true">https://allenai.org/blog/flexmore</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MolmoAct 2 shows what open models can unlock for robotics</title>
-      <link>https://allenai.org/blog/pham-molmoact2-testimonial</link>
-      <description>Robotics engineer Binh Pham used MolmoAct 2 to build a voice-controlled robot that won South Park Commons’…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/pham-molmoact2-testimonial</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
