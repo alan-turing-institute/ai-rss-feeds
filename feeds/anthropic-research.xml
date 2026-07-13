@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 14:35:51 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 17:24:47 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -998,6 +998,12 @@
       <description>In project Fetch, we examined how humans can use models to get robots to perform complex tasks. Now, we investigate many models on a large variety of different robotics tasks in simulation, to see how good models are at controlling robots themselves.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-plays-robotics</guid>
       <pubDate>Thu, 09 Jul 2026 18:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude’s values across models and languages</title>
+      <link>https://www.anthropic.com/research/claude-values-models-languages</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-values-models-languages</guid>
+      <pubDate>Mon, 13 Jul 2026 17:08:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
