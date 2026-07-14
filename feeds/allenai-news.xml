@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Jul 2026 15:41:12 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 20:07:09 +0000</lastBuildDate>
+    <item>
+      <title>Highlights from Ai2 at NVIDIA GTC 2026</title>
+      <link>https://allenai.org/blog/gtc2026</link>
+      <description>A recap of Ai2's week at NVIDIA GTC 2026, covering panels on open models, live demos of Olmo Hybrid and Asta…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/gtc2026</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Evaluating agents for scientific discovery</title>
       <link>https://allenai.org/blog/evaluating-scientific-discovery-agents</link>
@@ -63,13 +70,6 @@
       <description>MolmoMotion is an open, language-guided 3D motion forecasting model that predicts how object points will move in…</description>
       <guid isPermaLink="true">https://allenai.org/blog/molmo-motion</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Modular LLMs at scale: how FlexOlmo is helping to pool national expertise without pooling sensitive data</title>
-      <link>https://allenai.org/blog/flexmore</link>
-      <description>Danish Foundation Models is using FlexOlmo as the basis for FlexMoRE, a more efficient modular LLM architecture…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/flexmore</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
