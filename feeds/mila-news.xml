@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 14:37:25 +0000</lastBuildDate>
-    <item>
-      <title>ROOST and Mila Announce Partnership to Advance Open Source AI Safety, Starting with Youth Safety</title>
-      <link>https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/roost-and-mila-announce-partnership-to-advance-open-source-ai-safety-starting-with-youth</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Toboggan Labs Joins Mila's Industry Partner Network to Strengthen Healthcare AI Capabilities</title>
-      <link>https://mila.quebec/en/news/toboggan-labs-joins-milas-industry-partner-network-to-strengthen-healthcare-ai-capabilities</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/toboggan-labs-joins-milas-industry-partner-network-to-strengthen-healthcare-ai-capabilities</guid>
-      <pubDate>Tue, 02 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 14 Jul 2026 14:22:18 +0000</lastBuildDate>
     <item>
       <title>Canada’s National AI Strategy: Mila Welcomes an Ambitious Vision Propelling Canada Toward Scientific and Technological Leadership</title>
       <link>https://mila.quebec/en/news/canadas-national-ai-strategy-mila-welcomes-an-ambitious-vision-propelling-canada-toward</link>
@@ -67,6 +55,18 @@
       <link>https://mila.quebec/en/news/mila-and-roost-launch-suicide-prevention-guardrail-pilot-to-help-make-ai-chatbots-safer-for</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-roost-launch-suicide-prevention-guardrail-pilot-to-help-make-ai-chatbots-safer-for</guid>
       <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026 Sustainability Scholarships Program: Meet the Recipients</title>
+      <link>https://mila.quebec/en/news/2026-sustainability-scholarships-program-meet-the-recipients</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/2026-sustainability-scholarships-program-meet-the-recipients</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and Anthropic Announce Partnership to Advance AI Research and Deep-Tech Innovation in Canada</title>
+      <link>https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
