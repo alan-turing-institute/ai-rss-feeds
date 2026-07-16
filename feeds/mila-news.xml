@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Jul 2026 14:22:18 +0000</lastBuildDate>
-    <item>
-      <title>Canada’s National AI Strategy: Mila Welcomes an Ambitious Vision Propelling Canada Toward Scientific and Technological Leadership</title>
-      <link>https://mila.quebec/en/news/canadas-national-ai-strategy-mila-welcomes-an-ambitious-vision-propelling-canada-toward</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/canadas-national-ai-strategy-mila-welcomes-an-ambitious-vision-propelling-canada-toward</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 16 Jul 2026 23:04:14 +0000</lastBuildDate>
     <item>
       <title>Mila Techaide 2026: the tech community rallies and raises nearly $118,000</title>
       <link>https://mila.quebec/en/news/mila-techaide-2026-the-tech-community-rallies-and-raises-nearly-118000</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and PolArctic Canada Announce Partnership to Advance AI-Powered Sea Ice Forecasting in the Canadian Arctic</title>
+      <link>https://mila.quebec/en/news/mila-and-polarctic-canada-announce-partnership-to-advance-ai-powered-sea-ice-forecasting-in</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-polarctic-canada-announce-partnership-to-advance-ai-powered-sea-ice-forecasting-in</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
