@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Jul 2026 14:15:20 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 14:26:25 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -634,6 +634,13 @@
       <description>We evaluated the cyber capabilities of leading open and closed weight AI models, and found that recent open models GLM-5.2 and DeepSeek V4-Pro perform similarly to frontier closed models released 4 to 7 months before them – a narrower gap than the 6 to 10 months we measured through most of 2025.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/how-far-behind-the-frontier-are-leading-open-weight-models-on-cyber</guid>
       <pubDate>Fri, 17 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cheating behaviour in frontier model evaluations</title>
+      <link>https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations</link>
+      <description>We find cheating behaviour in all of our capability evaluations, and outline the implications as models grow more capable.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations</guid>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
