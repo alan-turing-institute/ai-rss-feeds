@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 20:12:59 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jul 2026 02:35:57 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -906,6 +906,12 @@
       <description>Claude Haiku 4.5 matches state-of-the-art coding capabilities from months ago while delivering unprecedented speed and cost-efficiency for complex tasks.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-haiku-4-5</guid>
       <pubDate>Wed, 15 Oct 2025 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agent Skills</title>
+      <link>https://www.anthropic.com/news/skills</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/skills</guid>
+      <pubDate>Thu, 16 Oct 2025 16:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude for Life Sciences</title>
