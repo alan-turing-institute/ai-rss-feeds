@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2026 20:07:09 +0000</lastBuildDate>
-    <item>
-      <title>Highlights from Ai2 at NVIDIA GTC 2026</title>
-      <link>https://allenai.org/blog/gtc2026</link>
-      <description>A recap of Ai2's week at NVIDIA GTC 2026, covering panels on open models, live demos of Olmo Hybrid and Asta…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/gtc2026</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 24 Jul 2026 20:08:00 +0000</lastBuildDate>
     <item>
       <title>Evaluating agents for scientific discovery</title>
       <link>https://allenai.org/blog/evaluating-scientific-discovery-agents</link>
@@ -70,6 +63,13 @@
       <description>MolmoMotion is an open, language-guided 3D motion forecasting model that predicts how object points will move in…</description>
       <guid isPermaLink="true">https://allenai.org/blog/molmo-motion</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Who gets to understand AI?</title>
+      <link>https://allenai.org/blog/who-gets-to-understand-ai</link>
+      <description>Why fully open models and research artifacts are essential to independent scrutiny, broader participation, and…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/who-gets-to-understand-ai</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
