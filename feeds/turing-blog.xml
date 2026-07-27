@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jul 2026 11:37:25 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Gambit: a tool for doing computation in game theory</title>
-      <link>https://www.turing.ac.uk/blog/introducing-gambit-tool-doing-computation-game-theory</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/blog/introducing-gambit-tool-doing-computation-game-theory</guid>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 27 Jul 2026 08:52:27 +0000</lastBuildDate>
     <item>
       <title>Making generative AI trustworthy and reliable for adoption at scale</title>
       <link>https://www.turing.ac.uk/blog/making-generative-ai-trustworthy-and-reliable-adoption-scale</link>
@@ -109,6 +103,12 @@
       <link>https://www.turing.ac.uk/blog/why-do-patients-respond-so-differently-same-treatment-five-years-turing-roche-partnership</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/blog/why-do-patients-respond-so-differently-same-treatment-five-years-turing-roche-partnership</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reliable uncertainty quantification</title>
+      <link>https://www.turing.ac.uk/blog/reliable-uncertainty-quantification</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/reliable-uncertainty-quantification</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
