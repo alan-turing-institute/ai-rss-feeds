@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Jul 2026 20:08:00 +0000</lastBuildDate>
-    <item>
-      <title>Evaluating agents for scientific discovery</title>
-      <link>https://allenai.org/blog/evaluating-scientific-discovery-agents</link>
-      <description>Two benchmarks developed at Ai2 – ScienceWorld and DiscoveryWorld – reveal that even incredibly strong AI science…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/evaluating-scientific-discovery-agents</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 29 Jul 2026 20:07:39 +0000</lastBuildDate>
     <item>
       <title>A decade of real-time intelligence for the planet</title>
       <link>https://allenai.org/blog/earth-day-2026</link>
@@ -63,6 +56,13 @@
       <description>MolmoMotion is an open, language-guided 3D motion forecasting model that predicts how object points will move in…</description>
       <guid isPermaLink="true">https://allenai.org/blog/molmo-motion</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modular LLMs at scale: how FlexOlmo is helping to pool national expertise without pooling sensitive data</title>
+      <link>https://allenai.org/blog/flexmore</link>
+      <description>Danish Foundation Models is using FlexOlmo as the basis for FlexMoRE, a more efficient modular LLM architecture…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/flexmore</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Who gets to understand AI?</title>
