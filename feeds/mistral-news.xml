@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2026 14:37:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 14:34:15 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -476,6 +476,13 @@
       <pubDate>Thu, 02 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Robostral Navigate</title>
+      <link>https://mistral.ai/news/robostral-navigate/</link>
+      <description>Robostral Navigate, our first model built for embodied navigation.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/robostral-navigate/</guid>
+      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Your Prompts and Skills need a system of record.</title>
       <link>https://mistral.ai/news/manage-prompts-and-skills-in-studio/</link>
       <description>Studio gives AI prompts &amp; skills a system of record—versioned, owned, and traceable.</description>
@@ -483,11 +490,10 @@
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Robostral Navigate</title>
-      <link>https://mistral.ai/news/robostral-navigate/</link>
-      <description>Robostral Navigate, our first model built for embodied navigation.</description>
-      <guid isPermaLink="true">https://mistral.ai/news/robostral-navigate/</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
+      <title>Introducing Shieldstral.</title>
+      <link>https://mistral.ai/news/shieldstral/</link>
+      <guid isPermaLink="true">https://mistral.ai/news/shieldstral/</guid>
+      <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
