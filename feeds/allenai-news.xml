@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 29 Jul 2026 20:07:39 +0000</lastBuildDate>
-    <item>
-      <title>A decade of real-time intelligence for the planet</title>
-      <link>https://allenai.org/blog/earth-day-2026</link>
-      <description>For the past 10 years, Ai2 has built open, real-time tools that help people protect wildlife, oceans, and…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/earth-day-2026</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 06 Aug 2026 14:31:42 +0000</lastBuildDate>
     <item>
       <title>Molmo learns to point and act</title>
       <link>https://allenai.org/blog/molmo-learns-to-point-and-act</link>
@@ -70,6 +63,13 @@
       <description>Why fully open models and research artifacts are essential to independent scrutiny, broader participation, and…</description>
       <guid isPermaLink="true">https://allenai.org/blog/who-gets-to-understand-ai</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ai2 expands collaboration with Hugging Face to accelerate open science</title>
+      <link>https://allenai.org/blog/hugging-face-partnership</link>
+      <description>Ai2 is expanding its partnership with Hugging Face to give its growing portfolio of fully open models, datasets,…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/hugging-face-partnership</guid>
+      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
