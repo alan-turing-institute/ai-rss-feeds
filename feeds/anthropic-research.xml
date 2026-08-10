@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Jul 2026 20:09:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 19:59:25 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1024,6 +1024,13 @@
       <description>cryptographic algorithms. The first attack significantly weakens HAWK, a digital signature scheme that was built for a future world where quantum computers are able to break existing standards. The second identifies a new way to attack round-reduced AES, the most widely used symmetric cipher.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/discovering-cryptographic-weaknesses</guid>
       <pubDate>Tue, 28 Jul 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Learning more about Claude's mathematical capabilities</title>
+      <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/riemann-zeta</guid>
+      <pubDate>Mon, 10 Aug 2026 17:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
