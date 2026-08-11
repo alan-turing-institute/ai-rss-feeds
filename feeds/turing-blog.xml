@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jul 2026 08:52:27 +0000</lastBuildDate>
-    <item>
-      <title>Making generative AI trustworthy and reliable for adoption at scale</title>
-      <link>https://www.turing.ac.uk/blog/making-generative-ai-trustworthy-and-reliable-adoption-scale</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/blog/making-generative-ai-trustworthy-and-reliable-adoption-scale</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 11 Aug 2026 11:01:34 +0000</lastBuildDate>
     <item>
       <title>Why we still need small language models – even in the age of frontier AI</title>
       <link>https://www.turing.ac.uk/blog/why-we-still-need-small-language-models-even-age-frontier-ai</link>
@@ -109,6 +103,12 @@
       <link>https://www.turing.ac.uk/blog/reliable-uncertainty-quantification</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/blog/reliable-uncertainty-quantification</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cutting through the noise: the deinterleaving problem</title>
+      <link>https://www.turing.ac.uk/blog/cutting-through-noise-deinterleaving-problem</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/cutting-through-noise-deinterleaving-problem</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
