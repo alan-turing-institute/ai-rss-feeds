@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 11 Aug 2026 11:01:34 +0000</lastBuildDate>
-    <item>
-      <title>Why we still need small language models – even in the age of frontier AI</title>
-      <link>https://www.turing.ac.uk/blog/why-we-still-need-small-language-models-even-age-frontier-ai</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/blog/why-we-still-need-small-language-models-even-age-frontier-ai</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 12 Aug 2026 11:04:15 +0000</lastBuildDate>
     <item>
       <title>Announcing AutoEmulate v1.0: a tool for accelerating large-scale simulations</title>
       <link>https://www.turing.ac.uk/blog/announcing-autoemulate-v1</link>
@@ -109,6 +103,12 @@
       <link>https://www.turing.ac.uk/blog/cutting-through-noise-deinterleaving-problem</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/blog/cutting-through-noise-deinterleaving-problem</guid>
       <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>We need a more complete picture of cyber-attacks on UK critical national infrastructure</title>
+      <link>https://www.turing.ac.uk/blog/we-need-more-complete-picture-cyber-attacks-uk-critical-national-infrastructure</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/we-need-more-complete-picture-cyber-attacks-uk-critical-national-infrastructure</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
