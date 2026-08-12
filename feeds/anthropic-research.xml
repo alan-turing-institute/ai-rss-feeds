@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2026 19:59:25 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 20:02:37 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1031,6 +1031,13 @@
       <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/riemann-zeta</guid>
       <pubDate>Mon, 10 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reviewing the evidence on worker retraining programs</title>
+      <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+      <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
+      <pubDate>Wed, 12 Aug 2026 17:05:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
