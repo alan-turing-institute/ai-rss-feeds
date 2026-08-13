@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2026 20:02:37 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 02:34:28 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1038,6 +1038,13 @@
       <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
       <pubDate>Wed, 12 Aug 2026 17:05:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Patterns and problems in emerging multiagent systems</title>
+      <link>https://www.anthropic.com/research/multiagent-systems</link>
+      <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/multiagent-systems</guid>
+      <pubDate>Thu, 13 Aug 2026 01:08:37 +0000</pubDate>
     </item>
   </channel>
 </rss>
