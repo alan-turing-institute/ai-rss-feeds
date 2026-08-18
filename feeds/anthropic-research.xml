@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 13 Aug 2026 02:34:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 22:50:43 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1045,6 +1045,13 @@
       <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/multiagent-systems</guid>
       <pubDate>Thu, 13 Aug 2026 01:08:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Claude is accelerating protein design and analytical chemistry</title>
+      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
+      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Claude Opus 5, a generally available model, was given NMR and LC-MS data (the data that allows chemists to assess the identity and purity of the compounds they work with).</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
+      <pubDate>Tue, 18 Aug 2026 14:45:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
