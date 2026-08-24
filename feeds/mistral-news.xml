@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 16:57:05 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 19:51:58 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -501,6 +501,12 @@
       <description>The retrieval layer that helps AI systems navigate, read, and verify information inside and across even the most complex documents.</description>
       <guid isPermaLink="true">https://mistral.ai/news/agentic-search/</guid>
       <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral x HUMAIN</title>
+      <link>https://mistral.ai/news/mistral-x-humain/</link>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-x-humain/</guid>
+      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>In-region inference, open models, and new European infrastructure for sovereign AI.</title>
