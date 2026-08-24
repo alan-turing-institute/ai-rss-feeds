@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 22 Aug 2026 22:49:58 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:57:01 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -761,13 +761,6 @@
       <pubDate>Fri, 13 Mar 2026 10:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>What 81,000 people want from AI</title>
-      <link>https://www.anthropic.com/81k-interviews</link>
-      <description>We invited Claude.ai users to share how they use AI, what they dream it could make possible, and what they fear it might do. Nearly 81,000 people participated—the largest and most multilingual qualitative study of its kind. Here's what we found.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/81k-interviews</guid>
-      <pubDate>Wed, 18 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Vibe physics: The AI grad student</title>
       <link>https://www.anthropic.com/research/vibe-physics</link>
       <description>Can AI do theoretical physics? I decided to find out by supervising Claude through a real research calculation, start to finish, without ever touching a file myself.</description>
@@ -842,13 +835,6 @@
       <description>We're launching the Anthropic Economic Index Survey, a monthly survey conducted through Anthropic Interviewer.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
       <pubDate>Wed, 22 Apr 2026 14:27:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Project Deal</title>
-      <link>https://www.anthropic.com/features/project-deal</link>
-      <description>We created a marketplace for employees in our San Francisco office, with one big twist. We tasked Claude with buying, selling and negotiating on our colleagues’ behalf.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/features/project-deal</guid>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Evaluating Claude’s bioinformatics research capabilities with BioMysteryBench</title>
@@ -1042,7 +1028,7 @@
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
       <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
-      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research. In the first, we tested Claude’s ability to design protein binders from scratch, a key step in creating protein-based drugs that has historically taken a specialist weeks or months per target. In the second example, we evaluated whether Claude can accelerate chemical analysis. Claude Opus 5, a generally available model, was given NMR and LC-MS data (the data that allows chemists to assess the identity and purity of the compounds they work with).</description>
+      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
       <pubDate>Tue, 18 Aug 2026 14:45:00 +0000</pubDate>
     </item>

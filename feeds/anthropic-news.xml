@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2026 19:56:55 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 16:57:04 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1686,12 +1686,14 @@
     <item>
       <title>Improving Fable 5's biology safeguards</title>
       <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
+      <description>We’re making updates to Claude Fable 5’s biology safeguards in a way that substantially reduces false positives. Fable 5 users will now experience many fewer “fallbacks”—where the system switches to a less capable model after they make a biology-related query.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</guid>
       <pubDate>Fri, 07 Aug 2026 01:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude’s text watermark works</title>
       <link>https://www.anthropic.com/news/claude-text-watermark</link>
+      <description>In this article, we share answers to some of the questions we’ve received about how our chosen watermarking method works, whether it affects Claude’s outputs, and why we’re making this change.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-text-watermark</guid>
       <pubDate>Fri, 14 Aug 2026 19:16:00 +0000</pubDate>
     </item>
