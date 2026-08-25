@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 14:00:13 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 16:57:18 +0000</lastBuildDate>
     <item>
       <title>Unpacking AI safety for enterprises</title>
       <link>https://cohere.com/blog/unpacking-ai-safety</link>
@@ -87,16 +87,16 @@
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing North Automations: Intelligent workflow orchestration</title>
+      <link>https://cohere.com/blog/introducing-north-automations-ai-workflows</link>
+      <guid isPermaLink="true">https://cohere.com/blog/introducing-north-automations-ai-workflows</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>A day in the life of a wealth manager, with and without AI</title>
       <link>https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</link>
       <guid isPermaLink="true">https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cohere signs EU Code of Practice on Transparency of AI-Generated Content</title>
-      <link>https://cohere.com/blog/cohere-signs-eu-code-of-practice</link>
-      <guid isPermaLink="true">https://cohere.com/blog/cohere-signs-eu-code-of-practice</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
