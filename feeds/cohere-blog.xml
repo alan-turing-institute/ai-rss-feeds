@@ -7,96 +7,96 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Aug 2026 14:31:44 +0000</lastBuildDate>
-    <item>
-      <title>AI in business intelligence: Use cases, benefits, and adoption considerations</title>
-      <link>https://cohere.com/blog/blog/ai-for-business-intelligence</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/ai-for-business-intelligence</guid>
-      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>RWS and Cohere build top-performing AI language intelligence for the enterprise</title>
-      <link>https://cohere.com/blog/blog/rws-and-cohere-build-ai-language-intelligence</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/rws-and-cohere-build-ai-language-intelligence</guid>
-      <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 25 Aug 2026 10:17:11 +0000</lastBuildDate>
     <item>
       <title>Co/plot: Supporting the research process through visualization</title>
-      <link>https://cohere.com/blog/blog/coplot</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/coplot</guid>
+      <link>https://cohere.com/blog/coplot</link>
+      <guid isPermaLink="true">https://cohere.com/blog/coplot</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Unpacking AI safety for enterprises</title>
+      <link>https://cohere.com/blog/unpacking-ai-safety</link>
+      <guid isPermaLink="true">https://cohere.com/blog/unpacking-ai-safety</guid>
+      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing North Mini Code: Cohere’s first model for developers</title>
-      <link>https://cohere.com/blog/blog/north-mini-code</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/north-mini-code</guid>
+      <link>https://cohere.com/blog/north-mini-code</link>
+      <guid isPermaLink="true">https://cohere.com/blog/north-mini-code</guid>
       <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The future of work debate has an evidence problem</title>
-      <link>https://cohere.com/blog/blog/the-future-of-work-debate-has-an-evidence-problem</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/the-future-of-work-debate-has-an-evidence-problem</guid>
+      <link>https://cohere.com/blog/the-future-of-work-debate-has-an-evidence-problem</link>
+      <guid isPermaLink="true">https://cohere.com/blog/the-future-of-work-debate-has-an-evidence-problem</guid>
       <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cohere triples UK footprint with new London office to support R&amp;D growth</title>
-      <link>https://cohere.com/blog/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</guid>
-      <pubDate>Mon, 15 Jun 2026 12:43:00 +0000</pubDate>
+      <link>https://cohere.com/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</guid>
+      <pubDate>Mon, 15 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>LLM Serving Fairness:  No more noisy neighbors</title>
-      <link>https://cohere.com/blog/blog/serving-fairness</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/serving-fairness</guid>
-      <pubDate>Wed, 17 Jun 2026 19:52:22 +0000</pubDate>
+      <link>https://cohere.com/blog/serving-fairness</link>
+      <guid isPermaLink="true">https://cohere.com/blog/serving-fairness</guid>
+      <pubDate>Wed, 17 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Why Cultural Awareness is Essential for Global AI</title>
-      <link>https://cohere.com/blog/blog/why-cultural-awareness-is-essential-for-global-ai</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/why-cultural-awareness-is-essential-for-global-ai</guid>
-      <pubDate>Tue, 23 Jun 2026 12:00:00 +0000</pubDate>
+      <link>https://cohere.com/blog/why-cultural-awareness-is-essential-for-global-ai</link>
+      <guid isPermaLink="true">https://cohere.com/blog/why-cultural-awareness-is-essential-for-global-ai</guid>
+      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Creating a security agent with Cohere North and Wiz</title>
-      <link>https://cohere.com/blog/blog/cohere-security-ai-agent-north-wiz</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/cohere-security-ai-agent-north-wiz</guid>
-      <pubDate>Thu, 25 Jun 2026 07:31:00 +0000</pubDate>
+      <link>https://cohere.com/blog/cohere-security-ai-agent-north-wiz</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-security-ai-agent-north-wiz</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Automating fork maintenance with AI agents</title>
-      <link>https://cohere.com/blog/blog/automating-fork-maintenance-with-ai-agents</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/automating-fork-maintenance-with-ai-agents</guid>
-      <pubDate>Thu, 25 Jun 2026 14:19:00 +0000</pubDate>
+      <link>https://cohere.com/blog/automating-fork-maintenance-with-ai-agents</link>
+      <guid isPermaLink="true">https://cohere.com/blog/automating-fork-maintenance-with-ai-agents</guid>
+      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Meet Cohere Transcribe Arabic</title>
-      <link>https://cohere.com/blog/blog/transcribe-arabic</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/transcribe-arabic</guid>
-      <pubDate>Tue, 07 Jul 2026 13:45:00 +0000</pubDate>
+      <link>https://cohere.com/blog/transcribe-arabic</link>
+      <guid isPermaLink="true">https://cohere.com/blog/transcribe-arabic</guid>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Hardware-aware dynamic speculative decoding</title>
-      <link>https://cohere.com/blog/blog/hardware-aware-dynamic-speculative-decoding</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/hardware-aware-dynamic-speculative-decoding</guid>
-      <pubDate>Fri, 10 Jul 2026 16:48:00 +0000</pubDate>
+      <link>https://cohere.com/blog/hardware-aware-dynamic-speculative-decoding</link>
+      <guid isPermaLink="true">https://cohere.com/blog/hardware-aware-dynamic-speculative-decoding</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Tiny Aya in the wild: What people are building with open multilingual AI</title>
-      <link>https://cohere.com/blog/blog/tiny-aya-in-the-wild</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/tiny-aya-in-the-wild</guid>
-      <pubDate>Tue, 14 Jul 2026 14:43:16 +0000</pubDate>
+      <link>https://cohere.com/blog/tiny-aya-in-the-wild</link>
+      <guid isPermaLink="true">https://cohere.com/blog/tiny-aya-in-the-wild</guid>
+      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The total cost of AI ownership</title>
-      <link>https://cohere.com/blog/blog/the-total-cost-of-ai-ownership</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/the-total-cost-of-ai-ownership</guid>
-      <pubDate>Wed, 15 Jul 2026 13:42:00 +0000</pubDate>
+      <link>https://cohere.com/blog/the-total-cost-of-ai-ownership</link>
+      <guid isPermaLink="true">https://cohere.com/blog/the-total-cost-of-ai-ownership</guid>
+      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Cohere and the University of Toronto partner to advance responsible AI adoption at scale</title>
-      <link>https://cohere.com/blog/blog/cohere-university-of-toronto-announcement</link>
-      <guid isPermaLink="true">https://cohere.com/blog/blog/cohere-university-of-toronto-announcement</guid>
-      <pubDate>Thu, 16 Jul 2026 14:00:00 +0000</pubDate>
+      <link>https://cohere.com/blog/cohere-university-of-toronto-announcement</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-university-of-toronto-announcement</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A day in the life of a wealth manager, with and without AI</title>
+      <link>https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</link>
+      <guid isPermaLink="true">https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
