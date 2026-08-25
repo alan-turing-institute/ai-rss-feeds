@@ -19,6 +19,7 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 | [Cohere Blog](https://cohere.com/blog) | [feeds/cohere-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml) |
 | [Mila News (Quebec AI Institute)](https://mila.quebec/en/news) | [feeds/mila-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mila-news.xml) |
 | [Mistral News](https://mistral.ai/news) | [feeds/mistral-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mistral-news.xml) |
+| [SpaceX AI News](https://x.ai/news) | [feeds/spacex-ai-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/spacex-ai-news.xml) |
 | [TLDR AI](https://tldr.tech/ai/archives) | [feeds/tldr-ai.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml) |
 | [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
 | [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
@@ -77,6 +78,27 @@ To refresh cached source pages, delete:
 rm -rf .scrapy/httpcache
 ```
 
+### Bot-Protected Sources
+
+Some sources sit behind bot protection that scores the TLS and HTTP/2
+fingerprint of the client rather than its request headers. Scrapy uses Python's
+TLS stack, so these return HTTP 403 no matter which headers are sent, and no
+selector work can get past it.
+
+Such a feed can opt in to being fetched through `curl_cffi`, which reproduces a
+real browser's fingerprint:
+
+```toml
+impersonate = "chrome"
+```
+
+This is handled by `ImpersonateDownloaderMiddleware` in `src/middlewares.py`,
+registered after Scrapy's `HttpCacheMiddleware` so cache hits still avoid the
+network. Feeds without `impersonate` are fetched by Scrapy as normal.
+
+Note that a datacenter IP (such as a GitHub Actions runner) may still be blocked
+even with a matching fingerprint, so a feed that works locally can fail in CI.
+
 ### Add A New Feed
 
 1. Add a new `[feeds.<feed-key>]` table in `feeds.toml`.
@@ -93,6 +115,7 @@ rm -rf .scrapy/httpcache
 4. Set optional fields as needed:
 	- `item_date_selector`, `item_date_regex`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
+	- `impersonate` (see [Bot-Protected Sources](#bot-protected-sources))
 	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors
 5. Add the new feed entry to the table above, keeping it sorted by name.

@@ -8,6 +8,12 @@ HTTPCACHE_ENABLED = True
 HTTPCACHE_DIR = "httpcache"
 HTTPCACHE_EXPIRATION_SECS = 0  # Never expire automatically
 
+# Fetch fingerprint-blocked feeds via curl_cffi; ordered after
+# HttpCacheMiddleware (900) so cache hits never reach the network
+DOWNLOADER_MIDDLEWARES = {
+    "src.middlewares.ImpersonateDownloaderMiddleware": 1000,
+}
+
 # Global user agent for all requests
 USER_AGENT = "ai-rss-feeds-bot/1.0 (+https://github.com/alan-turing-institute/ai-rss-feeds)"
 

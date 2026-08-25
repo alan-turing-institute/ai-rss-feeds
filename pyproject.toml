@@ -5,6 +5,7 @@ description = "AI RSS feeds"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "curl-cffi>=0.13.0",
     "dateparser>=1.4.0",
     "feedgen>=1.0.0",
     "jq>=1.11.0",

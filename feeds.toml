@@ -110,3 +110,18 @@ item_link_selector = "a::attr(href)"
 item_date_selector = "footer div:first-child p ::text"
 item_description_selector = "h2 + p ::text"
 
+# x.ai sits behind Cloudflare bot management which blocks Scrapy's TLS
+# fingerprint; `impersonate` routes the fetch through curl_cffi.
+# Page has three item layouts (hero, featured cards, "All posts" list); all
+# share the `a[href^='/news/']` anchor. The hero repeats its title in h1 and
+# h2, so the title selector deliberately skips h2 to avoid a doubled title.
+[feeds.spacex-ai-news]
+feed_title = "SpaceX AI News"
+feed_description = "SpaceX AI News: Research, product & company updates."
+source_url = "https://x.ai/news"
+impersonate = "chrome"
+item_container_selector = "a[href^='/news/']"
+item_title_selector = "h1::text, h3::text"
+item_link_selector = "::attr(href)"
+item_date_selector = "div[class*='text-primary/40']::text"
+item_description_selector = "p::text"

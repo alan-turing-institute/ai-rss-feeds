@@ -84,6 +84,9 @@ class FeedSpider(scrapy.Spider):
     item_date_regex: Optional[str] = None
     item_description_selector: Optional[str] = None
 
+    # Fetch via curl_cffi with this browser fingerprint (e.g. "chrome")
+    impersonate: Optional[str] = None
+
     # Link handling
     item_guid_is_permalink: bool = True
 
@@ -111,6 +114,7 @@ class FeedSpider(scrapy.Spider):
             "feed_description",
             "language",
             "format",
+            "impersonate",
             "item_container_selector",
             "item_title_selector",
             "item_link_selector",
@@ -130,11 +134,15 @@ class FeedSpider(scrapy.Spider):
         if not self.source_url:
             raise RuntimeError("Missing required spider configuration field: source_url")
 
+        meta = {"handle_httpstatus_all": True}
+        if self.impersonate:
+            meta["impersonate"] = self.impersonate
+
         yield scrapy.Request(
             self.source_url,
             callback=self.parse,
             dont_filter=True,
-            meta={"handle_httpstatus_all": True},
+            meta=meta,
         )
 
     def parse(self, response):
