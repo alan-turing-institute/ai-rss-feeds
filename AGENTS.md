@@ -21,14 +21,17 @@
 - These mostly default to `None` and if left as `None` then the corresponding field in the feed or item is not set.
 - Be lenient in what selectors can return. For example `item_link_selector` can return either text (the URL) or an HTML node (in which case its `href` attr is taken).
 - Don't follow any links (to articles or to later pages of links), just use the information on the source page.
+
+## Taking snapshots
 - Don't repeatedly curl a page when developing feeds - put a copy into `./snapshots` and refer to that.
-- To refresh a snapshot directly, use e.g. `curl -f https://www.anthropic.com/news -o snapshots/anthropic-news.html`.
+- To refresh/create a snapshot directly, use e.g. `curl -f https://www.anthropic.com/news -o snapshots/anthropic-news.html`.
 - If a new feed can't be scraped with the existing setup, suggest how to proceed and we can discuss before implementing new scraping methods.
-- If the feed uses nextjs, you can extract the nextjs data like `uv run python extract_nextjs.py snapshots/cohere-blog.html >snapshots/cohere-blog.nextjs.json`.
+- If the feed uses nextjs, extract the nextjs data like `uv run python extract_nextjs.py snapshots/cohere-blog.html >snapshots/cohere-blog.nextjs.json`.
 - You can find where items are in nextjs like `uv run python json_grep.py snapshots/cohere-blog.nextjs.json "Part of the title"` if the user gives example titles (ask for some).
 
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
+- Generated using `uv run python generate_feeds.py`.
 - Feeds are put into `./feeds`.
 - Look at existing feeds (`feeds.toml`) for consistency.
 - Use selectors that are likely to be stable over time.
