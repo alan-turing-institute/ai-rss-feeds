@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:21:39 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 23:51:36 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -550,6 +550,7 @@
     <item>
       <title>Detecting and countering malicious uses of Claude: March 2025</title>
       <link>https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025</link>
+      <description>We are committed to preventing misuse of our Claude models by adversarial actors while maintaining their utility for legitimate users.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025</guid>
       <pubDate>Wed, 23 Apr 2025 15:05:00 +0000</pubDate>
     </item>

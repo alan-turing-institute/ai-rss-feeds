@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:21:36 +0000</lastBuildDate>
-    <item>
-      <title>Claude Managed Agents: get to production 10x faster</title>
-      <link>https://claude.com/blog/claude-managed-agents</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 26 Aug 2026 23:51:33 +0000</lastBuildDate>
     <item>
       <title>Preparing your security program for AI-accelerated offense</title>
       <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
@@ -61,6 +55,12 @@
       <link>https://claude.com/blog/artifacts-in-claude-code</link>
       <guid isPermaLink="true">https://claude.com/blog/artifacts-in-claude-code</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude gets its own browser in Cowork</title>
+      <link>https://claude.com/blog/cowork-built-in-browser</link>
+      <guid isPermaLink="true">https://claude.com/blog/cowork-built-in-browser</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude in Chrome is generally available</title>
@@ -69,12 +69,6 @@
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Managed Agents: get to production 10x faster</title>
-      <link>https://claude.com/blog/claude-managed-agents</link>
-      <guid isPermaLink="true">https://claude.com/blog/claude-managed-agents</guid>
-      <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Preparing your security program for AI-accelerated offense</title>
       <link>https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</link>
       <guid isPermaLink="true">https://claude.com/blog/preparing-your-security-program-for-ai-accelerated-offense</guid>
@@ -121,6 +115,12 @@
       <link>https://claude.com/blog/artifacts-in-claude-code</link>
       <guid isPermaLink="true">https://claude.com/blog/artifacts-in-claude-code</guid>
       <pubDate>Thu, 18 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude gets its own browser in Cowork</title>
+      <link>https://claude.com/blog/cowork-built-in-browser</link>
+      <guid isPermaLink="true">https://claude.com/blog/cowork-built-in-browser</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude in Chrome is generally available</title>
