@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 16:57:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 20:21:39 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -21,7 +21,7 @@
       <pubDate>Fri, 29 Apr 2022 14:50:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic Partners with Google Cloud</title>
+      <title>Anthropic partners with Google Cloud</title>
       <link>https://www.anthropic.com/news/anthropic-partners-with-google-cloud</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-partners-with-google-cloud</guid>
       <pubDate>Fri, 03 Feb 2023 08:00:00 +0000</pubDate>
@@ -57,13 +57,13 @@
       <pubDate>Tue, 09 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing 100K Context Windows</title>
+      <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/100k-context-windows</guid>
       <pubDate>Thu, 11 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Zoom Partnership and Investment in Anthropic</title>
+      <title>Zoom partnership and investment in Anthropic</title>
       <link>https://www.anthropic.com/news/zoom-partnership-and-investment</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/zoom-partnership-and-investment</guid>
       <pubDate>Tue, 16 May 2023 14:00:00 +0000</pubDate>
@@ -87,7 +87,7 @@
       <pubDate>Tue, 11 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Frontier Model Security</title>
+      <title>Frontier model security</title>
       <link>https://www.anthropic.com/news/frontier-model-security</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/frontier-model-security</guid>
       <pubDate>Tue, 25 Jul 2023 07:00:00 +0000</pubDate>
@@ -105,7 +105,7 @@
       <pubDate>Wed, 09 Aug 2023 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SKT Partnership Announcement</title>
+      <title>SKT partnership announcement</title>
       <link>https://www.anthropic.com/news/skt-partnership-announcement</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/skt-partnership-announcement</guid>
       <pubDate>Tue, 15 Aug 2023 14:00:00 +0000</pubDate>
@@ -352,7 +352,7 @@
       <pubDate>Thu, 19 Sep 2024 19:21:00 +0000</pubDate>
     </item>
     <item>
-      <title>U.S. Elections Readiness</title>
+      <title>U.S. elections readiness</title>
       <link>https://www.anthropic.com/news/us-elections-readiness</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/us-elections-readiness</guid>
       <pubDate>Tue, 08 Oct 2024 18:21:00 +0000</pubDate>
