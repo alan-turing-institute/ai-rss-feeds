@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 16:57:18 +0000</lastBuildDate>
-    <item>
-      <title>Unpacking AI safety for enterprises</title>
-      <link>https://cohere.com/blog/unpacking-ai-safety</link>
-      <guid isPermaLink="true">https://cohere.com/blog/unpacking-ai-safety</guid>
-      <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing North Mini Code: Cohere’s first model for developers</title>
-      <link>https://cohere.com/blog/north-mini-code</link>
-      <guid isPermaLink="true">https://cohere.com/blog/north-mini-code</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 27 Aug 2026 17:33:41 +0000</lastBuildDate>
     <item>
       <title>The future of work debate has an evidence problem</title>
       <link>https://cohere.com/blog/the-future-of-work-debate-has-an-evidence-problem</link>
@@ -97,6 +85,18 @@
       <link>https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</link>
       <guid isPermaLink="true">https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</guid>
       <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere signs EU Code of Practice on Transparency of AI-Generated Content</title>
+      <link>https://cohere.com/blog/cohere-signs-eu-code-of-practice</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-signs-eu-code-of-practice</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere and the University of Waterloo launch partnership to strengthen Canada’s AI talent pipeline</title>
+      <link>https://cohere.com/blog/cohere-university-of-waterloo-announcement</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-university-of-waterloo-announcement</guid>
+      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

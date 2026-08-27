@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 23:51:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 17:33:38 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1004,6 +1004,7 @@
     <item>
       <title>Anthropic partners with Rwandan Government and ALX to bring AI education to hundreds of thousands of learners across Africa</title>
       <link>https://www.anthropic.com/news/rwandan-government-partnership-ai-education</link>
+      <description>Anthropic is announcing a new partnership with the Government of Rwanda and African tech training provider ALX to bring Chidi—a learning companion built on Claude—to hundreds of thousands of learners across Africa.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/rwandan-government-partnership-ai-education</guid>
       <pubDate>Tue, 18 Nov 2025 01:40:00 +0000</pubDate>
     </item>
