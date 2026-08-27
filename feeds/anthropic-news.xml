@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:33:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 22:57:43 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1705,6 +1705,20 @@
       <description>We’re launching a $5 million grant program to fund independent research into how AI impacts users’ wellbeing.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/wellbeing-research-grants</guid>
       <pubDate>Tue, 25 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding our support for scientists</title>
+      <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
+      <description>Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription plan and then add their research team to Standard seats for free, or Premium seats for $15 per month, for up to a year.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
+      <pubDate>Thu, 27 Aug 2026 17:03:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Previewing the Model Hardware Standard</title>
+      <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
+      <description>We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+      <pubDate>Thu, 27 Aug 2026 18:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
