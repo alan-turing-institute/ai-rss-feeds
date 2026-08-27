@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:21:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 03:23:05 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -522,6 +522,7 @@
     <item>
       <title>Grok 4.6 in GitHub Copilot</title>
       <link>https://x.ai/news/grok-4-6-github-copilot</link>
+      <description>Grok 4.6, our latest coding model, is now available in GitHub Copilot.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-github-copilot</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -542,6 +543,12 @@
       <link>https://x.ai/news/grok-4-6-vertex-ai</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-vertex-ai</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grok 4.6 on Microsoft Foundry</title>
+      <link>https://x.ai/news/grok-4-6-microsoft-foundry</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-4-6-microsoft-foundry</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grok Bot is now included with more plans</title>
