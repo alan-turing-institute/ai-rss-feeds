@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CETaS Analysis</title>
+    <link>https://cetas.turing.ac.uk/research-and-analysis/analysis</link>
+    <description>Analysis and commentary from leading experts across our network.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Aug 2026 11:05:05 +0000</lastBuildDate>
+    <item>
+      <title>Searching Before Stopping: The Legal and Ethical Challenges of Remote AI Weapons Detection in UK Policing</title>
+      <link>https://cetas.turing.ac.uk/publications/challenges-remote-AI-weapons-detection-policing</link>
+      <description>Marion Oswald, Temitope Lawal and Angela Paul, “Searching Before Stopping: The Legal and Ethical Challenges of Remote AI Weapons Detection in UK Policing,” CETaS Expert Analysis (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/challenges-remote-AI-weapons-detection-policing</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Mythos: What Does Anthropic’s New Model Mean for the Future of Cybersecurity?</title>
+      <link>https://cetas.turing.ac.uk/publications/claude-mythos-future-cybersecurity</link>
+      <description>Chris Hicks, Connor Attridge, Ardi Janjeva and Carolyn Ashurst, “Claude Mythos: What Does Anthropic’s New Model Mean for the Future of Cybersecurity?,” CETaS Expert Analysis (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/claude-mythos-future-cybersecurity</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Cybercrime to Vibercrime? Assessing Generative AI Adoption in the Criminal Underground</title>
+      <link>https://cetas.turing.ac.uk/publications/cybercrime-vibercrime-assessing-generative-ai-adoption-criminal-underground</link>
+      <description>Ben Collier, "From Cybercrime to Vibercrime? Assessing Generative AI Adoption in the Criminal Underground," CETaS Expert Analysis (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/cybercrime-vibercrime-assessing-generative-ai-adoption-criminal-underground</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CETaS: Expert Analysis in Technology and Security</title>
+      <link>https://cetas.turing.ac.uk/publications/cetas-expert-analysis-2026-compendium</link>
+      <description>Centre for Emerging Technology and Security, "CETaS: Expert Analysis in Technology and Security," CETaS Expert Analysis (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/cetas-expert-analysis-2026-compendium</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asia-Pacific AI Governance: A Call for Middle-Power Partnerships</title>
+      <link>https://cetas.turing.ac.uk/publications/asia-pacific-ai-governance-call-middle-power-partnerships</link>
+      <description>Seungjoo Lee and Hyunjin Lee, “Asia-Pacific AI Governance: A Call for Middle-Power Partnerships,” CETaS Expert Analysis (May 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/asia-pacific-ai-governance-call-middle-power-partnerships</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI and Distorted Belief: From Individual Harm to National Security Risk</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-and-distorted-belief-individual-harm-national-security-risk</link>
+      <description>Rick Hennessy, “AI and Distorted Belief: From Individual Harm to National Security Risk,” CETaS Expert Analysis (May 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-and-distorted-belief-individual-harm-national-security-risk</guid>
+      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking Evidence Synthesis in the Age of AI</title>
+      <link>https://cetas.turing.ac.uk/publications/rethinking-evidence-synthesis-age-ai</link>
+      <description>Sara Babahami, “Rethinking Evidence Synthesis in the Age of AI,” CETaS Expert Analysis (June 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/rethinking-evidence-synthesis-age-ai</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building National Resilience is an Urgent Issue – But it’s Not a Job for the Police</title>
+      <link>https://cetas.turing.ac.uk/publications/building-national-resilience-urgent-issue-its-not-job-police</link>
+      <description>Fraser Sampson and John McNeill, “Building National Resilience is an Urgent Issue – But it’s Not a Job for the Police,” CETaS Expert Analysis (June 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/building-national-resilience-urgent-issue-its-not-job-police</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Sovereignty and National Security: Identifying the UK’s Dimensions of Control</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-sovereignty-and-national-security-identifying-uks-dimensions-control</link>
+      <description>George Balston, “AI Sovereignty and National Security: Identifying the UK’s Dimensions of Control,” CETaS Policy Briefs (July 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-sovereignty-and-national-security-identifying-uks-dimensions-control</guid>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

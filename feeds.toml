@@ -142,3 +142,34 @@ item_title_selector = "h1::text, h3::text"
 item_link_selector = "::attr(href)"
 item_date_selector = "div[class*='text-primary/40']::text"
 item_description_selector = "p::text"
+
+# cetas.turing.ac.uk sits behind a Cloudflare managed challenge that blocks
+# plain Scrapy requests; `impersonate` routes the fetch through curl_cffi.
+# Listing pages are paginated (page 2+ via ?page=... AJAX query) with no
+# embedded JSON of the item list (just Drupal settings), so per the
+# no-follow-links rule this only covers the first page (9 items). There's
+# no dedicated date field; the publication date is parsed out of the
+# citation text, e.g. "... CETaS Policy Briefs (July 2026)."
+[feeds.cetas-research]
+feed_title = "CETaS Research"
+feed_description = "CETaS research on emerging technology and security issues."
+source_url = "https://cetas.turing.ac.uk/research-and-analysis/research"
+impersonate = "chrome"
+item_container_selector = "article.node--type-research-publications"
+item_title_selector = "h3 span.field--title::text"
+item_link_selector = "h3 a::attr(href)"
+item_date_selector = ".field-criteria p ::text"
+item_date_regex = "[A-Za-z]+ \\d{4}"
+item_description_selector = ".field-criteria p ::text"
+
+[feeds.cetas-analysis]
+feed_title = "CETaS Analysis"
+feed_description = "Analysis and commentary from leading experts across our network."
+source_url = "https://cetas.turing.ac.uk/research-and-analysis/analysis"
+impersonate = "chrome"
+item_container_selector = "article.node--type-research-publications"
+item_title_selector = "h3 span.field--title::text"
+item_link_selector = "h3 a::attr(href)"
+item_date_selector = ".field-criteria p ::text"
+item_date_regex = "[A-Za-z]+ \\d{4}"
+item_description_selector = ".field-criteria p ::text"

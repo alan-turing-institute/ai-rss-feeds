@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CETaS Research</title>
+    <link>https://cetas.turing.ac.uk/research-and-analysis/research</link>
+    <description>CETaS research on emerging technology and security issues.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Aug 2026 11:05:05 +0000</lastBuildDate>
+    <item>
+      <title>Growing the UK’s AI Assurance Market in Defence and Security</title>
+      <link>https://cetas.turing.ac.uk/publications/growing-uks-ai-assurance-market</link>
+      <description>Natasha Karner et al., "Growing the UK’s AI Assurance Market in Defence and Security," CETaS Briefing Papers (January 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/growing-uks-ai-assurance-market</guid>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Adding Fuel to the Fire: AI Information Threats and Crisis Events</title>
+      <link>https://cetas.turing.ac.uk/publications/adding-fuel-to-fire</link>
+      <description>Sam Stockwell, Ardi Janjeva and Broderick McDonald, "Adding Fuel to the Fire: AI Information Threats and Crisis Events," CETaS Research Reports (February 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/adding-fuel-to-fire</guid>
+      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Cooperation Trajectories: Adversaries and Geostrategic Competitors</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-cooperation-trajectories-adversaries-and-geostrategic-competitors</link>
+      <description>Megan Hughes and Tony A, "AI Cooperation Trajectories: Adversaries and Geostrategic Competitors," CETaS Research Reports (March 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-cooperation-trajectories-adversaries-and-geostrategic-competitors</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI and Robotics:  National Security Implications</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-and-robotics</link>
+      <description>Megan Hughes, “AI and Robotics: National Security Implications,” CETaS Snapshot Reports (March 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-and-robotics</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Information Threats and Crisis Response: Practitioners’ Handbook</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-information-threats-and-crisis-response-practitioners-handbook</link>
+      <description>Broderick McDonald and Sam Stockwell, "AI Information Threats and Crisis Response: Practitioners’ Handbook," CETaS Policy Briefs (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-information-threats-and-crisis-response-practitioners-handbook</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI, Quantum Computing and High-Performance Computing</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-quantum-computing-and-high-performance-computing</link>
+      <description>Ben Christy, “AI, Quantum Computing and High-Performance Computing,” CETaS Snapshot Reports (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-quantum-computing-and-high-performance-computing</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Next Frontier: Security Implications of Future AI Paradigms</title>
+      <link>https://cetas.turing.ac.uk/publications/future-AI-paradigms</link>
+      <description>Ardi Janjeva, Sylvester Kaczmarek, Angus Shennan and Carolyn Ashurst, “The Next Frontier: Security Implications of Future AI Paradigms,” CETaS Research Reports (April 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/future-AI-paradigms</guid>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI and Engineering Biology: National Security Implications</title>
+      <link>https://cetas.turing.ac.uk/publications/ai-and-engineering-biology</link>
+      <description>Hannah Hunter, “AI and Engineering Biology: National Security Implications,” CETaS Snapshot Reports (June 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-and-engineering-biology</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Converging Risks: The Impact of AI on Critical Technologies</title>
+      <link>https://cetas.turing.ac.uk/publications/converging-risks-impact-ai-critical-technologies</link>
+      <description>Sara Babahami and Ardi Janjeva, “Converging Risks: The Impact of AI on Critical Technologies,” CETaS Policy Briefs (June 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/converging-risks-impact-ai-critical-technologies</guid>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
