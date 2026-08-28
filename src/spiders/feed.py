@@ -63,6 +63,46 @@ def iter_flight_record_values(nextjs_string):
         pos = next_pos
 
 
+def iter_json_blobs(selector):
+    """Yield every embedded JSON blob found on a page: __NEXT_DATA__, Next.js
+    Flight stream records, and JSON-LD (<script type="application/ld+json">)
+    blocks. `selector` is anything exposing scrapy's `.xpath()` interface
+    (a Response or a standalone Selector)."""
+    next_data = selector.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
+    if next_data:
+        try:
+            yield json.loads(next_data)
+        except json.JSONDecodeError:
+            pass
+
+    for block_text in selector.xpath('//script[@type="application/ld+json"]/text()').getall():
+        try:
+            yield json.loads(block_text)
+        except json.JSONDecodeError:
+            continue
+
+    push_pattern = re.compile(r'self\.__next_f\.push\(\s*(\[.*\])\s*\)', re.DOTALL)
+    for script_text in selector.xpath('//script/text()').getall():
+        if "self.__next_f.push(" not in script_text:
+            continue
+
+        match = push_pattern.search(script_text)
+        if not match:
+            continue
+
+        try:
+            outer = json.loads(match.group(1))
+        except json.JSONDecodeError:
+            continue
+
+        if not isinstance(outer, list) or len(outer) < 2 or not isinstance(outer[1], str):
+            continue
+
+        payload = outer[1]
+        for _key, parsed_obj in iter_flight_record_values(payload):
+            yield parsed_obj
+
+
 class FeedSpider(scrapy.Spider):
     name = "feed"
 
@@ -74,7 +114,7 @@ class FeedSpider(scrapy.Spider):
     language: str = "en"
 
     # Format and extraction mode
-    format: str = "html"  # "html", "nextjs", or "json-ld"
+    format: str = "html"  # "html" or "json"
 
     # Item selectors (HTML mode)
     item_container_selector: Optional[str] = None
@@ -151,10 +191,8 @@ class FeedSpider(scrapy.Spider):
                 f"Source URL returned HTTP {response.status}: {response.url}"
             )
 
-        if self.format == "nextjs":
-            items = self._parse_nextjs(response)
-        elif self.format == "json-ld":
-            items = self._parse_json_ld(response)
+        if self.format == "json":
+            items = self._parse_json(response)
         elif self.format == "html":
             items = self._parse_html(response)
         else:
@@ -175,7 +213,7 @@ class FeedSpider(scrapy.Spider):
                 "item_title_selector": self.item_title_selector,
                 "item_link_selector": self.item_link_selector,
             })
-        elif self.format in ("nextjs", "json-ld"):
+        elif self.format == "json":
             required_fields.update({
                 "item_container_selector": self.item_container_selector,
                 "item_title_selector": self.item_title_selector,
@@ -286,19 +324,19 @@ class FeedSpider(scrapy.Spider):
 
         return items
 
-    def _parse_nextjs(self, response):
-        """Parse Next.js Flight stream format using jq selectors."""
+    def _parse_json(self, response):
+        """Parse embedded JSON (Next.js and/or JSON-LD) using jq selectors."""
         self._validate_spider_config()
 
-        items_list = self._extract_nextjs_items(response)
+        items_list = self._extract_json_items(response)
         if not items_list:
             raise RuntimeError(
-                f"No items matched nextjs item_container_selector={self.item_container_selector!r}"
+                f"No items matched json item_container_selector={self.item_container_selector!r}"
             )
 
         items = []
         for item_data in items_list:
-            item = self._extract_jq_item(item_data, response)
+            item = self._extract_json_item(item_data, response)
             if item is None:
                 continue
 
@@ -322,53 +360,6 @@ class FeedSpider(scrapy.Spider):
         )
 
         return deduped_items
-
-    def _parse_json_ld(self, response):
-        """Parse embedded JSON-LD (schema.org) data using jq selectors."""
-        self._validate_spider_config()
-
-        items_list = self._extract_json_ld_items(response)
-        if not items_list:
-            raise RuntimeError(
-                f"No items matched json-ld item_container_selector={self.item_container_selector!r}"
-            )
-
-        items = []
-        for item_data in items_list:
-            item = self._extract_jq_item(item_data, response)
-            if item is not None:
-                items.append(item)
-
-        return items
-
-    def _extract_json_ld_items(self, response):
-        """Extract items by applying item_container_selector as jq to each
-        <script type="application/ld+json"> block on the page."""
-        scripts = response.xpath('//script[@type="application/ld+json"]/text()').getall()
-        if not scripts:
-            raise RuntimeError('No <script type="application/ld+json"> tags found in response')
-
-        items = []
-        for script_text in scripts:
-            try:
-                parsed = json.loads(script_text)
-            except json.JSONDecodeError:
-                continue
-
-            try:
-                matches = self._jq_values(self.item_container_selector, parsed)
-            except Exception as exc:
-                raise RuntimeError(
-                    f"Failed to evaluate jq selector against JSON-LD: {exc}"
-                ) from exc
-
-            for value in matches:
-                if isinstance(value, dict):
-                    items.append(value)
-                elif isinstance(value, list):
-                    items.extend(v for v in value if isinstance(v, dict))
-
-        return items
 
     def _jq_values(self, query, obj):
         """Evaluate a jq query and return raw values."""
@@ -417,75 +408,36 @@ class FeedSpider(scrapy.Spider):
 
         return matches[0].group(0)
 
-    def _extract_nextjs_items(self, response):
-        """Extract Next.js items by applying item_container_selector as jq."""
-        next_data = response.xpath('//script[@id="__NEXT_DATA__"]/text()').get()
-        if next_data:
-            try:
-                parsed = json.loads(next_data)
-            except json.JSONDecodeError as exc:
-                raise RuntimeError(f"Failed to parse __NEXT_DATA__: {exc}") from exc
+    def _jq_container_matches(self, parsed_obj):
+        """Apply item_container_selector as jq to one parsed JSON blob."""
+        try:
+            matches = self._jq_values(self.item_container_selector, parsed_obj)
+        except Exception:
+            return []
 
-            try:
-                matches = self._jq_values(self.item_container_selector, parsed)
-            except Exception as exc:
-                raise RuntimeError(f"Failed to evaluate jq selector against __NEXT_DATA__: {exc}") from exc
+        items = []
+        for value in matches:
+            if isinstance(value, dict):
+                items.append(value)
+            elif isinstance(value, list):
+                items.extend(v for v in value if isinstance(v, dict))
+        return items
 
-            items = []
-            for value in matches:
-                if isinstance(value, dict):
-                    items.append(value)
-                elif isinstance(value, list):
-                    items.extend(v for v in value if isinstance(v, dict))
-
-            if items:
-                return items
-
-        scripts = response.xpath('//script/text()').getall()
-        if not scripts:
-            raise RuntimeError("No script tags found in response")
-
-        # Greedy per-script regex to capture the full outer array, then
-        # line-by-line Flight record parsing via iter_flight_record_values.
-        push_pattern = re.compile(r'self\.__next_f\.push\(\s*(\[.*\])\s*\)', re.DOTALL)
+    def _extract_json_items(self, response):
+        """Extract items by applying item_container_selector as jq to every
+        JSON blob embedded in the page (see iter_json_blobs). Blobs are
+        scanned __NEXT_DATA__, then JSON-LD, then Flight records; downstream
+        dedup-by-link only overwrites on a strictly newer date, so the
+        first-seen record for a given link wins on same-day ties (JSON-LD
+        tends to carry richer per-item fields, e.g. descriptions, than
+        Next.js Flight records)."""
         all_items = []
-
-        for script_text in scripts:
-            if "self.__next_f.push(" not in script_text:
-                continue
-
-            match = push_pattern.search(script_text)
-            if not match:
-                continue
-
-            try:
-                outer = json.loads(match.group(1))
-            except json.JSONDecodeError:
-                continue
-
-            if not isinstance(outer, list) or len(outer) < 2 or not isinstance(outer[1], str):
-                continue
-
-            payload = outer[1]
-
-            for _key, parsed_obj in iter_flight_record_values(payload):
-                try:
-                    matches = self._jq_values(self.item_container_selector, parsed_obj)
-                except Exception:
-                    matches = []
-                items = []
-                for value in matches:
-                    if isinstance(value, dict):
-                        items.append(value)
-                    elif isinstance(value, list):
-                        items.extend(v for v in value if isinstance(v, dict))
-                if items:
-                    all_items.extend(items)
-
+        for blob in iter_json_blobs(response):
+            all_items.extend(self._jq_container_matches(blob))
         return all_items
 
-    def _normalize_jq_link(self, link_val, response):
-        """Normalize Next.js item links from absolute, relative, or slug values."""
+    def _normalize_json_link(self, link_val, response):
+        """Normalize item links from absolute, relative, or slug values."""
         link_val = str(link_val).strip()
         if not link_val:
             return None
@@ -512,8 +464,8 @@ class FeedSpider(scrapy.Spider):
                     return text
         return None
 
-    def _extract_jq_item(self, item_data, response):
-        """Extract a single item from Next.js JSON using jq selectors."""
+    def _extract_json_item(self, item_data, response):
+        """Extract a single item from a parsed JSON blob using jq selectors."""
         try:
             if not isinstance(item_data, dict):
                 return None
@@ -528,7 +480,7 @@ class FeedSpider(scrapy.Spider):
             if not link_raw:
                 return None
 
-            link = self._normalize_jq_link(link_raw, response)
+            link = self._normalize_json_link(link_raw, response)
             if not link:
                 return None
 

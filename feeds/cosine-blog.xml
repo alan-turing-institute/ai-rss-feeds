@@ -7,7 +7,67 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 08:49:36 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:10:33 +0000</lastBuildDate>
+    <item>
+      <title>Developer First Agents: Making AI Automation Safe and Manageable</title>
+      <link>https://cosine.sh/blog/developer-first-ai-agents</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/developer-first-ai-agents</guid>
+      <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Risk Management for Software Engineering</title>
+      <link>https://cosine.sh/blog/ai-risk-management-software-engineering</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/ai-risk-management-software-engineering</guid>
+      <pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multi-Agent Orchestration for Enterprise Coding Agents: What we shared at re:Invent 2025</title>
+      <link>https://cosine.sh/blog/reinvent-2025-multi-agent-orchestration</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/reinvent-2025-multi-agent-orchestration</guid>
+      <pubDate>Fri, 13 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Benchmarking Specialist Programming Languages: Early Results</title>
+      <link>https://cosine.sh/blog/benchmarking-specialist-programming-languages-early-results</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/benchmarking-specialist-programming-languages-early-results</guid>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unmaintainable AI Code is a Technical Liability</title>
+      <link>https://cosine.sh/blog/unmaintainable-ai-code-technical-liability</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/unmaintainable-ai-code-technical-liability</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Case for a Multi-Surface Agentic Ecosystem</title>
+      <link>https://cosine.sh/blog/multi-surface-agentic-ecosystem</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/multi-surface-agentic-ecosystem</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Polite AI Fails Professional Developers</title>
+      <link>https://cosine.sh/blog/why-polite-ai-fails-professional-developers</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/why-polite-ai-fails-professional-developers</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cosine: The Coding Agent for Engineers with Taste</title>
+      <link>https://cosine.sh/blog/one-agent-every-surface</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/one-agent-every-surface</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building an Agent for Engineers Who Use Them Every Day</title>
+      <link>https://cosine.sh/blog/building-agent-for-engineers</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/building-agent-for-engineers</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hidden Cost of AI Velocity: Navigating Slop</title>
+      <link>https://cosine.sh/blog/ai-slop-silent-productivity-killer</link>
+      <guid isPermaLink="true">https://cosine.sh/blog/ai-slop-silent-productivity-killer</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Cosine CLI: The Runtime Behind Terminal-Native Engineering</title>
       <link>https://cosine.sh/blog/cosine-cli-runtime-technical-deep-dive</link>

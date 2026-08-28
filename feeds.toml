@@ -20,7 +20,7 @@ item_description_selector = "div > p::text"
 [feeds.anthropic-news]
 feed_title = "Anthropic News"
 source_url = "https://www.anthropic.com/news"
-format = "nextjs"
+format = "json"
 item_container_selector = ".. | objects | select(._type == \"post\" or ._type == \"featuredGridLink\")"
 item_title_selector = ".title"
 item_link_selector = ".url // .slug.current"
@@ -30,7 +30,7 @@ item_description_selector = ".summary"
 [feeds.anthropic-research]
 feed_title = "Anthropic Research"
 source_url = "https://www.anthropic.com/research"
-format = "nextjs"
+format = "json"
 item_container_selector = ".. | objects | select(._type == \"post\" or ._type == \"featuredGridLink\")"
 item_title_selector = ".title"
 item_link_selector = ".url // .slug.current"
@@ -75,7 +75,7 @@ broken = true
 feed_title = "The Batch"
 feed_description = "Weekly AI news for engineers, executives, and enthusiasts."
 source_url = "https://www.deeplearning.ai/the-batch"
-format = "nextjs"
+format = "json"
 item_container_selector = ".props.pageProps.posts[]"
 item_link_selector = ".slug"
 item_title_selector = ".title"
@@ -91,18 +91,21 @@ item_title_selector = "div::text"
 item_date_selector = "::attr(href)"
 item_date_regex = "\\d{4}-\\d{2}-\\d{2}"
 
-# The DOM only renders the first page of cards (some without a visible date),
-# but the page also embeds a schema.org Blog JSON-LD block listing every post
-# with a title/url/date/description, so we read that instead.
+# Two overlapping JSON sources on the page: the Next.js Flight "posts" array
+# has the full post history but no description, and excludes the pinned
+# hero/call-for-input post entirely; the JSON-LD "blogPost" list only covers
+# the 12 newest posts but includes the hero and has descriptions. The
+# container selector unions both shapes; overlapping posts dedup by link,
+# and JSON-LD's richer record wins ties (see _extract_json_items ordering).
 [feeds.cosine-blog]
 feed_title = "Cosine Blog"
 feed_description = "Product updates, research notes, and practical writing about building production software with AI agents."
 source_url = "https://cosine.sh/blog"
-format = "json-ld"
-item_container_selector = ".blogPost[]"
-item_title_selector = ".headline"
-item_link_selector = ".url"
-item_date_selector = ".datePublished"
+format = "json"
+item_container_selector = ".. | objects | select(has(\"posts\") or has(\"blogPost\")) | (.posts // .blogPost)[]"
+item_title_selector = ".title // .headline"
+item_link_selector = ".href // .url"
+item_date_selector = ".date // .datePublished"
 item_description_selector = ".description"
 
 [feeds.cohere-blog]

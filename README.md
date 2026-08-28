@@ -109,14 +109,10 @@ even with a matching fingerprint, so a feed that works locally can fail in CI.
 	- `item_container_selector`
 	- `item_title_selector`
 	- `item_link_selector`
-3. For Next.js feeds, set:
-	- `format = "nextjs"`
-	- `item_container_selector` as a jq query that returns item objects (for example `.page.sections[] | select(._type == "publicationList") | .posts[]`)
-	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as jq queries scoped to each item
-3b. For pages that embed a schema.org JSON-LD block (`<script type="application/ld+json">`), set:
-	- `format = "json-ld"`
-	- `item_container_selector` as a jq query evaluated against each JSON-LD block that returns item objects (for example `.blogPost[]`)
-	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as jq queries scoped to each item
+3. For feeds backed by embedded JSON (Next.js `__NEXT_DATA__`/Flight data and/or JSON-LD `<script type="application/ld+json">` blocks), set:
+	- `format = "json"`
+	- `item_container_selector` as a jq query returning item objects, evaluated independently against every JSON blob found on the page (for example `.. | objects | select(._type == "post") | .` or `.. | objects | select(has("posts")) | .posts[]`) — matches from different blobs are unioned, and items with the same resolved link are deduped, keeping whichever record has the later date (first-seen wins on a tie, so scan order matters if one source has richer fields)
+	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as jq queries scoped to each item; use `//` to fall back across differently-shaped sources (for example `.title // .headline`)
 4. Set optional fields as needed:
 	- `item_date_selector`, `item_date_regex`, `item_description_selector`, `feed_description`, `language`
 	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`

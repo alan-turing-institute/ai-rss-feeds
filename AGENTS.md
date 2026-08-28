@@ -21,13 +21,14 @@
 - These mostly default to `None` and if left as `None` then the corresponding field in the feed or item is not set.
 - Be lenient in what selectors can return. For example `item_link_selector` can return either text (the URL) or an HTML node (in which case its `href` attr is taken).
 - Don't follow any links (to articles or to later pages of links), just use the information on the source page.
+- For pages backed by embedded JSON, use `format = "json"` instead of CSS selectors. This applies `item_container_selector` (a jq query) independently to every JSON blob found on the page — Next.js `__NEXT_DATA__`, Next.js Flight stream records, and JSON-LD `<script type="application/ld+json">` blocks — and unions the matches. Items are deduped by resolved link, keeping whichever record has the later date; when two sources report the same item with an equal date, whichever was scanned first wins, so put the richer source (e.g. JSON-LD, which often has descriptions) first if that matters. `item_title_selector` etc. are jq queries scoped to each item; use `//` to fall back across differently-shaped sources (e.g. `.title // .headline`, `.href // .url`, `.date // .datePublished`).
 
 ## Taking snapshots
 - Don't repeatedly curl a page when developing feeds - put a copy into `./snapshots` and refer to that.
 - To refresh/create a snapshot directly, use e.g. `curl -f https://www.anthropic.com/news -o snapshots/anthropic-news.html`.
 - If a new feed can't be scraped with the existing setup, suggest how to proceed and we can discuss before implementing new scraping methods.
-- If the feed uses nextjs, extract the nextjs data like `uv run python extract_nextjs.py snapshots/cohere-blog.html >snapshots/cohere-blog.nextjs.json`.
-- You can find where items are in nextjs like `uv run python json_grep.py snapshots/cohere-blog.nextjs.json "Part of the title"` if the user gives example titles (ask for some).
+- If the feed is backed by embedded JSON (Next.js `__NEXT_DATA__`/Flight data and/or JSON-LD), extract it like `uv run python extract_json.py snapshots/cohere-blog.html >snapshots/cohere-blog.json`. This uses the same blob-discovery logic as the spider (`iter_json_blobs` in `src/spiders/feed.py`), so it finds everything the `format = "json"` pipeline would.
+- You can find where items are in an extracted JSON dump like `uv run python json_grep.py snapshots/cohere-blog.json "Part of the title"` if the user gives example titles (ask for some).
 
 ## Feed generation
 - Each site will correspond to one feed, e.g. the Anthropic News site will become a `anthropic-news.xml` feed.
@@ -41,7 +42,7 @@
 - If a feed stops working, it can be marked `broken = true` in `feeds.toml`. This will stop a known problem from failing the whole run, and will flag when it starts working again.
 - To fix a feed:
   - Grab a new snapshot (as above).
-  - If it uses nextjs, extract the data (as above).
+  - If it uses embedded JSON, extract the data (as above).
   - Read the existing feed in `feeds.toml`.
   - Compare it to the new snapshots and fix the feed.
   - Remove `broken = true`.

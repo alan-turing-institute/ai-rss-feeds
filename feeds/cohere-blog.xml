@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:33:41 +0000</lastBuildDate>
-    <item>
-      <title>The future of work debate has an evidence problem</title>
-      <link>https://cohere.com/blog/the-future-of-work-debate-has-an-evidence-problem</link>
-      <guid isPermaLink="true">https://cohere.com/blog/the-future-of-work-debate-has-an-evidence-problem</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 28 Aug 2026 10:10:36 +0000</lastBuildDate>
     <item>
       <title>Cohere triples UK footprint with new London office to support R&amp;D growth</title>
       <link>https://cohere.com/blog/cohere-triples-uk-footprint-with-new-london-office-to-support-r-and-d-growth</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/cohere-university-of-waterloo-announcement</link>
       <guid isPermaLink="true">https://cohere.com/blog/cohere-university-of-waterloo-announcement</guid>
       <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Culture Funnel: You can’t align what isn’t in the data</title>
+      <link>https://cohere.com/blog/the-culture-funnel-you-cant-align-what-isnt-in-the-data</link>
+      <guid isPermaLink="true">https://cohere.com/blog/the-culture-funnel-you-cant-align-what-isnt-in-the-data</guid>
+      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
