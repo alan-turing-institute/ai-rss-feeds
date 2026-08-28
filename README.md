@@ -27,6 +27,16 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 
 \* These feeds are currently broken and not updating.
 
+## News
+
+- 28 Aug 2026: Added Cosine Blog feed.
+- 25 Aug 2026: Added SpaceX AI News feed.
+- 14 Jul 2026: Fixed Turing Blog feed.
+- 6 Jul 2026: Marked The Batch feed as broken.
+- 26 May 2026: Marked Turing Blog feed as broken.
+- 14 Apr 2026: Added Cohere Blog and Mistral News feeds.
+- 10 Apr 2026: Initial release, with feeds for AISI Blog, Ai2 News, Anthropic News, Anthropic Research, Claude Blog, The Batch, Mila News, Turing Blog, Turing News, and TLDR AI.
+
 ## Developer Guide
 
 ### Generate Feeds

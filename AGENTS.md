@@ -37,6 +37,7 @@
 - Look at existing feeds (`feeds.toml`) for consistency.
 - Use selectors that are likely to be stable over time.
 - When you add a new feed, run `uv run python generate_opml.py` to regenerate the OPML list.
+- Also add new feeds to the News section of the readme.
 
 ## Broken feeds
 - If a feed stops working, it can be marked `broken = true` in `feeds.toml`. This will stop a known problem from failing the whole run, and will flag when it starts working again.
@@ -47,6 +48,7 @@
   - Compare it to the new snapshots and fix the feed.
   - Remove `broken = true`.
 - News pages sometimes have featured articles shown differently from the main list, ensure you get them all. It can help if the user supplies the titles for a selection of articles (featured and not), so you can find them more easily in the HTML.
+- Update the News section of the readme if a feed is marked broken or is fixed. If it's fixed the same day then skip.
 
 ## Regeneration
 - There is a github workflow (`.github/workflows/generate-feeds.yml`) that runs every 3 hours.
