@@ -91,6 +91,20 @@ item_title_selector = "div::text"
 item_date_selector = "::attr(href)"
 item_date_regex = "\\d{4}-\\d{2}-\\d{2}"
 
+# The DOM only renders the first page of cards (some without a visible date),
+# but the page also embeds a schema.org Blog JSON-LD block listing every post
+# with a title/url/date/description, so we read that instead.
+[feeds.cosine-blog]
+feed_title = "Cosine Blog"
+feed_description = "Product updates, research notes, and practical writing about building production software with AI agents."
+source_url = "https://cosine.sh/blog"
+format = "json-ld"
+item_container_selector = ".blogPost[]"
+item_title_selector = ".headline"
+item_link_selector = ".url"
+item_date_selector = ".datePublished"
+item_description_selector = ".description"
+
 [feeds.cohere-blog]
 feed_title = "Cohere Blog"
 feed_description = "Latest news and updates from Cohere."

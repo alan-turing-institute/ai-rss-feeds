@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Cosine Blog</title>
+    <link>https://cosine.sh/blog</link>
+    <description>Product updates, research notes, and practical writing about building production software with AI agents.</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Aug 2026 08:49:36 +0000</lastBuildDate>
+    <item>
+      <title>Cosine CLI: The Runtime Behind Terminal-Native Engineering</title>
+      <link>https://cosine.sh/blog/cosine-cli-runtime-technical-deep-dive</link>
+      <description>A technical deep dive into Cosine CLI: the agent runtime behind terminal-native engineering, with LSP integration, MCP tool connectivity, multi-agent orchestration, and local-to-remote execution.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/cosine-cli-runtime-technical-deep-dive</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Linux Approach: Embracing Complexity for Deeper Control</title>
+      <link>https://cosine.sh/blog/linux-approach-complexity-control</link>
+      <description>Cosine takes the Linux approach to AI tooling: showing the context window, token usage, and model reasoning instead of hiding complexity behind a polished interface.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/linux-approach-complexity-control</guid>
+      <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cosine Swarm: Long-Horizon Agents Working in Parallel</title>
+      <link>https://cosine.sh/blog/cosine-swarm-long-horizon-agents</link>
+      <description>Cosine’s Swarm mode transforms a single user request into an organised working team, enabling coordinated execution for long-horizon software tasks.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/cosine-swarm-long-horizon-agents</guid>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training for Niche Languages: The Data Engine for Legacy Systems</title>
+      <link>https://cosine.sh/blog/training-for-niche-languages-legacy-systems</link>
+      <description>How Cosine built a data engine for niche, legacy, and environment-constrained programming languages to improve Lumen Outpost.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/training-for-niche-languages-legacy-systems</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Against Slop: A Structured Approach to AI Code Quality</title>
+      <link>https://cosine.sh/blog/training-against-slop-ai-code-quality</link>
+      <description>How Cosine trained Lumen Outpost to reduce AI slop by optimising for maintainability, architectural fit, and long-term code quality.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/training-against-slop-ai-code-quality</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training for Vibe: A Structured Approach to AI Behaviour</title>
+      <link>https://cosine.sh/blog/training-for-vibe-ai-behavior</link>
+      <description>How Cosine trained Lumen Outpost for better AI agent behaviour: concise updates, honesty, planning, evidence, and action alignment.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/training-for-vibe-ai-behavior</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Lumen Outpost</title>
+      <link>https://cosine.sh/blog/introducing-lumen-outpost</link>
+      <description>Introducing Lumen Outpost, Cosine’s targeted post-trained coding model built to reduce slop, improve behaviour, and strengthen performance in niche languages.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/introducing-lumen-outpost</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lumen Outpost Benchmark Report</title>
+      <link>https://cosine.sh/blog/lumen-outpost-benchmark-report</link>
+      <description>Benchmark results for Lumen Outpost across Niche-Bench, Slop-Bench, Vibe-Bench, and cost per successful coding task.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/lumen-outpost-benchmark-report</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Lumen Sovereign: Cosine Forms Coalition with UK Industry Leaders</title>
+      <link>https://cosine.sh/blog/building-lumen-sovereign-uk-industry-coalition</link>
+      <description>Cosine has formed a coalition with leading UK institutions to build Lumen Sovereign: Britain's first fully sovereign frontier AI for critical sectors.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/building-lumen-sovereign-uk-industry-coalition</guid>
+      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Shaping UK Sovereign AI: The Lumen Sovereign Public Request for Input is Live</title>
+      <link>https://cosine.sh/blog/shaping-britains-sovereign-ai-lumen-public-input</link>
+      <description>Help shape the future of Britain’s first sovereign frontier AI. Cosine is seeking public input on capabilities, use cases, and governance for Lumen Sovereign, our secure, UK-built model for critical sectors.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/shaping-britains-sovereign-ai-lumen-public-input</guid>
+      <pubDate>Wed, 01 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Air-Gapped vs Cloud AI: Enterprise Cost Comparison</title>
+      <link>https://cosine.sh/blog/air-gapped-vs-cloud-ai-deployments-cost-comparison</link>
+      <description>Is your enterprise overspending on AI? We have analysed the cost-effectiveness of air-gapped, sovereign GPU deployments versus cloud-based coding agents for large organisations.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/air-gapped-vs-cloud-ai-deployments-cost-comparison</guid>
+      <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Announcing our Partnership with Mimic: Bringing Sovereign AI to Cybersecurity</title>
+      <link>https://cosine.sh/blog/cosine-enters-cybersecurity-mimic-partnership</link>
+      <description>Discover the new Cosine and Mimic partnership bringing on-premise, sovereign AI to defence and regulated industries for automated virtual patching.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/cosine-enters-cybersecurity-mimic-partnership</guid>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
