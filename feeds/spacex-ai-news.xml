@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:23:05 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 22:45:07 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -529,6 +529,7 @@
     <item>
       <title>Grok Build on web and mobile</title>
       <link>https://x.ai/news/grok-build-for-everyone</link>
+      <description>Grok Build is now available on every plan, on the web and on mobile.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-build-for-everyone</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -545,17 +546,23 @@
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Grok Bot is now included with more plans</title>
+      <link>https://x.ai/news/grok-bot-more-plans</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-more-plans</guid>
+      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Grok 4.6 on Microsoft Foundry</title>
       <link>https://x.ai/news/grok-4-6-microsoft-foundry</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-microsoft-foundry</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Bot is now included with more plans</title>
-      <link>https://x.ai/news/grok-bot-more-plans</link>
-      <description>Grok Bot is now available for SuperGrok, Cursor Pro, and all Cursor Teams plans.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-bot-more-plans</guid>
-      <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+      <title>Grok Bot now works with X</title>
+      <link>https://x.ai/news/grok-bot-and-x</link>
+      <description>Grok Bot now has a tighter integration with X.</description>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-and-x</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
