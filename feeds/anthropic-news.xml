@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 13:45:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 19:45:26 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1726,6 +1726,19 @@
       <description>On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
       <pubDate>Mon, 31 Aug 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Fable 5.1 and Claude Mythos 5.1</title>
+      <link>https://www.anthropic.com/claude-fable-and-mythos-5-1</link>
+      <description>Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/claude-fable-and-mythos-5-1</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developing Enterprise Frontier Safeguards with our customers</title>
+      <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
+      <pubDate>Tue, 01 Sep 2026 23:31:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
