@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 11:05:05 +0000</lastBuildDate>
-    <item>
-      <title>Growing the UK’s AI Assurance Market in Defence and Security</title>
-      <link>https://cetas.turing.ac.uk/publications/growing-uks-ai-assurance-market</link>
-      <description>Natasha Karner et al., "Growing the UK’s AI Assurance Market in Defence and Security," CETaS Briefing Papers (January 2026).</description>
-      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/growing-uks-ai-assurance-market</guid>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 11:03:45 +0000</lastBuildDate>
     <item>
       <title>Adding Fuel to the Fire: AI Information Threats and Crisis Events</title>
       <link>https://cetas.turing.ac.uk/publications/adding-fuel-to-fire</link>
@@ -70,6 +63,13 @@
       <description>Sara Babahami and Ardi Janjeva, “Converging Risks: The Impact of AI on Critical Technologies,” CETaS Policy Briefs (June 2026).</description>
       <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/converging-risks-impact-ai-critical-technologies</guid>
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Securing the UK’s AI Future: A Sovereignty Vision for 2030</title>
+      <link>https://cetas.turing.ac.uk/publications/securing-uks-ai-future-sovereignty-vision-2030</link>
+      <description>Sam Stockwell, “Securing the UK’s AI Future: A Sovereignty Vision for 2030,” CETaS Policy Briefs (September 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/securing-uks-ai-future-sovereignty-vision-2030</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
