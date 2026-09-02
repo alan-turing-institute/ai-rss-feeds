@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Aug 2026 20:21:42 +0000</lastBuildDate>
-    <item>
-      <title>Mila and ROOST Launch Suicide Prevention Guardrail Pilot to Help Make AI Chatbots Safer for Youth</title>
-      <link>https://mila.quebec/en/news/mila-and-roost-launch-suicide-prevention-guardrail-pilot-to-help-make-ai-chatbots-safer-for</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-roost-launch-suicide-prevention-guardrail-pilot-to-help-make-ai-chatbots-safer-for</guid>
-      <pubDate>Wed, 08 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 19:45:23 +0000</lastBuildDate>
     <item>
       <title>2026 Sustainability Scholarships Program: Meet the Recipients</title>
       <link>https://mila.quebec/en/news/2026-sustainability-scholarships-program-meet-the-recipients</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/tele-quebec-and-mila-join-forces-to-harness-ai-in-the-service-of-quebec-culture</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/tele-quebec-and-mila-join-forces-to-harness-ai-in-the-service-of-quebec-culture</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Indigenous Pathfinders in AI: Discover the Third Cohort’s Ideas in Action</title>
+      <link>https://mila.quebec/en/news/indigenous-pathfinders-in-ai-discover-the-third-cohorts-ideas-in-action</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/indigenous-pathfinders-in-ai-discover-the-third-cohorts-ideas-in-action</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
