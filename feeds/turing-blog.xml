@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 25 Aug 2026 07:57:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 13:45:40 +0000</lastBuildDate>
     <item>
       <title>LLMs may be more vulnerable to data poisoning than we thought</title>
       <link>https://www.turing.ac.uk/blog/llms-may-be-more-vulnerable-data-poisoning-we-thought</link>
@@ -103,6 +103,12 @@
       <link>https://www.turing.ac.uk/blog/we-need-more-complete-picture-cyber-attacks-uk-critical-national-infrastructure</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/blog/we-need-more-complete-picture-cyber-attacks-uk-critical-national-infrastructure</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A super El Niño is forming. Can AI weather models provide insights on these anomalous climate events?</title>
+      <link>https://www.turing.ac.uk/blog/super-el-nino-forming-can-ai-weather-models-provide-insights-these-anomalous-climate-events</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/blog/super-el-nino-forming-can-ai-weather-models-provide-insights-these-anomalous-climate-events</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

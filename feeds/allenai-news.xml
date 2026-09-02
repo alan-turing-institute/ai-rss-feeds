@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:33:41 +0000</lastBuildDate>
-    <item>
-      <title>What’s next for Ai2: A conversation with Interim CEO Peter Clark</title>
-      <link>https://allenai.org/blog/peter-clark-qa</link>
-      <description>Interim CEO Peter Clark shares his thoughts on this moment for Ai2, our commitment to open science, and where the…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/peter-clark-qa</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 01 Sep 2026 16:52:55 +0000</lastBuildDate>
     <item>
       <title>MolmoAct 2: An open foundation for robots that work in the real world</title>
       <link>https://allenai.org/blog/molmoact2</link>
@@ -70,6 +63,13 @@
       <description>Ai2 and Providence Swedish Cancer Institute are expanding their collaboration after AutoDiscovery helped…</description>
       <guid isPermaLink="true">https://allenai.org/blog/swedish-autodiscovery-partnership</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The hard parts of AI-assisted science</title>
+      <link>https://allenai.org/blog/swedish-autodiscovery-recap</link>
+      <description>At an Ai2 event marking our expanded collaboration with Providence Swedish, researchers explored the hardest…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/swedish-autodiscovery-recap</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

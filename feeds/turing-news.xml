@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 04 Jun 2026 15:41:10 +0000</lastBuildDate>
-    <item>
-      <title>AI assurance key to unlocking AI adoption in defence and driving UK economic growth</title>
-      <link>https://www.turing.ac.uk/news/ai-assurance-key-unlocking-ai-adoption-defence-and-driving-uk-economic-growth</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/ai-assurance-key-unlocking-ai-adoption-defence-and-driving-uk-economic-growth</guid>
-      <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Top British AI expertise to help spark renewal of public services and bolster national security</title>
-      <link>https://www.turing.ac.uk/news/top-british-ai-expertise-help-spark-renewal-public-services-and-bolster-national-security</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/top-british-ai-expertise-help-spark-renewal-public-services-and-bolster-national-security</guid>
-      <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 04:48:22 +0000</lastBuildDate>
     <item>
       <title>New report calls for urgent action to tackle AI information threats following crisis events</title>
       <link>https://www.turing.ac.uk/news/new-report-calls-urgent-action-tackle-ai-information-threats-following-crisis-events</link>
@@ -115,6 +103,18 @@
       <link>https://www.turing.ac.uk/news/turing-takes-part-googles-summer-code</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/news/turing-takes-part-googles-summer-code</guid>
       <pubDate>Thu, 04 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AI system can monitor satellite behaviour to boost space safety</title>
+      <link>https://www.turing.ac.uk/news/new-ai-system-can-monitor-satellite-behaviour-to-boost-space-safety</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-ai-system-can-monitor-satellite-behaviour-to-boost-space-safety</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The UK must exploit narrowing window of opportunity to build resilient AI future</title>
+      <link>https://www.turing.ac.uk/news/uk-must-exploit-narrowing-window-opportunity-build-resilient-ai-future</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/uk-must-exploit-narrowing-window-opportunity-build-resilient-ai-future</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

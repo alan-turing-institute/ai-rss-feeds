@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:23:05 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 16:52:49 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -529,12 +529,14 @@
     <item>
       <title>Grok Build on web and mobile</title>
       <link>https://x.ai/news/grok-build-for-everyone</link>
+      <description>Grok Build is now available on every plan, on the web and on mobile.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-build-for-everyone</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grok 4.6 on Amazon Bedrock</title>
       <link>https://x.ai/news/grok-4-6-amazon-bedrock</link>
+      <description>Grok 4.6 is now available via Amazon Bedrock.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-amazon-bedrock</guid>
       <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -549,6 +551,18 @@
       <link>https://x.ai/news/grok-4-6-microsoft-foundry</link>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-microsoft-foundry</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grok Bot now works with X</title>
+      <link>https://x.ai/news/grok-bot-and-x</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-and-x</guid>
+      <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Biosecurity at the frontier</title>
+      <link>https://x.ai/news/biosafety-at-the-frontier</link>
+      <guid isPermaLink="true">https://x.ai/news/biosafety-at-the-frontier</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grok Bot is now included with more plans</title>
