@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 13:45:34 +0000</lastBuildDate>
-    <item>
-      <title>Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝</title>
-      <link>https://tldr.tech/ai/2026-08-05</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 02 Sep 2026 13:45:36 +0000</lastBuildDate>
     <item>
       <title>Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩</title>
       <link>https://tldr.tech/ai/2026-08-06</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-09-01</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-01</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fable 5.1 🧠, World Labs Atlas 🌍, Cognition $47B 💰</title>
+      <link>https://tldr.tech/ai/2026-09-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
