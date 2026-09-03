@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 16:52:49 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 19:45:28 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -543,6 +543,7 @@
     <item>
       <title>Grok 4.6 on Gemini Enterprise Agent Platform</title>
       <link>https://x.ai/news/grok-4-6-vertex-ai</link>
+      <description>Grok 4.6 is now available via Gemini Enterprise Agent Platform.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-4-6-vertex-ai</guid>
       <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -563,6 +564,12 @@
       <link>https://x.ai/news/biosafety-at-the-frontier</link>
       <guid isPermaLink="true">https://x.ai/news/biosafety-at-the-frontier</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing Grok Bot for a world of persistent agents</title>
+      <link>https://x.ai/news/designing-grok-bot</link>
+      <guid isPermaLink="true">https://x.ai/news/designing-grok-bot</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grok Bot is now included with more plans</title>
