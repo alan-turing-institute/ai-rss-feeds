@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 13:45:36 +0000</lastBuildDate>
-    <item>
-      <title>Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩</title>
-      <link>https://tldr.tech/ai/2026-08-06</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 03 Sep 2026 13:45:29 +0000</lastBuildDate>
     <item>
       <title>GPT-5.6 Luna default 🌙, Agent Plugins 🔌, AMD Taalas acquisition 🧩</title>
       <link>https://tldr.tech/ai/2026-08-07</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-09-02</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-02</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse Spark 1.3 ✨, Gemini 3.8 Flash ⚡, intelligence vs cost 📊</title>
+      <link>https://tldr.tech/ai/2026-09-03</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
