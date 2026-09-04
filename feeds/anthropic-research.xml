@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 17:42:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 19:45:12 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1046,6 +1046,13 @@
       <description>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
       <pubDate>Fri, 28 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Formalizing Fermat's Last Theorem</title>
+      <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
+      <description>We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
+      <pubDate>Fri, 04 Sep 2026 15:27:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
