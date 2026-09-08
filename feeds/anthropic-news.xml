@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 19:45:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 13:45:25 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -786,6 +786,7 @@
     <item>
       <title>Detecting and countering misuse of AI: August 2025</title>
       <link>https://www.anthropic.com/news/detecting-countering-misuse-aug-2025</link>
+      <description>We’ve developed sophisticated safety and security measures to prevent the misuse of our AI models. But cybercriminals and other malicious actors are actively attempting to find ways around them. Today, we’re releasing a report that details how.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-countering-misuse-aug-2025</guid>
       <pubDate>Wed, 27 Aug 2025 20:01:00 +0000</pubDate>
     </item>
@@ -998,6 +999,7 @@
     <item>
       <title>Disrupting the first reported AI-orchestrated cyber espionage campaign</title>
       <link>https://www.anthropic.com/news/disrupting-AI-espionage</link>
+      <description>We recently argued that an inflection point had been reached in cybersecurity: a point at which AI models had become genuinely useful for cybersecurity operations, both for good and for ill.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/disrupting-AI-espionage</guid>
       <pubDate>Thu, 13 Nov 2025 16:00:00 +0000</pubDate>
     </item>
@@ -1237,6 +1239,7 @@
     <item>
       <title>Detecting and preventing distillation attacks</title>
       <link>https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</link>
+      <description>We have identified industrial-scale campaigns by three AI laboratories—DeepSeek, Moonshot, and MiniMax—to illicitly extract Claude’s capabilities to improve their own models.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-and-preventing-distillation-attacks</guid>
       <pubDate>Mon, 23 Feb 2026 18:00:00 +0000</pubDate>
     </item>

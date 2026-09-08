@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Sep 2026 13:45:12 +0000</lastBuildDate>
-    <item>
-      <title>Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠</title>
-      <link>https://tldr.tech/ai/2026-08-11</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 08 Sep 2026 13:45:23 +0000</lastBuildDate>
     <item>
       <title>Cursor’s GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈</title>
       <link>https://tldr.tech/ai/2026-08-12</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-09-07</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-07</guid>
       <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰</title>
+      <link>https://tldr.tech/ai/2026-09-08</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
