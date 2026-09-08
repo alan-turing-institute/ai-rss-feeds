@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Sep 2026 13:45:29 +0000</lastBuildDate>
-    <item>
-      <title>Why Cultural Awareness is Essential for Global AI</title>
-      <link>https://cohere.com/blog/why-cultural-awareness-is-essential-for-global-ai</link>
-      <guid isPermaLink="true">https://cohere.com/blog/why-cultural-awareness-is-essential-for-global-ai</guid>
-      <pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 08 Sep 2026 16:45:57 +0000</lastBuildDate>
     <item>
       <title>Creating a security agent with Cohere North and Wiz</title>
       <link>https://cohere.com/blog/cohere-security-ai-agent-north-wiz</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/forward-deployed-engineers-capability-building</link>
       <guid isPermaLink="true">https://cohere.com/blog/forward-deployed-engineers-capability-building</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative AI for business: Use cases, benefits, and adoption</title>
+      <link>https://cohere.com/blog/generative-ai-for-business</link>
+      <guid isPermaLink="true">https://cohere.com/blog/generative-ai-for-business</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
