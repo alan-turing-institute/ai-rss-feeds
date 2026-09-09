@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 19:45:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 19:45:29 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -17,6 +17,7 @@
     <item>
       <title>A Mathematical Framework for Transformer Circuits</title>
       <link>https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</link>
+      <description>A framework for reverse engineering transformers, revealing how attention heads work as independent operations.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</guid>
       <pubDate>Wed, 22 Dec 2021 08:00:00 +0000</pubDate>
     </item>
@@ -61,6 +62,7 @@
     <item>
       <title>Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned</title>
       <link>https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</link>
+      <description>Early efforts to red team language models, investigate scaling behaviors, and release 38,961 red team attacks—helping develop shared norms for red teaming.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</guid>
       <pubDate>Mon, 22 Aug 2022 07:00:00 +0000</pubDate>
     </item>
@@ -102,13 +104,13 @@
       <pubDate>Wed, 15 Feb 2023 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Privileged Bases in the Transformer Residual Stream</title>
+      <title>Privileged bases in the transformer residual stream</title>
       <link>https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</guid>
       <pubDate>Thu, 16 Mar 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Distributed Representations: Composition &amp; Superposition</title>
+      <title>Distributed representations: Composition &amp; superposition</title>
       <link>https://www.anthropic.com/research/distributed-representations-composition-superposition</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/distributed-representations-composition-superposition</guid>
       <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
@@ -1053,6 +1055,13 @@
       <description>We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language. Below, we describe how the formalization was done and share some thoughts about what this work could mean for research mathematics.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
       <pubDate>Fri, 04 Sep 2026 15:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An alignment assessment of recent cybersecurity incidents</title>
+      <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
+      <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
+      <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

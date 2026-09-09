@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 08 Sep 2026 07:46:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 19:45:32 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -514,6 +514,13 @@
       <link>https://mistral.ai/news/mistral-x-humain/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-x-humain/</guid>
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Modernizing complex legacy code with AI agents.</title>
+      <link>https://mistral.ai/news/legacy-code-modernization/</link>
+      <description>Lessons from 40,000 lines of Fortran.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/legacy-code-modernization/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mistral raises €3B to make sovereign, open-weight AI the technology frontier</title>
