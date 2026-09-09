@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 19:45:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 22:45:22 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -128,26 +128,27 @@
       <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Measuring the Representation of Subjective Global Opinions in Language Models</title>
+      <title>Towards measuring the representation of subjective global opinions in language models</title>
       <link>https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</guid>
       <pubDate>Thu, 29 Jun 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Question Decomposition Improves the Faithfulness of Model-Generated Reasoning</title>
+      <title>Question decomposition improves the faithfulness of model-generated reasoning</title>
       <link>https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
       <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Measuring Faithfulness in Chain-of-Thought Reasoning</title>
+      <title>Measuring faithfulness in Chain-of-Thought reasoning</title>
       <link>https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</guid>
       <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Studying Large Language Model Generalization with Influence Functions</title>
+      <title>Studying large language model generalization with influence functions</title>
       <link>https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</link>
+      <description>This paper scales influence functions to 52B parameter models, revealing how generalization patterns become more abstract with model size.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</guid>
       <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
     </item>
@@ -164,32 +165,32 @@
       <pubDate>Wed, 04 Oct 2023 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</title>
+      <title>Towards monosemanticity: Decomposing language models with dictionary learning</title>
       <link>https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</guid>
       <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Decomposing Language Models Into Understandable Components</title>
+      <title>Decomposing language models into understandable components</title>
       <link>https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</guid>
       <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Collective Constitutional AI: Aligning a Language Model with Public Input</title>
+      <title>Collective Constitutional AI: Aligning a language model with public input</title>
       <link>https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</link>
       <description>Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</guid>
       <pubDate>Tue, 17 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Understanding Sycophancy in Language Models</title>
+      <title>Towards understanding sycophancy in language models</title>
       <link>https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
       <pubDate>Mon, 23 Oct 2023 18:57:00 +0000</pubDate>
     </item>
     <item>
-      <title>Specific versus General Principles for Constitutional AI</title>
+      <title>Specific versus general principles for Constitutional AI</title>
       <link>https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</guid>
       <pubDate>Tue, 24 Oct 2023 16:07:00 +0000</pubDate>
@@ -792,7 +793,7 @@
       <pubDate>Tue, 24 Mar 2026 10:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Australia Uses Claude: Findings from the Anthropic Economic Index</title>
+      <title>How Australia uses Claude: Findings from the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-australia-uses-claude</guid>
       <pubDate>Tue, 31 Mar 2026 22:17:00 +0000</pubDate>
