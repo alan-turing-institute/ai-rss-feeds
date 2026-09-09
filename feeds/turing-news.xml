@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 04:48:22 +0000</lastBuildDate>
-    <item>
-      <title>New report calls for urgent action to tackle AI information threats following crisis events</title>
-      <link>https://www.turing.ac.uk/news/new-report-calls-urgent-action-tackle-ai-information-threats-following-crisis-events</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-report-calls-urgent-action-tackle-ai-information-threats-following-crisis-events</guid>
-      <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 09 Sep 2026 10:45:30 +0000</lastBuildDate>
     <item>
       <title>George Williamson appointed as CEO of the Alan Turing Institute</title>
       <link>https://www.turing.ac.uk/news/george-williamson-appointed-ceo-alan-turing-institute</link>
@@ -115,6 +109,12 @@
       <link>https://www.turing.ac.uk/news/uk-must-exploit-narrowing-window-opportunity-build-resilient-ai-future</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/news/uk-must-exploit-narrowing-window-opportunity-build-resilient-ai-future</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investing in people is the key to successful AI adoption in national security</title>
+      <link>https://www.turing.ac.uk/news/investing-people-key-successful-ai-adoption-national-security</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/investing-people-key-successful-ai-adoption-national-security</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
