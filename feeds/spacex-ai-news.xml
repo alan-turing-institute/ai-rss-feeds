@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 19:45:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 01:52:56 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -303,32 +303,11 @@
       <pubDate>Mon, 01 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Becomes the Voice of Vapi</title>
-      <link>https://x.ai/news/grok-vapi</link>
-      <description>Bringing frontier voice quality to millions of Vapi agents.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-vapi</guid>
-      <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Grok Imagine 1.5 Preview</title>
       <link>https://x.ai/news/grok-imagine-1-5</link>
       <description>grok-imagine-video-1.5-preview, our latest image-to-video model, is now available via the xAI API in preview.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-imagine-1-5</guid>
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Powering Gopuff's Go agent</title>
-      <link>https://x.ai/news/grok-gopuff</link>
-      <description>Gopuff and SpaceXAI launched Go, an AI-powered shopping assistant built into the Gopuff app and powered by Grok text, audio, and image models.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-gopuff</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bringing real-time market sentiment to Tori, from eToro</title>
-      <link>https://x.ai/news/grok-etoro</link>
-      <description>Tori, eToro’s AI agent, uses models from SpaceXAI to embed real-time market sentiment directly into Tori’s investing workflow.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-etoro</guid>
-      <pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Grok Build Plugin Marketplace</title>
@@ -392,13 +371,6 @@
       <description>Use /goal for long-running autonomous task execution in Grok Build.</description>
       <guid isPermaLink="true">https://x.ai/news/introducing-goal</guid>
       <pubDate>Mon, 22 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Explore the markets with Interactive Brokers and Grok</title>
-      <link>https://x.ai/news/grok-interactive-brokers</link>
-      <description>Interactive Brokers now integrates with Grok, bringing powerful AI directly into your trading experience — portfolio analysis, scenario modeling, research, and order instructions.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-interactive-brokers</guid>
-      <pubDate>Thu, 25 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the Voice Agent Builder</title>
