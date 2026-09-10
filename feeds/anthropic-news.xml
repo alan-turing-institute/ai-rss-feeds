@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 22:45:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 16:45:20 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -550,7 +550,7 @@
     <item>
       <title>Detecting and countering malicious uses of Claude: March 2025</title>
       <link>https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025</link>
-      <description>We are committed to preventing misuse of our Claude models by adversarial actors while maintaining their utility for legitimate users.</description>
+      <description>This report outlines several case studies on how actors have misused our models, as well as the steps we have taken to detect and counter such misuse.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025</guid>
       <pubDate>Wed, 23 Apr 2025 15:05:00 +0000</pubDate>
     </item>
@@ -786,7 +786,7 @@
     <item>
       <title>Detecting and countering misuse of AI: August 2025</title>
       <link>https://www.anthropic.com/news/detecting-countering-misuse-aug-2025</link>
-      <description>We’ve developed sophisticated safety and security measures to prevent the misuse of our AI models. But cybercriminals and other malicious actors are actively attempting to find ways around them. Today, we’re releasing a report that details how.</description>
+      <description>We’ve developed safeguards to prevent the misuse of our models, but malicious actors are actively attempting to find ways around them. Today, we’re releasing a report that details how.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-countering-misuse-aug-2025</guid>
       <pubDate>Wed, 27 Aug 2025 20:01:00 +0000</pubDate>
     </item>
@@ -999,7 +999,7 @@
     <item>
       <title>Disrupting the first reported AI-orchestrated cyber espionage campaign</title>
       <link>https://www.anthropic.com/news/disrupting-AI-espionage</link>
-      <description>We recently argued that an inflection point had been reached in cybersecurity: a point at which AI models had become genuinely useful for cybersecurity operations, both for good and for ill.</description>
+      <description>In September 2025, we detected and disrupted a highly sophisticated cyber espionage campaign. We’re sharing this case publicly to help others strengthen their own defenses.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/disrupting-AI-espionage</guid>
       <pubDate>Thu, 13 Nov 2025 16:00:00 +0000</pubDate>
     </item>
@@ -1485,7 +1485,7 @@
     <item>
       <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
       <link>https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</link>
-      <description>As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.</description>
+      <description>As AI changes how cyberattacks happen, how well do the security community's frameworks hold up? A new report maps attacks onto MITRE ATT&amp;CK.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/AI-enabled-cyber-threats-mitre-attack</guid>
       <pubDate>Wed, 03 Jun 2026 10:55:00 +0000</pubDate>
     </item>
