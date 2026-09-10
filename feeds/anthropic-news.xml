@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 16:45:20 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 19:45:29 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1577,13 +1577,6 @@
       <pubDate>Thu, 02 Jul 2026 21:07:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Making of Claude Code</title>
-      <link>https://www.anthropic.com/features/making-of-claude-code</link>
-      <description>The inside story of how Claude Code went from an internal CLI to Anthropic's coding agent, told by researchers, engineers and early users who built it.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/features/making-of-claude-code</guid>
-      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems</title>
       <link>https://www.anthropic.com/news/alberta-government-claude-cybersecurity</link>
       <description>Since 2025, the Government of Alberta has been using Claude Code with both Opus and Sonnet models to review its systems, find vulnerabilities, and fix them.</description>
@@ -1742,6 +1735,13 @@
       <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
       <pubDate>Tue, 01 Sep 2026 23:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Detecting and countering misuse of AI: September 2026</title>
+      <link>https://www.anthropic.com/threat-intelligence-report-september-2026</link>
+      <description>Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/threat-intelligence-report-september-2026</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

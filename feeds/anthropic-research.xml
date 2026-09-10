@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 16:45:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 19:45:26 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1063,6 +1063,13 @@
       <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
       <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
+      <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
+      <description>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
+      <pubDate>Thu, 10 Sep 2026 17:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
