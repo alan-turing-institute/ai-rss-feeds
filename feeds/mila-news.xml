@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 19:45:23 +0000</lastBuildDate>
-    <item>
-      <title>2026 Sustainability Scholarships Program: Meet the Recipients</title>
-      <link>https://mila.quebec/en/news/2026-sustainability-scholarships-program-meet-the-recipients</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/2026-sustainability-scholarships-program-meet-the-recipients</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 11 Sep 2026 13:45:23 +0000</lastBuildDate>
     <item>
       <title>Mila and Anthropic Announce Partnership to Advance AI Research and Deep-Tech Innovation in Canada</title>
       <link>https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/indigenous-pathfinders-in-ai-discover-the-third-cohorts-ideas-in-action</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/indigenous-pathfinders-in-ai-discover-the-third-cohorts-ideas-in-action</guid>
       <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Worldmodeldata and Mila partner to prove scaling law for world models</title>
+      <link>https://mila.quebec/en/news/worldmodeldata-and-mila-partner-to-prove-scaling-law-for-world-models</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/worldmodeldata-and-mila-partner-to-prove-scaling-law-for-world-models</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

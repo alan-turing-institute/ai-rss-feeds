@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 19:45:29 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 13:45:29 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -214,12 +214,6 @@
       <pubDate>Mon, 25 Mar 2024 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Many-shot jailbreaking</title>
-      <link>https://www.anthropic.com/news/many-shot-jailbreaking</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/many-shot-jailbreaking</guid>
-      <pubDate>Tue, 02 Apr 2024 16:05:09 +0000</pubDate>
-    </item>
-    <item>
       <title>Aligning on child safety principles</title>
       <link>https://www.anthropic.com/news/child-safety-principles</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/child-safety-principles</guid>
@@ -248,12 +242,6 @@
       <link>https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</guid>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mapping the mind of a large language model</title>
-      <link>https://www.anthropic.com/news/mapping-mind-language-model</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/mapping-mind-language-model</guid>
-      <pubDate>Tue, 21 May 2024 07:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Krishna Rao joins Anthropic as Chief Financial Officer</title>
@@ -431,13 +419,6 @@
       <pubDate>Thu, 06 Feb 2025 21:52:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Anthropic Economic Index</title>
-      <link>https://www.anthropic.com/news/the-anthropic-economic-index</link>
-      <description>The Anthropic Economic Index analyzes millions of Claude.ai conversations showing AI usage concentrated in software development and technical writing, touching 25%+ of tasks in 36% of occupations. AI leans toward augmentation (57%) over automation (43%).</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/the-anthropic-economic-index</guid>
-      <pubDate>Mon, 10 Feb 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Statement from Dario Amodei on the Paris AI Action Summit</title>
       <link>https://www.anthropic.com/news/paris-ai-summit</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/paris-ai-summit</guid>
@@ -511,13 +492,6 @@
       <pubDate>Thu, 27 Mar 2025 09:16:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic Economic Index: Insights from Claude 3.7 Sonnet</title>
-      <link>https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7</link>
-      <description>Increased Claude 3.7 Sonnet usage for coding, education, and science since launch. Extended thinking mode favors technical tasks. New datasets reveal automation patterns across 630 granular usage categories.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-economic-index-insights-from-claude-sonnet-3-7</guid>
-      <pubDate>Thu, 27 Mar 2025 21:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Claude for Education</title>
       <link>https://www.anthropic.com/news/introducing-claude-for-education</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/introducing-claude-for-education</guid>
@@ -553,13 +527,6 @@
       <description>This report outlines several case studies on how actors have misused our models, as well as the steps we have taken to detect and counter such misuse.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025</guid>
       <pubDate>Wed, 23 Apr 2025 15:05:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Economic Index: AI’s impact on software development</title>
-      <link>https://www.anthropic.com/news/impact-software-development</link>
-      <description>Claude Code shows 79% automation versus 49% on Claude.ai. Web development dominates usage, and startups adopt agentic tools faster than enterprises—patterns previewing AI's impact on other occupations.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/impact-software-development</guid>
-      <pubDate>Mon, 28 Apr 2025 09:36:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing the Anthropic Economic Advisory Council</title>
@@ -771,12 +738,6 @@
       <pubDate>Thu, 21 Aug 2025 20:49:00 +0000</pubDate>
     </item>
     <item>
-      <title>Anthropic Education Report: How educators use Claude</title>
-      <link>https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude</guid>
-      <pubDate>Wed, 27 Aug 2025 00:09:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the Anthropic National Security and Public Sector Advisory Council</title>
       <link>https://www.anthropic.com/news/introducing-the-anthropic-national-security-and-public-sector-advisory-council</link>
       <description>We are announcing the formation of the Anthropic National Security and Public Sector Advisory Council, a group of leading bipartisan national security and public policy practitioners who will help Anthropic support the U.S. government and closely allied democracies in building and maintaining enduring technological advantages in an era of strategic competition.</description>
@@ -829,13 +790,6 @@
       <description>Over the past year, we've collaborated with the US Center for AI Standards and Innovation (CAISI) and UK AI Security Institute (AISI), government bodies established to measure and improve the security of AI systems.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/strengthening-our-safeguards-through-collaboration-with-us-caisi-and-uk-aisi</guid>
       <pubDate>Fri, 12 Sep 2025 18:37:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Economic Index: Tracking AI’s role in the US and global economy</title>
-      <link>https://www.anthropic.com/news/economic-index-geography</link>
-      <description>This report maps how Claude is used differently across US states and countries, finding strong correlations between income and AI adoption. It also tracks a notable shift: directive automation has risen from 27% to 39% of conversations since December 2024, with businesses automating far more than consumers.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/economic-index-geography</guid>
-      <pubDate>Mon, 15 Sep 2025 09:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Economic Index report: Uneven geographic and enterprise AI adoption</title>
@@ -1098,12 +1052,6 @@
       <description>This report introduces new metrics of AI usage to provide a rich portrait of interactions with Claude in November 2025, just prior to the release of Opus 4.5.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-economic-index-january-2026-report</guid>
       <pubDate>Thu, 15 Jan 2026 10:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Economic Index: New building blocks for understanding AI use</title>
-      <link>https://www.anthropic.com/news/economic-index-primitives</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/economic-index-primitives</guid>
-      <pubDate>Thu, 15 Jan 2026 10:01:00 +0000</pubDate>
     </item>
     <item>
       <title>How scientists are using Claude to accelerate research and discovery</title>
