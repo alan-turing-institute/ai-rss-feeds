@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 10:10:33 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 10:45:41 +0000</lastBuildDate>
     <item>
       <title>Developer First Agents: Making AI Automation Safe and Manageable</title>
       <link>https://cosine.sh/blog/developer-first-ai-agents</link>
@@ -90,6 +90,13 @@
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Lumen Outpost Benchmark Report</title>
+      <link>https://cosine.sh/blog/lumen-outpost-benchmark-report</link>
+      <description>Benchmark results for Lumen Outpost across Niche-Bench, Slop-Bench, Vibe-Bench, and cost per successful coding task.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/lumen-outpost-benchmark-report</guid>
+      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Training for Niche Languages: The Data Engine for Legacy Systems</title>
       <link>https://cosine.sh/blog/training-for-niche-languages-legacy-systems</link>
       <description>How Cosine built a data engine for niche, legacy, and environment-constrained programming languages to improve Lumen Outpost.</description>
@@ -115,13 +122,6 @@
       <link>https://cosine.sh/blog/introducing-lumen-outpost</link>
       <description>Introducing Lumen Outpost, Cosine’s targeted post-trained coding model built to reduce slop, improve behaviour, and strengthen performance in niche languages.</description>
       <guid isPermaLink="true">https://cosine.sh/blog/introducing-lumen-outpost</guid>
-      <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lumen Outpost Benchmark Report</title>
-      <link>https://cosine.sh/blog/lumen-outpost-benchmark-report</link>
-      <description>Benchmark results for Lumen Outpost across Niche-Bench, Slop-Bench, Vibe-Bench, and cost per successful coding task.</description>
-      <guid isPermaLink="true">https://cosine.sh/blog/lumen-outpost-benchmark-report</guid>
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
