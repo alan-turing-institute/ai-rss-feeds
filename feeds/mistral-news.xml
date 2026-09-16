@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 16:45:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:45:49 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -533,6 +533,13 @@
       <link>https://mistral.ai/news/mistral-x-cloudera/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-x-cloudera/</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral and Mozilla are bringing open, private and multilingual AI to your web browser</title>
+      <link>https://mistral.ai/news/mistral-x-mozilla/</link>
+      <description>Mozilla and Mistral AI are partnering to bring open, private and multilingual AI to Firefox Smart Window.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-x-mozilla/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Mistral raises €3B to make sovereign, open-weight AI the technology frontier</title>
