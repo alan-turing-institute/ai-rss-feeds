@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 13:45:23 +0000</lastBuildDate>
-    <item>
-      <title>Mila and Anthropic Announce Partnership to Advance AI Research and Deep-Tech Innovation in Canada</title>
-      <link>https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-anthropic-announce-partnership-to-advance-ai-research-and-deep-tech-innovation-in</guid>
-      <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 16 Sep 2026 19:45:24 +0000</lastBuildDate>
     <item>
       <title>Mila and PolArctic Canada Announce Partnership to Advance AI-Powered Sea Ice Forecasting in the Canadian Arctic</title>
       <link>https://mila.quebec/en/news/mila-and-polarctic-canada-announce-partnership-to-advance-ai-powered-sea-ice-forecasting-in</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/worldmodeldata-and-mila-partner-to-prove-scaling-law-for-world-models</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/worldmodeldata-and-mila-partner-to-prove-scaling-law-for-world-models</guid>
       <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canada and Germany Strengthen AI Cooperation Through Strategic Partnership Between DFKI and Mila</title>
+      <link>https://mila.quebec/en/news/canada-and-germany-strengthen-ai-cooperation-through-strategic-partnership-between-dfki-and</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/canada-and-germany-strengthen-ai-cooperation-through-strategic-partnership-between-dfki-and</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
