@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Sep 2026 13:46:06 +0000</lastBuildDate>
-    <item>
-      <title>ChatGPT Apple Messages 💬, Anthropic’s meeting recorder 💼, Mistral Agentic Search 🔍</title>
-      <link>https://tldr.tech/ai/2026-08-21</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-21</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 18 Sep 2026 13:45:07 +0000</lastBuildDate>
     <item>
       <title>DeepSeek Flash Vision 👀, Claude Mythos security 🛡️, inside Grok Bot 🤖</title>
       <link>https://tldr.tech/ai/2026-08-24</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-09-17</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-17</guid>
       <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,</title>
+      <link>https://tldr.tech/ai/2026-09-18</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
