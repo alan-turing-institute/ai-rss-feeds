@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Sep 2026 10:45:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 10:47:00 +0000</lastBuildDate>
     <item>
       <title>Developer First Agents: Making AI Automation Safe and Manageable</title>
       <link>https://cosine.sh/blog/developer-first-ai-agents</link>
@@ -71,7 +71,6 @@
     <item>
       <title>Cosine CLI: The Runtime Behind Terminal-Native Engineering</title>
       <link>https://cosine.sh/blog/cosine-cli-runtime-technical-deep-dive</link>
-      <description>A technical deep dive into Cosine CLI: the agent runtime behind terminal-native engineering, with LSP integration, MCP tool connectivity, multi-agent orchestration, and local-to-remote execution.</description>
       <guid isPermaLink="true">https://cosine.sh/blog/cosine-cli-runtime-technical-deep-dive</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -151,6 +150,13 @@
       <description>Discover the new Cosine and Mimic partnership bringing on-premise, sovereign AI to defence and regulated industries for automated virtual patching.</description>
       <guid isPermaLink="true">https://cosine.sh/blog/cosine-enters-cybersecurity-mimic-partnership</guid>
       <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Sovereign AI for Nations and Critical Organisations: A Practitioner's Guide</title>
+      <link>https://cosine.sh/blog/building-sovereign-artificial-intelligence</link>
+      <description>Explore our practitioner's guide to sovereign AI. Discover our 5-layer framework, hardware-to-application strategies, and the UK's path to AI sovereignty.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/building-sovereign-artificial-intelligence</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
