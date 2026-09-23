@@ -24,6 +24,14 @@ def iter_flight_record_values(nextjs_string):
     Records are emitted as `<key>:<value>` and typically begin at line starts.
     This parser anchors to line boundaries to avoid false matches in URLs like
     `https://...`, and accepts alphanumeric keys (e.g. `2e`, `1c`, `a`).
+
+    `T` (text/blob) records are the exception: their value is a
+    `<hexByteLength>,<data>` header followed by exactly that many bytes of
+    raw data (observed as base64 image blobs), with no guaranteed trailing
+    newline — the next record can start immediately after. So `T` records
+    are skipped by byte count rather than by line, keeping any record glued
+    onto the same "line" reachable. Byte length is treated as char length,
+    which holds for the ASCII blobs seen in practice.
     """
     decoder = json.JSONDecoder()
     pos = 0
@@ -50,7 +58,17 @@ def iter_flight_record_values(nextjs_string):
 
         value_start = pos + separator_idx + 1
 
-        if value_start < length and nextjs_string[value_start] in {"I", "T", "H"}:
+        if value_start < length and nextjs_string[value_start] == "T":
+            comma_idx = nextjs_string.find(",", value_start)
+            try:
+                byte_len = int(nextjs_string[value_start + 1:comma_idx], 16)
+            except (ValueError, TypeError):
+                pos = next_pos
+                continue
+            pos = comma_idx + 1 + byte_len
+            continue
+
+        if value_start < length and nextjs_string[value_start] in {"I", "H"}:
             pos = next_pos
             continue
 
