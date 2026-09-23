@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Sep 2026 10:45:30 +0000</lastBuildDate>
-    <item>
-      <title>George Williamson appointed as CEO of the Alan Turing Institute</title>
-      <link>https://www.turing.ac.uk/news/george-williamson-appointed-ceo-alan-turing-institute</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/george-williamson-appointed-ceo-alan-turing-institute</guid>
-      <pubDate>Tue, 17 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New research highlights risks from state-sponsored hostile AI collaboration</title>
-      <link>https://www.turing.ac.uk/news/new-research-highlights-risks-state-sponsored-hostile-ai-collaboration</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-research-highlights-risks-state-sponsored-hostile-ai-collaboration</guid>
-      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 23 Sep 2026 01:52:54 +0000</lastBuildDate>
     <item>
       <title>Scientists race to understand Greenland-North Atlantic tipping point</title>
       <link>https://www.turing.ac.uk/news/scientists-race-understand-greenland-north-atlantic-tipping-point</link>
@@ -115,6 +103,18 @@
       <link>https://www.turing.ac.uk/news/investing-people-key-successful-ai-adoption-national-security</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/news/investing-people-key-successful-ai-adoption-national-security</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New £2 million grant to address security risks of transformative AI</title>
+      <link>https://www.turing.ac.uk/news/new-ps2-million-grant-address-security-risks-transformative-ai</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-ps2-million-grant-address-security-risks-transformative-ai</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Alan Turing Institute sets out practical agenda to tackle frontier AI risks</title>
+      <link>https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks</guid>
+      <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
