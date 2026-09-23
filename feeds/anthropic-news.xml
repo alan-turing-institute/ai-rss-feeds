@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 11:15:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 16:47:45 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1703,6 +1703,13 @@
       <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
       <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Situation Report</title>
+      <link>https://www.anthropic.com/features/ebola-response</link>
+      <description>A rare strain of Ebola, with no confirmed vaccine, is spreading through the east of the Democratic Republic of Congo. World health organizations are using Claude to move as fast as possible to combat it.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/features/ebola-response</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Opus 5.5</title>
