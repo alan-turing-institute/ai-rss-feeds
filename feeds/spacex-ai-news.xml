@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 01:52:56 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:15:28 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -536,18 +536,28 @@
     <item>
       <title>Grok Bot now works with X</title>
       <link>https://x.ai/news/grok-bot-and-x</link>
+      <description>Grok Bot now has a tighter integration with X.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-bot-and-x</guid>
       <pubDate>Sat, 29 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Biosecurity at the frontier</title>
       <link>https://x.ai/news/biosafety-at-the-frontier</link>
+      <description>LatchBio evaluated Grok's performance on biosecurity monitoring and adversarial biological tasks. They found that Grok 4.6 detects and refuses dangerous queries more reliably than any other frontier system.</description>
       <guid isPermaLink="true">https://x.ai/news/biosafety-at-the-frontier</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Grok Bot for Enterprise</title>
+      <link>https://x.ai/news/grok-bot-for-enterprise</link>
+      <description>Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.</description>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-for-enterprise</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Designing Grok Bot for a world of persistent agents</title>
       <link>https://x.ai/news/designing-grok-bot</link>
+      <description>How we designed Grok Bot for agents that persist beyond a single session — from a chat history to a Bot roster, presence, a computer of the Bot’s own, and work that starts without a prompt.</description>
       <guid isPermaLink="true">https://x.ai/news/designing-grok-bot</guid>
       <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -558,11 +568,29 @@
       <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Bot for Enterprise</title>
-      <link>https://x.ai/news/grok-bot-for-enterprise</link>
-      <description>Grok Bot is now available for enterprises. Grok and Cursor Enterprise customers have free usage for the next two weeks, and can invite their whole organization, including people without an existing seat.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-bot-for-enterprise</guid>
-      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+      <title>Memory in Grok Build</title>
+      <link>https://x.ai/news/grok-build-memory</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-build-memory</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Grok Voice Transcribe 2.0</title>
+      <link>https://x.ai/news/grok-voice-transcribe-2</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-voice-transcribe-2</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How SpaceXAI is using Grok Bot to scale customer support</title>
+      <link>https://x.ai/news/grok-bot-customer-support</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-customer-support</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Grok 4.7</title>
+      <link>https://x.ai/news/grok-4-7</link>
+      <description>SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.</description>
+      <guid isPermaLink="true">https://x.ai/news/grok-4-7</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Sep 2026 13:45:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:15:35 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1690,6 +1690,26 @@
       <description>Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.</description>
       <guid isPermaLink="true">https://www.anthropic.com/threat-intelligence-report-september-2026</guid>
       <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Life Sciences Verification Program</title>
+      <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
+      <description>The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/life-sciences-verification-program</guid>
+      <pubDate>Thu, 17 Sep 2026 15:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Partnering with Accenture on embedded evaluation</title>
+      <link>https://www.anthropic.com/news/accenture-embedded-evaluation</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/accenture-embedded-evaluation</guid>
+      <pubDate>Fri, 18 Sep 2026 16:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Opus 5.5</title>
+      <link>https://www.anthropic.com/claude-opus-5-5</link>
+      <description>Opus 5.5 performs at the level of Claude Fable 5.1 on most work and costs 40% less to run than Opus 5.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/claude-opus-5-5</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
