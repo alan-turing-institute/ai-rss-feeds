@@ -7,97 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Sep 2026 13:45:34 +0000</lastBuildDate>
-    <item>
-      <title>Google LLM router ➡️, Cloudflare Wallets 💳, Anthropic and Volta 🤝</title>
-      <link>https://tldr.tech/ai/2026-08-05</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-05</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google DeepMind reshuffle 🧠, Meta Muse Code 💻, Anthropic chip team 🧩</title>
-      <link>https://tldr.tech/ai/2026-08-06</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-06</guid>
-      <pubDate>Thu, 06 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-5.6 Luna default 🌙, Agent Plugins 🔌, AMD Taalas acquisition 🧩</title>
-      <link>https://tldr.tech/ai/2026-08-07</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-07</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Astra pause 🚨, Claude Code cross-session 🤖, how Cursor Router works 🔀</title>
-      <link>https://tldr.tech/ai/2026-08-10</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-10</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Muse Glimmer ✨, OpenAI Cyber 🛡️, Claude vs Riemann Hypothesis 🧠</title>
-      <link>https://tldr.tech/ai/2026-08-11</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-11</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor’s GitHub rival 👨‍💻, OpenAI COO leaves 👋, Gemini 1B milestone 📈</title>
-      <link>https://tldr.tech/ai/2026-08-12</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-12</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Chrome Cowork 🌐, Grok 4.6 🚀, DeepSeek v4-Pro-0813 🧠</title>
-      <link>https://tldr.tech/ai/2026-08-13</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-13</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini 3.7 🤖, GPT-5.6 Sol Ultrafast ⚡, Anthropic $2T IPO 💰</title>
-      <link>https://tldr.tech/ai/2026-08-14</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-14</guid>
-      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GLM-5.3 🤖, Stripe OpenRouter deal 💰, AI agent consensus 🤝</title>
-      <link>https://tldr.tech/ai/2026-08-17</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-17</guid>
-      <pubDate>Mon, 17 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cursor Origin 👨‍💻, Anthropic $65B revenue 💰, deadline dividend scaling 📈</title>
-      <link>https://tldr.tech/ai/2026-08-18</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-18</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GLM-5.3 API 🤖, Cerebras’ new chip ⚡, OpenAI cyber slowdown 🚨</title>
-      <link>https://tldr.tech/ai/2026-08-19</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-19</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Muse Video leaks 📹, Ramp Router launch 🔀, why Stripe bought OpenRouter 💰</title>
-      <link>https://tldr.tech/ai/2026-08-20</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-20</guid>
-      <pubDate>Thu, 20 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT Apple Messages 💬, Anthropic’s meeting recorder 💼, Mistral Agentic Search 🔍</title>
-      <link>https://tldr.tech/ai/2026-08-21</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-21</guid>
-      <pubDate>Fri, 21 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek Flash Vision 👀, Claude Mythos security 🛡️, inside Grok Bot 🤖</title>
-      <link>https://tldr.tech/ai/2026-08-24</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-24</guid>
-      <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Nvidia’s Groq chip ⚡, frontier economics 💰, Ox Alpha mystery 🕵️</title>
-      <link>https://tldr.tech/ai/2026-08-25</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-08-25</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 22 Sep 2026 13:46:27 +0000</lastBuildDate>
     <item>
       <title>OpenAI Jalapeño 🌶️, Perplexity Portable Computer  💻, Claude combines memory 🧠</title>
       <link>https://tldr.tech/ai/2026-08-26</link>
@@ -127,6 +37,96 @@
       <link>https://tldr.tech/ai/2026-09-01</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-01</guid>
       <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fable 5.1 🧠, World Labs Atlas 🌍, Cognition $47B 💰</title>
+      <link>https://tldr.tech/ai/2026-09-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-02</guid>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse Spark 1.3 ✨, Gemini 3.8 Flash ⚡, intelligence vs cost 📊</title>
+      <link>https://tldr.tech/ai/2026-09-03</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-03</guid>
+      <pubDate>Thu, 03 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6 Astra 🚀, Grok Bot Enterprise 🤖, Runway world model 🌎</title>
+      <link>https://tldr.tech/ai/2026-09-04</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-04</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude proves Fermat 🧮, automated AI researcher 🔬, Z1 efficiency chip ⚡</title>
+      <link>https://tldr.tech/ai/2026-09-07</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-07</guid>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI managed agents 🤖, TPU inference ⚡, Anthropic $517B compute 💰</title>
+      <link>https://tldr.tech/ai/2026-09-08</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-08</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Images 2.5 🎨, OpenAI solves Navier-Stokes 🧮, AlphaGenome Atlas 🧬</title>
+      <link>https://tldr.tech/ai/2026-09-09</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-09</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek Flash v4.1 🤖, Siri AI 📱, Anthropic AI economics 📈</title>
+      <link>https://tldr.tech/ai/2026-09-10</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-10</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents API 🤖, Cognition SWE-2 👨‍💻, Muse Shared Agents 🧑‍🤝‍🧑</title>
+      <link>https://tldr.tech/ai/2026-09-11</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-11</guid>
+      <pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amodei slows frontier 🛑, ARC-AGI-4 🧠, Cursor Projects 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-09-14</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-14</guid>
+      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-09-15</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-15</guid>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jev ⚡, Periodic Neon 🧬, Gemini 3.8 Live 💬</title>
+      <link>https://tldr.tech/ai/2026-09-16</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-16</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude + Cowork merge 🛠️, ChatGPT sponsored agents 💰, harness tax 🤖</title>
+      <link>https://tldr.tech/ai/2026-09-17</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-17</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Projects v2 💼, Google family agent 👨‍👩‍👧‍👦,</title>
+      <link>https://tldr.tech/ai/2026-09-18</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-18</guid>
+      <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Muse connectors 🤖, Meta SAM 3.1 🖼️, Gemini hacks companies 🔓</title>
+      <link>https://tldr.tech/ai/2026-09-21</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-21</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Opus 5.5 imminent ⏳, Grok 4.7 🚀, MiMo v2.6 🤖</title>
+      <link>https://tldr.tech/ai/2026-09-22</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-22</guid>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

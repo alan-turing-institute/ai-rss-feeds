@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 28 Aug 2026 17:42:40 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 19:45:16 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -17,6 +17,7 @@
     <item>
       <title>A Mathematical Framework for Transformer Circuits</title>
       <link>https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</link>
+      <description>A framework for reverse engineering transformers, revealing how attention heads work as independent operations.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/a-mathematical-framework-for-transformer-circuits</guid>
       <pubDate>Wed, 22 Dec 2021 08:00:00 +0000</pubDate>
     </item>
@@ -61,6 +62,7 @@
     <item>
       <title>Red Teaming Language Models to Reduce Harms: Methods, Scaling Behaviors, and Lessons Learned</title>
       <link>https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</link>
+      <description>Early efforts to red team language models, investigate scaling behaviors, and release 38,961 red team attacks—helping develop shared norms for red teaming.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms-methods-scaling-behaviors-and-lessons-learned</guid>
       <pubDate>Mon, 22 Aug 2022 07:00:00 +0000</pubDate>
     </item>
@@ -102,13 +104,13 @@
       <pubDate>Wed, 15 Feb 2023 08:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Privileged Bases in the Transformer Residual Stream</title>
+      <title>Privileged bases in the transformer residual stream</title>
       <link>https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/privileged-bases-in-the-transformer-residual-stream</guid>
       <pubDate>Thu, 16 Mar 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Distributed Representations: Composition &amp; Superposition</title>
+      <title>Distributed representations: Composition &amp; superposition</title>
       <link>https://www.anthropic.com/research/distributed-representations-composition-superposition</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/distributed-representations-composition-superposition</guid>
       <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
@@ -126,26 +128,27 @@
       <pubDate>Wed, 24 May 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Measuring the Representation of Subjective Global Opinions in Language Models</title>
+      <title>Towards measuring the representation of subjective global opinions in language models</title>
       <link>https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-measuring-the-representation-of-subjective-global-opinions-in-language-models</guid>
       <pubDate>Thu, 29 Jun 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Question Decomposition Improves the Faithfulness of Model-Generated Reasoning</title>
+      <title>Question decomposition improves the faithfulness of model-generated reasoning</title>
       <link>https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
       <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Measuring Faithfulness in Chain-of-Thought Reasoning</title>
+      <title>Measuring faithfulness in Chain-of-Thought reasoning</title>
       <link>https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/measuring-faithfulness-in-chain-of-thought-reasoning</guid>
       <pubDate>Tue, 18 Jul 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Studying Large Language Model Generalization with Influence Functions</title>
+      <title>Studying large language model generalization with influence functions</title>
       <link>https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</link>
+      <description>This paper scales influence functions to 52B parameter models, revealing how generalization patterns become more abstract with model size.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/studying-large-language-model-generalization-with-influence-functions</guid>
       <pubDate>Tue, 08 Aug 2023 07:00:00 +0000</pubDate>
     </item>
@@ -162,32 +165,32 @@
       <pubDate>Wed, 04 Oct 2023 14:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</title>
+      <title>Towards monosemanticity: Decomposing language models with dictionary learning</title>
       <link>https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-monosemanticity-decomposing-language-models-with-dictionary-learning</guid>
       <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Decomposing Language Models Into Understandable Components</title>
+      <title>Decomposing language models into understandable components</title>
       <link>https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/decomposing-language-models-into-understandable-components</guid>
       <pubDate>Thu, 05 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Collective Constitutional AI: Aligning a Language Model with Public Input</title>
+      <title>Collective Constitutional AI: Aligning a language model with public input</title>
       <link>https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</link>
       <description>Anthropic and the Collective Intelligence Project ran a public process with ~1,000 Americans to draft a constitution for an AI system, then trained a model on it.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/collective-constitutional-ai-aligning-a-language-model-with-public-input</guid>
       <pubDate>Tue, 17 Oct 2023 07:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Towards Understanding Sycophancy in Language Models</title>
+      <title>Towards understanding sycophancy in language models</title>
       <link>https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
       <pubDate>Mon, 23 Oct 2023 18:57:00 +0000</pubDate>
     </item>
     <item>
-      <title>Specific versus General Principles for Constitutional AI</title>
+      <title>Specific versus general principles for Constitutional AI</title>
       <link>https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/specific-versus-general-principles-for-constitutional-ai</guid>
       <pubDate>Tue, 24 Oct 2023 16:07:00 +0000</pubDate>
@@ -722,6 +725,13 @@
       <pubDate>Wed, 18 Feb 2026 15:10:00 +0000</pubDate>
     </item>
     <item>
+      <title>Anthropic Education Report: The AI Fluency Index</title>
+      <link>https://www.anthropic.com/research/AI-fluency-index</link>
+      <description>We tracked 11 observable behaviors across thousands of Claude.ai conversations to build the AI Fluency Index — a baseline for measuring how people collaborate with AI today.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/AI-fluency-index</guid>
+      <pubDate>Mon, 23 Feb 2026 11:52:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The persona selection model</title>
       <link>https://www.anthropic.com/research/persona-selection-model</link>
       <description>Why do AI assistants like Claude sometimes seem surprisingly human. We advance a theory.</description>
@@ -790,7 +800,7 @@
       <pubDate>Tue, 24 Mar 2026 10:41:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Australia Uses Claude: Findings from the Anthropic Economic Index</title>
+      <title>How Australia uses Claude: Findings from the Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/how-australia-uses-claude</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-australia-uses-claude</guid>
       <pubDate>Tue, 31 Mar 2026 22:17:00 +0000</pubDate>
@@ -908,7 +918,7 @@
     <item>
       <title>What we learned mapping a year’s worth of AI-enabled cyber threats</title>
       <link>https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack</link>
-      <description>As AI transforms the nature of and methods behind cyberattacks, how well do the techniques and frameworks used by the security community hold up? In a new report, we seek to answer that question.</description>
+      <description>As AI changes how cyberattacks happen, how well do the security community's frameworks hold up? A new report maps attacks onto MITRE ATT&amp;CK.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/AI-enabled-cyber-threats-mitre-attack</guid>
       <pubDate>Wed, 03 Jun 2026 10:55:00 +0000</pubDate>
     </item>
@@ -982,6 +992,7 @@
     <item>
       <title>Claude’s values across models and languages</title>
       <link>https://www.anthropic.com/research/claude-values-models-languages</link>
+      <description>New research into how the values expressed by Claude vary across the top 20 languages on Claude.ai.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-values-models-languages</guid>
       <pubDate>Mon, 13 Jul 2026 17:08:00 +0000</pubDate>
     </item>
@@ -1008,7 +1019,7 @@
     <item>
       <title>Learning more about Claude's mathematical capabilities</title>
       <link>https://www.anthropic.com/research/riemann-zeta</link>
-      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis. It improved a longstanding lower bound for the fraction of zeros of the Riemann zeta function that satisfy the hypothesis, increasing it from 41.6% to 67.2%.</description>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/riemann-zeta</guid>
       <pubDate>Mon, 10 Aug 2026 17:00:00 +0000</pubDate>
     </item>
@@ -1036,7 +1047,7 @@
     <item>
       <title>Enabling independent research on how people use Claude</title>
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
-      <description>Earlier this year, we ran a pilot giving external researchers access to aggregate, real-world Claude usage data. Three research groups designed their own studies for Anthropic Insights, our privacy-preserving analysis tool. In this post, we share high-level results from those studies and what we learned running this pilot.</description>
+      <description>We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/enabling-independent-research</guid>
       <pubDate>Wed, 26 Aug 2026 18:00:00 +0000</pubDate>
     </item>
@@ -1046,6 +1057,41 @@
       <description>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
       <pubDate>Fri, 28 Aug 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Formalizing Fermat's Last Theorem</title>
+      <link>https://www.anthropic.com/research/formalizing-fermats-last-theorem</link>
+      <description>We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Lean programming language.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/formalizing-fermats-last-theorem</guid>
+      <pubDate>Fri, 04 Sep 2026 15:27:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An alignment assessment of recent cybersecurity incidents</title>
+      <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
+      <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
+      <pubDate>Wed, 09 Sep 2026 15:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
+      <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
+      <description>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
+      <pubDate>Thu, 10 Sep 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measurements for understanding the pace of AI development inside frontier labs</title>
+      <link>https://www.anthropic.com/institute/measuring-pace-of-ai-development</link>
+      <description>Today, the world can’t see what’s going on inside AI labs. Anthropic is proposing new metrics that would give the public visibility into frontier AI development.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/institute/measuring-pace-of-ai-development</guid>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Claude is uplifting biomolecular modeling</title>
+      <link>https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</link>
+      <description>Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of these models in just under four weeks, speeding them up roughly 4x on average. It also created a low-memory mode that enables the accurate prediction of biomolecular systems larger than 10,000 tokens (amino acids, nucleotides, and atoms from small molecules and ions) on a single NVIDIA GPU node.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling</guid>
+      <pubDate>Thu, 17 Sep 2026 18:44:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

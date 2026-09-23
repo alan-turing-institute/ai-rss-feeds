@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 11:03:45 +0000</lastBuildDate>
-    <item>
-      <title>Adding Fuel to the Fire: AI Information Threats and Crisis Events</title>
-      <link>https://cetas.turing.ac.uk/publications/adding-fuel-to-fire</link>
-      <description>Sam Stockwell, Ardi Janjeva and Broderick McDonald, "Adding Fuel to the Fire: AI Information Threats and Crisis Events," CETaS Research Reports (February 2026).</description>
-      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/adding-fuel-to-fire</guid>
-      <pubDate>Sat, 28 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Cooperation Trajectories: Adversaries and Geostrategic Competitors</title>
-      <link>https://cetas.turing.ac.uk/publications/ai-cooperation-trajectories-adversaries-and-geostrategic-competitors</link>
-      <description>Megan Hughes and Tony A, "AI Cooperation Trajectories: Adversaries and Geostrategic Competitors," CETaS Research Reports (March 2026).</description>
-      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-cooperation-trajectories-adversaries-and-geostrategic-competitors</guid>
-      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 23 Sep 2026 07:47:57 +0000</lastBuildDate>
     <item>
       <title>AI and Robotics:  National Security Implications</title>
       <link>https://cetas.turing.ac.uk/publications/ai-and-robotics</link>
@@ -69,6 +55,20 @@
       <link>https://cetas.turing.ac.uk/publications/securing-uks-ai-future-sovereignty-vision-2030</link>
       <description>Sam Stockwell, “Securing the UK’s AI Future: A Sovereignty Vision for 2030,” CETaS Policy Briefs (September 2026).</description>
       <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/securing-uks-ai-future-sovereignty-vision-2030</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intelligence Analysis Skills in the Age of AI: Lessons from the Legal and Health Sectors</title>
+      <link>https://cetas.turing.ac.uk/publications/intelligence-analysis-skills-age-ai-lessons-legal-and-health-sectors</link>
+      <description>Ardi Janjeva and Mackenzie Jorgensen, “Intelligence Analysis Skills in the Age of AI: Lessons from the Legal and Health Sectors,” CETaS Research (September 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/intelligence-analysis-skills-age-ai-lessons-legal-and-health-sectors</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Behavioural Assurance of Agentic AI for Sensitive and High-Stakes Organisations</title>
+      <link>https://cetas.turing.ac.uk/publications/behavioural-assurance-agentic-ai-sensitive-and-high-stakes-organisations</link>
+      <description>Rick Hennessy and Carolyn Ashurst, "Behavioural Assurance of Agentic AI for Sensitive and High-Stakes Organisations," CETaS Research (September 2026). DOI: 10.83162/Turing.110</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/behavioural-assurance-agentic-ai-sensitive-and-high-stakes-organisations</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

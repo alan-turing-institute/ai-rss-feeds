@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 24 Aug 2026 19:51:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 10:45:49 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -395,6 +395,12 @@
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Spaces: A CLI Built for Humans and Agents</title>
+      <link>https://mistral.ai/news/spaces/</link>
+      <guid isPermaLink="true">https://mistral.ai/news/spaces/</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Workflows for work that runs the business</title>
       <link>https://mistral.ai/news/workflows/</link>
       <description>Workflows is now in public preview.</description>
@@ -496,6 +502,13 @@
       <pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>In-region inference, open models, and new European infrastructure for sovereign AI.</title>
+      <link>https://mistral.ai/news/regional-inference-open-models-new-compute/</link>
+      <description>Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/regional-inference-open-models-new-compute/</guid>
+      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Agentic Search. More accurate and efficient results from your AI systems.</title>
       <link>https://mistral.ai/news/agentic-search/</link>
       <description>The retrieval layer that helps AI systems navigate, read, and verify information inside and across even the most complex documents.</description>
@@ -509,11 +522,31 @@
       <pubDate>Mon, 24 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>In-region inference, open models, and new European infrastructure for sovereign AI.</title>
-      <link>https://mistral.ai/news/regional-inference-open-models-new-compute/</link>
-      <description>Mistral is bringing together the inference infrastructure, open models, and long-term commitments Europe needs to control its AI future, and setting a roadmap for the world.</description>
-      <guid isPermaLink="true">https://mistral.ai/news/regional-inference-open-models-new-compute/</guid>
-      <pubDate>Tue, 11 Aug 2026 00:00:00 +0000</pubDate>
+      <title>Modernizing complex legacy code with AI agents.</title>
+      <link>https://mistral.ai/news/legacy-code-modernization/</link>
+      <description>Lessons from 40,000 lines of Fortran.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/legacy-code-modernization/</guid>
+      <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data</title>
+      <link>https://mistral.ai/news/mistral-x-cloudera/</link>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-x-cloudera/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral and Mozilla are bringing open, private and multilingual AI to your web browser</title>
+      <link>https://mistral.ai/news/mistral-x-mozilla/</link>
+      <description>Mozilla and Mistral AI are partnering to bring open, private and multilingual AI to Firefox Smart Window.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-x-mozilla/</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral raises €3B to make sovereign, open-weight AI the technology frontier</title>
+      <link>https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</link>
+      <description>Mistral today announced that it has raised €3 billion in a Series D funding round at a post-money valuation of more than €21 billion.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/</guid>
+      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
