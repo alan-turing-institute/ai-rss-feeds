@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Sep 2026 19:45:17 +0000</lastBuildDate>
-    <item>
-      <title>The total cost of AI ownership</title>
-      <link>https://cohere.com/blog/the-total-cost-of-ai-ownership</link>
-      <guid isPermaLink="true">https://cohere.com/blog/the-total-cost-of-ai-ownership</guid>
-      <pubDate>Wed, 15 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 25 Sep 2026 16:49:00 +0000</lastBuildDate>
     <item>
       <title>Cohere and the University of Toronto partner to advance responsible AI adoption at scale</title>
       <link>https://cohere.com/blog/cohere-university-of-toronto-announcement</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/who-gets-to-define-the-rules-for-ai</link>
       <guid isPermaLink="true">https://cohere.com/blog/who-gets-to-define-the-rules-for-ai</guid>
       <pubDate>Sun, 13 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere and OpenText partner to bring trusted agentic AI to governments and regulated industries</title>
+      <link>https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-and-open-text-partner-to-bring-trusted-ai</guid>
+      <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
