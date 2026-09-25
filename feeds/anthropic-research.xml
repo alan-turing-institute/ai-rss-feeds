@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 24 Sep 2026 22:46:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 19:45:08 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1103,8 +1103,16 @@
     <item>
       <title>Project Swap: What happens when agents trade for us?</title>
       <link>https://www.anthropic.com/research/project-swap</link>
+      <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes—a more controlled sequel to Project Deal, our first experiment with agents interacting in a marketplace on people's behalf.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/project-swap</guid>
       <pubDate>Thu, 24 Sep 2026 18:37:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes, Claude can do Nine Loops</title>
+      <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
+      <description>Guest writer and physicist Matt von Hippel shares what happened when he issued a challenge to AI companies to solve a problem in his former subfield of theoretical physics.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
+      <pubDate>Fri, 25 Sep 2026 16:58:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
