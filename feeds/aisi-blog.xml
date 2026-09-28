@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Aug 2026 17:33:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 16:50:12 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -676,6 +676,13 @@
       <description>We introduce optstop, an open-source tool for LLM evaluations that keeps running where uncertainty is high, and stops where estimates are precise or stable enough.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/optimal-stopping-spending-evaluation-compute-where-it-counts</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6 Astra performs unsanctioned supply-chain attacks in simulations</title>
+      <link>https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations</link>
+      <description>Our new evaluation finds that in simulations, GPT-6 Astra conducts unsanctioned supply-chain attack activity more frequently than previous OpenAI models</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations</guid>
+      <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
