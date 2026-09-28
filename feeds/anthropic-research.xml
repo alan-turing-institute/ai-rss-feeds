@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Sep 2026 19:45:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 13:50:38 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1103,7 +1103,7 @@
     <item>
       <title>Project Swap: What happens when agents trade for us?</title>
       <link>https://www.anthropic.com/research/project-swap</link>
-      <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes—a more controlled sequel to Project Deal, our first experiment with agents interacting in a marketplace on people's behalf.</description>
+      <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/project-swap</guid>
       <pubDate>Thu, 24 Sep 2026 18:37:00 +0000</pubDate>
     </item>
