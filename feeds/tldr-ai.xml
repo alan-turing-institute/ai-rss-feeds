@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Sep 2026 13:50:38 +0000</lastBuildDate>
-    <item>
-      <title>Muse Code 👨‍💻, Runway Solaris ☀️, OpenClaw 2.0 🤖</title>
-      <link>https://tldr.tech/ai/2026-09-01</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-01</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 29 Sep 2026 13:50:24 +0000</lastBuildDate>
     <item>
       <title>Fable 5.1 🧠, World Labs Atlas 🌍, Cognition $47B 💰</title>
       <link>https://tldr.tech/ai/2026-09-02</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-09-28</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-09-28</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
+      <link>https://tldr.tech/ai/2026-09-29</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-29</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
