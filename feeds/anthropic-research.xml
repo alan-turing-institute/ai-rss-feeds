@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Sep 2026 19:46:35 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 16:49:04 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1127,6 +1127,13 @@
       <description>We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI, and we invite you to participate.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/your-thoughts-on-ai</guid>
       <pubDate>Tue, 29 Sep 2026 16:39:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What work can robots do?</title>
+      <link>https://www.anthropic.com/research/what-work-can-robots-do</link>
+      <description>We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but are cost-competitive for just 0.3% of them.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/what-work-can-robots-do</guid>
+      <pubDate>Wed, 30 Sep 2026 16:01:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
