@@ -46,6 +46,7 @@ item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "div.u-text-style-caption::text"
 
 [feeds.turing-blog]
+broken = true
 feed_title = "Turing Blog (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/blog"
 impersonate = "chrome"
@@ -159,6 +160,7 @@ item_description_selector = "p[class*='leading-relaxed']::text, p[class*='line-c
 # no dedicated date field; the publication date is parsed out of the
 # citation text, e.g. "... CETaS Policy Briefs (July 2026)."
 [feeds.cetas-research]
+broken = true
 feed_title = "CETaS Research"
 feed_description = "CETaS research on emerging technology and security issues."
 source_url = "https://cetas.turing.ac.uk/research-and-analysis/research"
@@ -171,6 +173,7 @@ item_date_regex = "(?:January|February|March|April|May|June|July|August|Septembe
 item_description_selector = ".field-criteria p ::text"
 
 [feeds.cetas-analysis]
+broken = true
 feed_title = "CETaS Analysis"
 feed_description = "Analysis and commentary from leading experts across our network."
 source_url = "https://cetas.turing.ac.uk/research-and-analysis/analysis"

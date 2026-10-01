@@ -15,8 +15,8 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 | [Anthropic News](https://www.anthropic.com/news) | [feeds/anthropic-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-news.xml) |
 | [Anthropic Research](https://www.anthropic.com/research) | [feeds/anthropic-research.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-research.xml) |
 | \* [The Batch](https://www.deeplearning.ai/the-batch/) | [feeds/the-batch.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml) |
-| [CETaS Analysis (Alan Turing Institute)](https://cetas.turing.ac.uk/research-and-analysis/analysis) | [feeds/cetas-analysis.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-analysis.xml) |
-| [CETaS Research (Alan Turing Institute)](https://cetas.turing.ac.uk/research-and-analysis/research) | [feeds/cetas-research.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-research.xml) |
+| \* [CETaS Analysis (Alan Turing Institute)](https://cetas.turing.ac.uk/research-and-analysis/analysis) | [feeds/cetas-analysis.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-analysis.xml) |
+| \* [CETaS Research (Alan Turing Institute)](https://cetas.turing.ac.uk/research-and-analysis/research) | [feeds/cetas-research.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-research.xml) |
 | [Claude Blog](https://claude.com/blog) | [feeds/claude-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml) |
 | [Cohere Blog](https://cohere.com/blog) | [feeds/cohere-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml) |
 | [Cosine Blog](https://cosine.sh/blog) | [feeds/cosine-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cosine-blog.xml) |
@@ -24,13 +24,14 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 | [Mistral News](https://mistral.ai/news) | [feeds/mistral-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mistral-news.xml) |
 | [SpaceX AI News](https://x.ai/news) | [feeds/spacex-ai-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/spacex-ai-news.xml) |
 | [TLDR AI](https://tldr.tech/ai/archives) | [feeds/tldr-ai.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml) |
-| [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
+| \* [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
 | [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
 
 \* These feeds are currently broken and not updating.
 
 ## News
 
+- 1 Oct 2026: Marked Turing Blog, CETaS Research and CETaS Analysis feeds as broken.
 - 28 Aug 2026: Added CETaS Analysis, CETaS Research and Cosine Blog feeds.
 - 25 Aug 2026: Added SpaceX AI News feed.
 - 14 Jul 2026: Fixed Turing Blog feed.
