@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 10:48:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 13:48:52 +0000</lastBuildDate>
     <item>
       <title>Developer First Agents: Making AI Automation Safe and Manageable</title>
       <link>https://cosine.sh/blog/developer-first-ai-agents</link>
@@ -77,7 +77,6 @@
     <item>
       <title>The Linux Approach: Embracing Complexity for Deeper Control</title>
       <link>https://cosine.sh/blog/linux-approach-complexity-control</link>
-      <description>Cosine takes the Linux approach to AI tooling: showing the context window, token usage, and model reasoning instead of hiding complexity behind a polished interface.</description>
       <guid isPermaLink="true">https://cosine.sh/blog/linux-approach-complexity-control</guid>
       <pubDate>Thu, 16 Apr 2026 00:00:00 +0000</pubDate>
     </item>
@@ -157,6 +156,13 @@
       <description>Explore our practitioner's guide to sovereign AI. Discover our six-layer framework, hardware-to-application strategies, and the UK's path to AI sovereignty.</description>
       <guid isPermaLink="true">https://cosine.sh/blog/building-sovereign-artificial-intelligence</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Critical Sectors Need From Sovereign AI</title>
+      <link>https://cosine.sh/blog/what-critical-sectors-need-from-sovereign-ai</link>
+      <description>Discover key insights from Lumen Sovereign's RFI: what critical sectors like finance, defence, and healthcare demand from secure, sovereign AI models.</description>
+      <guid isPermaLink="true">https://cosine.sh/blog/what-critical-sectors-need-from-sovereign-ai</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
