@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Sep 2026 01:52:54 +0000</lastBuildDate>
-    <item>
-      <title>Scientists race to understand Greenland-North Atlantic tipping point</title>
-      <link>https://www.turing.ac.uk/news/scientists-race-understand-greenland-north-atlantic-tipping-point</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/scientists-race-understand-greenland-north-atlantic-tipping-point</guid>
-      <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2026 13:53:39 +0000</lastBuildDate>
     <item>
       <title>New project aims to accelerate the safe adoption of autonomous shipping</title>
       <link>https://www.turing.ac.uk/news/new-project-aims-accelerate-safe-adoption-autonomous-shipping-0</link>
@@ -115,6 +109,12 @@
       <link>https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/news/alan-turing-institute-sets-out-practical-agenda-tackle-frontier-ai-risks</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Three new members appointed to the Turing’s Board of Trustees</title>
+      <link>https://www.turing.ac.uk/news/three-new-members-appointed-turings-board-trustees</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/three-new-members-appointed-turings-board-trustees</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

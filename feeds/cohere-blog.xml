@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Sep 2026 13:49:32 +0000</lastBuildDate>
-    <item>
-      <title>A day in the life of a wealth manager, with and without AI</title>
-      <link>https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</link>
-      <guid isPermaLink="true">https://cohere.com/blog/a-day-in-the-life-of-a-wealth-manager-with-and-without-ai</guid>
-      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cohere signs EU Code of Practice on Transparency of AI-Generated Content</title>
-      <link>https://cohere.com/blog/cohere-signs-eu-code-of-practice</link>
-      <guid isPermaLink="true">https://cohere.com/blog/cohere-signs-eu-code-of-practice</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2026 13:53:45 +0000</lastBuildDate>
     <item>
       <title>Cohere and the University of Waterloo launch partnership to strengthen Canada’s AI talent pipeline</title>
       <link>https://cohere.com/blog/cohere-university-of-waterloo-announcement</link>
@@ -97,6 +85,18 @@
       <link>https://cohere.com/blog/ai-change-management</link>
       <guid isPermaLink="true">https://cohere.com/blog/ai-change-management</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Compass is coming to the cloud</title>
+      <link>https://cohere.com/blog/compass-cloud-beta</link>
+      <guid isPermaLink="true">https://cohere.com/blog/compass-cloud-beta</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Embed 5—A new family of frontier embedding models</title>
+      <link>https://cohere.com/blog/embed-5</link>
+      <guid isPermaLink="true">https://cohere.com/blog/embed-5</guid>
+      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
