@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 11:09:06 +0000</lastBuildDate>
-    <item>
-      <title>Claude Mythos: What Does Anthropic’s New Model Mean for the Future of Cybersecurity?</title>
-      <link>https://cetas.turing.ac.uk/publications/claude-mythos-future-cybersecurity</link>
-      <description>Chris Hicks, Connor Attridge, Ardi Janjeva and Carolyn Ashurst, “Claude Mythos: What Does Anthropic’s New Model Mean for the Future of Cybersecurity?,” CETaS Commentary (April 2026).</description>
-      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/claude-mythos-future-cybersecurity</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 05 Oct 2026 08:03:50 +0000</lastBuildDate>
     <item>
       <title>From Cybercrime to Vibercrime? Assessing Generative AI Adoption in the Criminal Underground</title>
       <link>https://cetas.turing.ac.uk/publications/cybercrime-vibercrime-assessing-generative-ai-adoption-criminal-underground</link>
@@ -63,6 +56,13 @@
       <description>George Balston, “AI Sovereignty and National Security: Identifying the UK’s Dimensions of Control,” CETaS Commentary (July 2026).</description>
       <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/ai-sovereignty-and-national-security-identifying-uks-dimensions-control</guid>
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Interoperable AI Assurance Between the UK and Canada</title>
+      <link>https://cetas.turing.ac.uk/publications/building-interoperable-ai-assurance-between-uk-and-canada</link>
+      <description>Connor Attridge and Henri Vilandré, "Building Interoperable AI Assurance Between the UK and Canada," CETaS Commentary (October 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/building-interoperable-ai-assurance-between-uk-and-canada</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Beyond the Bot Farm: How AI Agents Are Changing Influence Operations</title>
