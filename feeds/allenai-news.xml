@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 16:49:46 +0000</lastBuildDate>
-    <item>
-      <title>Why Artificial Analysis uses Ai2's IFBench instruction-following eval</title>
-      <link>https://allenai.org/blog/ifbench-artificial-analysis</link>
-      <description>Artificial Analysis uses Ai2’s open IFBench eval because it captures a stubborn, real-world capability many…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/ifbench-artificial-analysis</guid>
-      <pubDate>Sun, 31 May 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 07 Oct 2026 16:51:34 +0000</lastBuildDate>
     <item>
       <title>MolmoMotion: Language-guided 3D motion forecasting</title>
       <link>https://allenai.org/blog/molmo-motion</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/astabrief</link>
       <description>We’re releasing AstaBrief, an 8B open-weights model for generating cited scientific reports, available in Asta’s…</description>
       <guid isPermaLink="true">https://allenai.org/blog/astabrief</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Now in Nature: Retrofitting language models to operate over bytes</title>
+      <link>https://allenai.org/blog/bolmo-nature</link>
+      <description>The technique behind Bolmo, Ai2’s fully open byte-level language models, is now published in Nature, with new…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/bolmo-nature</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

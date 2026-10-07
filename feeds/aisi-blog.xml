@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 01 Oct 2026 16:48:15 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:51:34 +0000</lastBuildDate>
     <item>
       <title>First Progress Report</title>
       <link>https://www.aisi.gov.uk/blog/first-progress-report</link>
@@ -690,6 +690,13 @@
       <description>An update on the security changes we have recently made to our frontier AI evaluations, and the work that remains.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transect: Making large-scale agentic evaluations easier to understand</title>
+      <link>https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand</link>
+      <description>We introduce Transect, an open-source tool that helps evaluators follow an agent’s work, identify what to investigate closely, and check their interpretation against the transcript.</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/transect-making-large-scale-agentic-evaluations-easier-to-understand</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
