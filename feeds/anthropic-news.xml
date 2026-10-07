@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 10:50:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 19:47:01 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1672,13 +1672,6 @@
       <pubDate>Mon, 31 Aug 2026 15:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Claude Fable 5.1 and Claude Mythos 5.1</title>
-      <link>https://www.anthropic.com/claude-fable-and-mythos-5-1</link>
-      <description>Our most advanced models for coding and knowledge work. Their research capabilities also offer an early glimpse of how AI models will contribute to scientific progress.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/claude-fable-and-mythos-5-1</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Developing Enterprise Frontier Safeguards with our customers</title>
       <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
@@ -1745,6 +1738,13 @@
       <description>We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/cyber-verification-program</guid>
       <pubDate>Tue, 06 Oct 2026 19:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Haiku 5.5</title>
+      <link>https://www.anthropic.com/claude-haiku-5-5</link>
+      <description>Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/claude-haiku-5-5</guid>
+      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
