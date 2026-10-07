@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 19:46:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 10:50:00 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1685,13 +1685,6 @@
       <pubDate>Tue, 01 Sep 2026 23:31:00 +0000</pubDate>
     </item>
     <item>
-      <title>Detecting and countering misuse of AI: September 2026</title>
-      <link>https://www.anthropic.com/threat-intelligence-report-september-2026</link>
-      <description>Over the past eight months, our Threat Intelligence team identified and disrupted operations in which threat actors tried to use Claude for malicious activity. In this report, we share case studies from those operations and describe how malicious use of Claude has evolved since our previous threat reports in 2025.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/threat-intelligence-report-september-2026</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing the Life Sciences Verification Program</title>
       <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
       <description>The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.</description>
@@ -1721,7 +1714,7 @@
     <item>
       <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
       <link>https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</link>
-      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR, with only high-level direction from our scientists.</description>
+      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-discovers-novel-enzyme-system</guid>
       <pubDate>Wed, 23 Sep 2026 16:06:00 +0000</pubDate>
     </item>
@@ -1749,7 +1742,7 @@
     <item>
       <title>Expanding the Cyber Verification Program</title>
       <link>https://www.anthropic.com/news/cyber-verification-program</link>
-      <description>We’re launching a new, expanded version of our Cyber Verification Program (CVP), which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
+      <description>We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available to qualifying security professionals.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/cyber-verification-program</guid>
       <pubDate>Tue, 06 Oct 2026 19:00:00 +0000</pubDate>
     </item>
