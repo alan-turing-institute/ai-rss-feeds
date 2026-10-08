@@ -147,7 +147,7 @@ even with a matching fingerprint, so a feed that works locally can fail in CI.
 `feeds/ai-rss-feeds-news.xml` is written by hand, not generated, and is not in `feeds.toml`. It mirrors the [News](#news) section, so whenever a news line is added there, add a matching `<item>` at the top of the feed:
 
 - `title`: short; name the feed(s) if only one or two are affected (e.g. "Added Cohere Blog and Mistral News", "The Batch broken"), otherwise summarise (e.g. "Three new feeds").
-- `description`: slightly more detail, e.g. the names and filenames of the feeds affected.
+- `description`: slightly more detail, e.g. the names and filenames of the feeds affected. Written as HTML inside `<![CDATA[...]]>`: feed names in `<b>`, filenames as `<a>` links to their raw GitHub URLs.
 - `guid` (`isPermaLink="false"`): unique and never changed, e.g. `2026-10-08/claude-news`.
 - `pubDate`: the date of the news, in RFC 822 format.
 - No `link`: readers that follow item links show the whole README instead of the description.

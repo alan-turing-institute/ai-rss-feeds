@@ -11,61 +11,61 @@
     <lastBuildDate>Thu, 08 Oct 2026 12:00:00 +0000</lastBuildDate>
     <item>
       <title>Added AI RSS Feeds News</title>
-      <description>This feed. Subscribe to it to hear when feeds in the collection are added, removed, broken or fixed. It mirrors the News section of the README and is included in feeds.opml.</description>
+      <description><![CDATA[This feed. Subscribe to it to hear when feeds in the collection are added, removed, broken or fixed. It mirrors the <a href="https://github.com/alan-turing-institute/ai-rss-feeds#news">News section of the README</a> and is included in <a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds.opml">feeds.opml</a>.]]></description>
       <guid isPermaLink="false">2026-10-08/ai-rss-feeds-news</guid>
       <pubDate>Thu, 08 Oct 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Added Claude News, deprecated Claude Blog</title>
-      <description>claude.com/blog now redirects to claude.com/resources/articles, so the Claude Blog feed has been replaced by a new Claude News feed (feeds/claude-news.xml). The old feeds/claude-blog.xml remains but will no longer be updated, so switch your subscription to the new feed.</description>
+      <description><![CDATA[claude.com/blog now redirects to claude.com/resources/articles, so the <b>Claude Blog</b> feed has been replaced by a new <b>Claude News</b> feed (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-news.xml">feeds/claude-news.xml</a>). The old <a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml">feeds/claude-blog.xml</a> remains but will no longer be updated, so switch your subscription to the new feed.]]></description>
       <guid isPermaLink="false">2026-10-08/claude-news</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Three feeds broken</title>
-      <description>The Turing Blog, CETaS Research and CETaS Analysis feeds are broken and not currently updating.</description>
+      <description><![CDATA[The <b>Turing Blog</b>, <b>CETaS Research</b> and <b>CETaS Analysis</b> feeds are broken and not currently updating.]]></description>
       <guid isPermaLink="false">2026-10-01/broken</guid>
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Three new feeds</title>
-      <description>Added feeds for CETaS Analysis (feeds/cetas-analysis.xml) and CETaS Research (feeds/cetas-research.xml) from the Alan Turing Institute's Centre for Emerging Technology and Security, and for the Cosine Blog (feeds/cosine-blog.xml).</description>
+      <description><![CDATA[Added feeds for <b>CETaS Analysis</b> (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-analysis.xml">feeds/cetas-analysis.xml</a>) and <b>CETaS Research</b> (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-research.xml">feeds/cetas-research.xml</a>) from the Alan Turing Institute's Centre for Emerging Technology and Security, and for the <b>Cosine Blog</b> (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cosine-blog.xml">feeds/cosine-blog.xml</a>).]]></description>
       <guid isPermaLink="false">2026-08-28/added</guid>
       <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Added SpaceX AI News</title>
-      <description>Added a feed for SpaceX AI News from x.ai/news (feeds/spacex-ai-news.xml).</description>
+      <description><![CDATA[Added a feed for <b>SpaceX AI News</b> from x.ai/news (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/spacex-ai-news.xml">feeds/spacex-ai-news.xml</a>).]]></description>
       <guid isPermaLink="false">2026-08-25/spacex-ai-news</guid>
       <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Fixed Turing Blog</title>
-      <description>The Turing Blog feed (feeds/turing-blog.xml) is working and updating again.</description>
+      <description><![CDATA[The <b>Turing Blog</b> feed (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml">feeds/turing-blog.xml</a>) is working and updating again.]]></description>
       <guid isPermaLink="false">2026-07-14/turing-blog</guid>
       <pubDate>Tue, 14 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The Batch broken</title>
-      <description>The Batch feed (feeds/the-batch.xml) is broken and not currently updating.</description>
+      <description><![CDATA[<b>The Batch</b> feed (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml">feeds/the-batch.xml</a>) is broken and not currently updating.]]></description>
       <guid isPermaLink="false">2026-07-06/the-batch</guid>
       <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Turing Blog broken</title>
-      <description>The Turing Blog feed (feeds/turing-blog.xml) is broken and not currently updating.</description>
+      <description><![CDATA[The <b>Turing Blog</b> feed (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml">feeds/turing-blog.xml</a>) is broken and not currently updating.]]></description>
       <guid isPermaLink="false">2026-05-26/turing-blog</guid>
       <pubDate>Tue, 26 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Added Cohere Blog and Mistral News</title>
-      <description>Added feeds for the Cohere Blog (feeds/cohere-blog.xml) and Mistral News (feeds/mistral-news.xml).</description>
+      <description><![CDATA[Added feeds for the <b>Cohere Blog</b> (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml">feeds/cohere-blog.xml</a>) and <b>Mistral News</b> (<a href="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mistral-news.xml">feeds/mistral-news.xml</a>).]]></description>
       <guid isPermaLink="false">2026-04-14/added</guid>
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Initial release</title>
-      <description>First release of AI RSS Feeds, with feeds for AISI Blog, Ai2 News, Anthropic News, Anthropic Research, Claude Blog, The Batch, Mila News, Turing Blog, Turing News and TLDR AI.</description>
+      <description><![CDATA[First release of AI RSS Feeds, with feeds for <b>AISI Blog</b>, <b>Ai2 News</b>, <b>Anthropic News</b>, <b>Anthropic Research</b>, <b>Claude Blog</b>, <b>The Batch</b>, <b>Mila News</b>, <b>Turing Blog</b>, <b>Turing News</b> and <b>TLDR AI</b>.]]></description>
       <guid isPermaLink="false">2026-04-10/initial-release</guid>
       <pubDate>Fri, 10 Apr 2026 00:00:00 +0000</pubDate>
     </item>
