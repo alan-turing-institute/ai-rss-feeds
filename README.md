@@ -17,7 +17,7 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 | \* [The Batch](https://www.deeplearning.ai/the-batch/) | [feeds/the-batch.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/the-batch.xml) |
 | \* [CETaS Analysis (Alan Turing Institute)](https://cetas.turing.ac.uk/research-and-analysis/analysis) | [feeds/cetas-analysis.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-analysis.xml) |
 | \* [CETaS Research (Alan Turing Institute)](https://cetas.turing.ac.uk/research-and-analysis/research) | [feeds/cetas-research.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cetas-research.xml) |
-| [Claude Blog](https://claude.com/blog) | [feeds/claude-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-blog.xml) |
+| [Claude News](https://claude.com/resources/articles) | [feeds/claude-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/claude-news.xml) |
 | [Cohere Blog](https://cohere.com/blog) | [feeds/cohere-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cohere-blog.xml) |
 | [Cosine Blog](https://cosine.sh/blog) | [feeds/cosine-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/cosine-blog.xml) |
 | [Mila News (Quebec AI Institute)](https://mila.quebec/en/news) | [feeds/mila-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/mila-news.xml) |
@@ -31,6 +31,7 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 
 ## News
 
+- 8 Oct 2026: Added Claude News feed, replacing the deprecated Claude Blog feed (claude.com/blog now redirects to claude.com/resources/articles). The old `feeds/claude-blog.xml` remains but will no longer be updated.
 - 1 Oct 2026: Marked Turing Blog, CETaS Research and CETaS Analysis feeds as broken.
 - 28 Aug 2026: Added CETaS Analysis, CETaS Research and Cosine Blog feeds.
 - 25 Aug 2026: Added SpaceX AI News feed.

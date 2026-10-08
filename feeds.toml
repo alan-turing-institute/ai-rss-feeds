@@ -37,13 +37,18 @@ item_link_selector = ".url // .slug.current"
 item_date_selector = ".date // .publishedOn"
 item_description_selector = ".summary"
 
-[feeds.claude-blog]
-feed_title = "Claude Blog"
-source_url = "https://claude.com/blog"
-item_container_selector = "div.marquee_cms_blog_list_item"
-item_title_selector = "h2::text"
-item_link_selector = "a[href^='/blog/']::attr(href)"
-item_date_selector = "div.u-text-style-caption::text"
+# Replaces claude-blog (claude.com/blog now redirects here). The featured
+# carousel repeats cards that are also in the grid, so only the grid is scraped.
+# Older articles behind "View more" aren't in the initial HTML.
+[feeds.claude-news]
+feed_title = "Claude News"
+source_url = "https://claude.com/resources/articles"
+feed_description = "News, announcements, and stories from Anthropic about Claude and the people building with it."
+item_container_selector = "div[class*='ResourcesIndex-module'][class*='__grid'] a[class*='ResourceCard-module'][class*='__card']"
+item_title_selector = "h3::text"
+item_link_selector = "::attr(href)"
+item_date_selector = "span[class*='__meta']::text"
+item_description_selector = "p[class*='__excerpt']::text"
 
 [feeds.turing-blog]
 broken = true
