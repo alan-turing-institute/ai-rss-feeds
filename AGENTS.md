@@ -5,7 +5,7 @@
     - `scrapy` to scrape the sites.
     - `feedgen` to generate RSS feeds.
     - `dateparser` to parse dates.
-- Document the feeds in a table in the README, giving the name (e.g. Anthropic News) and filename (e.g. `feeds/anthropic-news.xml`). Keep it sorted by name.
+- Document the feeds in a table in the README, giving the name (e.g. Anthropic News) and filename (e.g. `feeds/anthropic-news.xml`). Keep it sorted by name, except AI RSS Feeds News which stays at the top.
 - The README should also document any commands `uv run ...` to generate feeds and instructions for adding new feeds.
 - Refer to the README as well as this AGENTS file when you perform a task.
 
@@ -49,6 +49,12 @@
   - Remove `broken = true`.
 - News pages sometimes have featured articles shown differently from the main list, ensure you get them all. It can help if the user supplies the titles for a selection of articles (featured and not), so you can find them more easily in the HTML.
 - Update the News section of the readme if a feed is marked broken or is fixed. If it's fixed the same day then skip.
+
+## News
+- Keep the News section of the README and the hand-maintained `feeds/ai-rss-feeds-news.xml` feed in sync: every news line in the README gets a matching item in the feed, newest first. See "Maintain The News Feed" in the README for the item format.
+- News covers user-visible changes to the collection: feeds added, removed, deprecated, renamed, broken or fixed (skip broken-then-fixed on the same day).
+- Item titles are short: name the feed(s) if only one or two are affected, otherwise summarise (e.g. "Three feeds broken"). Put the detail in the description.
+- `ai-rss-feeds-news.xml` is not in `feeds.toml` and isn't generated; `generate_opml.py` adds it to the top of the OPML.
 
 ## Regeneration
 - There is a github workflow (`.github/workflows/generate-feeds.yml`) that runs every 3 hours.

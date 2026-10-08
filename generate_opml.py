@@ -11,6 +11,11 @@ REPO_RAW_BASE_URL = (
 )
 OPML_PATH = Path(__file__).resolve().parent / "feeds.opml"
 
+# Hand-maintained feed (not in feeds.toml), listed first in the OPML.
+NEWS_FEED_KEY = "ai-rss-feeds-news"
+NEWS_FEED_TITLE = "AI RSS Feeds News"
+NEWS_FEED_HTML_URL = "https://github.com/alan-turing-institute/ai-rss-feeds#news"
+
 
 def build_opml_tree() -> ET.ElementTree:
     feeds = load_all_feeds()
@@ -21,10 +26,12 @@ def build_opml_tree() -> ET.ElementTree:
 
     body = ET.SubElement(root, "body")
 
+    entries = [(NEWS_FEED_KEY, NEWS_FEED_TITLE, NEWS_FEED_HTML_URL)]
     for feed_key, config in sorted(feeds.items(), key=lambda item: (item[1]["feed_title"].lower(), item[0])):
-        feed_title = config["feed_title"]
+        entries.append((feed_key, config["feed_title"], config["source_url"]))
+
+    for feed_key, feed_title, source_url in entries:
         feed_url = f"{REPO_RAW_BASE_URL}/feeds/{feed_key}.xml"
-        source_url = config["source_url"]
         ET.SubElement(
             body,
             "outline",

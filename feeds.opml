@@ -4,6 +4,7 @@
     <title>AI RSS Feeds</title>
   </head>
   <body>
+    <outline type="rss" text="AI RSS Feeds News" title="AI RSS Feeds News" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/ai-rss-feeds-news.xml" htmlUrl="https://github.com/alan-turing-institute/ai-rss-feeds#news" />
     <outline type="rss" text="Ai2 News (Allen Institute for AI)" title="Ai2 News (Allen Institute for AI)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/allenai-news.xml" htmlUrl="https://allenai.org/news" />
     <outline type="rss" text="AISI Blog (AI Security Institute)" title="AISI Blog (AI Security Institute)" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/aisi-blog.xml" htmlUrl="https://www.aisi.gov.uk/blog" />
     <outline type="rss" text="Anthropic News" title="Anthropic News" xmlUrl="https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-news.xml" htmlUrl="https://www.anthropic.com/news" />

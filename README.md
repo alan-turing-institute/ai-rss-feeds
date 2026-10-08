@@ -10,6 +10,7 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 
 | Name | File |
 |---|---|
+| [AI RSS Feeds News](#news) | [feeds/ai-rss-feeds-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/ai-rss-feeds-news.xml) |
 | [Ai2 News (Allen Institute for AI)](https://allenai.org/news) | [feeds/allenai-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/allenai-news.xml) |
 | [AISI Blog (AI Security Institute)](https://www.aisi.gov.uk/blog) | [feeds/aisi-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/aisi-blog.xml) |
 | [Anthropic News](https://www.anthropic.com/news) | [feeds/anthropic-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/anthropic-news.xml) |
@@ -31,6 +32,9 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 
 ## News
 
+Subscribe to [AI RSS Feeds News](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/ai-rss-feeds-news.xml) to get these updates in your RSS reader.
+
+- 8 Oct 2026: Added the AI RSS Feeds News feed, carrying the news below.
 - 8 Oct 2026: Added Claude News feed, replacing the deprecated Claude Blog feed (claude.com/blog now redirects to claude.com/resources/articles). The old `feeds/claude-blog.xml` remains but will no longer be updated.
 - 1 Oct 2026: Marked Turing Blog, CETaS Research and CETaS Analysis feeds as broken.
 - 28 Aug 2026: Added CETaS Analysis, CETaS Research and Cosine Blog feeds.
@@ -133,5 +137,18 @@ even with a matching fingerprint, so a feed that works locally can fail in CI.
 	- `impersonate` (see [Bot-Protected Sources](#bot-protected-sources))
 	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors
-5. Add the new feed entry to the table above, keeping it sorted by name.
+5. Add the new feed entry to the table above, keeping it sorted by name (below AI RSS Feeds News, which stays at the top).
 6. Run `uv run python generate_feeds.py` and verify output in `feeds/`.
+7. Run `uv run python generate_opml.py` to regenerate `feeds.opml`.
+8. Announce it in the [News](#news) section and in `feeds/ai-rss-feeds-news.xml` (see below).
+
+### Maintain The News Feed
+
+`feeds/ai-rss-feeds-news.xml` is written by hand, not generated, and is not in `feeds.toml`. It mirrors the [News](#news) section, so whenever a news line is added there, add a matching `<item>` at the top of the feed:
+
+- `title`: short; name the feed(s) if only one or two are affected (e.g. "Added Cohere Blog and Mistral News", "The Batch broken"), otherwise summarise (e.g. "Three new feeds").
+- `description`: slightly more detail, e.g. the names and filenames of the feeds affected.
+- `guid` (`isPermaLink="false"`): unique and never changed, e.g. `ai-rss-feeds-news/2026-10-08/claude-news`.
+- `pubDate`: the date of the news, in RFC 822 format.
+
+Also bump the channel's `lastBuildDate`.
