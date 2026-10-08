@@ -148,7 +148,8 @@ even with a matching fingerprint, so a feed that works locally can fail in CI.
 
 - `title`: short; name the feed(s) if only one or two are affected (e.g. "Added Cohere Blog and Mistral News", "The Batch broken"), otherwise summarise (e.g. "Three new feeds").
 - `description`: slightly more detail, e.g. the names and filenames of the feeds affected.
-- `guid` (`isPermaLink="false"`): unique and never changed, e.g. `ai-rss-feeds-news/2026-10-08/claude-news`.
+- `guid` (`isPermaLink="false"`): unique and never changed, e.g. `2026-10-08/claude-news`.
 - `pubDate`: the date of the news, in RFC 822 format.
+- No `link`: readers that follow item links show the whole README instead of the description.
 
 Also bump the channel's `lastBuildDate`.
