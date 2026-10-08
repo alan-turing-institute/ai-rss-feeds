@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 16:52:06 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 19:49:28 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1747,11 +1747,25 @@
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing the Anthropic Cyber Mission</title>
+      <link>https://www.anthropic.com/news/anthropic-cyber-mission</link>
+      <description>We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-cyber-mission</guid>
+      <pubDate>Thu, 08 Oct 2026 09:04:16 +0000</pubDate>
+    </item>
+    <item>
       <title>Building on our commitment to American scientific discovery</title>
       <link>https://www.anthropic.com/news/genesis-mission-commitment</link>
       <description>Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through AI.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/genesis-mission-commitment</guid>
       <pubDate>Thu, 08 Oct 2026 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2026 Usage Policy update</title>
+      <link>https://www.anthropic.com/news/2026-usage-policy-update</link>
+      <description>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/2026-usage-policy-update</guid>
+      <pubDate>Thu, 08 Oct 2026 17:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

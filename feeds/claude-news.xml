@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 08:20:29 +0000</lastBuildDate>
-    <item>
-      <title>How Anthropic's sales team rebuilt inbound with Claude Managed Agents</title>
-      <link>https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</link>
-      <description>Carl Johnson, a sales development leader at Anthropic, shares how a Claude-powered buying agent now answers most inbound customers, and how that changed the way our sales team works.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/how-anthropics-sales-team-rebuilt-inbound-with-claude-managed-agents</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 08 Oct 2026 19:49:28 +0000</lastBuildDate>
     <item>
       <title>Customize Claude Code with mods</title>
       <link>https://claude.com/resources/articles/claude-code-mods</link>
@@ -82,6 +75,13 @@
       <description>Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.</description>
       <guid isPermaLink="true">https://www.anthropic.com/claude-haiku-5-5</guid>
       <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build live dashboards and animate explainers with Claude</title>
+      <link>https://claude.com/resources/articles/dashboards-and-motion</link>
+      <description>Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/dashboards-and-motion</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
