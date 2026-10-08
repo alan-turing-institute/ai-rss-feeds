@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 19:46:37 +0000</lastBuildDate>
-    <item>
-      <title>Summer School in Responsible AI and Human Rights: A Fourth Edition That Shines Internationally</title>
-      <link>https://mila.quebec/en/news/summer-school-in-responsible-ai-and-human-rights-a-fourth-edition-that-shines-internationally</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/summer-school-in-responsible-ai-and-human-rights-a-fourth-edition-that-shines-internationally</guid>
-      <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 08 Oct 2026 16:52:00 +0000</lastBuildDate>
     <item>
       <title>Machine Learning for Real-World Change: Celebrating AI4Good Lab’s 10th Cohort</title>
       <link>https://mila.quebec/en/news/machine-learning-for-real-world-change-celebrating-ai4good-labs-10th-cohort</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/five-mila-members-appointed-canada-cifar-ai-chairs</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/five-mila-members-appointed-canada-cifar-ai-chairs</guid>
       <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mila and Inria Strengthen Canada-France AI Research Cooperation</title>
+      <link>https://mila.quebec/en/news/mila-and-inria-strengthen-canada-france-ai-research-cooperation</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-inria-strengthen-canada-france-ai-research-cooperation</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
