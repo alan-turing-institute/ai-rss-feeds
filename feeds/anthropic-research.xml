@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 22:49:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 10:50:58 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1094,13 +1094,6 @@
       <pubDate>Thu, 17 Sep 2026 18:44:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
-      <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
-      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
-      <pubDate>Wed, 23 Sep 2026 16:06:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Project Swap: What happens when agents trade for us?</title>
       <link>https://www.anthropic.com/research/project-swap</link>
       <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</description>
@@ -1152,7 +1145,7 @@
     <item>
       <title>The missing map of the sky</title>
       <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
-      <description>Astronomers have mapped the entire sky in visible light, infrared, radio, X-rays, and gamma rays. No one, however, had created a complete map of the sky in ultraviolet (UV) light. Here, Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
+      <description>Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
       <pubDate>Thu, 08 Oct 2026 20:59:00 +0000</pubDate>
     </item>
