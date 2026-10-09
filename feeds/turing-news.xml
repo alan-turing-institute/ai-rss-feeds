@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 13:53:39 +0000</lastBuildDate>
-    <item>
-      <title>New project aims to accelerate the safe adoption of autonomous shipping</title>
-      <link>https://www.turing.ac.uk/news/new-project-aims-accelerate-safe-adoption-autonomous-shipping-0</link>
-      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-project-aims-accelerate-safe-adoption-autonomous-shipping-0</guid>
-      <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 09 Oct 2026 02:06:32 +0000</lastBuildDate>
     <item>
       <title>Call for dynamic regulation of our oceans to reduce whale strikes</title>
       <link>https://www.turing.ac.uk/news/call-dynamic-regulation-our-oceans-reduce-whale-strikes</link>
@@ -115,6 +109,12 @@
       <link>https://www.turing.ac.uk/news/three-new-members-appointed-turings-board-trustees</link>
       <guid isPermaLink="true">https://www.turing.ac.uk/news/three-new-members-appointed-turings-board-trustees</guid>
       <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AI model will boost UK's ability to safeguard vital satellites</title>
+      <link>https://www.turing.ac.uk/news/new-ai-model-will-boost-uks-ability-safeguard-vital-satellites</link>
+      <guid isPermaLink="true">https://www.turing.ac.uk/news/new-ai-model-will-boost-uks-ability-safeguard-vital-satellites</guid>
+      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
