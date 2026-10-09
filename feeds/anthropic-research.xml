@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 10:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 22:49:08 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1148,6 +1148,13 @@
       <description>Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/the-missing-map-of-the-sky</guid>
       <pubDate>Thu, 08 Oct 2026 20:59:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating unintended model actions in our evaluations and internal use</title>
+      <link>https://www.anthropic.com/research/investigating-unintended-model-actions</link>
+      <description>This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/investigating-unintended-model-actions</guid>
+      <pubDate>Fri, 09 Oct 2026 16:09:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
