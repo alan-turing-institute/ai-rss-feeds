@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 13:49:39 +0000</lastBuildDate>
-    <item>
-      <title>The Culture Funnel: You can’t align what isn’t in the data</title>
-      <link>https://cohere.com/blog/the-culture-funnel-you-cant-align-what-isnt-in-the-data</link>
-      <guid isPermaLink="true">https://cohere.com/blog/the-culture-funnel-you-cant-align-what-isnt-in-the-data</guid>
-      <pubDate>Wed, 19 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 09 Oct 2026 19:47:10 +0000</lastBuildDate>
     <item>
       <title>The state of sovereign AI adoption in 2026</title>
       <link>https://cohere.com/blog/state-of-sovereign-ai-adoption-2026</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/rcp-ndcg</link>
       <guid isPermaLink="true">https://cohere.com/blog/rcp-ndcg</guid>
       <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere and PwC partner to accelerate secure enterprise AI adoption</title>
+      <link>https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</guid>
+      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
