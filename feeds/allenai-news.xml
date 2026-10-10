@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 16:51:34 +0000</lastBuildDate>
-    <item>
-      <title>MolmoMotion: Language-guided 3D motion forecasting</title>
-      <link>https://allenai.org/blog/molmo-motion</link>
-      <description>MolmoMotion is an open, language-guided 3D motion forecasting model that predicts how object points will move in…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/molmo-motion</guid>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sat, 10 Oct 2026 02:02:53 +0000</lastBuildDate>
     <item>
       <title>Modular LLMs at scale: how FlexOlmo is helping to pool national expertise without pooling sensitive data</title>
       <link>https://allenai.org/blog/flexmore</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/bolmo-nature</link>
       <description>The technique behind Bolmo, Ai2’s fully open byte-level language models, is now published in Nature, with new…</description>
       <guid isPermaLink="true">https://allenai.org/blog/bolmo-nature</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ai2 at COLM 2026: Open research, from models to agents for science</title>
+      <link>https://allenai.org/blog/colm-2026-recap</link>
+      <description>Ai2 joined COLM 2026 to share advances in open language models, training infrastructure, and AI for science,…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/colm-2026-recap</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
