@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Oct 2026 19:46:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 22:47:26 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -242,7 +242,7 @@
     <item>
       <title>New Compute Partnership with Anthropic</title>
       <link>https://x.ai/news/anthropic-compute-partnership</link>
-      <description>SpaceXAI has signed an agreement with Anthropic to provide access to Colossus 1.</description>
+      <description>SpaceXSI has signed an agreement with Anthropic to provide access to Colossus 1.</description>
       <guid isPermaLink="true">https://x.ai/news/anthropic-compute-partnership</guid>
       <pubDate>Wed, 06 May 2026 00:00:00 +0000</pubDate>
     </item>
@@ -403,7 +403,7 @@
     <item>
       <title>Introducing Grok 4.5</title>
       <link>https://x.ai/news/grok-4-5</link>
-      <description>Grok 4.5 is SpaceXAI's smartest model built for coding, agentic tasks, and knowledge work.</description>
+      <description>Grok 4.5 is SpaceXSI's smartest model built for coding, agentic tasks, and knowledge work.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-4-5</guid>
       <pubDate>Thu, 16 Jul 2026 00:00:00 +0000</pubDate>
     </item>
@@ -581,7 +581,7 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How SpaceXAI is using Grok Bot to scale customer support</title>
+      <title>How SpaceXSI is using Grok Bot to scale customer support</title>
       <link>https://x.ai/news/grok-bot-customer-support</link>
       <guid isPermaLink="true">https://x.ai/news/grok-bot-customer-support</guid>
       <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
@@ -595,7 +595,7 @@
     <item>
       <title>Introducing Grok 4.7</title>
       <link>https://x.ai/news/grok-4-7</link>
-      <description>SpaceXAI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.</description>
+      <description>SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-4-7</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
