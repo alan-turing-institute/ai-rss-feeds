@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Oct 2026 08:03:50 +0000</lastBuildDate>
-    <item>
-      <title>From Cybercrime to Vibercrime? Assessing Generative AI Adoption in the Criminal Underground</title>
-      <link>https://cetas.turing.ac.uk/publications/cybercrime-vibercrime-assessing-generative-ai-adoption-criminal-underground</link>
-      <description>Ben Collier, "From Cybercrime to Vibercrime? Assessing Generative AI Adoption in the Criminal Underground," CETaS Expert Analysis (April 2026).</description>
-      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/cybercrime-vibercrime-assessing-generative-ai-adoption-criminal-underground</guid>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 11 Oct 2026 10:48:19 +0000</lastBuildDate>
     <item>
       <title>CETaS: Expert Analysis in Technology and Security</title>
       <link>https://cetas.turing.ac.uk/publications/cetas-expert-analysis-2026-compendium</link>
@@ -58,6 +51,13 @@
       <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Beyond the Bot Farm: How AI Agents Are Changing Influence Operations</title>
+      <link>https://cetas.turing.ac.uk/publications/beyond-bot-farm-how-ai-agents-are-changing-influence-operations</link>
+      <description>Sam Stockwell and Cannelle Roumanie-Dalal, "Beyond the Bot Farm: How AI Agents Are Changing Influence Operations," CETaS Commentary (October 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/beyond-bot-farm-how-ai-agents-are-changing-influence-operations</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Building Interoperable AI Assurance Between the UK and Canada</title>
       <link>https://cetas.turing.ac.uk/publications/building-interoperable-ai-assurance-between-uk-and-canada</link>
       <description>Connor Attridge and Henri Vilandré, "Building Interoperable AI Assurance Between the UK and Canada," CETaS Commentary (October 2026).</description>
@@ -65,10 +65,10 @@
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Beyond the Bot Farm: How AI Agents Are Changing Influence Operations</title>
-      <link>https://cetas.turing.ac.uk/publications/beyond-bot-farm-how-ai-agents-are-changing-influence-operations</link>
-      <description>Sam Stockwell and Cannelle Roumanie-Dalal, "Beyond the Bot Farm: How AI Agents Are Changing Influence Operations," CETaS Commentary (October 2026).</description>
-      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/beyond-bot-farm-how-ai-agents-are-changing-influence-operations</guid>
+      <title>“It’s AI”: AI Misinformation, the Liar’s Dividend and Attacks on Surveillance Infrastructure</title>
+      <link>https://cetas.turing.ac.uk/publications/its-ai-ai-misinformation-liars-dividend-and-attacks-surveillance-infrastructure</link>
+      <description>Sam Stockwell, Connor Attridge and Broderick McDonald, '"It's AI": AI Misinformation, the Liar's Dividend and Attacks on Surveillance Infrastructure," CETaS Commentary (October 2026).</description>
+      <guid isPermaLink="true">https://cetas.turing.ac.uk/publications/its-ai-ai-misinformation-liars-dividend-and-attacks-surveillance-infrastructure</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
