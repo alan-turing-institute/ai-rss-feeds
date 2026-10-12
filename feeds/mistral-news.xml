@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 06 Oct 2026 13:49:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 16:50:34 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -51,7 +51,7 @@
       <pubDate>Wed, 17 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Mistral AI Non-Production License</title>
+      <title>The Mistral Non-Production License</title>
       <link>https://mistral.ai/news/mistral-ai-non-production-license-mnpl/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-ai-non-production-license-mnpl/</guid>
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
@@ -63,7 +63,7 @@
       <pubDate>Wed, 29 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI Fine-tuning Hackathon</title>
+      <title>Mistral Fine-tuning Hackathon</title>
       <link>https://mistral.ai/news/2024-ft-hackathon/</link>
       <guid isPermaLink="true">https://mistral.ai/news/2024-ft-hackathon/</guid>
       <pubDate>Wed, 05 Jun 2024 00:00:00 +0000</pubDate>
@@ -303,19 +303,19 @@
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI raises 1.7B€ to accelerate technological progress with AI</title>
+      <title>Mistral raises 1.7B€ to accelerate technological progress with AI</title>
       <link>https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-ai-raises-1-7-b-to-accelerate-technological-progress-with-ai/</guid>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Mistral AI Studio.</title>
+      <title>Introducing Mistral Studio.</title>
       <link>https://mistral.ai/news/ai-studio/</link>
       <guid isPermaLink="true">https://mistral.ai/news/ai-studio/</guid>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI - KI für Deutschland</title>
+      <title>Mistral - KI für Deutschland</title>
       <link>https://mistral.ai/news/ki-fur-deutschland/</link>
       <guid isPermaLink="true">https://mistral.ai/news/ki-fur-deutschland/</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
@@ -369,7 +369,7 @@
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Mistral AI partners with NVIDIA to accelerate open frontier models</title>
+      <title>Mistral partners with NVIDIA to accelerate open frontier models</title>
       <link>https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models/</link>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-ai-and-nvidia-partner-to-accelerate-open-frontier-models/</guid>
       <pubDate>Mon, 16 Mar 2026 00:00:00 +0000</pubDate>
@@ -544,7 +544,7 @@
     <item>
       <title>Mistral and Mozilla are bringing open, private and multilingual AI to your web browser</title>
       <link>https://mistral.ai/news/mistral-x-mozilla/</link>
-      <description>Mozilla and Mistral AI are partnering to bring open, private and multilingual AI to Firefox Smart Window.</description>
+      <description>Mozilla and Mistral are partnering to bring open, private and multilingual AI to Firefox Smart Window.</description>
       <guid isPermaLink="true">https://mistral.ai/news/mistral-x-mozilla/</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
