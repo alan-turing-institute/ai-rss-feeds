@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 22:47:26 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 22:49:19 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -571,6 +571,7 @@
     <item>
       <title>Memory in Grok Build</title>
       <link>https://x.ai/news/grok-build-memory</link>
+      <description>Grok Build now carries conventions, decisions, and project facts from one session to the next. Notes are written in the background as you work and read back when you return to the project.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-build-memory</guid>
       <pubDate>Wed, 16 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -591,6 +592,12 @@
       <link>https://x.ai/news/team-bots</link>
       <guid isPermaLink="true">https://x.ai/news/team-bots</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing The X Subscription</title>
+      <link>https://x.ai/news/x-subscription</link>
+      <guid isPermaLink="true">https://x.ai/news/x-subscription</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Grok 4.7</title>
