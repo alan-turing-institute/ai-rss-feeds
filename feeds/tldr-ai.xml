@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Oct 2026 13:51:26 +0000</lastBuildDate>
-    <item>
-      <title>Amodei slows frontier 🛑, ARC-AGI-4 🧠, Cursor Projects 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-09-14</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-14</guid>
-      <pubDate>Mon, 14 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 12 Oct 2026 14:03:55 +0000</lastBuildDate>
     <item>
       <title>Siri model swapping 🔄, Claude Money 💰, Hugging Face Tau 👨‍💻</title>
       <link>https://tldr.tech/ai/2026-09-15</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-10-09</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-10-09</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖</title>
+      <link>https://tldr.tech/ai/2026-10-12</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-12</guid>
+      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
