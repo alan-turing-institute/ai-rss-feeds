@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 19:46:14 +0000</lastBuildDate>
-    <item>
-      <title>Claude Code in the cloud: a field guide to cloud sessions</title>
-      <link>https://claude.dev/blog/claude-code-in-the-cloud/</link>
-      <description>What changes when Claude Code runs on its own machine, the workflows where that pays off, and how to connect GitHub on the first try.</description>
-      <guid isPermaLink="true">https://claude.dev/blog/claude-code-in-the-cloud/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 14 Oct 2026 19:46:57 +0000</lastBuildDate>
     <item>
       <title>Expanding the Cyber Verification Program</title>
       <link>https://www.anthropic.com/news/cyber-verification-program</link>
@@ -83,6 +76,13 @@
       <description>Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</guid>
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent observability on the Claude Platform</title>
+      <link>https://claude.com/resources/articles/agent-observability-on-the-claude-platform</link>
+      <description>Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/agent-observability-on-the-claude-platform</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
