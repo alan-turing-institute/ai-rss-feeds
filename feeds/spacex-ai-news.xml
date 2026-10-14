@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 02:08:47 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 16:49:58 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -212,7 +212,7 @@
       <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Grok Voice Think Fast 1.0</title>
+      <title>Grok Voice 1.0</title>
       <link>https://x.ai/news/grok-voice-think-fast-1</link>
       <description>Our most capable voice agent is now available via API.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-voice-think-fast-1</guid>
@@ -457,7 +457,7 @@
       <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Grok Voice Think Fast 2.0</title>
+      <title>Introducing Grok Voice 2.0</title>
       <link>https://x.ai/news/grok-voice-think-fast-2</link>
       <description>Introducing our most capable speech-to-speech voice model.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-voice-think-fast-2</guid>
@@ -578,8 +578,15 @@
     <item>
       <title>Introducing Grok Voice Transcribe 2.0</title>
       <link>https://x.ai/news/grok-voice-transcribe-2</link>
+      <description>Announcing SpaceXSI's newest speech-to-text model, with unparalleled accuracy and cost effectiveness.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-voice-transcribe-2</guid>
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Grok 4.7</title>
+      <link>https://x.ai/news/grok-4-7</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-4-7</guid>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How SpaceXSI is using Grok Bot to scale customer support</title>
@@ -600,11 +607,11 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Grok 4.7</title>
-      <link>https://x.ai/news/grok-4-7</link>
-      <description>SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-4-7</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <title>Introducing Grok Voice 3.0</title>
+      <link>https://x.ai/news/grok-voice-3</link>
+      <description>The world’s most intelligent voice model.</description>
+      <guid isPermaLink="true">https://x.ai/news/grok-voice-3</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
