@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 19:49:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 10:47:59 +0000</lastBuildDate>
     <item>
       <title>Anthropic raises $124 million to build more reliable, general AI systems</title>
       <link>https://www.anthropic.com/news/anthropic-raises-124-million-to-build-more-reliable-general-ai-systems</link>
@@ -1766,6 +1766,13 @@
       <description>We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/2026-usage-policy-update</guid>
       <pubDate>Thu, 08 Oct 2026 17:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic opens Singapore office and signs MOU with the Government of Singapore</title>
+      <link>https://www.anthropic.com/news/singapore-office-opening</link>
+      <description>Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/singapore-office-opening</guid>
+      <pubDate>Wed, 14 Oct 2026 08:30:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
