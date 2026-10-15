@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Oct 2026 16:50:34 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:50:02 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -554,6 +554,13 @@
       <description>Mistral Opens German Hub in Munich to Advance Industrial AI in Europe’s Largest Economy</description>
       <guid isPermaLink="true">https://mistral.ai/news/hallo-deutschland/</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Timestral</title>
+      <link>https://mistral.ai/news/timestral/</link>
+      <description>State-of-the-art probabilistic forecasts with just 209M parameters, outperforming larger models on CPU.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/timestral/</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Mistral Large 4</title>
