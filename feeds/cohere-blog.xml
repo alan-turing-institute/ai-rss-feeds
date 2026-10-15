@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:50:03 +0000</lastBuildDate>
-    <item>
-      <title>How small AI models can make a big impact for enterprises</title>
-      <link>https://cohere.com/blog/how-small-models-can-make-a-big-impact-for-enterprises</link>
-      <guid isPermaLink="true">https://cohere.com/blog/how-small-models-can-make-a-big-impact-for-enterprises</guid>
-      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 15 Oct 2026 19:45:15 +0000</lastBuildDate>
     <item>
       <title>Automation’s Early Footprint</title>
       <link>https://cohere.com/blog/automations-early-footprint</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</link>
       <guid isPermaLink="true">https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</guid>
       <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cohere to acquire AISLE to advance cyber-resilient sovereign AI</title>
+      <link>https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai</guid>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
