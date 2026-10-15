@@ -60,6 +60,7 @@ item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
 
 [feeds.turing-news]
+broken = true
 feed_title = "Turing News (Alan Turing Institute)"
 source_url = "https://www.turing.ac.uk/news"
 item_container_selector = "article.node--type-article"

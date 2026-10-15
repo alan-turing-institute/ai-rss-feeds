@@ -26,7 +26,7 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 | [SpaceX AI News](https://x.ai/news) | [feeds/spacex-ai-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/spacex-ai-news.xml) |
 | [TLDR AI](https://tldr.tech/ai/archives) | [feeds/tldr-ai.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/tldr-ai.xml) |
 | \* [Turing Blog (Alan Turing Institute)](https://www.turing.ac.uk/blog) | [feeds/turing-blog.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-blog.xml) |
-| [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
+| \* [Turing News (Alan Turing Institute)](https://www.turing.ac.uk/news) | [feeds/turing-news.xml](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/turing-news.xml) |
 
 \* These feeds are currently broken and not updating.
 
@@ -34,6 +34,7 @@ Or you can import selected feeds by copying the URL of the XML files in the belo
 
 Subscribe to [AI RSS Feeds News](https://raw.githubusercontent.com/alan-turing-institute/ai-rss-feeds/refs/heads/main/feeds/ai-rss-feeds-news.xml) to get these updates in your RSS reader.
 
+- 15 Oct 2026: Marked Turing News feed as broken.
 - 8 Oct 2026: Added the AI RSS Feeds News feed, carrying the news below.
 - 8 Oct 2026: Added Claude News feed, replacing the deprecated Claude Blog feed (claude.com/blog now redirects to claude.com/resources/articles). The old `feeds/claude-blog.xml` remains but will no longer be updated.
 - 1 Oct 2026: Marked Turing Blog, CETaS Research and CETaS Analysis feeds as broken.
