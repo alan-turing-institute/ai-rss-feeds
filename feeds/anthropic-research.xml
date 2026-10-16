@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 Oct 2026 19:45:10 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 22:45:23 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1169,6 +1169,27 @@
       <description>Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/self-replicating-ai</guid>
       <pubDate>Mon, 12 Oct 2026 19:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working at the frontier shapes expectations for the future</title>
+      <link>https://www.anthropic.com/research/expectations-for-the-future</link>
+      <description>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/expectations-for-the-future</guid>
+      <pubDate>Fri, 16 Oct 2026 16:21:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How employment is changing at Anthropic</title>
+      <link>https://www.anthropic.com/research/employment-at-anthropic</link>
+      <description>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/employment-at-anthropic</guid>
+      <pubDate>Fri, 16 Oct 2026 16:26:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI expectations gap</title>
+      <link>https://www.anthropic.com/research/ai-expectations-gap</link>
+      <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/ai-expectations-gap</guid>
+      <pubDate>Fri, 16 Oct 2026 16:45:00 +0000</pubDate>
     </item>
     <item>
       <title>Claude reveals ECDSA curve origins</title>
