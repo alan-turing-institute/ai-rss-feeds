@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Oct 2026 02:08:50 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 19:45:10 +0000</lastBuildDate>
     <item>
       <title>A General Language Assistant as a Laboratory for Alignment</title>
       <link>https://www.anthropic.com/research/a-general-language-assistant-as-a-laboratory-for-alignment</link>
@@ -1169,6 +1169,20 @@
       <description>Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/self-replicating-ai</guid>
       <pubDate>Mon, 12 Oct 2026 19:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude reveals ECDSA curve origins</title>
+      <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
+      <description>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
+      <pubDate>Fri, 16 Oct 2026 17:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing more efficient quantum circuits with Claude</title>
+      <link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
+      <description>We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
+      <pubDate>Fri, 16 Oct 2026 17:29:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
