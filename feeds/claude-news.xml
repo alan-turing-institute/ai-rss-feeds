@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 15 Oct 2026 22:45:23 +0000</lastBuildDate>
-    <item>
-      <title>We’re expanding the Claude Startups program to help founders build</title>
-      <link>https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build</link>
-      <guid isPermaLink="true">https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 16 Oct 2026 13:48:20 +0000</lastBuildDate>
     <item>
       <title>Claude now works with Google Docs, Sheets, and Slides</title>
       <link>https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides</link>
@@ -83,6 +77,13 @@
       <description>Catch more bugs before they reach production.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/code-review-is-now-generally-available</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How an Anthropic Japan BDR runs his day with a fleet of Claude agents</title>
+      <link>https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day</link>
+      <description>How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
