@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 20 Oct 2026 16:48:58 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 19:46:25 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -585,6 +585,7 @@
     <item>
       <title>Introducing Grok 4.7</title>
       <link>https://x.ai/news/grok-4-7</link>
+      <description>SpaceXSI's most powerful model for coding and knowledge work. Twice as fast, at half the price of comparable models.</description>
       <guid isPermaLink="true">https://x.ai/news/grok-4-7</guid>
       <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -605,6 +606,12 @@
       <link>https://x.ai/news/x-subscription</link>
       <guid isPermaLink="true">https://x.ai/news/x-subscription</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Grok Bot to detect and respond to incidents</title>
+      <link>https://x.ai/news/incident-sweep</link>
+      <guid isPermaLink="true">https://x.ai/news/incident-sweep</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Grok Voice 3.0</title>
