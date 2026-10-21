@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 16:50:14 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 19:46:07 +0000</lastBuildDate>
+    <item>
+      <title>Introducing North Small Translate: A leading sovereign open-weight machine translation model</title>
+      <link>https://cohere.com/blog/north-small-translate</link>
+      <guid isPermaLink="true">https://cohere.com/blog/north-small-translate</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Who Gets to Define the Rules for AI?</title>
       <link>https://cohere.com/blog/who-gets-to-define-the-rules-for-ai</link>
@@ -90,12 +96,6 @@
       <title>AI ROI: How enterprises can measure the return on AI investments</title>
       <link>https://cohere.com/blog/ai-roi</link>
       <guid isPermaLink="true">https://cohere.com/blog/ai-roi</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent sprawl: How to manage agent proliferation in the enterprise</title>
-      <link>https://cohere.com/blog/agent-sprawl</link>
-      <guid isPermaLink="true">https://cohere.com/blog/agent-sprawl</guid>
       <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

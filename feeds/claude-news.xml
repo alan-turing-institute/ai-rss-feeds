@@ -7,28 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Oct 2026 16:49:56 +0000</lastBuildDate>
-    <item>
-      <title>Automating eval design and hillclimbing with Claude</title>
-      <link>https://claude.dev/blog/automating-eval-design-and-hillclimbing/</link>
-      <description>Principles for designing evals and hillclimbing against them without fooling yourself, and how the claude-api skill's build-eval and hillclimb commands put them to work.</description>
-      <guid isPermaLink="true">https://claude.dev/blog/automating-eval-design-and-hillclimbing/</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Haiku 5.5</title>
-      <link>https://www.anthropic.com/claude-haiku-5-5</link>
-      <description>Introducing Claude Haiku 5.5: the cheapest, fastest, and most capable small model we’ve ever released.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/claude-haiku-5-5</guid>
-      <pubDate>Wed, 07 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build live dashboards and animate explainers with Claude</title>
-      <link>https://claude.com/resources/articles/dashboards-and-motion</link>
-      <description>Claude Dashboards and Claude Motion are now in beta. Docs, Slides, and Design are out of beta and on every Claude plan, including Free.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/dashboards-and-motion</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 21 Oct 2026 19:46:07 +0000</lastBuildDate>
     <item>
       <title>How Block orchestrates Claude Fable across thousands of pull requests</title>
       <link>https://claude.com/resources/articles/how-block-orchestrates-claude-fable-across-thousands-of-pull-requests</link>
@@ -84,6 +63,27 @@
       <description>As merges to Anthropic's monorepo grew from about 2,500 to more than 30,000 a day, source control became the biggest development bottleneck. Here is how the team built Scion, an in-house version control system designed for always-online agents, and migrated off git in five months.</description>
       <guid isPermaLink="true">https://www.anthropic.com/engineering/redesigning-source-control</guid>
       <pubDate>Mon, 19 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Security now scans continuously and tracks fixes</title>
+      <link>https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</link>
+      <description>Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Duet</title>
+      <link>https://claude.com/resources/articles/claude-duet</link>
+      <description>A research preview is available by waitlist today, starting with US Pro and Max subscribers.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/claude-duet</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HCLTech joins the Claude Partner Network as a Global Premier partner</title>
+      <link>https://claude.com/resources/articles/hcltech-joins-claude-partner-network</link>
+      <description>HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/hcltech-joins-claude-partner-network</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

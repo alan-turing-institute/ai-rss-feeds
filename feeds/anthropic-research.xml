@@ -7,12 +7,18 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 09:05:05 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 19:46:07 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</guid>
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
+      <link>https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</guid>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Question decomposition improves the faithfulness of model-generated reasoning</title>
@@ -21,16 +27,22 @@
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Towards understanding sycophancy in language models</title>
+      <link>https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Simple probes can catch sleeper agents</title>
       <link>https://www.anthropic.com/research/probes-catch-sleeper-agents</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
       <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>A statistical approach to model evaluations</title>
-      <link>https://www.anthropic.com/research/statistical-approach-to-model-evals</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/statistical-approach-to-model-evals</guid>
-      <pubDate>Tue, 19 Nov 2024 00:00:00 +0000</pubDate>
+      <title>Sycophancy to subterfuge: Investigating reward tampering in language models</title>
+      <link>https://www.anthropic.com/research/reward-tampering</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/reward-tampering</guid>
+      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Education Report: How university students use Claude</title>
@@ -45,22 +57,16 @@
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SHADE-Arena: Evaluating sabotage and monitoring in LLM agents</title>
-      <link>https://www.anthropic.com/research/shade-arena-sabotage-monitoring</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/shade-arena-sabotage-monitoring</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+      <title>Anthropic Education Report: How educators use Claude</title>
+      <link>https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude is competitive with humans in (some) cyber competitions</title>
-      <link>https://www.anthropic.com/research/cyber-competitions</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/cyber-competitions</guid>
-      <pubDate>Sat, 09 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Beyond permission prompts: making Claude Code more secure and autonomous</title>
-      <link>https://www.anthropic.com/research/claude-code-sandboxing</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-sandboxing</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+      <title>Preparing for AI’s economic impact: exploring policy responses</title>
+      <link>https://www.anthropic.com/research/economic-policy-responses</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-policy-responses</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Estimating AI productivity gains from Claude conversations</title>
@@ -81,10 +87,22 @@
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Quantifying infrastructure noise in agentic coding evals</title>
+      <link>https://www.anthropic.com/research/infrastructure-noise</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/infrastructure-noise</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Building a C compiler with a team of parallel Claudes</title>
       <link>https://www.anthropic.com/research/building-c-compiler</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/building-c-compiler</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The persona selection model</title>
+      <link>https://www.anthropic.com/research/persona-selection-model</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/persona-selection-model</guid>
+      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Education Report: The AI Fluency Index</title>
@@ -135,34 +153,52 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making Claude a chemist</title>
-      <link>https://www.anthropic.com/research/making-claude-a-chemist</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/making-claude-a-chemist</guid>
-      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Measuring LLMs’ impact on N-day exploits</title>
-      <link>https://www.anthropic.com/research/n-days</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/n-days</guid>
-      <pubDate>Mon, 08 Jun 2026 00:00:00 +0000</pubDate>
+      <title>Results from the first Anthropic Public Record</title>
+      <link>https://www.anthropic.com/research/anthropic-public-record</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-public-record</guid>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Learning more about Claude's mathematical capabilities</title>
       <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/riemann-zeta</guid>
       <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reviewing the evidence on worker retraining programs</title>
       <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+      <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Patterns and problems in emerging multiagent systems</title>
+      <link>https://www.anthropic.com/research/multiagent-systems</link>
+      <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/multiagent-systems</guid>
+      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Claude is accelerating protein design and analytical chemistry</title>
+      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
+      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
+      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Enabling independent research on how people use Claude</title>
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
+      <description>We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/enabling-independent-research</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Automated researchers can reliably mitigate alignment failures</title>
+      <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
+      <description>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
+      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Formalizing Fermat's Last Theorem</title>
@@ -177,13 +213,6 @@
       <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Measuring tactical intelligence targeting and conventional weapons capabilities of AI models</title>
-      <link>https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</link>
-      <description>Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude is uplifting biomolecular modeling</title>
@@ -216,16 +245,8 @@
     <item>
       <title>Yes, Claude can do Nine Loops</title>
       <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
-      <description>Guest writer and physicist Matt von Hippel shares what happened when he issued a challenge to AI companies to solve a problem in his former subfield of theoretical physics.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GLM-5.3 and the spread of advanced cyber capabilities</title>
-      <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
-      <description>Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in that it has been released without meaningful safeguards to limit misuse.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What do you want from AI?</title>
@@ -249,13 +270,6 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Launching an opt-in vulnerability-finding service for open-source software</title>
-      <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
-      <description>We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulnerabilities during Project Glasswing.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>The missing map of the sky</title>
       <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
       <description>Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
@@ -270,13 +284,6 @@
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI models may be capable of self-replicating without access to a datacenter</title>
-      <link>https://www.anthropic.com/research/self-replicating-ai</link>
-      <description>Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs and smart ovens.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/self-replicating-ai</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Redesigning source control at Anthropic</title>
       <link>https://www.anthropic.com/research/redesigning-source-control</link>
       <description>As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version control system in five months.</description>
@@ -284,17 +291,16 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Claude reveals ECDSA curve origins</title>
+      <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Designing more efficient quantum circuits with Claude</title>
       <link>https://www.anthropic.com/research/designing-efficient-quantum-circuits</link>
       <description>We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on its own, Claude improved on the best published circuits, in some cases by an order of magnitude or more, which could bring practical quantum computers closer than previously anticipated.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/designing-efficient-quantum-circuits</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude reveals ECDSA curve origins</title>
-      <link>https://www.anthropic.com/research/ecdsa-curve-origins</link>
-      <description>The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/ecdsa-curve-origins</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
