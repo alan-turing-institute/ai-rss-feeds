@@ -17,7 +17,7 @@
   - optional fields like `feed_link`, `feed_description`, and `language`,
   - fields like `item_container_selector` (CSS selector for the container for each item)
   - fields like `item_title_selector`, `item_link_selector` (CSS selectors for the title or link for a specific item, scoped to the container for the item, these can be scrapy's extended selectors with the suffixes like `::text` and `::attr(href)`)
-  - other supported fields like `item_date_selector`, `item_description_selector`, `item_guid_is_permalink`, `min_item_count`, and `min_item_ratio_vs_previous`.
+  - other supported fields like `item_date_selector`, `item_description_selector`, `item_guid_is_permalink`, and `min_item_count` (set a sensible floor per feed, roughly 75% of the usual item count).
 - These mostly default to `None` and if left as `None` then the corresponding field in the feed or item is not set.
 - Be lenient in what selectors can return. For example `item_link_selector` can return either text (the URL) or an HTML node (in which case its `href` attr is taken).
 - Don't follow any links (to articles or to later pages of links), just use the information on the source page.

@@ -1,11 +1,9 @@
 """Single configurable feed spider loaded from feeds.toml."""
 
 import json
-import math
 import os
 import pathlib
 import re
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from typing import Optional
 from urllib.parse import urljoin, urlparse
@@ -30,8 +28,9 @@ def iter_flight_record_values(nextjs_string):
     raw data (observed as base64 image blobs), with no guaranteed trailing
     newline — the next record can start immediately after. So `T` records
     are skipped by byte count rather than by line, keeping any record glued
-    onto the same "line" reachable. Byte length is treated as char length,
-    which holds for the ASCII blobs seen in practice.
+    onto the same "line" reachable. The length counts UTF-8 bytes, so
+    non-ASCII text (e.g. curly quotes in alt text) is converted back to a
+    character count before skipping.
     """
     decoder = json.JSONDecoder()
     pos = 0
@@ -65,7 +64,11 @@ def iter_flight_record_values(nextjs_string):
             except (ValueError, TypeError):
                 pos = next_pos
                 continue
-            pos = comma_idx + 1 + byte_len
+            # The chunk has byte_len characters, so it is at least byte_len bytes.
+            data_start = comma_idx + 1
+            chunk = nextjs_string[data_start:data_start + byte_len]
+            char_len = len(chunk.encode("utf-8")[:byte_len].decode("utf-8", errors="ignore"))
+            pos = data_start + char_len
             continue
 
         if value_start < length and nextjs_string[value_start] in {"I", "H"}:
@@ -150,7 +153,6 @@ class FeedSpider(scrapy.Spider):
 
     # Validation guardrails
     min_item_count: int = 1
-    min_item_ratio_vs_previous: float = 0.6
 
     def __init__(self, feed_key=None, skip_unchanged=False, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -181,7 +183,6 @@ class FeedSpider(scrapy.Spider):
             "item_description_selector",
             "item_guid_is_permalink",
             "min_item_count",
-            "min_item_ratio_vs_previous",
         ]
 
         for field in fields:
@@ -243,20 +244,6 @@ class FeedSpider(scrapy.Spider):
             raise RuntimeError(
                 f"Missing required spider configuration fields: {', '.join(missing)}"
             )
-
-    def _read_previous_feed_item_count(self):
-        feed_path = pathlib.Path("feeds") / f"{self.name}.xml"
-        if not feed_path.exists():
-            return None
-
-        try:
-            root = ET.parse(feed_path).getroot()
-        except ET.ParseError as exc:
-            raise RuntimeError(
-                f"Failed to parse existing feed at {feed_path}: {exc}"
-            ) from exc
-
-        return len(root.findall("./channel/item"))
 
     def _extract_item(self, container, response):
         """Extract a single feed item from a scrapy Selector container."""
@@ -370,6 +357,9 @@ class FeedSpider(scrapy.Spider):
 
             if item["date"] > existing_item["date"]:
                 newest_by_link[link] = item
+            elif not existing_item.get("description") and item.get("description"):
+                # Same-day duplicate: keep the first record but borrow a description.
+                existing_item["description"] = item["description"]
 
         deduped_items = sorted(
             newest_by_link.values(),
@@ -446,9 +436,8 @@ class FeedSpider(scrapy.Spider):
         JSON blob embedded in the page (see iter_json_blobs). Blobs are
         scanned __NEXT_DATA__, then JSON-LD, then Flight records; downstream
         dedup-by-link only overwrites on a strictly newer date, so the
-        first-seen record for a given link wins on same-day ties (JSON-LD
-        tends to carry richer per-item fields, e.g. descriptions, than
-        Next.js Flight records)."""
+        first-seen record for a given link wins on same-day ties, except
+        that a missing description is filled in from a later duplicate."""
         all_items = []
         for blob in iter_json_blobs(response):
             all_items.extend(self._jq_container_matches(blob))
@@ -538,20 +527,6 @@ class FeedSpider(scrapy.Spider):
             raise RuntimeError(
                 f"Extracted {item_count} items, below min_item_count={min_count}"
             )
-
-        previous_count = self._read_previous_feed_item_count()
-        if previous_count is not None and self.min_item_ratio_vs_previous is not None:
-            ratio = float(self.min_item_ratio_vs_previous)
-            if ratio > 0:
-                required_from_previous = math.ceil(previous_count * ratio)
-                required_count = max(min_count, required_from_previous)
-                if item_count < required_count:
-                    raise RuntimeError(
-                        "Extracted "
-                        f"{item_count} items, below required floor {required_count} "
-                        f"from previous feed count {previous_count} and "
-                        f"min_item_ratio_vs_previous={ratio}"
-                    )
 
         fg = FeedGenerator()
         fg.id(self.source_url)

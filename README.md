@@ -79,10 +79,7 @@ Feed generation is fail-fast.
 - If `item_container_selector` matches nothing, that spider raises an error.
 - If too few items are extracted, that spider raises an error.
 
-By default, each spider enforces:
-
-- `min_item_count = 1`
-- `min_item_ratio_vs_previous = 0.6` when an existing `feeds/<name>.xml` file is present
+Each spider enforces `min_item_count` (default 1; set a sensible per-feed floor in `feeds.toml`, roughly 75% of the usual item count).
 
 This prevents silently writing empty or unexpectedly tiny feeds when page markup changes.
 `uv run python generate_feeds.py` exits with a non-zero status if any spider errors.
@@ -134,7 +131,7 @@ even with a matching fingerprint, so a feed that works locally can fail in CI.
 	- `item_title_selector`, `item_link_selector`, and optional `item_date_selector` / `item_description_selector` as jq queries scoped to each item; use `//` to fall back across differently-shaped sources (for example `.title // .headline`)
 4. Set optional fields as needed:
 	- `item_date_selector`, `item_date_regex`, `item_description_selector`, `feed_description`, `language`
-	- `item_guid_is_permalink`, `min_item_count`, `min_item_ratio_vs_previous`
+	- `item_guid_is_permalink`, `min_item_count`
 	- `impersonate` (see [Bot-Protected Sources](#bot-protected-sources))
 	- save a local source snapshot in `snapshots/` and develop selectors against that copy
 	- comments above the feed table to keep source/structure notes alongside selectors

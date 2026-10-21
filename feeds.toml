@@ -7,6 +7,7 @@ item_link_selector = "a[href^='/blog/']::attr(href)"
 item_title_selector = "h3::text"
 item_date_selector = "p[fs-list-field='date']::text"
 item_description_selector = "p[fs-list-field='description']::text"
+min_item_count = 75
 
 [feeds.allenai-news]
 feed_title = "Ai2 News (Allen Institute for AI)"
@@ -16,26 +17,29 @@ item_link_selector = "a[href^='/blog/']::attr(href)"
 item_title_selector = "h2::text"
 item_date_selector = "h2 span:first-child::text"
 item_description_selector = "div > p::text"
+min_item_count = 7
 
 [feeds.anthropic-news]
 feed_title = "Anthropic News"
 source_url = "https://www.anthropic.com/news"
 format = "json"
-item_container_selector = ".. | objects | select(._type == \"post\" or ._type == \"featuredGridLink\")"
+item_container_selector = ".. | objects | select(._type == \"article\" and .articleType == \"news\")"
 item_title_selector = ".title"
-item_link_selector = ".url // .slug.current"
-item_date_selector = ".date // .publishedOn"
-item_description_selector = ".summary"
+item_link_selector = "\"/\" + .articleType + \"/\" + .slug.current"
+item_date_selector = ".publishedOn"
+item_description_selector = ".summary // .seoDescription"
+min_item_count = 64
 
 [feeds.anthropic-research]
 feed_title = "Anthropic Research"
 source_url = "https://www.anthropic.com/research"
 format = "json"
-item_container_selector = ".. | objects | select(._type == \"post\" or ._type == \"featuredGridLink\")"
+item_container_selector = ".. | objects | select(._type == \"article\" and .articleType == \"research\")"
 item_title_selector = ".title"
-item_link_selector = ".url // .slug.current"
-item_date_selector = ".date // .publishedOn"
-item_description_selector = ".summary"
+item_link_selector = "\"/\" + .articleType + \"/\" + .slug.current"
+item_date_selector = ".publishedOn"
+item_description_selector = ".summary // .seoDescription"
+min_item_count = 37
 
 # Replaces claude-blog (claude.com/blog now redirects here). The featured
 # carousel repeats cards that are also in the grid, so only the grid is scraped.
@@ -49,6 +53,7 @@ item_title_selector = "h3::text"
 item_link_selector = "::attr(href)"
 item_date_selector = "span[class*='__meta']::text"
 item_description_selector = "p[class*='__excerpt']::text"
+min_item_count = 8
 
 [feeds.turing-blog]
 broken = true
@@ -58,6 +63,7 @@ item_container_selector = "article.node--type-article"
 item_title_selector = "h3 a[href^='/blog/'] span::text"
 item_link_selector = "h3 a[href^='/blog/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
+min_item_count = 13
 
 [feeds.turing-news]
 broken = true
@@ -67,6 +73,7 @@ item_container_selector = "article.node--type-article"
 item_title_selector = "h3 a[href^='/news/'] span::text"
 item_link_selector = "h3 a[href^='/news/']::attr(href)"
 item_date_selector = "div.field-published-date span::text"
+min_item_count = 14
 
 [feeds.mila-news]
 feed_title = "Mila News (Quebec AI Institute)"
@@ -76,6 +83,7 @@ item_container_selector = "#news-listing .node--type-news"
 item_title_selector = "div.field-name-node-title a::text"
 item_link_selector = "div.field-name-node-title a::attr(href)"
 item_date_selector = "div.field-name-dynamic-twig-fieldnode-default-date-format-wrapped span::text"
+min_item_count = 8
 
 [feeds.the-batch]
 broken = true
@@ -88,6 +96,7 @@ item_link_selector = ".slug"
 item_title_selector = ".title"
 item_date_selector = ".published_at"
 item_description_selector = ".custom_excerpt // .excerpt"
+min_item_count = 12
 
 [feeds.tldr-ai]
 feed_title = "TLDR AI"
@@ -97,6 +106,7 @@ item_link_selector = "::attr(href)"
 item_title_selector = "div::text"
 item_date_selector = "::attr(href)"
 item_date_regex = "\\d{4}-\\d{2}-\\d{2}"
+min_item_count = 15
 
 # Two overlapping JSON sources on the page: the Next.js Flight "posts" array
 # has the full post history but no description, and excludes the pinned
@@ -114,6 +124,7 @@ item_title_selector = ".title // .headline"
 item_link_selector = ".href // .url"
 item_date_selector = ".date // .datePublished"
 item_description_selector = ".description"
+min_item_count = 19
 
 [feeds.cohere-blog]
 feed_title = "Cohere Blog"
@@ -123,6 +134,7 @@ item_container_selector = "section#blog-browse-all li"
 item_title_selector = "p.text-web3-20 ::text"
 item_link_selector = "a[href^='/blog/']::attr(href)"
 item_date_selector = "span p:first-of-type ::text"
+min_item_count = 11
 
 [feeds.mistral-news]
 feed_title = "Mistral News"
@@ -133,6 +145,7 @@ item_title_selector = "h2 ::text"
 item_link_selector = "a::attr(href)"
 item_date_selector = "footer div:first-child p ::text"
 item_description_selector = "h2 + p ::text"
+min_item_count = 67
 
 # x.ai sits behind Cloudflare bot management which blocks Scrapy's TLS
 # fingerprint; `impersonate` routes the fetch through curl_cffi.
@@ -155,6 +168,7 @@ item_title_selector = "h1::text, h3::text"
 item_link_selector = "::attr(href)"
 item_date_selector = "p[class*='font-medium']::text, div[class*='text-primary/60'][class*='text-xs']::text, time::attr(datetime)"
 item_description_selector = "p[class*='leading-relaxed']::text, p[class*='line-clamp-1']::text"
+min_item_count = 65
 
 # Listing pages are paginated (page 2+ via ?page=... AJAX query) with no
 # embedded JSON of the item list (just Drupal settings), so per the
@@ -172,6 +186,7 @@ item_link_selector = "h3 a::attr(href)"
 item_date_selector = ".field-criteria p ::text"
 item_date_regex = "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{4}"
 item_description_selector = ".field-criteria p ::text"
+min_item_count = 7
 
 [feeds.cetas-analysis]
 broken = true
@@ -184,3 +199,4 @@ item_link_selector = "h3 a::attr(href)"
 item_date_selector = ".field-criteria p ::text"
 item_date_regex = "(?:January|February|March|April|May|June|July|August|September|October|November|December) \\d{4}"
 item_description_selector = ".field-criteria p ::text"
+min_item_count = 7
