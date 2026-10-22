@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 16:49:27 +0000</lastBuildDate>
-    <item>
-      <title>Building effective agent automations</title>
-      <link>https://claude.dev/blog/building-effective-agent-automations/</link>
-      <description>A reference implementation walkthrough for a scheduled Claude Managed Agents automation, with the config files and six rules for avoiding common failure modes.</description>
-      <guid isPermaLink="true">https://claude.dev/blog/building-effective-agent-automations/</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 22 Oct 2026 22:45:27 +0000</lastBuildDate>
     <item>
       <title>Uber's CISO on building an insider threat program for AI</title>
       <link>https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</link>
@@ -77,6 +70,13 @@
       <description>HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/hcltech-joins-claude-partner-network</guid>
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The full Claude Platform, available on Google Cloud</title>
+      <link>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</link>
+      <description>Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building agents: When to fold subagents into your main agent loop</title>
