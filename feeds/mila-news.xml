@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Oct 2026 16:52:00 +0000</lastBuildDate>
-    <item>
-      <title>Machine Learning for Real-World Change: Celebrating AI4Good Lab’s 10th Cohort</title>
-      <link>https://mila.quebec/en/news/machine-learning-for-real-world-change-celebrating-ai4good-labs-10th-cohort</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/machine-learning-for-real-world-change-celebrating-ai4good-labs-10th-cohort</guid>
-      <pubDate>Mon, 03 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 22 Oct 2026 13:48:29 +0000</lastBuildDate>
     <item>
       <title>Building on Year One: Indigenous AI Gathering Returns More Impactful Than Ever</title>
       <link>https://mila.quebec/en/news/building-on-year-one-indigenous-ai-gathering-returns-more-impactful-than-ever</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/mila-and-inria-strengthen-canada-france-ai-research-cooperation</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/mila-and-inria-strengthen-canada-france-ai-research-cooperation</guid>
       <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI in the Service of Wildfire Management in Canada</title>
+      <link>https://mila.quebec/en/news/ai-in-the-service-of-wildfire-management-in-canada</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/ai-in-the-service-of-wildfire-management-in-canada</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

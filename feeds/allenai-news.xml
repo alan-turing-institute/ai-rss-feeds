@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 10 Oct 2026 02:02:53 +0000</lastBuildDate>
-    <item>
-      <title>Modular LLMs at scale: how FlexOlmo is helping to pool national expertise without pooling sensitive data</title>
-      <link>https://allenai.org/blog/flexmore</link>
-      <description>Danish Foundation Models is using FlexOlmo as the basis for FlexMoRE, a more efficient modular LLM architecture…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/flexmore</guid>
-      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 22 Oct 2026 13:48:29 +0000</lastBuildDate>
     <item>
       <title>Who gets to understand AI?</title>
       <link>https://allenai.org/blog/who-gets-to-understand-ai</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/colm-2026-recap</link>
       <description>Ai2 joined COLM 2026 to share advances in open language models, training infrastructure, and AI for science,…</description>
       <guid isPermaLink="true">https://allenai.org/blog/colm-2026-recap</guid>
+      <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OlmoEarth v1.3: State-of-the-art embeddings for the whole planet</title>
+      <link>https://allenai.org/blog/olmoearth-v1-3</link>
+      <description>OlmoEarth v1.3 brings state-of-the-art satellite embeddings, precomputed global data, and a browser-based…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/olmoearth-v1-3</guid>
       <pubDate>Sat, 31 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
