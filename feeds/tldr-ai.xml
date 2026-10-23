@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 13:48:27 +0000</lastBuildDate>
-    <item>
-      <title>ChatGPT Pro Max 🤖, Muse realtime avatar 🎭, DeepSeek $1B ARR 💰</title>
-      <link>https://tldr.tech/ai/2026-09-25</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-25</guid>
-      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 23 Oct 2026 13:49:48 +0000</lastBuildDate>
     <item>
       <title>Muse manifesto 📜, OpenAI training pause 🚨, trading compute 🤝</title>
       <link>https://tldr.tech/ai/2026-09-28</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-10-22</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-10-22</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI nears $1.25T 💰,  ☁️, 1Password for Agents 🔑, Gemini 3.5 Pro postmortem 🤖</title>
+      <link>https://tldr.tech/ai/2026-10-23</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
