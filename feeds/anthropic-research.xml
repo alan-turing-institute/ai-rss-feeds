@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 13:49:48 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:50:06 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -63,6 +63,12 @@
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Preparing for AI’s economic impact: exploring policy responses</title>
+      <link>https://www.anthropic.com/research/economic-policy-responses</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-policy-responses</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Estimating AI productivity gains from Claude conversations</title>
       <link>https://www.anthropic.com/research/estimating-productivity-gains</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/estimating-productivity-gains</guid>
@@ -79,12 +85,6 @@
       <link>https://www.anthropic.com/research/accelerating-scientific-research</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/accelerating-scientific-research</guid>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Quantifying infrastructure noise in agentic coding evals</title>
-      <link>https://www.anthropic.com/research/infrastructure-noise</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/infrastructure-noise</guid>
-      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Building a C compiler with a team of parallel Claudes</title>
@@ -153,17 +153,18 @@
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reviewing the evidence on worker retraining programs</title>
-      <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
-      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+      <title>Learning more about Claude's mathematical capabilities</title>
+      <link>https://www.anthropic.com/research/riemann-zeta</link>
+      <description>An unreleased research version of Claude has made strides on a problem related to the Riemann hypothesis.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/riemann-zeta</guid>
+      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Patterns and problems in emerging multiagent systems</title>
-      <link>https://www.anthropic.com/research/multiagent-systems</link>
-      <description>Here, we identify a few examples of behavioral tendencies in current frontier models and show how they can produce unexpected systemic failures, in hopes of starting a conversation about mitigating these risks.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/multiagent-systems</guid>
-      <pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate>
+      <title>Reviewing the evidence on worker retraining programs</title>
+      <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
+      <description>We're sharing a review of the evidence on worker retraining programs, coauthored by independent researcher David Roodman and Anthropic's Maxim Massenkoff.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
+      <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude is accelerating protein design and analytical chemistry</title>
@@ -227,6 +228,12 @@
       <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/project-swap</guid>
       <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes, Claude can do Nine Loops</title>
+      <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What do you want from AI?</title>
@@ -310,13 +317,6 @@
       <description>We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LLMs are making formal software verification feasible at a much larger scale</title>
-      <link>https://www.anthropic.com/research/formal-verification</link>
-      <description>Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this is beginning to change. Here, we used Claude to prove security properties in over one hundred real-world open-source libraries over the span of a few weeks.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/formal-verification</guid>
-      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An alignment assessment of the UK AISI cybertesting incident</title>
