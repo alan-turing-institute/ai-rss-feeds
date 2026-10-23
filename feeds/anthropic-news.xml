@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 22:45:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 01:56:40 +0000</lastBuildDate>
     <item>
       <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
@@ -229,6 +229,12 @@
       <link>https://www.anthropic.com/news/claude-partner-network</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
+      <link>https://www.anthropic.com/news/narasimhan-board</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An update on our election safeguards</title>
