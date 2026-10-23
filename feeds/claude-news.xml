@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 22:45:27 +0000</lastBuildDate>
-    <item>
-      <title>Uber's CISO on building an insider threat program for AI</title>
-      <link>https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</link>
-      <description>Uber's CISO, Philip Martin, on the importance of monitoring and observability for AI agents, and how Uber's open-source tooling works alongside Enterprise Frontier Safeguards.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/uber-s-ciso-on-building-an-insider-threat-program-for-ai</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent observability on the Claude Platform</title>
-      <link>https://claude.com/resources/articles/agent-observability-on-the-claude-platform</link>
-      <description>Announcing OpenTelemetry traces from Claude Managed Agents, the Messages API, and Claude SDKs on the Claude Platform.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/agent-observability-on-the-claude-platform</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 23 Oct 2026 19:45:30 +0000</lastBuildDate>
     <item>
       <title>Code Review is now generally available</title>
       <link>https://claude.com/resources/articles/code-review-is-now-generally-available</link>
@@ -84,6 +70,19 @@
       <description>When building agents in Claude Platform, using fewer subagents in favor of progressively disclosed context and tools can improve quality while reducing cost and latency. Here’s when and how to migrate.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Duet Safety, Privacy, and Security</title>
+      <link>https://claude.com/resources/articles/claude-duet-safety-privacy-and-security</link>
+      <description>Claude Duet is a proactive agent that works for you, even while you’re away. It builds on two layers of protection: safety training in the Claude model itself and the safeguards that exist in products like Claude Code and Claude Managed Agents. On top of those, we added new protections for working across your accounts and acting on your behalf.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/claude-duet-safety-privacy-and-security</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Cowork and chat come together for Enterprise</title>
+      <link>https://claude.com/resources/articles/unified-claude-enterprise</link>
+      <guid isPermaLink="true">https://claude.com/resources/articles/unified-claude-enterprise</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

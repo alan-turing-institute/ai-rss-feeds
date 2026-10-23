@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 16:50:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 19:45:30 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -31,12 +31,6 @@
       <link>https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
       <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Simple probes can catch sleeper agents</title>
-      <link>https://www.anthropic.com/research/probes-catch-sleeper-agents</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/probes-catch-sleeper-agents</guid>
-      <pubDate>Tue, 23 Apr 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Sycophancy to subterfuge: Investigating reward tampering in language models</title>
@@ -317,6 +311,12 @@
       <description>We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-scorpion-toxin-binder-design</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs are making formal software verification feasible at a much larger scale</title>
+      <link>https://www.anthropic.com/research/formal-verification</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/formal-verification</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An alignment assessment of the UK AISI cybertesting incident</title>
