@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 10:50:27 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 14:50:38 +0000</lastBuildDate>
     <item>
       <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
@@ -183,12 +183,6 @@
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The first AI-planned drive on Mars</title>
-      <link>https://www.anthropic.com/news/claude-on-mars</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-on-mars</guid>
-      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic partners with the UK Government to bring AI assistance to GOV.UK services</title>
       <link>https://www.anthropic.com/news/gov-UK-partnership</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/gov-UK-partnership</guid>
@@ -271,12 +265,6 @@
       <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/gates-foundation-partnership</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic acquires Stainless</title>
-      <link>https://www.anthropic.com/news/anthropic-acquires-stainless</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-acquires-stainless</guid>
-      <pubDate>Mon, 18 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Project Glasswing: An initial update</title>
@@ -389,7 +377,6 @@
     <item>
       <title>Previewing the Model Hardware Standard</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
-      <description>We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first group of scientific research labs and advanced manufacturers.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -559,6 +546,12 @@
       <description>We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platforms, including ChatGPT, Cursor, GitHub Copilot, and VS Code, have integrated Agent Skills since we published the standard in December 2025.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic files S-1 with the SEC for proposed initial public offering</title>
+      <link>https://www.anthropic.com/news/s1-sec</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/s1-sec</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
