@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 14:50:38 +0000</lastBuildDate>
-    <item>
-      <title>AI change management: A human-centric approach</title>
-      <link>https://cohere.com/blog/ai-change-management</link>
-      <guid isPermaLink="true">https://cohere.com/blog/ai-change-management</guid>
-      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 26 Oct 2026 16:51:24 +0000</lastBuildDate>
     <item>
       <title>Compass is coming to the cloud</title>
       <link>https://cohere.com/blog/compass-cloud-beta</link>
@@ -96,6 +90,12 @@
       <title>Can AI understand culture?</title>
       <link>https://cohere.com/blog/can-ai-understand-culture</link>
       <guid isPermaLink="true">https://cohere.com/blog/can-ai-understand-culture</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Confidential Computing on Cohere Model Vault</title>
+      <link>https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</link>
+      <guid isPermaLink="true">https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>

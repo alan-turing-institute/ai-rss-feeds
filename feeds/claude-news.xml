@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Oct 2026 19:45:30 +0000</lastBuildDate>
-    <item>
-      <title>Code Review is now generally available</title>
-      <link>https://claude.com/resources/articles/code-review-is-now-generally-available</link>
-      <description>Catch more bugs before they reach production.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/code-review-is-now-generally-available</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 26 Oct 2026 16:51:24 +0000</lastBuildDate>
     <item>
       <title>How the Claude Code team does code review</title>
       <link>https://claude.dev/blog/solving-code-review-at-anthropic/</link>
@@ -62,6 +55,13 @@
       <link>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</link>
       <description>Use Claude Models on Google Cloud (Anthropic managed) to access Claude Platform features with Google Cloud authentication, billing, and commitment retirement.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</guid>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLMs are making formal software verification feasible at a much larger scale</title>
+      <link>https://www.anthropic.com/research/formal-verification</link>
+      <description>We need ways to prove that code is free of bugs. Formal software verification could provide this guarantee.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/formal-verification</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
