@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 19:47:37 +0000</lastBuildDate>
-    <item>
-      <title>How an Anthropic BDR in Japan runs his day with Claude Managed Agents</title>
-      <link>https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day</link>
-      <description>How one business development representative clears his inbound queue and drafts bilingual customer emails with Claude Managed Agents and Claude Tag.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/how-an-anthropic-japan-business-development-representative-runs-his-day</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 27 Oct 2026 19:45:41 +0000</lastBuildDate>
     <item>
       <title>Redesigning source control at Anthropic</title>
       <link>https://www.anthropic.com/engineering/redesigning-source-control</link>
@@ -83,6 +76,13 @@
       <description>Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/expanding-claude-for-nonprofits</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Manage costs and demonstrate ROI for Claude Code on Google Cloud</title>
+      <link>https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</link>
+      <description>Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
