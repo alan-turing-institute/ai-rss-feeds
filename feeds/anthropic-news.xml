@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 13:52:10 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 22:45:16 +0000</lastBuildDate>
     <item>
       <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
@@ -225,12 +225,6 @@
       <pubDate>Wed, 25 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Statement from Dario Amodei on our discussions with the Department of War</title>
-      <link>https://www.anthropic.com/news/statement-department-of-war</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/statement-department-of-war</guid>
-      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic invests $100 million into the Claude Partner Network</title>
       <link>https://www.anthropic.com/news/claude-partner-network</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
@@ -383,22 +377,8 @@
     <item>
       <title>Improving our alignment and security efforts</title>
       <link>https://www.anthropic.com/news/improving-alignment-security-efforts</link>
-      <description>On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of both incidents, and planning to work with METR for an independent review. In the meantime, we’re sharing some of the changes we’ve made over the past month.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/improving-alignment-security-efforts</guid>
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Developing Enterprise Frontier Safeguards with our customers</title>
-      <link>https://www.anthropic.com/news/enterprise-frontier-safeguards</link>
-      <description>We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecting misuse. EFS works by storing data in cloud infrastructure controlled by the customer, not Anthropic.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-frontier-safeguards</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Detecting and countering misuse of AI: September 2026</title>
-      <link>https://www.anthropic.com/news/</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/</guid>
-      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Claude Mythos and Fable 5.1</title>
@@ -550,8 +530,23 @@
     <item>
       <title>Anthropic files S-1 with the SEC for proposed initial public offering</title>
       <link>https://www.anthropic.com/news/s1-sec</link>
+      <description>Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offering of its Class A common stock.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/s1-sec</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding our partnership with GSA to bring Claude to all levels of government</title>
+      <link>https://www.anthropic.com/news/expanding-partnership-gsa</link>
+      <description>We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-partnership-gsa</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Early progress on accelerating drug development with Claude</title>
+      <link>https://www.anthropic.com/news/</link>
+      <description>We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
