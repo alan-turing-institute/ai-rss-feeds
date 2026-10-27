@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 16:49:26 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:45:16 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -599,6 +599,7 @@
     <item>
       <title>Team Bots: shared AI teammates that learn as they work</title>
       <link>https://x.ai/news/team-bots</link>
+      <description>Give a Grok Bot the files, apps, and expertise it needs, then share it so your whole team can work from the same context.</description>
       <guid isPermaLink="true">https://x.ai/news/team-bots</guid>
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -619,6 +620,12 @@
       <link>https://x.ai/news/partnernetworkannouncement</link>
       <guid isPermaLink="true">https://x.ai/news/partnernetworkannouncement</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your next sales teammate should be a Grok Bot</title>
+      <link>https://x.ai/news/grok-bot-sales</link>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-sales</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Grok Voice 3.0</title>
