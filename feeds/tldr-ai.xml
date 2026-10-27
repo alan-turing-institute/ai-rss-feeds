@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 14:50:38 +0000</lastBuildDate>
-    <item>
-      <title>Claude Sonnet 5.5 🧠, Anthropic IPO leaks 📝, AMD buys World Labs 💰</title>
-      <link>https://tldr.tech/ai/2026-09-29</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-09-29</guid>
-      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 27 Oct 2026 13:52:08 +0000</lastBuildDate>
     <item>
       <title>OpenAI Dots 🟡, GPT-6.1 Sol ⚡, software factories 🏭</title>
       <link>https://tldr.tech/ai/2026-09-30</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-10-26</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-10-26</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-10-27</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
