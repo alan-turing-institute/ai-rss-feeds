@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 22:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:45:16 +0000</lastBuildDate>
     <item>
       <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
@@ -55,12 +55,6 @@
       <link>https://www.anthropic.com/news/3-5-models-and-computer-use</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/3-5-models-and-computer-use</guid>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lyft to bring Claude to more than 40 million riders and over 1 million drivers</title>
-      <link>https://www.anthropic.com/news/lyft-announcement</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/lyft-announcement</guid>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic signs MOU with UK Government to explore how AI can transform UK public services</title>
@@ -383,7 +377,6 @@
     <item>
       <title>Introducing Claude Mythos and Fable 5.1</title>
       <link>https://www.anthropic.com/news/claude-mythos-and-fable-5-1</link>
-      <description>They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-mythos-and-fable-5-1</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -547,6 +540,13 @@
       <description>We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI for Science expands to foundations and research institutions</title>
+      <link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
+      <description>We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
