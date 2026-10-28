@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:45:21 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Claude Duet</title>
-      <link>https://claude.com/resources/articles/claude-duet</link>
-      <description>A research preview is available by waitlist today, starting with US Pro and Max subscribers.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/claude-duet</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HCLTech joins the Claude Partner Network as a Global Premier partner</title>
-      <link>https://claude.com/resources/articles/hcltech-joins-claude-partner-network</link>
-      <description>HCLTech will bring Claude into the solutions it provides for banks, hospitals, telecom companies, and manufacturers.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/hcltech-joins-claude-partner-network</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 28 Oct 2026 19:45:36 +0000</lastBuildDate>
     <item>
       <title>The full Claude Platform, available on Google Cloud</title>
       <link>https://claude.com/resources/articles/claude-models-on-google-cloud-anthropic-managed</link>
@@ -82,6 +68,20 @@
       <link>https://claude.com/resources/articles/introducing-artifacts-for-legal-work</link>
       <description>Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/introducing-artifacts-for-legal-work</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IDC brings Quanta into Claude and adopts Claude across the company</title>
+      <link>https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</link>
+      <description>IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Smart reports, surveys, and pooled group budgets for Claude Enterprise</title>
+      <link>https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</link>
+      <description>In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
