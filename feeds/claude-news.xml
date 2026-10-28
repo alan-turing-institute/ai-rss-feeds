@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 22:45:16 +0000</lastBuildDate>
-    <item>
-      <title>Claude Security now scans continuously and tracks fixes</title>
-      <link>https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</link>
-      <description>Claude Security now keeps up with your repositories as code changes, tracks findings until they’re fixed, learns from the context your team adds, and connects to your tools through an API and MCP. Available in public beta for Claude Enterprise customers.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 28 Oct 2026 16:45:21 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude Duet</title>
       <link>https://claude.com/resources/articles/claude-duet</link>
@@ -83,6 +76,13 @@
       <description>Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing artifacts for legal work</title>
+      <link>https://claude.com/resources/articles/introducing-artifacts-for-legal-work</link>
+      <description>Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/introducing-artifacts-for-legal-work</guid>
+      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
