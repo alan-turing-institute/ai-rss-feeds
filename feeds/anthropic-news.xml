@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 07:45:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 10:45:17 +0000</lastBuildDate>
     <item>
       <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
@@ -243,15 +243,15 @@
       <pubDate>Wed, 13 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
-      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
-      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic forms $200 million partnership with the Gates Foundation</title>
       <link>https://www.anthropic.com/news/gates-foundation-partnership</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/gates-foundation-partnership</guid>
+      <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PwC is deploying Claude to build technology, execute deals, and reinvent enterprise functions for clients</title>
+      <link>https://www.anthropic.com/news/pwc-expanded-partnership</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/pwc-expanded-partnership</guid>
       <pubDate>Thu, 14 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -309,15 +309,15 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
-      <link>https://www.anthropic.com/news/ben-bernanke</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/ben-bernanke</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>UST is bringing Claude to physical AI</title>
       <link>https://www.anthropic.com/news/ust-claude</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/ust-claude</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
+      <link>https://www.anthropic.com/news/ben-bernanke</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/ben-bernanke</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,15 +357,15 @@
       <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Expanding our support for scientists</title>
-      <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Previewing the Model Hardware Standard</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
+      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Expanding our support for scientists</title>
+      <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
       <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
