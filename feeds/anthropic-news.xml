@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 22:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 01:45:52 +0000</lastBuildDate>
     <item>
       <title>Introducing 100K context windows</title>
       <link>https://www.anthropic.com/news/100k-context-windows</link>
@@ -544,7 +544,7 @@
     <item>
       <title>AI for Science expands to foundations and research institutions</title>
       <link>https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</link>
-      <description>We’re highlighting 20 scientific foundations, institutions, and research groups from around the world that we’ve partnered with in an expansion of our AI for Science program.</description>
+      <description>We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
     </item>
