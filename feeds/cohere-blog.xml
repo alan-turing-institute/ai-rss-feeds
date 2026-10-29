@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Oct 2026 19:45:37 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Embed 5—A new family of frontier embedding models</title>
-      <link>https://cohere.com/blog/embed-5</link>
-      <guid isPermaLink="true">https://cohere.com/blog/embed-5</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 29 Oct 2026 16:45:18 +0000</lastBuildDate>
     <item>
       <title>RCP-nDCG@10: A more complete way to measure retrieval relevance</title>
       <link>https://cohere.com/blog/rcp-ndcg</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference</link>
       <guid isPermaLink="true">https://cohere.com/blog/inside-cohere-model-vault-building-verifiable-confidential-ai-inference</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Concerning behavior from a popular open-weight AI model</title>
+      <link>https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</link>
+      <guid isPermaLink="true">https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

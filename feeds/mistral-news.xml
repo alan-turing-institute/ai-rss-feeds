@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 13:48:32 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:45:18 +0000</lastBuildDate>
     <item>
       <title>Bringing open AI models to the frontier</title>
       <link>https://mistral.ai/news/about-mistral-ai/</link>
@@ -556,6 +556,12 @@
       <pubDate>Mon, 28 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Mistral Large 4</title>
+      <link>https://mistral.ai/news/mistral-large-4/</link>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-large-4/</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing Timestral</title>
       <link>https://mistral.ai/news/timestral/</link>
       <description>State-of-the-art probabilistic forecasts with just 209M parameters, outperforming larger models on CPU.</description>
@@ -577,10 +583,11 @@
       <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Mistral Large 4</title>
-      <link>https://mistral.ai/news/mistral-large-4/</link>
-      <guid isPermaLink="true">https://mistral.ai/news/mistral-large-4/</guid>
-      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <title>Le Chonk: Built for Coders, Trusted by Defenders.</title>
+      <link>https://mistral.ai/news/mistral-large-4-oss/</link>
+      <description>We release the weights of Le Chonk, advancing the frontier of open models in agentic coding and cybersecurity.</description>
+      <guid isPermaLink="true">https://mistral.ai/news/mistral-large-4-oss/</guid>
+      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
