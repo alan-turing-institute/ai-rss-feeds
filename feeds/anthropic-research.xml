@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 22:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 19:45:11 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -81,6 +81,12 @@
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Measuring AI agent autonomy in practice</title>
+      <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The persona selection model</title>
       <link>https://www.anthropic.com/research/persona-selection-model</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/persona-selection-model</guid>
@@ -99,16 +105,22 @@
       <pubDate>Thu, 05 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Long-running Claude for scientific computing</title>
+      <link>https://www.anthropic.com/research/long-running-claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/long-running-claude</guid>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing our Science Blog</title>
       <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/introducing-anthropic-science</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Long-running Claude for scientific computing</title>
-      <link>https://www.anthropic.com/research/long-running-claude</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/long-running-claude</guid>
-      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <title>How we built Claude Code auto mode: a safer way to skip permissions</title>
+      <link>https://www.anthropic.com/research/claude-code-auto-mode</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-auto-mode</guid>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Automated Alignment Researchers: Using large language models to scale scalable oversight</title>
@@ -139,6 +151,12 @@
       <link>https://www.anthropic.com/research/anthropic-public-record</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-public-record</guid>
       <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic coding and persistent returns to expertise</title>
+      <link>https://www.anthropic.com/research/claude-code-expertise</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-expertise</guid>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Reviewing the evidence on worker retraining programs</title>
