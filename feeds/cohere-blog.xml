@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 16:45:18 +0000</lastBuildDate>
-    <item>
-      <title>RCP-nDCG@10: A more complete way to measure retrieval relevance</title>
-      <link>https://cohere.com/blog/rcp-ndcg</link>
-      <guid isPermaLink="true">https://cohere.com/blog/rcp-ndcg</guid>
-      <pubDate>Wed, 30 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 30 Oct 2026 16:45:18 +0000</lastBuildDate>
     <item>
       <title>Cohere and PwC partner to accelerate secure enterprise AI adoption</title>
       <link>https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption</link>
@@ -96,6 +90,12 @@
       <title>Concerning behavior from a popular open-weight AI model</title>
       <link>https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</link>
       <guid isPermaLink="true">https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model</guid>
+      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PitchBook in North: Private market intelligence for enterprise teams</title>
+      <link>https://cohere.com/blog/pitchbook-integration</link>
+      <guid isPermaLink="true">https://cohere.com/blog/pitchbook-integration</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
