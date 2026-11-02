@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 30 Oct 2026 13:45:22 +0000</lastBuildDate>
-    <item>
-      <title>Prime Inference 📈, agent population 📈, Claude academy 🎓</title>
-      <link>https://tldr.tech/ai/2026-10-05</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-05</guid>
-      <pubDate>Mon, 05 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 02 Nov 2026 16:46:00 +0000</lastBuildDate>
     <item>
       <title>Instinct group chats 💬, Reflection’s 501B model 🧠, OpenAI text watermarks 🏷️</title>
       <link>https://tldr.tech/ai/2026-10-06</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-10-30</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-10-30</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek super agent 🤖, GPT-6 Rosalind 🧬, Google orbital compute 🛰️</title>
+      <link>https://tldr.tech/ai/2026-11-02</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-02</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
