@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 22:45:23 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -606,6 +606,7 @@
     <item>
       <title>Introducing The X Subscription</title>
       <link>https://x.ai/news/x-subscription</link>
+      <description>Grok, Grok Bot, Cursor, and X Premium, all on one plan.</description>
       <guid isPermaLink="true">https://x.ai/news/x-subscription</guid>
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
@@ -626,6 +627,12 @@
       <link>https://x.ai/news/grok-bot-sales</link>
       <guid isPermaLink="true">https://x.ai/news/grok-bot-sales</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Giving every team a data scientist with Grok Bot</title>
+      <link>https://x.ai/news/data-bot</link>
+      <guid isPermaLink="true">https://x.ai/news/data-bot</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Grok Voice 3.0</title>
