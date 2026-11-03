@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 19:45:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 01:45:04 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -327,15 +327,15 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UST is bringing Claude to physical AI</title>
-      <link>https://www.anthropic.com/news/ust-claude</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/ust-claude</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
       <link>https://www.anthropic.com/news/ben-bernanke</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/ben-bernanke</guid>
+      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>UST is bringing Claude to physical AI</title>
+      <link>https://www.anthropic.com/news/ust-claude</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/ust-claude</guid>
       <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
