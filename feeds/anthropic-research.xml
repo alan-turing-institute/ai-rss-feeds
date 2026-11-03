@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Oct 2026 19:45:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 04:45:42 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -163,13 +163,6 @@
       <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
       <pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Claude is accelerating protein design and analytical chemistry</title>
-      <link>https://www.anthropic.com/research/Claude-accelerates-protein-design</link>
-      <description>In this post, we share two results that show how Claude can help life scientists increase the pace of their research.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/Claude-accelerates-protein-design</guid>
-      <pubDate>Tue, 18 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Enabling independent research on how people use Claude</title>
@@ -336,6 +329,13 @@
       <description>We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/early-progress-drug-development</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Progress on provable inference for large language models</title>
+      <link>https://www.anthropic.com/research/provable-inference</link>
+      <description>Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/provable-inference</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
