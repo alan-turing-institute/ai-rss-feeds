@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 04:45:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 13:45:20 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -333,7 +333,7 @@
     <item>
       <title>Progress on provable inference for large language models</title>
       <link>https://www.anthropic.com/research/provable-inference</link>
-      <description>Sharing progress on a powerful type of cryptographic proof known as a zkSNARK, which is uniquely fit for provable inference.</description>
+      <description>We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/provable-inference</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
