@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 13:45:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 22:45:21 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -49,12 +49,6 @@
       <link>https://www.anthropic.com/research/exploring-model-welfare</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/exploring-model-welfare</guid>
       <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Education Report: How educators use Claude</title>
-      <link>https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-education-report-how-educators-use-claude</guid>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Estimating AI productivity gains from Claude conversations</title>
@@ -147,12 +141,6 @@
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Results from the first Anthropic Public Record</title>
-      <link>https://www.anthropic.com/research/anthropic-public-record</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/anthropic-public-record</guid>
-      <pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Agentic coding and persistent returns to expertise</title>
       <link>https://www.anthropic.com/research/claude-code-expertise</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-expertise</guid>
@@ -167,7 +155,6 @@
     <item>
       <title>Enabling independent research on how people use Claude</title>
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
-      <description>We ran a pilot giving external researchers access to aggregate, real-world Claude usage data. In this post, we share high-level results and what we learned running this pilot.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/enabling-independent-research</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
     </item>
@@ -336,6 +323,13 @@
       <description>We have made progress on a type of cryptographic proof known as a “zkSNARK.” In this post, we share some of that progress, primarily through a system we call FlashProve.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/provable-inference</guid>
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Investigating vault particles with Claude</title>
+      <link>https://www.anthropic.com/research/investigating-vault-particles-with-claude</link>
+      <description>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/investigating-vault-particles-with-claude</guid>
+      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
