@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 16:45:42 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 19:45:15 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -19,6 +19,12 @@
       <link>https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Anthropic Economic Index</title>
+      <link>https://www.anthropic.com/research/the-anthropic-economic-index</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/the-anthropic-economic-index</guid>
+      <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Education Report: How university students use Claude</title>
@@ -87,6 +93,12 @@
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Anthropic Economic Index report: Learning curves</title>
+      <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-march-2026-report</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How we built Claude Code auto mode: a safer way to skip permissions</title>
       <link>https://www.anthropic.com/research/claude-code-auto-mode</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-auto-mode</guid>
@@ -115,6 +127,12 @@
       <link>https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/Evaluating-Claude-For-Bioinformatics-With-BioMysteryBench</guid>
       <pubDate>Wed, 29 Apr 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding agents in the social sciences</title>
+      <link>https://www.anthropic.com/research/coding-agents-social-sciences</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/coding-agents-social-sciences</guid>
+      <pubDate>Wed, 27 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Agentic coding and persistent returns to expertise</title>
