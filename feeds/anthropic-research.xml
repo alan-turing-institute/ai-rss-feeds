@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 01:45:23 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 04:45:37 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -223,6 +223,12 @@
       <pubDate>Thu, 01 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Launching an opt-in vulnerability-finding service for open-source software</title>
+      <link>https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source</guid>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>The missing map of the sky</title>
       <link>https://www.anthropic.com/research/the-missing-map-of-the-sky</link>
       <description>Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first complete map of the sky in UV light.</description>
@@ -276,6 +282,12 @@
       <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/ai-expectations-gap</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using Claude to reduce the attack surface of code</title>
+      <link>https://www.anthropic.com/research/attack-surface-reduction</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/attack-surface-reduction</guid>
+      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Claude designed protein binders against scorpion neurotoxins</title>

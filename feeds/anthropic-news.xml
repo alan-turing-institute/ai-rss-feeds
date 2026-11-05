@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Nov 2026 04:45:43 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 04:45:38 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -21,16 +21,16 @@
       <pubDate>Thu, 11 May 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Frontier threats red teaming for AI safety</title>
-      <link>https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/frontier-threats-red-teaming-for-ai-safety</guid>
-      <pubDate>Wed, 26 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Reflections on our Responsible Scaling Policy</title>
       <link>https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</guid>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Krishna Rao joins Anthropic as Chief Financial Officer</title>
+      <link>https://www.anthropic.com/news/krishna-rao-joins-anthropic</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/krishna-rao-joins-anthropic</guid>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Challenges in red teaming AI systems</title>
@@ -147,6 +147,12 @@
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Anthropic raises $13B Series F at $183B post-money valuation</title>
+      <link>https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Enabling Claude Code to work more autonomously</title>
       <link>https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously</guid>
@@ -235,12 +241,6 @@
       <link>https://www.anthropic.com/news/claude-partner-network</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-partner-network</guid>
       <pubDate>Thu, 12 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s Long-Term Benefit Trust appoints Vas Narasimhan to Board of Directors</title>
-      <link>https://www.anthropic.com/news/narasimhan-board</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/narasimhan-board</guid>
-      <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>An update on our election safeguards</title>
