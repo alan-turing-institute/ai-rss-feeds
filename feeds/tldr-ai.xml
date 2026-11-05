@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 16:45:26 +0000</lastBuildDate>
-    <item>
-      <title>ChatGPT Intelligent UI 🧠, Claude Haiku 5.5 ⚡, Grok Bot 3rd party models 🤖</title>
-      <link>https://tldr.tech/ai/2026-10-08</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-08</guid>
-      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 05 Nov 2026 16:45:43 +0000</lastBuildDate>
     <item>
       <title>GPT-6.1 Ultrafast ⚡, Gemini universal agent 🤖, speculative decoding 🧠</title>
       <link>https://tldr.tech/ai/2026-10-09</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-11-04</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-11-04</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-Image-2.6 🖼️, Meta buys Conductor 💻, Cognition SWE-2 Flash ⚡</title>
+      <link>https://tldr.tech/ai/2026-11-05</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-05</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

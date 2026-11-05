@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 13:45:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 16:45:42 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -15,28 +15,10 @@
       <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback</title>
-      <link>https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/training-a-helpful-and-harmless-assistant-with-reinforcement-learning-from-human-feedback</guid>
-      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Question decomposition improves the faithfulness of model-generated reasoning</title>
       <link>https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
       <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Towards understanding sycophancy in language models</title>
-      <link>https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/towards-understanding-sycophancy-in-language-models</guid>
-      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sycophancy to subterfuge: Investigating reward tampering in language models</title>
-      <link>https://www.anthropic.com/research/reward-tampering</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/reward-tampering</guid>
-      <pubDate>Mon, 17 Jun 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Education Report: How university students use Claude</title>
@@ -79,12 +61,6 @@
       <link>https://www.anthropic.com/research/measuring-agent-autonomy</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/measuring-agent-autonomy</guid>
       <pubDate>Wed, 18 Feb 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The persona selection model</title>
-      <link>https://www.anthropic.com/research/persona-selection-model</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/persona-selection-model</guid>
-      <pubDate>Mon, 23 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Education Report: The AI Fluency Index</title>
@@ -157,13 +133,6 @@
       <link>https://www.anthropic.com/research/enabling-independent-research</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/enabling-independent-research</guid>
       <pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Automated researchers can reliably mitigate alignment failures</title>
-      <link>https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</link>
-      <description>We had Claude autonomously train models to improve their performance on several public benchmarks that measure 10 categories of alignment failure. For all 10, Claude found fixes that improved the target benchmarks without degrading capabilities.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures</guid>
-      <pubDate>Fri, 28 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Formalizing Fermat's Last Theorem</title>
@@ -269,17 +238,17 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Working at the frontier shapes expectations for the future</title>
-      <link>https://www.anthropic.com/research/expectations-for-the-future</link>
-      <description>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/expectations-for-the-future</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>How employment is changing at Anthropic</title>
       <link>https://www.anthropic.com/research/employment-at-anthropic</link>
       <description>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/employment-at-anthropic</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working at the frontier shapes expectations for the future</title>
+      <link>https://www.anthropic.com/research/expectations-for-the-future</link>
+      <description>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/expectations-for-the-future</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -342,6 +311,13 @@
       <description>We’re sharing another finding from Anthropic’s biology research lab: the first 3D structure of a vault particle found in prokaryotic cells. Here, we describe how Claude helped at each step of this research.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/investigating-vault-particles-with-claude</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI for scientific discovery: How researchers use Claude</title>
+      <link>https://www.anthropic.com/research/how-researchers-use-claude</link>
+      <description>In this report, we use privacy-preserving infrastructure to study the scientific use of Claude, Claude Code, and Claude Science. We document how usage varies across scientific fields and research tasks, identify what explains these usage patterns, and outline scenarios for how AI could accelerate research.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/how-researchers-use-claude</guid>
+      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
