@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Nov 2026 22:45:20 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 01:45:17 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -27,10 +27,22 @@
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Krishna Rao joins Anthropic as Chief Financial Officer</title>
+      <link>https://www.anthropic.com/news/krishna-rao-joins-anthropic</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/krishna-rao-joins-anthropic</guid>
+      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Challenges in red teaming AI systems</title>
       <link>https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/challenges-in-red-teaming-ai-systems</guid>
       <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic partners with Menlo Ventures to launch Anthology Fund</title>
+      <link>https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-partners-with-menlo-ventures-to-launch-anthology-fund</guid>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Expanding our model safety bug bounty program</title>
@@ -49,6 +61,12 @@
       <link>https://www.anthropic.com/news/3-5-models-and-computer-use</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/3-5-models-and-computer-use</guid>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lyft to bring Claude to more than 40 million riders and over 1 million drivers</title>
+      <link>https://www.anthropic.com/news/lyft-announcement</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/lyft-announcement</guid>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic signs MOU with UK Government to explore how AI can transform UK public services</title>
@@ -141,6 +159,12 @@
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Anthropic raises $13B Series F at $183B post-money valuation</title>
+      <link>https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Enabling Claude Code to work more autonomously</title>
       <link>https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/enabling-claude-code-to-work-more-autonomously</guid>
@@ -181,6 +205,12 @@
       <link>https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/mariano-florentino-long-term-benefit-trust</guid>
       <pubDate>Wed, 21 Jan 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The first AI-planned drive on Mars</title>
+      <link>https://www.anthropic.com/news/claude-on-mars</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-on-mars</guid>
+      <pubDate>Sat, 24 Jan 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic partners with the UK Government to bring AI assistance to GOV.UK services</title>
@@ -315,12 +345,6 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>UST is bringing Claude to physical AI</title>
-      <link>https://www.anthropic.com/news/ust-claude</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/ust-claude</guid>
-      <pubDate>Thu, 09 Jul 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust</title>
       <link>https://www.anthropic.com/news/ben-bernanke</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/ben-bernanke</guid>
@@ -381,8 +405,15 @@
       <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Detecting and countering misuse of AI: September 2026</title>
+      <link>https://www.anthropic.com/news/</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/</guid>
+      <pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing Claude Mythos and Fable 5.1</title>
       <link>https://www.anthropic.com/news/claude-mythos-and-fable-5-1</link>
+      <description>They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-mythos-and-fable-5-1</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -538,13 +569,6 @@
       <link>https://www.anthropic.com/news/expanding-partnership-gsa</link>
       <description>We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude Enterprise, Claude for Government, and the Claude API.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/expanding-partnership-gsa</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Early progress on accelerating drug development with Claude</title>
-      <link>https://www.anthropic.com/news/</link>
-      <description>We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partnerships with six organizations developing new medicines.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/</guid>
       <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
