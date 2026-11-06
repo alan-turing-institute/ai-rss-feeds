@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 19:45:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 22:45:14 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -155,7 +155,6 @@
     <item>
       <title>An alignment assessment of recent cybersecurity incidents</title>
       <link>https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</link>
-      <description>We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents</guid>
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -323,6 +322,13 @@
       <description>We analyzed 207,000 research sessions to learn how Claude is used in science, why some tasks get more use than others, and how AI could speed up discovery.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-researchers-use-claude</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The components of agent memory</title>
+      <link>https://www.anthropic.com/research/components-of-agent-memory</link>
+      <description>For Claude to learn from experience, it has to decide what’s worth remembering before it knows what’s next. Here’s how “dreaming” helps it organize memory and correct mistakes.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/components-of-agent-memory</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Teaching AI to build scientific models</title>
