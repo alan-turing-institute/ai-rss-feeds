@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Nov 2026 16:45:28 +0000</lastBuildDate>
-    <item>
-      <title>Ai2 expands collaboration with Hugging Face to accelerate open science</title>
-      <link>https://allenai.org/blog/hugging-face-partnership</link>
-      <description>Ai2 is expanding its partnership with Hugging Face to give its growing portfolio of fully open models, datasets,…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/hugging-face-partnership</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 06 Nov 2026 16:45:06 +0000</lastBuildDate>
     <item>
       <title>Ai2 and Providence Swedish Cancer Institute partner to advance AI-assisted scientific discovery</title>
       <link>https://allenai.org/blog/swedish-autodiscovery-partnership</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/google-climate-partnership</link>
       <description>With funding from Google.org and technical support from Google Research, Ai2 is developing NeuralGCM+, an…</description>
       <guid isPermaLink="true">https://allenai.org/blog/google-climate-partnership</guid>
+      <pubDate>Mon, 30 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ToyBlocks: A controlled world for robot learning and evaluation</title>
+      <link>https://allenai.org/blog/toyblocks</link>
+      <description>ToyBlocks is an open simulation framework for studying robot learning through automated task generation, training…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/toyblocks</guid>
       <pubDate>Mon, 30 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
