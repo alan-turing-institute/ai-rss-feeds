@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 22:45:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 04:45:18 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -33,16 +33,22 @@
       <pubDate>Tue, 08 Apr 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Exploring model welfare</title>
-      <link>https://www.anthropic.com/research/exploring-model-welfare</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/exploring-model-welfare</guid>
-      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <title>Effective context engineering for AI agents</title>
+      <link>https://www.anthropic.com/research/effective-context-engineering-for-ai-agents</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/effective-context-engineering-for-ai-agents</guid>
+      <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Estimating AI productivity gains from Claude conversations</title>
       <link>https://www.anthropic.com/research/estimating-productivity-gains</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/estimating-productivity-gains</guid>
       <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Effective harnesses for long-running agents</title>
+      <link>https://www.anthropic.com/research/effective-harnesses-for-long-running-agents</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/effective-harnesses-for-long-running-agents</guid>
+      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Introducing Anthropic Interviewer: What 1,250 professionals told us about working with AI</title>
@@ -91,6 +97,12 @@
       <link>https://www.anthropic.com/research/introducing-anthropic-science</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/introducing-anthropic-science</guid>
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harness design for long-running application development</title>
+      <link>https://www.anthropic.com/research/harness-design-long-running-apps</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/harness-design-long-running-apps</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic Economic Index report: Learning curves</title>
@@ -322,6 +334,12 @@
       <description>We analyzed 207,000 research sessions to learn how Claude is used in science, why some tasks get more use than others, and how AI could speed up discovery.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/how-researchers-use-claude</guid>
       <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project EVE: Claude plays MMORPGs</title>
+      <link>https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs</guid>
+      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>The components of agent memory</title>
