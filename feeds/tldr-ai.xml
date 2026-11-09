@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 16:45:06 +0000</lastBuildDate>
-    <item>
-      <title>Gemini 4 Carbon 🧠, Nvidia weighs Reflection acquihire 💰, decision model race 🤖</title>
-      <link>https://tldr.tech/ai/2026-10-12</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-12</guid>
-      <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 09 Nov 2026 16:45:08 +0000</lastBuildDate>
     <item>
       <title>Muse Wonder ✨, Maia 300 ⚡, AI self-replication 🧬</title>
       <link>https://tldr.tech/ai/2026-10-13</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-11-06</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-11-06</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI R&amp;D accelerates 📈, OpenAI at $1.25T 💰, GitHub’s multiplayer harness 🤖</title>
+      <link>https://tldr.tech/ai/2026-11-09</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-09</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
