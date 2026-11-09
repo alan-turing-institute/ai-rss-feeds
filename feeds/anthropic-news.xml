@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 01:45:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 19:45:16 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -61,12 +61,6 @@
       <link>https://www.anthropic.com/news/3-5-models-and-computer-use</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/3-5-models-and-computer-use</guid>
       <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lyft to bring Claude to more than 40 million riders and over 1 million drivers</title>
-      <link>https://www.anthropic.com/news/lyft-announcement</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/lyft-announcement</guid>
-      <pubDate>Thu, 06 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic signs MOU with UK Government to explore how AI can transform UK public services</title>
@@ -413,7 +407,6 @@
     <item>
       <title>Introducing Claude Mythos and Fable 5.1</title>
       <link>https://www.anthropic.com/news/claude-mythos-and-fable-5-1</link>
-      <description>They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute to scientific progress.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-mythos-and-fable-5-1</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -577,6 +570,13 @@
       <description>We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Science program.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions</guid>
       <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Fable 5.2 and Claude Mythos 5.2</title>
+      <link>https://www.anthropic.com/news/claude-fable-and-mythos-5-2</link>
+      <description>Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/claude-fable-and-mythos-5-2</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
