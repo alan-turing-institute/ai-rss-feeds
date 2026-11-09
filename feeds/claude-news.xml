@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 16:45:11 +0000</lastBuildDate>
-    <item>
-      <title>Expanding Claude for Nonprofits</title>
-      <link>https://claude.com/resources/articles/expanding-claude-for-nonprofits</link>
-      <description>Our new Claude for Nonprofits plugin brings new skills to every verified nonprofit organization, taking on the operational work that stretches small teams across fundraising, marketing, and hiring.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/expanding-claude-for-nonprofits</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 09 Nov 2026 22:45:36 +0000</lastBuildDate>
     <item>
       <title>Claude for Financial Advisors</title>
       <link>https://claude.com/resources/articles/claude-for-financial-advisors</link>
@@ -82,6 +75,12 @@
       <description>For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/components-of-agent-memory</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JPMorganChase expands Claude Code to more employees across the firm</title>
+      <link>https://claude.com/resources/articles/jpmorganchase-expands-claude-code</link>
+      <guid isPermaLink="true">https://claude.com/resources/articles/jpmorganchase-expands-claude-code</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
