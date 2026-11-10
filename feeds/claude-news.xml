@@ -7,33 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 01:45:16 +0000</lastBuildDate>
-    <item>
-      <title>Smart reports, surveys, and pooled group budgets for Claude Enterprise</title>
-      <link>https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</link>
-      <description>In many organizations, members have identified the unique work that Claude can unlock. The next step is expanding that work to every team.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Make long-running agents faster with message threads</title>
-      <link>https://claude.com/resources/articles/message-threads</link>
-      <description>New in the Messages API, send your conversation once, and the API receives only what’s new with every turn.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/message-threads</guid>
-      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New agents and products for security, productivity, and creative work on Claude Marketplace</title>
-      <link>https://claude.com/resources/articles/new-agents-and-products-claude-marketplace</link>
-      <guid isPermaLink="true">https://claude.com/resources/articles/new-agents-and-products-claude-marketplace</guid>
-      <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>More visibility and control over Claude Enterprise for security teams</title>
-      <link>https://claude.com/resources/articles/claude-enterprise-security-updates</link>
-      <guid isPermaLink="true">https://claude.com/resources/articles/claude-enterprise-security-updates</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 10 Nov 2026 19:45:14 +0000</lastBuildDate>
     <item>
       <title>Introducing Personal Finance in Claude</title>
       <link>https://claude.com/resources/articles/introducing-personal-finance-in-claude</link>
@@ -81,6 +55,34 @@
       <link>https://claude.com/resources/articles/jpmorganchase-expands-claude-code</link>
       <guid isPermaLink="true">https://claude.com/resources/articles/jpmorganchase-expands-claude-code</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Whiteboards, Claude Sheets, and Claude Data</title>
+      <link>https://claude.com/resources/articles/sheets-whiteboards-data</link>
+      <description>Now you can brainstorm on whiteboards, build sheets, and share data directly in Claude.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/sheets-whiteboards-data</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors</title>
+      <link>https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors</link>
+      <description>Work at the speed of thought</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Curative is building a national provider network with agents on Claude</title>
+      <link>https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</link>
+      <description>Curative’s deal-making agent negotiates 2,000+ provider contracts a week.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your apps can now open in Claude, and Claude can work in them</title>
+      <link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
+      <description>Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/interactive-connectors-full-tool</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
