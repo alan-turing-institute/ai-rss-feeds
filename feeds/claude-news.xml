@@ -7,35 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 22:45:36 +0000</lastBuildDate>
-    <item>
-      <title>Claude for Financial Advisors</title>
-      <link>https://claude.com/resources/articles/claude-for-financial-advisors</link>
-      <description>Financial advisors can now connect Claude to the custodians, portfolio platforms, CRMs, and planning tools they depend on, along with new skills tailored to the daily work of a financial advisor.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/claude-for-financial-advisors</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Manage costs and demonstrate ROI for Claude Code on Google Cloud</title>
-      <link>https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</link>
-      <description>Best practices for managing costs and measuring return on investment for Claude Code on Google Cloud.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/how-to-manage-costs-and-demonstrate-roi-for-claude-code-on-google-cloud</guid>
-      <pubDate>Tue, 27 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing artifacts for legal work</title>
-      <link>https://claude.com/resources/articles/introducing-artifacts-for-legal-work</link>
-      <description>Claude for Legal now includes ready-to-use artifacts for legal work that teams can adapt with their own data and connectors, and share across the business.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/introducing-artifacts-for-legal-work</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>IDC brings Quanta into Claude and adopts Claude across the company</title>
-      <link>https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</link>
-      <description>IDC integrated Claude as part of its Quanta platform, and it has rolled Claude out across its own business</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/idc-brings-quanta-into-claude-and-adopts-claude-across-the-company</guid>
-      <pubDate>Wed, 28 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 10 Nov 2026 01:45:16 +0000</lastBuildDate>
     <item>
       <title>Smart reports, surveys, and pooled group budgets for Claude Enterprise</title>
       <link>https://claude.com/resources/articles/smart-reports-surveys-pooled-budgets</link>
@@ -75,6 +47,34 @@
       <description>For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/components-of-agent-memory</guid>
       <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Which Claude model should you build with?</title>
+      <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
+      <description>How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.</description>
+      <guid isPermaLink="true">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Safely scaling multi-agent teams with Claude Fable 5.2</title>
+      <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
+      <description>How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.</description>
+      <guid isPermaLink="true">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude can design electronic prototypes from start to finish</title>
+      <link>https://www.anthropic.com/research/claude-electronics-design</link>
+      <description>We asked Claude to design three electronic devices: a speakerphone, a voice-assistant hub, and a handheld virtual pet. The prototypes worked without any fixes to their circuitry.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-electronics-design</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Fable 5.2 and Mythos 5.2</title>
+      <link>https://www.anthropic.com/claude-fable-and-mythos-5-2</link>
+      <description>Introducing Claude Fable 5.2 and Claude Mythos 5.2, our new models for the hardest technical challenges.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/claude-fable-and-mythos-5-2</guid>
+      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>JPMorganChase expands Claude Code to more employees across the firm</title>
