@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Nov 2026 19:45:16 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 13:45:03 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -309,12 +309,6 @@
       <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Claude Fable 5 and Claude Mythos 5</title>
-      <link>https://www.anthropic.com/news/claude-fable-5-mythos-5</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/claude-fable-5-mythos-5</guid>
-      <pubDate>Tue, 09 Jun 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>DXC will integrate Claude into the systems banks, airlines, and other regulated industries rely on</title>
       <link>https://www.anthropic.com/news/dxc-anthropic-alliance</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/dxc-anthropic-alliance</guid>
@@ -375,18 +369,6 @@
       <pubDate>Thu, 30 Jul 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Improving Fable 5's biology safeguards</title>
-      <link>https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Expanding our support for scientists</title>
-      <link>https://www.anthropic.com/news/expanding-support-for-scientists</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/expanding-support-for-scientists</guid>
-      <pubDate>Thu, 27 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Previewing the Model Hardware Standard</title>
       <link>https://www.anthropic.com/news/model-hardware-standard-research-preview</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/model-hardware-standard-research-preview</guid>
@@ -409,13 +391,6 @@
       <link>https://www.anthropic.com/news/claude-mythos-and-fable-5-1</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-mythos-and-fable-5-1</guid>
       <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Life Sciences Verification Program</title>
-      <link>https://www.anthropic.com/news/life-sciences-verification-program</link>
-      <description>The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguards more permissive for biology-related work.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/life-sciences-verification-program</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Partnering with Accenture on embedded evaluation</title>
@@ -577,6 +552,13 @@
       <description>Our most capable models for daunting technical work, Claude Fable 5.2 and Claude Mythos 5.2 set a new bar in coding, finance, and the sciences.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-fable-and-mythos-5-2</guid>
       <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic launches roadshow for proposed initial public offering</title>
+      <link>https://www.anthropic.com/news/roadshow-launch</link>
+      <description>Today Anthropic, PBC launched the roadshow for its proposed initial public offering of its Class A common stock.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/roadshow-launch</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
