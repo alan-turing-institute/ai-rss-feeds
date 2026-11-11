@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Nov 2026 22:45:23 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 19:45:03 +0000</lastBuildDate>
     <item>
       <title>Announcing Grok</title>
       <link>https://x.ai/news/grok</link>
@@ -611,6 +611,13 @@
       <pubDate>Mon, 12 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Introducing Grok Voice 3.0</title>
+      <link>https://x.ai/news/grok-voice-3</link>
+      <description>The world’s most intelligent voice model.</description>
+      <guid isPermaLink="true">https://x.ai/news/grok-voice-3</guid>
+      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Using Grok Bot to detect and respond to incidents</title>
       <link>https://x.ai/news/incident-sweep</link>
       <guid isPermaLink="true">https://x.ai/news/incident-sweep</guid>
@@ -635,11 +642,11 @@
       <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Grok Voice 3.0</title>
-      <link>https://x.ai/news/grok-voice-3</link>
-      <description>The world’s most intelligent voice model.</description>
-      <guid isPermaLink="true">https://x.ai/news/grok-voice-3</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
+      <title>Introducing Grok Bot 1.0</title>
+      <link>https://x.ai/news/grok-bot-1-0</link>
+      <description>Bots now work with your whole team, take on work without being asked, and get more done, faster.</description>
+      <guid isPermaLink="true">https://x.ai/news/grok-bot-1-0</guid>
+      <pubDate>Mon, 02 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
