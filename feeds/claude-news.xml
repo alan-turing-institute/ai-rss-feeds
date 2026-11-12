@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 16:45:06 +0000</lastBuildDate>
-    <item>
-      <title>Safely scaling multi-agent teams with Claude Fable 5.2</title>
-      <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
-      <description>How a team of 1,000 agents running an early version of Claude Fable 5.2 reproduced a formal proof of Fermat's Last Theorem with general tools, a shared database, and layered safety controls.</description>
-      <guid isPermaLink="true">https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 12 Nov 2026 19:45:33 +0000</lastBuildDate>
     <item>
       <title>Claude can design electronic prototypes from start to finish</title>
       <link>https://www.anthropic.com/research/claude-electronics-design</link>
@@ -68,6 +61,13 @@
       <link>https://claude.com/resources/articles/claude-tag-guide-for-startups</link>
       <description>How leading startups use Claude Tag to ship faster and scale operations</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/claude-tag-guide-for-startups</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude for Manufacturing</title>
+      <link>https://claude.com/resources/articles/claude-for-manufacturing</link>
+      <description>A new plugin with 17 skills and four connectors helps manufacturers draft quotes, quality reports, and supplier requests from the systems they already run.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/claude-for-manufacturing</guid>
       <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
