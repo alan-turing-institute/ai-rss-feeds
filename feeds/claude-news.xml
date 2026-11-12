@@ -7,28 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 19:45:14 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Personal Finance in Claude</title>
-      <link>https://claude.com/resources/articles/introducing-personal-finance-in-claude</link>
-      <description>Ask Claude about your money and get straight answers from the accounts you connect.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/introducing-personal-finance-in-claude</guid>
-      <pubDate>Thu, 05 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The components of agent memory</title>
-      <link>https://www.anthropic.com/research/components-of-agent-memory</link>
-      <description>For Claude to learn from experience, it has to decide what's worth remembering before it knows what's next. Here's how "dreaming" helps it organize memory and correct mistakes.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/components-of-agent-memory</guid>
-      <pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Which Claude model should you build with?</title>
-      <link>https://claude.dev/blog/which-claude-model-should-you-build-with/</link>
-      <description>How to choose between Claude Fable 5.2, Opus 5.5, Sonnet 5.5, and Haiku 5.5 by task, cost, and effort level.</description>
-      <guid isPermaLink="true">https://claude.dev/blog/which-claude-model-should-you-build-with/</guid>
-      <pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 12 Nov 2026 16:45:06 +0000</lastBuildDate>
     <item>
       <title>Safely scaling multi-agent teams with Claude Fable 5.2</title>
       <link>https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/</link>
@@ -83,6 +62,27 @@
       <description>Our partners can now embed their apps directly in Claude, so you and Claude can work in the same tool, on the same screen, without switching tabs.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/interactive-connectors-full-tool</guid>
       <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Claude Tag guide for startups</title>
+      <link>https://claude.com/resources/articles/claude-tag-guide-for-startups</link>
+      <description>How leading startups use Claude Tag to ship faster and scale operations</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/claude-tag-guide-for-startups</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>J. Crew brings its signature approach to styling to life with Claude</title>
+      <link>https://claude.com/resources/articles/j-crew-style-advisor-with-claude</link>
+      <description>J.Crew's new Style Advisor uses Claude to offer a more personalized way to shop online, with complete looks instead of individual products.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/j-crew-style-advisor-with-claude</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Operate Claude Managed Agents inside your security perimeter</title>
+      <link>https://claude.com/resources/articles/self-hosted-claude-managed-agents</link>
+      <description>Introducing self-hosted Claude Managed Agents. Now you can run agents in your own environment, whether that’s in your own cloud or on-premise. You host the agents, credentials, and session history, and choose where requests to Claude are sent.</description>
+      <guid isPermaLink="true">https://claude.com/resources/articles/self-hosted-claude-managed-agents</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
