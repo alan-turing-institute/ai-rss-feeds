@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 22 Oct 2026 13:48:29 +0000</lastBuildDate>
-    <item>
-      <title>Building on Year One: Indigenous AI Gathering Returns More Impactful Than Ever</title>
-      <link>https://mila.quebec/en/news/building-on-year-one-indigenous-ai-gathering-returns-more-impactful-than-ever</link>
-      <guid isPermaLink="true">https://mila.quebec/en/news/building-on-year-one-indigenous-ai-gathering-returns-more-impactful-than-ever</guid>
-      <pubDate>Wed, 05 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 12 Nov 2026 22:45:26 +0000</lastBuildDate>
     <item>
       <title>Télé-Québec and Mila Join Forces to Harness AI in the Service of Quebec Culture</title>
       <link>https://mila.quebec/en/news/tele-quebec-and-mila-join-forces-to-harness-ai-in-the-service-of-quebec-culture</link>
@@ -67,6 +61,12 @@
       <link>https://mila.quebec/en/news/ai-in-the-service-of-wildfire-management-in-canada</link>
       <guid isPermaLink="true">https://mila.quebec/en/news/ai-in-the-service-of-wildfire-management-in-canada</guid>
       <pubDate>Thu, 22 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Professor Samira A. Rahimi Ranked Among World’s Top 2% Scientists</title>
+      <link>https://mila.quebec/en/news/professor-samira-a-rahimi-ranked-among-worlds-top-2-scientists</link>
+      <guid isPermaLink="true">https://mila.quebec/en/news/professor-samira-a-rahimi-ranked-among-worlds-top-2-scientists</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
