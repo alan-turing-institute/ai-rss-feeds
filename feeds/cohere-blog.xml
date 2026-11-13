@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Nov 2026 16:45:06 +0000</lastBuildDate>
-    <item>
-      <title>Shared or dedicated inference for Embed &amp; Rerank</title>
-      <link>https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank</link>
-      <guid isPermaLink="true">https://cohere.com/blog/shared-or-dedicated-inference-for-embed-rerank</guid>
-      <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 13 Nov 2026 16:45:08 +0000</lastBuildDate>
     <item>
       <title>Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost</title>
       <link>https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</link>
@@ -49,6 +43,12 @@
       <link>https://cohere.com/blog/rethinking-confidence-in-reasoning-models</link>
       <guid isPermaLink="true">https://cohere.com/blog/rethinking-confidence-in-reasoning-models</guid>
       <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Rerank 5: precise, efficient enterprise document retrieval</title>
+      <link>https://cohere.com/blog/rerank-5</link>
+      <guid isPermaLink="true">https://cohere.com/blog/rerank-5</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Can AI understand culture?</title>
