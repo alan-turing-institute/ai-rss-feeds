@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 13:45:03 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 04:45:35 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -151,12 +151,6 @@
       <link>https://www.anthropic.com/news/detecting-countering-misuse-aug-2025</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/detecting-countering-misuse-aug-2025</guid>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic raises $13B Series F at $183B post-money valuation</title>
-      <link>https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-raises-series-f-at-usd183b-post-money-valuation</guid>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Enabling Claude Code to work more autonomously</title>
