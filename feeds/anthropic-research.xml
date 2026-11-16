@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 19:45:15 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 16:45:11 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -39,6 +39,12 @@
       <pubDate>Mon, 29 Sep 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Beyond permission prompts: making Claude Code more secure and autonomous</title>
+      <link>https://www.anthropic.com/research/claude-code-sandboxing</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-code-sandboxing</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Estimating AI productivity gains from Claude conversations</title>
       <link>https://www.anthropic.com/research/estimating-productivity-gains</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/estimating-productivity-gains</guid>
@@ -66,6 +72,12 @@
       <title>Building a C compiler with a team of parallel Claudes</title>
       <link>https://www.anthropic.com/research/building-c-compiler</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/building-c-compiler</guid>
+      <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating and mitigating the growing risk of LLM-discovered 0-days</title>
+      <link>https://www.anthropic.com/research/zero-days</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/zero-days</guid>
       <pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -165,6 +177,12 @@
       <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Economic Index</title>
+      <link>https://www.anthropic.com/research/</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/</guid>
+      <pubDate>Fri, 26 Jun 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Reviewing the evidence on worker retraining programs</title>
       <link>https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs</guid>
@@ -189,13 +207,6 @@
       <pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Illuminating the frontier</title>
-      <link>https://www.anthropic.com/research/</link>
-      <description>Anthropic is sharing new measurements that would give the public visibility into frontier AI development.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/</guid>
-      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
       <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
       <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
@@ -214,6 +225,12 @@
       <link>https://www.anthropic.com/research/yes-claude-can-do-nine-loops</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/yes-claude-can-do-nine-loops</guid>
       <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLM-5.3 and the spread of advanced cyber capabilities</title>
+      <link>https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities</guid>
+      <pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>What do you want from AI?</title>
@@ -385,6 +402,13 @@
       <description>Recommendations for designing, running, and reporting safety evaluations, based on our own experiences.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/building-strong-safety-evaluations</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Updating our coordinated vulnerability disclosure policy timelines</title>
+      <link>https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines</link>
+      <description>We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

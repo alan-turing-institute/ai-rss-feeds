@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 13 Nov 2026 16:45:08 +0000</lastBuildDate>
-    <item>
-      <title>Lessons from scaling teams of coding agents: reach the frontier at 30% of the cost</title>
-      <link>https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</link>
-      <guid isPermaLink="true">https://cohere.com/blog/lessons-from-scaling-teams-of-frontier-coding-agents</guid>
-      <pubDate>Wed, 14 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 16 Nov 2026 16:45:13 +0000</lastBuildDate>
     <item>
       <title>Cohere to acquire AISLE to advance cyber-resilient sovereign AI</title>
       <link>https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/cohere-canada-commitment</link>
       <guid isPermaLink="true">https://cohere.com/blog/cohere-canada-commitment</guid>
       <pubDate>Fri, 30 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The world's leading open models, fully under your control</title>
+      <link>https://cohere.com/blog/open-source-model-vault</link>
+      <guid isPermaLink="true">https://cohere.com/blog/open-source-model-vault</guid>
+      <pubDate>Tue, 03 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
