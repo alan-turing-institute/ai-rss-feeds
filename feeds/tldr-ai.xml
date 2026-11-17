@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 16:45:13 +0000</lastBuildDate>
-    <item>
-      <title>Mercury 3 🤖, MiniMax Flash 3.1 ⚡, Exa 3 🔎</title>
-      <link>https://tldr.tech/ai/2026-10-20</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-20</guid>
-      <pubDate>Tue, 20 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Nov 2026 16:45:39 +0000</lastBuildDate>
     <item>
       <title>DeepSeek DeepInfer 🐋, PyTorch on TPUs ⚡, Ramp’s agent framework 👨‍💻</title>
       <link>https://tldr.tech/ai/2026-10-21</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-11-16</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-11-16</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Perplexity Research 🧪, NVIDIA Rubin HPC 🖥️, OpenAI safety assessments 👨‍💻</title>
+      <link>https://tldr.tech/ai/2026-11-17</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-17</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
