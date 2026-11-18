@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 13:45:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 19:45:23 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -209,7 +209,6 @@
     <item>
       <title>Claude discovers a novel enzyme system with CRISPR-like repeats</title>
       <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
-      <description>We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in which Claude discovered a novel enzyme system with properties reminiscent of CRISPR.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
     </item>
@@ -409,6 +408,13 @@
       <description>We’re shortening the disclosure window in our coordinated vulnerability disclosure (CVD) policy from 90 days to 30 days for high- and critical-severity issues, and to 45 days for all other issues.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines</guid>
       <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude solves two open problems in the physics of black holes</title>
+      <link>https://www.anthropic.com/research/claude-black-hole-physics</link>
+      <description>Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/claude-black-hole-physics</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
