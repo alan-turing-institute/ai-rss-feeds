@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Nov 2026 16:45:11 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 10:45:20 +0000</lastBuildDate>
     <item>
       <title>Predictability and Surprise in Large Generative Models</title>
       <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
@@ -111,15 +111,15 @@
       <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Harness design for long-running application development</title>
-      <link>https://www.anthropic.com/research/harness-design-long-running-apps</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/harness-design-long-running-apps</guid>
-      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Anthropic Economic Index report: Learning curves</title>
       <link>https://www.anthropic.com/research/economic-index-march-2026-report</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-march-2026-report</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harness design for long-running application development</title>
+      <link>https://www.anthropic.com/research/harness-design-long-running-apps</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/harness-design-long-running-apps</guid>
       <pubDate>Tue, 24 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -288,6 +288,13 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The AI expectations gap</title>
+      <link>https://www.anthropic.com/research/ai-expectations-gap</link>
+      <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/ai-expectations-gap</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How employment is changing at Anthropic</title>
       <link>https://www.anthropic.com/research/employment-at-anthropic</link>
       <description>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.</description>
@@ -299,13 +306,6 @@
       <link>https://www.anthropic.com/research/expectations-for-the-future</link>
       <description>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/expectations-for-the-future</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI expectations gap</title>
-      <link>https://www.anthropic.com/research/ai-expectations-gap</link>
-      <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/ai-expectations-gap</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
