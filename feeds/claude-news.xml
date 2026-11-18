@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 19:45:27 +0000</lastBuildDate>
-    <item>
-      <title>More ways to work with Claude: Sheets, Whiteboards, and Interactive Connectors</title>
-      <link>https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors</link>
-      <description>Work at the speed of thought</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/more-ways-to-work-with-claude-sheets-whiteboards-and-interactive-connectors</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Curative is building a national provider network with agents on Claude</title>
-      <link>https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</link>
-      <description>Curative’s deal-making agent negotiates 2,000+ provider contracts a week.</description>
-      <guid isPermaLink="true">https://claude.com/resources/articles/how-curative-is-building-a-national-provider-network-with-agents-on-claude</guid>
-      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Nov 2026 16:45:13 +0000</lastBuildDate>
     <item>
       <title>Your apps can now open in Claude, and Claude can work in them</title>
       <link>https://claude.com/resources/articles/interactive-connectors-full-tool</link>
@@ -77,6 +63,20 @@
       <description>Always-on agents run indefinitely, deciding how and when to act across many sessions. This guide walks through their core primitives and how they fit together.</description>
       <guid isPermaLink="true">https://claude.com/resources/articles/building-always-on-agents</guid>
       <pubDate>Fri, 13 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the Claude Code team thinks about verification</title>
+      <link>https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</link>
+      <description>How end-to-end, property and differential tests let coding agents verify their work with evidence, and what the Claude Code team does to keep its verifiers honest.</description>
+      <guid isPermaLink="true">https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/</guid>
+      <pubDate>Mon, 16 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Using a "chaos loop" to harden the Claude Docs launch: 60 server errors across billions of requests</title>
+      <link>https://claude.dev/blog/chaos-loop-claude-docs-launch/</link>
+      <description>How Claude spent two weeks load testing a staging cluster, breaking the Claude Docs service on purpose and fixing what fell over before launch, and what made the service legible enough for Claude to close the loop.</description>
+      <guid isPermaLink="true">https://claude.dev/blog/chaos-loop-claude-docs-launch/</guid>
+      <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Linked billing on the Claude Platform</title>

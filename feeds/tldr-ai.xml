@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 16:45:39 +0000</lastBuildDate>
-    <item>
-      <title>DeepSeek DeepInfer 🐋, PyTorch on TPUs ⚡, Ramp’s agent framework 👨‍💻</title>
-      <link>https://tldr.tech/ai/2026-10-21</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-21</guid>
-      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Nov 2026 16:45:10 +0000</lastBuildDate>
     <item>
       <title>Claude Duet 🤖, Anthropic API changes 👨‍💻, Recursive’s local model 💻</title>
       <link>https://tldr.tech/ai/2026-10-22</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-11-17</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-11-17</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6.2 Astra 🧠, Microsoft’s seven models 🚀, Replit Missions 🤖</title>
+      <link>https://tldr.tech/ai/2026-11-18</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-18</guid>
+      <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

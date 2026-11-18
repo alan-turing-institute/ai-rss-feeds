@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Nov 2026 16:45:06 +0000</lastBuildDate>
-    <item>
-      <title>Ai2 and Providence Swedish Cancer Institute partner to advance AI-assisted scientific discovery</title>
-      <link>https://allenai.org/blog/swedish-autodiscovery-partnership</link>
-      <description>Ai2 and Providence Swedish Cancer Institute are expanding their collaboration after AutoDiscovery helped…</description>
-      <guid isPermaLink="true">https://allenai.org/blog/swedish-autodiscovery-partnership</guid>
-      <pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Nov 2026 16:45:12 +0000</lastBuildDate>
     <item>
       <title>The hard parts of AI-assisted science</title>
       <link>https://allenai.org/blog/swedish-autodiscovery-recap</link>
@@ -69,6 +62,13 @@
       <link>https://allenai.org/blog/toyblocks</link>
       <description>ToyBlocks is an open simulation framework for studying robot learning through automated task generation, training…</description>
       <guid isPermaLink="true">https://allenai.org/blog/toyblocks</guid>
+      <pubDate>Mon, 30 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ai2 and Taylor Geospatial partner to make geospatial AI easier to compare, run, and build on</title>
+      <link>https://allenai.org/blog/taylor-geospatial-partnership</link>
+      <description>Ai2 and Taylor Geospatial are partnering to make geospatial AI more accessible and useful for the public good…</description>
+      <guid isPermaLink="true">https://allenai.org/blog/taylor-geospatial-partnership</guid>
       <pubDate>Mon, 30 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
