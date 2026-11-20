@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 19 Nov 2026 07:45:26 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 13:45:17 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -387,13 +387,6 @@
       <pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Situation Report</title>
-      <link>https://www.anthropic.com/news/ebola-response</link>
-      <description>A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/news/ebola-response</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Introducing Claude Opus 5.5</title>
       <link>https://www.anthropic.com/news/claude-opus-5-5</link>
       <description>Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads.</description>
@@ -553,6 +546,13 @@
       <description>Today Anthropic, PBC priced its initial public offering of its Class A common stock.</description>
       <guid isPermaLink="true">https://www.anthropic.com/news/anthropic-prices-initial-public-offering</guid>
       <pubDate>Wed, 18 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement</title>
+      <link>https://www.anthropic.com/news/ipo-close</link>
+      <description>Today Anthropic, PBC announced the closing of its initial public offering of an aggregate of 1,127,000,000 shares of its Class A common stock at a public offering price of $83.00 per share, including the full exercise by the underwriters of their option to purchase an additional 147,000,000 shares of Class A common stock from Anthropic at the initial public offering price.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/news/ipo-close</guid>
+      <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
