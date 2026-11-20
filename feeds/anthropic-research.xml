@@ -7,19 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Nov 2026 22:45:30 +0000</lastBuildDate>
-    <item>
-      <title>Predictability and Surprise in Large Generative Models</title>
-      <link>https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/predictability-and-surprise-in-large-generative-models</guid>
-      <pubDate>Tue, 15 Feb 2022 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Question decomposition improves the faithfulness of model-generated reasoning</title>
-      <link>https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/question-decomposition-improves-the-faithfulness-of-model-generated-reasoning</guid>
-      <pubDate>Tue, 18 Jul 2023 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Nov 2026 19:45:13 +0000</lastBuildDate>
     <item>
       <title>The Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/the-anthropic-economic-index</link>
@@ -293,6 +281,13 @@
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>The AI expectations gap</title>
+      <link>https://www.anthropic.com/research/ai-expectations-gap</link>
+      <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/ai-expectations-gap</guid>
+      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>How employment is changing at Anthropic</title>
       <link>https://www.anthropic.com/research/employment-at-anthropic</link>
       <description>How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will shift work organization, hiring, and labor demand across the economy.</description>
@@ -304,13 +299,6 @@
       <link>https://www.anthropic.com/research/expectations-for-the-future</link>
       <description>We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropic employees expect AI to affect work and the economy.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/expectations-for-the-future</guid>
-      <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI expectations gap</title>
-      <link>https://www.anthropic.com/research/ai-expectations-gap</link>
-      <description>How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new survey evidence on these questions.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/ai-expectations-gap</guid>
       <pubDate>Fri, 16 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
