@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 13:45:17 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 16:45:12 +0000</lastBuildDate>
     <item>
       <title>Partnering with Scale to bring generative AI to enterprises</title>
       <link>https://www.anthropic.com/news/partnering-with-scale</link>
@@ -25,12 +25,6 @@
       <link>https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/reflections-on-our-responsible-scaling-policy</guid>
       <pubDate>Mon, 20 May 2024 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Krishna Rao joins Anthropic as Chief Financial Officer</title>
-      <link>https://www.anthropic.com/news/krishna-rao-joins-anthropic</link>
-      <guid isPermaLink="true">https://www.anthropic.com/news/krishna-rao-joins-anthropic</guid>
-      <pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic partners with Menlo Ventures to launch Anthology Fund</title>
@@ -255,6 +249,12 @@
       <pubDate>Fri, 24 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Building a new enterprise AI services company with Blackstone, Hellman &amp; Friedman, and Goldman Sachs</title>
+      <link>https://www.anthropic.com/news/enterprise-ai-services-company</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/enterprise-ai-services-company</guid>
+      <pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Introducing Claude for Small Business</title>
       <link>https://www.anthropic.com/news/claude-for-small-business</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/claude-for-small-business</guid>
@@ -277,6 +277,12 @@
       <link>https://www.anthropic.com/news/glasswing-initial-update</link>
       <guid isPermaLink="true">https://www.anthropic.com/news/glasswing-initial-update</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic raises $65B in Series H funding at $965B post-money valuation</title>
+      <link>https://www.anthropic.com/news/series-h</link>
+      <guid isPermaLink="true">https://www.anthropic.com/news/series-h</guid>
+      <pubDate>Thu, 28 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Anthropic confidentially submits draft S-1 to the SEC</title>
