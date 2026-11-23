@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 19:45:13 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 22:45:25 +0000</lastBuildDate>
     <item>
       <title>The Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/the-anthropic-economic-index</link>
@@ -123,12 +123,6 @@
       <pubDate>Tue, 14 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Project Deal: our Claude-run marketplace experiment</title>
-      <link>https://www.anthropic.com/research/project-deal</link>
-      <guid isPermaLink="true">https://www.anthropic.com/research/project-deal</guid>
-      <pubDate>Tue, 21 Apr 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Announcing the Anthropic Economic Index Survey</title>
       <link>https://www.anthropic.com/research/economic-index-survey-announcement</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/economic-index-survey-announcement</guid>
@@ -205,13 +199,6 @@
       <link>https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</link>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-discovers-novel-enzyme-system</guid>
       <pubDate>Wed, 23 Sep 2026 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Project Swap: What happens when agents trade for us?</title>
-      <link>https://www.anthropic.com/research/project-swap</link>
-      <description>To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes.</description>
-      <guid isPermaLink="true">https://www.anthropic.com/research/project-swap</guid>
-      <pubDate>Thu, 24 Sep 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Yes, Claude can do Nine Loops</title>
@@ -409,6 +396,13 @@
       <description>Claude has solved two open problems in theoretical physics. Both concern black holes and the search for a theory of quantum gravity.</description>
       <guid isPermaLink="true">https://www.anthropic.com/research/claude-black-hole-physics</guid>
       <pubDate>Tue, 17 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working with AI</title>
+      <link>https://www.anthropic.com/research/working-with-ai</link>
+      <description>We interviewed people at 58 companies that use Claude about how AI is changing their work. They described few layoffs but reduced hiring, and said the most valuable uses of AI often involved reorganizing roles and workplaces around it.</description>
+      <guid isPermaLink="true">https://www.anthropic.com/research/working-with-ai</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

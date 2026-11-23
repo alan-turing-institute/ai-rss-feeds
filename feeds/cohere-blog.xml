@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Nov 2026 16:45:40 +0000</lastBuildDate>
-    <item>
-      <title>AI ROI: How enterprises can measure the return on AI investments</title>
-      <link>https://cohere.com/blog/ai-roi</link>
-      <guid isPermaLink="true">https://cohere.com/blog/ai-roi</guid>
-      <pubDate>Thu, 15 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 23 Nov 2026 22:45:26 +0000</lastBuildDate>
     <item>
       <title>Agent sprawl: How to manage agent proliferation in the enterprise</title>
       <link>https://cohere.com/blog/agent-sprawl</link>
@@ -97,6 +91,12 @@
       <link>https://cohere.com/blog/embed-rerank-5-openrouter</link>
       <guid isPermaLink="true">https://cohere.com/blog/embed-rerank-5-openrouter</guid>
       <pubDate>Wed, 04 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcoming Jaya Baloo as Cohere's First CISO</title>
+      <link>https://cohere.com/blog/cohere-welcomes-jaya-baloo-as-first-ciso</link>
+      <guid isPermaLink="true">https://cohere.com/blog/cohere-welcomes-jaya-baloo-as-first-ciso</guid>
+      <pubDate>Thu, 12 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
