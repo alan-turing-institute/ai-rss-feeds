@@ -7,14 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Oct 2026 16:51:24 +0000</lastBuildDate>
-    <item>
-      <title>Third progress report</title>
-      <link>https://www.aisi.gov.uk/blog/third-progress-report</link>
-      <description>Since October, we have recruited leaders from DeepMind and Oxford, onboarded 23 new researchers, published the principles behind the International Scientific Report on Advanced AI Safety, and began pre-deployment testing of advanced AI systems.</description>
-      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/third-progress-report</guid>
-      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 23 Nov 2026 19:45:24 +0000</lastBuildDate>
     <item>
       <title>Our approach to evaluations</title>
       <link>https://www.aisi.gov.uk/blog/our-approach-to-evaluations</link>
@@ -704,6 +697,13 @@
       <description>We assess the strength of pretraining data filtering as a safeguard for open-weight protein models, and find it to be effective and selective, but not necessarily durable against fine-tuning.</description>
       <guid isPermaLink="true">https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models</guid>
       <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Attack policy selection can make monitor evaluations misleading</title>
+      <link>https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading</link>
+      <description>Our case study reveals how one component of evaluations can undermine claims that monitors are reliable</description>
+      <guid isPermaLink="true">https://www.aisi.gov.uk/blog/attack-policy-selection-can-make-monitor-evaluations-misleading</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
