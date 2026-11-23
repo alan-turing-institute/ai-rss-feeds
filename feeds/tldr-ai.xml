@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Nov 2026 16:45:13 +0000</lastBuildDate>
-    <item>
-      <title>Apple’s 20B model 📱, Kimi K3.1 Pro 🧠, Block Dessa 🗣️, frontier training security 🔐</title>
-      <link>https://tldr.tech/ai/2026-10-26</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-26</guid>
-      <pubDate>Mon, 26 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 23 Nov 2026 16:45:22 +0000</lastBuildDate>
     <item>
       <title>GPT-6.1 Terra ⚡, Anthropic IPO filing 📈, agent native git 👨‍💻</title>
       <link>https://tldr.tech/ai/2026-10-27</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-11-20</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-11-20</guid>
       <pubDate>Fri, 20 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI publishes progress 🧠, Inkling 2 Mini 💧, Riemann proof 📐</title>
+      <link>https://tldr.tech/ai/2026-11-23</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-23</guid>
+      <pubDate>Mon, 23 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
