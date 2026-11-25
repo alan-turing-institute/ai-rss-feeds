@@ -7,7 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 16:45:24 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 22:45:15 +0000</lastBuildDate>
+    <item>
+      <title>Building effective agents</title>
+      <link>https://www.anthropic.com/research/building-effective-agents</link>
+      <guid isPermaLink="true">https://www.anthropic.com/research/building-effective-agents</guid>
+      <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>The Anthropic Economic Index</title>
       <link>https://www.anthropic.com/research/the-anthropic-economic-index</link>
