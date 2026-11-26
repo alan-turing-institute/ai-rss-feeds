@@ -7,13 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Nov 2026 16:45:23 +0000</lastBuildDate>
-    <item>
-      <title>Gemini 4 Carbon 🌱, Nemotron Transcribe 📝, benchmarker’s dilemma ❓</title>
-      <link>https://tldr.tech/ai/2026-10-29</link>
-      <guid isPermaLink="true">https://tldr.tech/ai/2026-10-29</guid>
-      <pubDate>Thu, 29 Oct 2026 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 26 Nov 2026 16:45:13 +0000</lastBuildDate>
     <item>
       <title>Mistral Large 4 OSS 🧠, agent swarm behavior 🤖, Sam Altman interview 🍺f</title>
       <link>https://tldr.tech/ai/2026-10-30</link>
@@ -127,6 +121,12 @@
       <link>https://tldr.tech/ai/2026-11-25</link>
       <guid isPermaLink="true">https://tldr.tech/ai/2026-11-25</guid>
       <pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Opus 5.6 testing 🤖, OpenAI private Inference 🔒, Jev is probably Qwen 📝</title>
+      <link>https://tldr.tech/ai/2026-11-26</link>
+      <guid isPermaLink="true">https://tldr.tech/ai/2026-11-26</guid>
+      <pubDate>Thu, 26 Nov 2026 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
